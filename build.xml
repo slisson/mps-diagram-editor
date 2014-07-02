@@ -1,0 +1,19 @@
+<project name="Graphical Editor" default="build">
+
+  <target name="clean" depends="clean-jgraph">
+  	<ant antfile="jgraphx" target="clean" />
+  </target>
+  
+  <target name="build" depends="build-jgraph">
+  </target>
+  
+  <target name="clean-jgraph">
+	<ant antfile="jgraphx/build.xml" target="clean" />
+  </target>
+  
+  <target name="build-jgraph">
+	<ant antfile="build.xml" dir="jgraphx" target="build" />
+	<copy file="jgraphx/lib/jgraphx.jar" todir="solutions/de.itemis.mps.editor.diagram.runtime/lib"/>
+  </target>
+
+</project>

@@ -1,0 +1,3 @@
+[submodule "jgraphx"]
+	path = jgraphx
+	url = https://github.com/slisson/jgraphx.git
