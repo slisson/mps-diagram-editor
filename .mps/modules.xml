@@ -4,6 +4,7 @@
     <projectModules>
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demolang/de.itemis.mps.editor.diagram.demolang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.gef4/de.itemis.mps.editor.diagram.gef4.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.runtime/de.itemis.mps.editor.diagram.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="" />
     </projectModules>
