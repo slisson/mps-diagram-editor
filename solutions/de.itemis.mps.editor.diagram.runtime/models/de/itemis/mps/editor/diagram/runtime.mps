@@ -929,6 +929,14 @@
         <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="2703603758282596437" resolveInfo="JGraphModelSynchronizer.SyncDirection" />
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="5728066807783544759" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="firstSync" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="5728066807783544760" nodeInfo="nn" />
+      <node role="type" roleId="tpee.5680397130376446158" type="tpee.BooleanType" typeId="tpee.1070534644030" id="5728066807783560119" nodeInfo="in" />
+      <node role="initializer" roleId="tpee.1068431790190" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5728066807783560218" nodeInfo="nn">
+        <property name="value" nameId="tpee.1068580123138" value="true" />
+      </node>
+    </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="2435690874916175051" nodeInfo="ngu" />
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="2435690874916175787" nodeInfo="igu">
       <property name="name" nameId="tpck.1169194664001" value="myCellId2diagramElement" />
@@ -2000,9 +2008,19 @@
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="6175188973027233794" nodeInfo="nn" />
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="4674942974473161571" nodeInfo="nn">
-          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="4674942974473161572" nodeInfo="nn">
-            <node role="commentedStatement" roleId="tpee.6329021646629175144" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6175188973027247819" nodeInfo="nn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="5728066807783564960" nodeInfo="nn">
+          <node role="ifTrue" roleId="tpee.1068580123161" type="tpee.StatementList" typeId="tpee.1068580123136" id="5728066807783564963" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5728066807783572110" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="5728066807783572681" nodeInfo="nn">
+                <node role="rValue" roleId="tpee.1068498886297" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5728066807783572861" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580123138" value="false" />
+                </node>
+                <node role="lValue" roleId="tpee.1068498886295" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5728066807783572109" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5728066807783544759" resolveInfo="firstSync" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6175188973027247819" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="6175188973027247818" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1773679995712301709" resolveInfo="layout" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6175188973027252249" nodeInfo="nn">
@@ -2010,6 +2028,9 @@
                 </node>
               </node>
             </node>
+          </node>
+          <node role="condition" roleId="tpee.1068580123160" type="tpee.VariableReference" typeId="tpee.1068498886296" id="5728066807783568599" nodeInfo="nn">
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5728066807783544759" resolveInfo="firstSync" />
           </node>
         </node>
       </node>
