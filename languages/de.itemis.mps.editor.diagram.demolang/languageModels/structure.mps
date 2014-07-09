@@ -15,6 +15,12 @@
       <property name="role" nameId="tpce.1071599776563" value="diagram" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6237710625714092845" resolveInfo="Diagram" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5490129062797934996" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="componentDeclarations" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5490129062797934814" resolveInfo="ComponentDeclaration" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6237710625713136478" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Component" />
@@ -23,6 +29,9 @@
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="6237710625713188946" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5490129062797969069" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5490129062797969048" resolveInfo="IDiagramNode" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6237710625713838724" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Connection" />
@@ -30,13 +39,13 @@
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6237710625714439240" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="from" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="6237710625713136478" resolveInfo="Component" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5490129062797969048" resolveInfo="IDiagramNode" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6237710625714439242" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
       <property name="role" nameId="tpce.1071599776563" value="to" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="6237710625713136478" resolveInfo="Component" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5490129062797969048" resolveInfo="IDiagramNode" />
     </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6237710625714092845" nodeInfo="ig">
@@ -44,9 +53,9 @@
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6237710625714092846" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="components" />
+      <property name="role" nameId="tpce.1071599776563" value="nodes" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="6237710625713136478" resolveInfo="Component" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5490129062797969048" resolveInfo="IDiagramNode" />
     </node>
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6237710625714092848" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -54,6 +63,29 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6237710625713838724" resolveInfo="Connection" />
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5490129062797934814" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ComponentDeclaration" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5490129062797934973" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5490129062797969030" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ComponentReference" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5490129062798056454" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="reference" />
+      <property name="role" nameId="tpce.1071599776563" value="componentDeclaration" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="5490129062797934814" resolveInfo="ComponentDeclaration" />
+    </node>
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5490129062797969074" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5490129062797969048" resolveInfo="IDiagramNode" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5490129062797969048" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="IDiagramNode" />
   </root>
 </model>
 

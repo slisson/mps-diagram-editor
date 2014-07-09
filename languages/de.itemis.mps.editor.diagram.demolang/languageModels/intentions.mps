@@ -35,7 +35,9 @@
                 <link role="link" roleId="tp25.1138056546658" targetNodeId="7fae.6237710625714092846" />
               </node>
             </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tp25.LinkList_AddNewChildOperation" typeId="tp25.1139184414036" id="6237710625714413947" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp25.LinkList_AddNewChildOperation" typeId="tp25.1139184414036" id="6237710625714413947" nodeInfo="nn">
+              <link role="concept" roleId="tp25.1139877738879" targetNodeId="7fae.6237710625713136478" resolveInfo="Component" />
+            </node>
           </node>
         </node>
       </node>
