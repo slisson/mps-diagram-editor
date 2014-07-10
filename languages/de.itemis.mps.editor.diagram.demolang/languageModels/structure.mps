@@ -88,7 +88,7 @@
   </root>
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5490129062797969048" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IComponent" />
-    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1315262826369330402" nodeInfo="ig">
+    <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="1315262826371520304" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="2qld.1315262826369254007" resolveInfo="IDiagramNodeCell" />
     </node>
   </root>
