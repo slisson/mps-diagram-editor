@@ -1203,6 +1203,53 @@
             </node>
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7557392908940536300" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="7557392908940537094" nodeInfo="nn">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7557392908940537140" nodeInfo="nn">
+              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="7557392908940541044" nodeInfo="nn">
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Color%d&lt;init&gt;(int,int,int,int)" resolveInfo="Color" />
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7557392908940541574" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="0" />
+                </node>
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7557392908940542718" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="0" />
+                </node>
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7557392908940544793" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="0" />
+                </node>
+                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7557392908940546335" nodeInfo="nn">
+                  <property name="value" nameId="tpee.1068580320021" value="30" />
+                </node>
+              </node>
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7557392908940536299" nodeInfo="nn">
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="scyv.~mxSwingConstants" resolveInfo="mxSwingConstants" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="scyv.~mxSwingConstants%dSHADOW_COLOR" resolveInfo="SHADOW_COLOR" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7557392908940651301" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="7557392908940653503" nodeInfo="nn">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7557392908940653528" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="4" />
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7557392908940651300" nodeInfo="nn">
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="f5o7.~mxConstants" resolveInfo="mxConstants" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="f5o7.~mxConstants%dSHADOW_OFFSETX" resolveInfo="SHADOW_OFFSETX" />
+            </node>
+          </node>
+        </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7557392908940655162" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.AssignmentExpression" typeId="tpee.1068498886294" id="7557392908940656713" nodeInfo="nn">
+            <node role="rValue" roleId="tpee.1068498886297" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7557392908940656738" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="4" />
+            </node>
+            <node role="lValue" roleId="tpee.1068498886295" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7557392908940655161" nodeInfo="nn">
+              <link role="classifier" roleId="tpee.1144433057691" targetNodeId="f5o7.~mxConstants" resolveInfo="mxConstants" />
+              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="f5o7.~mxConstants%dSHADOW_OFFSETY" resolveInfo="SHADOW_OFFSETY" />
+            </node>
+          </node>
+        </node>
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="5490129062792848031" nodeInfo="ngu" />
@@ -2511,6 +2558,35 @@
                 </node>
                 <node role="leftExpression" roleId="tpee.1081256993304" type="tp2q.ForEachVariableReference" typeId="tp2q.1153944233411" id="5490129062792848587" nodeInfo="nn">
                   <link role="variable" roleId="tp2q.1153944258490" targetNodeId="5490129062792848500" resolveInfo="delement" />
+                </node>
+              </node>
+            </node>
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7557392908940418644" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7557392908940421034" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7557392908940418643" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5490129062792848522" resolveInfo="cell" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7557392908940424229" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="g6dw.~mxCell%dsetStyle(java%dlang%dString)%cvoid" resolveInfo="setStyle" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="7557392908940424369" nodeInfo="nn">
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="f5o7.~mxStyleUtils%dsetStyle(java%dlang%dString,java%dlang%dString,java%dlang%dString)%cjava%dlang%dString" resolveInfo="setStyle" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="f5o7.~mxStyleUtils" resolveInfo="mxStyleUtils" />
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7557392908940424614" nodeInfo="nn">
+                      <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7557392908940424451" nodeInfo="nn">
+                        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="5490129062792848522" resolveInfo="cell" />
+                      </node>
+                      <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7557392908940426369" nodeInfo="nn">
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="g6dw.~mxCell%dgetStyle()%cjava%dlang%dString" resolveInfo="getStyle" />
+                      </node>
+                    </node>
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="7557392908940426628" nodeInfo="nn">
+                      <link role="classifier" roleId="tpee.1144433057691" targetNodeId="f5o7.~mxConstants" resolveInfo="mxConstants" />
+                      <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="f5o7.~mxConstants%dSTYLE_SHADOW" resolveInfo="STYLE_SHADOW" />
+                    </node>
+                    <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7557392908940426984" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="true" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
