@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<history>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="-1" />
+    </dependencies>
+    <rename id="2qld.5712445629353393305" type="CONCEPT" from="Function_SetNode" to="Function_SetConnectionEndpoint" />
+  </StructureModification>
+</history>
+
