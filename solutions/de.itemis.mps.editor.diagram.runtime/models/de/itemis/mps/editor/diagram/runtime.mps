@@ -26,10 +26,6 @@
   <import index="k7g3" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" version="-1" />
   <import index="scyv" modelUID="f:java_stub#1144260c-e9a5-49a2-9add-39a1a1a7077e#com.mxgraph.swing.util(de.itemis.mps.editor.diagram.runtime/com.mxgraph.swing.util@java_stub)" version="-1" />
   <import index="r3rm" modelUID="r:7fc96130-6279-4a55-aeeb-422a6879539d(de.itemis.mps.editor.diagram.runtime.jgraph)" version="-1" />
-  <import index="f1wa" modelUID="f:java_stub#ec887e41-2579-43c8-9c1e-00f6a8c7320f#org.eclipse.gef4.layout(de.itemis.mps.editor.diagram.gef4/org.eclipse.gef4.layout@java_stub)" version="-1" />
-  <import index="cnp4" modelUID="f:java_stub#ec887e41-2579-43c8-9c1e-00f6a8c7320f#org.eclipse.gef4.layout.algorithms(de.itemis.mps.editor.diagram.gef4/org.eclipse.gef4.layout.algorithms@java_stub)" version="-1" />
-  <import index="2gz2" modelUID="f:java_stub#ec887e41-2579-43c8-9c1e-00f6a8c7320f#org.eclipse.gef4.layout.interfaces(de.itemis.mps.editor.diagram.gef4/org.eclipse.gef4.layout.interfaces@java_stub)" version="-1" />
-  <import index="209y" modelUID="f:java_stub#ec887e41-2579-43c8-9c1e-00f6a8c7320f#org.eclipse.gef4.geometry.planar(de.itemis.mps.editor.diagram.gef4/org.eclipse.gef4.geometry.planar@java_stub)" version="-1" />
   <import index="4ky7" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor.cellMenu(MPS.Editor/jetbrains.mps.nodeEditor.cellMenu@java_stub)" version="-1" />
   <import index="7hml" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.smodel.action(MPS.Editor/jetbrains.mps.smodel.action@java_stub)" version="-1" />
   <import index="as9o" modelUID="f:java_stub#3f233e7f-b8a6-46d2-a57f-795d56775243#org.jetbrains.annotations(Annotations/org.jetbrains.annotations@java_stub)" version="-1" />
