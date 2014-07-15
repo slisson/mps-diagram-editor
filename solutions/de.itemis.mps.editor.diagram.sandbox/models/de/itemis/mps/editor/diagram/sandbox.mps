@@ -42,6 +42,12 @@
         <link role="from" roleId="7fae.6237710625714439240" targetNodeId="1933649609531670082" resolveInfo="Abc" />
         <link role="to" roleId="7fae.6237710625714439242" targetNodeId="1933649609531670084" resolveInfo="Def" />
       </node>
+      <node role="connections" roleId="7fae.6237710625714092848" type="7fae.Connection" typeId="7fae.6237710625713838724" id="7817667712699866233" nodeInfo="ng">
+        <property name="fromPort" nameId="7fae.1933649609528844846" value="out2" />
+        <property name="toPort" nameId="7fae.1933649609528844848" value="in3" />
+        <link role="from" roleId="7fae.6237710625714439240" targetNodeId="1933649609531670082" resolveInfo="Abc" />
+        <link role="to" roleId="7fae.6237710625714439242" targetNodeId="1933649609531670084" resolveInfo="Def" />
+      </node>
     </node>
   </root>
 </model>
