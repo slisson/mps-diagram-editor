@@ -17,6 +17,8 @@
     <dependency reexport="false">1ed103c3-3aa6-49b7-9c21-6765ee11f224(MPS.Editor)</dependency>
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">fa13cc63-c476-4d46-9c96-d53670abe7bc(de.itemis.mps.editor.diagram)</dependency>
+    <dependency reexport="false">d2ee4826-53e6-4c57-8167-adebe8f3d7b9(de.itemis.mps.editor.diagram.gef)</dependency>
+    <dependency reexport="false">67022444-c1e0-48a8-8773-8e0bd0ecbf85(de.itemis.mps.editor.diagram.javafx)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>654422bf-e75f-44dc-936d-188890a746ce(de.slisson.mps.reflection)</usedLanguage>
