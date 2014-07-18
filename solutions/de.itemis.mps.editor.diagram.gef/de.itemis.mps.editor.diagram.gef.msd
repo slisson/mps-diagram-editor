@@ -57,6 +57,8 @@
   <sourcePath />
   <dependencies>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">2b6c23da-5ee7-490b-b80b-782c4b93a3fa(de.itemis.mps.editor.diagram.google-guice)</dependency>
+    <dependency reexport="false">67022444-c1e0-48a8-8773-8e0bd0ecbf85(de.itemis.mps.editor.diagram.javafx)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)</usedLanguage>
