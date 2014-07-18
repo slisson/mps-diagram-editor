@@ -5,6 +5,7 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demolang/de.itemis.mps.editor.diagram.demolang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.gef/de.itemis.mps.editor.diagram.gef.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.google-guice/de.itemis.mps.editor.diagram.google-guice.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.javafx/de.itemis.mps.editor.diagram.javafx.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.runtime/de.itemis.mps.editor.diagram.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="" />
