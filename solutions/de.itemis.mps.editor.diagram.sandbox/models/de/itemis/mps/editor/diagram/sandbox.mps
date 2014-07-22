@@ -18,17 +18,17 @@
     <node role="diagram" roleId="7fae.6237710625714157761" type="7fae.Diagram" typeId="7fae.6237710625714092845" id="6237710625714382916" nodeInfo="ng">
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="1933649609531670082" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Abaaaaaaaaac" />
-        <property name="bounds_x" nameId="2qld.1315262826369254008" value="80.0" />
-        <property name="bounds_y" nameId="2qld.1315262826369254010" value="150.0" />
-        <property name="bounds_width" nameId="2qld.1315262826369254013" value="180.0" />
-        <property name="bounds_height" nameId="2qld.1315262826369254017" value="50.0" />
+        <property name="bounds_x" nameId="2qld.1315262826369254008" value="75.25" />
+        <property name="bounds_y" nameId="2qld.1315262826369254010" value="249.25" />
+        <property name="bounds_width" nameId="2qld.1315262826369254013" value="124.5" />
+        <property name="bounds_height" nameId="2qld.1315262826369254017" value="99.5" />
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="1933649609531670084" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Def" />
-        <property name="bounds_x" nameId="2qld.1315262826369254008" value="530.0" />
-        <property name="bounds_y" nameId="2qld.1315262826369254010" value="230.0" />
-        <property name="bounds_width" nameId="2qld.1315262826369254013" value="120.0" />
-        <property name="bounds_height" nameId="2qld.1315262826369254017" value="43.0" />
+        <property name="bounds_x" nameId="2qld.1315262826369254008" value="437.75" />
+        <property name="bounds_y" nameId="2qld.1315262826369254010" value="313.75" />
+        <property name="bounds_width" nameId="2qld.1315262826369254013" value="114.5" />
+        <property name="bounds_height" nameId="2qld.1315262826369254017" value="62.5" />
       </node>
       <node role="connections" roleId="7fae.6237710625714092848" type="7fae.Connection" typeId="7fae.6237710625713838724" id="7817667712699096040" nodeInfo="ng">
         <property name="fromPort" nameId="7fae.1933649609528844846" value="out2" />
@@ -52,8 +52,8 @@
         <property name="name" nameId="tpck.1169194664001" value="component" />
         <property name="bounds_x" nameId="2qld.1315262826369254008" value="100.0" />
         <property name="bounds_y" nameId="2qld.1315262826369254010" value="50.0" />
-        <property name="bounds_width" nameId="2qld.1315262826369254013" value="170.0" />
-        <property name="bounds_height" nameId="2qld.1315262826369254017" value="43.0" />
+        <property name="bounds_width" nameId="2qld.1315262826369254013" value="163.5" />
+        <property name="bounds_height" nameId="2qld.1315262826369254017" value="56.5" />
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="6950424856690544657" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="component" />
@@ -63,10 +63,10 @@
         <property name="bounds_height" nameId="2qld.1315262826369254017" value="43.0" />
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.ComponentReference" typeId="7fae.5490129062797969030" id="6950424856690544670" nodeInfo="ng">
-        <property name="bounds_x" nameId="2qld.1315262826369254008" value="400.0" />
-        <property name="bounds_y" nameId="2qld.1315262826369254010" value="130.0" />
-        <property name="bounds_width" nameId="2qld.1315262826369254013" value="108.0" />
-        <property name="bounds_height" nameId="2qld.1315262826369254017" value="30.0" />
+        <property name="bounds_x" nameId="2qld.1315262826369254008" value="397.5" />
+        <property name="bounds_y" nameId="2qld.1315262826369254010" value="129.5" />
+        <property name="bounds_width" nameId="2qld.1315262826369254013" value="152.5" />
+        <property name="bounds_height" nameId="2qld.1315262826369254017" value="74.5" />
         <link role="componentDeclaration" roleId="7fae.5490129062798056454" targetNodeId="5490129062797968944" resolveInfo="Component1" />
       </node>
     </node>
