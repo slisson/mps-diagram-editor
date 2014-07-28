@@ -81,8 +81,8 @@
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="1315262826376520090" nodeInfo="nn">
           <node role="childCellModel" roleId="tpc2.1073389446424" type="diuo.SqrtEditor" typeId="diuo.8658283006837849794" id="1315262826375338818" nodeInfo="ng">
-            <node role="body" roleId="diuo.8658283006838153797" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1315262826375338826" nodeInfo="nn">
-              <property name="text" nameId="tpc2.1073389577007" value="x" />
+            <node role="body" roleId="diuo.8658283006838153797" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4414688570900769915" nodeInfo="ng">
+              <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7fae.4414688570900765899" />
             </node>
           </node>
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1315262826376520092" nodeInfo="nn">
