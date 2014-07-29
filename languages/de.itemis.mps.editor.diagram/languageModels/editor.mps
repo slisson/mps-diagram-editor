@@ -591,8 +591,14 @@
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2319506556913210775" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2qld.6720495385597071406" resolveInfo="Layout_Node" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="2319506556913221061" nodeInfo="ng" />
+  </root>
+  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2319506556916701021" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
+    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2qld.2319506556913310852" resolveInfo="Layout_Connection" />
+    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="2319506556916701074" nodeInfo="ng" />
   </root>
 </model>
 
