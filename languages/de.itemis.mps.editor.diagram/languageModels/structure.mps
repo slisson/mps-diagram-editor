@@ -35,6 +35,11 @@
       <property name="role" nameId="tpce.1071599776563" value="getSubstituteInfo" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="5490129062795541784" resolveInfo="Function_GetSubstituteInfo" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6720495385592991725" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="validateConnection" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6720495385590228880" resolveInfo="Function_ValidateConnection" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6237710625713195816" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CellModel_DiagramNode" />
@@ -301,6 +306,35 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="shape" />
     <property name="name" nameId="tpck.1169194664001" value="Parameter_ShapeStyle" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="style" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590228880" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Function_ValidateConnection" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278796" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_FromNode" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="fromNode" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278837" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_ToNode" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="toNode" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278878" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_FromPort" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="fromPort" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278919" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_ToPort" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="toPort" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385591759180" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_Reasons" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="reasons" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
 </model>
