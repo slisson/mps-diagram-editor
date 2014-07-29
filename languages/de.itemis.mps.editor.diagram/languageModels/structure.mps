@@ -169,25 +169,6 @@
     <property name="name" nameId="tpck.1169194664001" value="Function_SetLabel" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
   </root>
-  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="1315262826369254007" nodeInfo="ig">
-    <property name="name" nameId="tpck.1169194664001" value="IDiagramNodeCell" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1315262826369254008" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_x" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1315262826369254010" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_y" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1315262826369254013" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_width" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="1315262826369254017" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_height" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-  </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1933649609528302759" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Parameter_Port" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="port" />
@@ -336,6 +317,35 @@
     <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_Reasons" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="reasons" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385597071406" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Layout_Node" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071501" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="bounds_x" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071502" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="bounds_y" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071503" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="bounds_width" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071504" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="bounds_height" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="6720495385597071477" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="layout" />
+      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="6720495385597071481" nodeInfo="ng">
+        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+      </node>
+      <node role="multiple" roleId="tpce.7588428831955550186" type="tpce.AttributeInfo_IsMultiple" typeId="tpce.6054523464626862044" id="6720495385597071483" nodeInfo="ng">
+        <property name="value" nameId="tpce.6054523464626875854" value="false" />
+      </node>
+    </node>
   </root>
 </model>
 
