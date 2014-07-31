@@ -22,7 +22,7 @@
   <root type="tgbt.StandalonePluginDescriptor" typeId="tgbt.7520713872864775836" id="5490129062794787262" nodeInfo="ng" />
   <root type="tp4k.ToolDeclaration" typeId="tp4k.1203071677434" id="5490129062794787314" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Palette" />
-    <property name="position" nameId="tp4k.2498620720770664572" value="LEFT" />
+    <property name="position" nameId="tp4k.2498620720770664572" value="RIGHT" />
     <node role="methodDeclaration" roleId="tp4k.6547237850567462848" type="tp4f.DefaultClassifierMethodDeclaration" typeId="tp4f.1205769003971" id="5490129062796718505" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="update" />
       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="5490129062796720161" nodeInfo="in" />
