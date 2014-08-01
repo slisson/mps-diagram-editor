@@ -40,6 +40,11 @@
       <property name="role" nameId="tpce.1071599776563" value="validateConnection" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="6720495385590228880" resolveInfo="Function_ValidateConnection" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8637411062062914773" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="paletteFolder" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8637411062062430894" resolveInfo="Function_PaletteFolder" />
+    </node>
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6237710625713195816" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CellModel_DiagramNode" />
@@ -291,31 +296,37 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590228880" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Function_ValidateConnection" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="validateConnection" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278796" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_FromNode" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="fromNode" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="validateConnection" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278837" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_ToNode" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="toNode" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="validateConnection" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278878" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_FromPort" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="fromPort" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="validateConnection" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385590278919" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_ToPort" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="toPort" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="validateConnection" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385591759180" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Parameter_ValidateConnection_Reasons" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="reasons" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="validateConnection" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385597071406" nodeInfo="ig">
@@ -380,6 +391,17 @@
         <property name="value" nameId="tpce.6054523464626875854" value="false" />
       </node>
     </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8637411062062430894" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Function_PaletteFolder" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="paletteFolder" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8637411062062623445" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="Parameter_PaletteFolder_Concept" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="concept" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="paletteFolder" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
 </model>
 
