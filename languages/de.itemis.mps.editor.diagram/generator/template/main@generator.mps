@@ -189,6 +189,7 @@
                         <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2435690874923045470" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="node" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2435690874923045471" nodeInfo="in" />
                         </node>
                         <node role="returnType" roleId="tpee.1068580123133" type="tp2q.SequenceType" typeId="tp2q.1151689724996" id="2435690874923045472" nodeInfo="in">
@@ -311,22 +312,27 @@
                         <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="6720495385592978645" nodeInfo="nn" />
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6720495385592978647" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="fromNode" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6720495385592978648" nodeInfo="in" />
                         </node>
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6720495385592978649" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="fromPort" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="6720495385592978650" nodeInfo="in" />
                         </node>
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6720495385592978651" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="toNode" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="6720495385592978652" nodeInfo="in" />
                         </node>
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6720495385592978653" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="toPort" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="6720495385592978654" nodeInfo="in" />
                         </node>
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="6720495385592978655" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="reasons" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6720495385592978656" nodeInfo="in">
                             <link role="classifier" roleId="tpee.1107535924139" targetNodeId="k7g3.~List" resolveInfo="List" />
                             <node role="parameter" roleId="tpee.1109201940907" type="tpee.StringType" typeId="tpee.1225271177708" id="6720495385592978657" nodeInfo="in" />
@@ -445,10 +451,12 @@
                         </node>
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5490129062795594511" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="node" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="5490129062795594510" nodeInfo="in" />
                         </node>
                         <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5490129062795654956" nodeInfo="ir">
                           <property name="name" nameId="tpck.1169194664001" value="factory" />
+                          <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5490129062795655271" nodeInfo="in">
                             <link role="classifier" roleId="tpee.1107535924139" targetNodeId="tc27.5490129062795630636" resolveInfo="SubstituteInfoFactory" />
                           </node>
@@ -680,6 +688,7 @@
                       <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="5490129062798070753" nodeInfo="nn" />
                       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="5490129062798070754" nodeInfo="ir">
                         <property name="name" nameId="tpck.1169194664001" value="label" />
+                        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="5490129062798070755" nodeInfo="in" />
                       </node>
                       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="5490129062798070765" nodeInfo="sn">
@@ -1224,10 +1233,12 @@
                       <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
                       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2435690874922813270" nodeInfo="ir">
                         <property name="name" nameId="tpck.1169194664001" value="targetNode" />
+                        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2435690874922813271" nodeInfo="in" />
                       </node>
                       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1933649609528930881" nodeInfo="ir">
                         <property name="name" nameId="tpck.1169194664001" value="port" />
+                        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1933649609528932316" nodeInfo="in" />
                       </node>
                       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="2435690874922813272" nodeInfo="in" />
@@ -1269,10 +1280,12 @@
                       <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
                       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2435690874922813278" nodeInfo="ir">
                         <property name="name" nameId="tpck.1169194664001" value="targetNode" />
+                        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="2435690874922813279" nodeInfo="in" />
                       </node>
                       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="1933649609528932354" nodeInfo="ir">
                         <property name="name" nameId="tpck.1169194664001" value="port" />
+                        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
                         <node role="type" roleId="tpee.5680397130376446158" type="tpee.StringType" typeId="tpee.1225271177708" id="1933649609528933780" nodeInfo="in" />
                       </node>
                       <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="2435690874922813280" nodeInfo="in" />
@@ -1409,6 +1422,7 @@
       <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7464726264123596910" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="bounds" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7464726264123600213" nodeInfo="in">
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ar19.~Rectangle2D" resolveInfo="Rectangle2D" />
         </node>
@@ -1473,12 +1487,14 @@
       <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7464726264122920162" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="graphics" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7464726264125006716" nodeInfo="in">
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Graphics2D" resolveInfo="Graphics2D" />
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7464726264122920164" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="bounds" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7464726264122920165" nodeInfo="in">
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ar19.~Rectangle2D" resolveInfo="Rectangle2D" />
         </node>
@@ -1542,12 +1558,14 @@
       <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="7464726264122920177" nodeInfo="nn" />
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7464726264122920179" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="graphics" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7464726264125007241" nodeInfo="in">
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Graphics2D" resolveInfo="Graphics2D" />
         </node>
       </node>
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="7464726264122920181" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="bounds" />
+        <property name="isFinal" nameId="tpee.1176718929932" value="true" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7464726264122920182" nodeInfo="in">
           <link role="classifier" roleId="tpee.1107535924139" targetNodeId="ar19.~Rectangle2D" resolveInfo="Rectangle2D" />
         </node>
