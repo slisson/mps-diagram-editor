@@ -53,6 +53,10 @@
     </node>
     <node role="entities" roleId="g93z.5285801562344842749" type="g93z.Entity" typeId="g93z.5285801562344837716" id="5285801562344987982" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Speciality" />
+      <node role="references" roleId="g93z.5285801562344842739" type="g93z.Reference" typeId="g93z.5285801562344842019" id="9072703370335645656" nodeInfo="ng">
+        <link role="target" roleId="g93z.5285801562344842735" targetNodeId="5285801562344940303" resolveInfo="SpecialPerson" />
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="9072703370335645657" nodeInfo="ng" />
+      </node>
       <node role="attributes" roleId="g93z.5285801562344842737" type="g93z.Attribute" typeId="g93z.5285801562344842018" id="5285801562344987989" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="name" />
       </node>
@@ -61,10 +65,6 @@
         <property name="bounds_y" nameId="2qld.6720495385597071502" value="108.0" />
         <property name="bounds_width" nameId="2qld.6720495385597071503" value="127.0" />
         <property name="bounds_height" nameId="2qld.6720495385597071504" value="82.0" />
-      </node>
-      <node role="references" roleId="g93z.5285801562344842739" type="g93z.Reference" typeId="g93z.5285801562344842019" id="9072703370335645656" nodeInfo="ng">
-        <link role="target" roleId="g93z.5285801562344842735" targetNodeId="5285801562344940303" resolveInfo="SpecialPerson" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="9072703370335645657" nodeInfo="ng" />
       </node>
       <node role="references" roleId="g93z.5285801562344842739" type="g93z.Reference" typeId="g93z.5285801562344842019" id="9072703370335645634" nodeInfo="ng">
         <link role="target" roleId="g93z.5285801562344842735" targetNodeId="5285801562345457466" resolveInfo="Entaswdfity" />
