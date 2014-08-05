@@ -369,7 +369,7 @@
               <property name="flag" nameId="tpc2.1186414551515" value="true" />
             </node>
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7464726264117695412" nodeInfo="nn">
-              <property name="text" nameId="tpc2.1073389577007" value="shape" />
+              <property name="text" nameId="tpc2.1073389577007" value="shape(node)" />
             </node>
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="7464726264117695413" nodeInfo="ng">
               <property name="noTargetText" nameId="tpc2.1139852716018" value="rectangle" />

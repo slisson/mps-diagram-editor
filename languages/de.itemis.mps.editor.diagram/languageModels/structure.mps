@@ -453,5 +453,11 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3454709602156468860" resolveInfo="ShapeParameterDeclaration" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2630243574828768918" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape" />
+    <property name="name" nameId="tpck.1169194664001" value="ShapeNodeExpression" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="node" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
+  </root>
 </model>
 
