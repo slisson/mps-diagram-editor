@@ -37,7 +37,7 @@
           <property name="bounds_x" nameId="2qld.6720495385597071501" value="36.0" />
           <property name="bounds_y" nameId="2qld.6720495385597071502" value="131.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="184.0" />
-          <property name="bounds_height" nameId="2qld.6720495385597071504" value="93.0" />
+          <property name="bounds_height" nameId="2qld.6720495385597071504" value="157.0" />
         </node>
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="1933649609531670084" nodeInfo="ng">

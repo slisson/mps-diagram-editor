@@ -143,6 +143,86 @@
                         <property name="value" nameId="tpee.1068580123138" value="true" />
                       </node>
                     </node>
+                    <node role="positionY" roleId="2qld.4248950780694170660" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780705249586" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.3" />
+                    </node>
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706744503" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.0" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4248950780706716407" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4248950780706716408" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4248950780706716409" nodeInfo="nn">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4248950780689621808" resolveInfo="ports" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="4248950780706716410" nodeInfo="nn">
+                <node role="argument" roleId="tp2q.1160612519549" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4248950780706716411" nodeInfo="nn">
+                  <node role="creator" roleId="tpee.1145553007750" type="2qld.PortCreator" typeId="2qld.4248950780688794263" id="4248950780706716412" nodeInfo="ng">
+                    <node role="label" roleId="2qld.4248950780689015693" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4248950780706716413" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="in1a" />
+                    </node>
+                    <node role="shape" roleId="2qld.4248950780688850313" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="4248950780706716414" nodeInfo="ng">
+                      <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="4248950780691620340" resolveInfo="PortShape" />
+                      <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4248950780706716415" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="2qld.Parameter_Node" typeId="2qld.6237710625713964946" id="4248950780706716416" nodeInfo="ng" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4248950780706716417" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r2fl.4248950780691746304" resolveInfo="isConnected" />
+                          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4248950780706716418" nodeInfo="nn">
+                            <property name="value" nameId="tpee.1070475926801" value="in1a" />
+                          </node>
+                        </node>
+                      </node>
+                      <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4248950780706716419" nodeInfo="nn">
+                        <property name="value" nameId="tpee.1068580123138" value="true" />
+                      </node>
+                    </node>
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706716420" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.0" />
+                    </node>
+                    <node role="positionY" roleId="2qld.4248950780694170660" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706716421" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.3" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4248950780706720197" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4248950780706720198" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4248950780706720199" nodeInfo="nn">
+                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4248950780689621808" resolveInfo="ports" />
+              </node>
+              <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="4248950780706720200" nodeInfo="nn">
+                <node role="argument" roleId="tp2q.1160612519549" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4248950780706720201" nodeInfo="nn">
+                  <node role="creator" roleId="tpee.1145553007750" type="2qld.PortCreator" typeId="2qld.4248950780688794263" id="4248950780706720202" nodeInfo="ng">
+                    <node role="label" roleId="2qld.4248950780689015693" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4248950780706720203" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1070475926801" value="in1b" />
+                    </node>
+                    <node role="shape" roleId="2qld.4248950780688850313" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="4248950780706720204" nodeInfo="ng">
+                      <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="4248950780691620340" resolveInfo="PortShape" />
+                      <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4248950780706720205" nodeInfo="nn">
+                        <node role="operand" roleId="tpee.1197027771414" type="2qld.Parameter_Node" typeId="2qld.6237710625713964946" id="4248950780706720206" nodeInfo="ng" />
+                        <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_ConceptMethodCall" typeId="tp25.1179409122411" id="4248950780706720207" nodeInfo="nn">
+                          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r2fl.4248950780691746304" resolveInfo="isConnected" />
+                          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4248950780706720208" nodeInfo="nn">
+                            <property name="value" nameId="tpee.1070475926801" value="in1b" />
+                          </node>
+                        </node>
+                      </node>
+                      <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4248950780706720209" nodeInfo="nn">
+                        <property name="value" nameId="tpee.1068580123138" value="true" />
+                      </node>
+                    </node>
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706720210" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.0" />
+                    </node>
+                    <node role="positionY" roleId="2qld.4248950780694170660" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706720211" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.3" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -173,6 +253,12 @@
                       <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4248950780692081416" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580123138" value="true" />
                       </node>
+                    </node>
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706759560" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.0" />
+                    </node>
+                    <node role="positionY" roleId="2qld.4248950780694170660" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706762419" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.8" />
                     </node>
                   </node>
                 </node>
@@ -205,6 +291,12 @@
                         <property name="value" nameId="tpee.1068580123138" value="true" />
                       </node>
                     </node>
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706768852" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.0" />
+                    </node>
+                    <node role="positionY" roleId="2qld.4248950780694170660" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706775143" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.8" />
+                    </node>
                   </node>
                 </node>
               </node>
@@ -221,9 +313,6 @@
                     <node role="label" roleId="2qld.4248950780689015693" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4248950780689664316" nodeInfo="nn">
                       <property name="value" nameId="tpee.1070475926801" value="out1" />
                     </node>
-                    <node role="isOutput" roleId="2qld.4248950780689015696" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4248950780689673530" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1068580123138" value="true" />
-                    </node>
                     <node role="shape" roleId="2qld.4248950780688850313" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="4248950780691807556" nodeInfo="ng">
                       <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="4248950780691620340" resolveInfo="PortShape" />
                       <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4248950780691807557" nodeInfo="nn">
@@ -238,6 +327,9 @@
                       <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4248950780692086706" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580123138" value="false" />
                       </node>
+                    </node>
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780695664172" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="1.0" />
                     </node>
                   </node>
                 </node>
@@ -255,9 +347,6 @@
                     <node role="label" roleId="2qld.4248950780689015693" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4248950780689675308" nodeInfo="nn">
                       <property name="value" nameId="tpee.1070475926801" value="out2" />
                     </node>
-                    <node role="isOutput" roleId="2qld.4248950780689015696" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4248950780689675310" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1068580123138" value="true" />
-                    </node>
                     <node role="shape" roleId="2qld.4248950780688850313" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="4248950780691814633" nodeInfo="ng">
                       <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="4248950780691620340" resolveInfo="PortShape" />
                       <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4248950780691814634" nodeInfo="nn">
@@ -272,6 +361,9 @@
                       <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4248950780692089351" nodeInfo="nn">
                         <property name="value" nameId="tpee.1068580123138" value="false" />
                       </node>
+                    </node>
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780695668238" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="1.0" />
                     </node>
                   </node>
                 </node>
