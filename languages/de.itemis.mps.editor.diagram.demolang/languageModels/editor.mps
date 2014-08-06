@@ -292,29 +292,45 @@
           </node>
         </node>
       </node>
-      <node role="endShape" roleId="2qld.8701802403629331575" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="8701802403633810954" nodeInfo="ng">
-        <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="8701802403633621049" resolveInfo="ArrowHead" />
-        <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="4254343767710869110" nodeInfo="nn">
-          <node role="ifTrue" roleId="tpee.1163668922816" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4254343767710869319" nodeInfo="nn">
-            <property name="value" nameId="tpee.1113006610751" value="1.0" />
+      <node role="startShape" roleId="2qld.8701802403629331472" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="4254343767712186458" nodeInfo="ng">
+        <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="4254343767712374133" resolveInfo="Ellipsis" />
+      </node>
+      <node role="endShape" roleId="2qld.8701802403629331575" type="2qld.InlineCompositeShape" typeId="2qld.4254343767714424935" id="4254343767714685906" nodeInfo="ng">
+        <node role="shapes" roleId="2qld.4254343767714425210" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="8701802403633810954" nodeInfo="ng">
+          <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="8701802403633621049" resolveInfo="ArrowHead" />
+          <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.TernaryOperatorExpression" typeId="tpee.1163668896201" id="4254343767710869110" nodeInfo="nn">
+            <node role="ifTrue" roleId="tpee.1163668922816" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4254343767710869319" nodeInfo="nn">
+              <property name="value" nameId="tpee.1113006610751" value="1.0" />
+            </node>
+            <node role="ifFalse" roleId="tpee.1163668934364" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4254343767710869421" nodeInfo="nn">
+              <property name="value" nameId="tpee.1113006610751" value="0.5" />
+            </node>
+            <node role="condition" roleId="tpee.1163668914799" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4254343767710868984" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4254343767710869029" nodeInfo="nn" />
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4254343767710867481" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="2qld.ShapeNodeExpression" typeId="2qld.2630243574828768918" id="4254343767710867409" nodeInfo="ng" />
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4254343767710868018" nodeInfo="nn">
+                  <link role="property" roleId="tp25.1138056395725" targetNodeId="7fae.1933649609528844848" resolveInfo="toPort" />
+                </node>
+              </node>
+            </node>
           </node>
-          <node role="ifFalse" roleId="tpee.1163668934364" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4254343767710869421" nodeInfo="nn">
-            <property name="value" nameId="tpee.1113006610751" value="0.5" />
+          <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4254343767712659104" nodeInfo="nn" />
+        </node>
+        <node role="shapes" roleId="2qld.4254343767714425210" type="2qld.ConditionalShape" typeId="2qld.4254343767714448667" id="4254343767715060193" nodeInfo="ng">
+          <node role="shape" roleId="2qld.4254343767714448693" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="4254343767714997687" nodeInfo="ng">
+            <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="4254343767712374133" resolveInfo="Ellipsis" />
           </node>
-          <node role="condition" roleId="tpee.1163668914799" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4254343767710868984" nodeInfo="nn">
-            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4254343767710869029" nodeInfo="nn" />
-            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4254343767710867481" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="2qld.ShapeNodeExpression" typeId="2qld.2630243574828768918" id="4254343767710867409" nodeInfo="ng" />
-              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4254343767710868018" nodeInfo="nn">
+          <node role="condition" roleId="2qld.4254343767714448733" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="4254343767715810481" nodeInfo="nn">
+            <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="4254343767715810526" nodeInfo="nn" />
+            <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4254343767715808972" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="2qld.ShapeNodeExpression" typeId="2qld.2630243574828768918" id="4254343767715808900" nodeInfo="ng" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="4254343767715809509" nodeInfo="nn">
                 <link role="property" roleId="tp25.1138056395725" targetNodeId="7fae.1933649609528844848" resolveInfo="toPort" />
               </node>
             </node>
           </node>
         </node>
-        <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="4254343767712659104" nodeInfo="nn" />
-      </node>
-      <node role="startShape" roleId="2qld.8701802403629331472" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="4254343767712186458" nodeInfo="ng">
-        <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="4254343767712374133" resolveInfo="Ellipsis" />
       </node>
     </node>
   </root>
