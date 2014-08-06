@@ -511,5 +511,11 @@
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="------" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4254343767721607990" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="paletteFolder" />
+    <property name="name" nameId="tpck.1169194664001" value="Parameter_PaletteFolder_TargetNode" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="targetNode" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
 </model>
 

@@ -503,6 +503,10 @@
                           <property name="name" nameId="tpck.1169194664001" value="concept" />
                           <node role="type" roleId="tpee.5680397130376446158" type="tp25.SConceptType" typeId="tp25.1172420572800" id="8637411062063861150" nodeInfo="in" />
                         </node>
+                        <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="4254343767721845843" nodeInfo="ir">
+                          <property name="name" nameId="tpck.1169194664001" value="targetNode" />
+                          <node role="type" roleId="tpee.5680397130376446158" type="tp25.SNodeType" typeId="tp25.1138055754698" id="4254343767721850732" nodeInfo="in" />
+                        </node>
                         <node role="returnType" roleId="tpee.1068580123133" type="tpee.StringType" typeId="tpee.1225271177708" id="8637411062063861151" nodeInfo="in" />
                         <node role="visibility" roleId="tpee.1178549979242" type="tpee.ProtectedVisibility" typeId="tpee.1146644641414" id="8637411062063861152" nodeInfo="nn" />
                         <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="8637411062063861157" nodeInfo="sn">
