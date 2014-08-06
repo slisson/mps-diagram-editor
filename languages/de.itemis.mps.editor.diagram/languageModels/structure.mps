@@ -506,5 +506,10 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7464726264117677936" resolveInfo="IShape" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="4254343767716913574" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="CellModel_Compartment" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="------" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
+  </root>
 </model>
 
