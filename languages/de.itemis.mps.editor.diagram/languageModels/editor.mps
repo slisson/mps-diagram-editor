@@ -1038,6 +1038,7 @@
               <property name="text" nameId="tpc2.1073389577007" value="shape" />
             </node>
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="4248950780688850315" nodeInfo="ng">
+              <property name="noTargetText" nameId="tpc2.1139852716018" value="square" />
               <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="2qld.4248950780688850313" />
               <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="4248950780694529257" nodeInfo="nn">
                 <property name="flag" nameId="tpc2.1186414551515" value="true" />
