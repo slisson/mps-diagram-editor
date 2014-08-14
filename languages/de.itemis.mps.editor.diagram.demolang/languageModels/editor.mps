@@ -139,6 +139,9 @@
               <node role="operation" roleId="tpee.1197027833540" type="tp2q.AddElementOperation" typeId="tp2q.1160612413312" id="4248950780689654496" nodeInfo="nn">
                 <node role="argument" roleId="tp2q.1160612519549" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="4248950780689656226" nodeInfo="nn">
                   <node role="creator" roleId="tpee.1145553007750" type="2qld.PortCreator" typeId="2qld.4248950780688794263" id="4248950780689656227" nodeInfo="ng">
+                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706744503" nodeInfo="nn">
+                      <property name="value" nameId="tpee.1113006610751" value="0.0" />
+                    </node>
                     <node role="label" roleId="2qld.4248950780689015693" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4248950780689656228" nodeInfo="nn">
                       <property name="value" nameId="tpee.1070475926801" value="in1" />
                     </node>
@@ -159,9 +162,6 @@
                     </node>
                     <node role="positionY" roleId="2qld.4248950780694170660" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780705249586" nodeInfo="nn">
                       <property name="value" nameId="tpee.1113006610751" value="0.3" />
-                    </node>
-                    <node role="positionX" roleId="2qld.4248950780694170545" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="4248950780706744503" nodeInfo="nn">
-                      <property name="value" nameId="tpee.1113006610751" value="0.0" />
                     </node>
                   </node>
                 </node>
@@ -405,11 +405,8 @@
           <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1315262826372639397" nodeInfo="nn" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="2qld.CellModel_Compartment" typeId="2qld.4254343767716913574" id="4254343767716976302" nodeInfo="ng" />
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4254343767717130446" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="- abcdef" />
-        </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4254343767721473840" nodeInfo="nn">
-          <property name="text" nameId="tpc2.1073389577007" value="+ ghijklmn" />
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1993059304076885998" nodeInfo="ng">
+          <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7fae.4414688570900765899" />
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="4254343767716976114" nodeInfo="nn" />
       </node>

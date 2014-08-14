@@ -34,8 +34,8 @@
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="1933649609531670082" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Abaaaaaaaaac" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="2319506556913304466" nodeInfo="ng">
-          <property name="bounds_x" nameId="2qld.6720495385597071501" value="36.0" />
-          <property name="bounds_y" nameId="2qld.6720495385597071502" value="131.0" />
+          <property name="bounds_x" nameId="2qld.6720495385597071501" value="22.0" />
+          <property name="bounds_y" nameId="2qld.6720495385597071502" value="150.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="184.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="157.0" />
         </node>
@@ -50,19 +50,19 @@
         </node>
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="7464726264121402820" nodeInfo="ng">
-        <property name="name" nameId="tpck.1169194664001" value="component" />
+        <property name="name" nameId="tpck.1169194664001" value="compaaonent" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="2319506556913304470" nodeInfo="ng">
           <property name="bounds_x" nameId="2qld.6720495385597071501" value="277.0" />
           <property name="bounds_y" nameId="2qld.6720495385597071502" value="328.0" />
-          <property name="bounds_width" nameId="2qld.6720495385597071503" value="160.0" />
+          <property name="bounds_width" nameId="2qld.6720495385597071503" value="176.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="93.0" />
         </node>
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="6950424856690544657" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="component" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="2319506556913304467" nodeInfo="ng">
-          <property name="bounds_x" nameId="2qld.6720495385597071501" value="325.0" />
-          <property name="bounds_y" nameId="2qld.6720495385597071502" value="19.0" />
+          <property name="bounds_x" nameId="2qld.6720495385597071501" value="304.0" />
+          <property name="bounds_y" nameId="2qld.6720495385597071502" value="15.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="160.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="93.0" />
         </node>
@@ -81,7 +81,7 @@
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="4254343767715872242" nodeInfo="ng">
           <property name="bounds_x" nameId="2qld.6720495385597071501" value="576.0" />
           <property name="bounds_y" nameId="2qld.6720495385597071502" value="323.0" />
-          <property name="bounds_width" nameId="2qld.6720495385597071503" value="108.0" />
+          <property name="bounds_width" nameId="2qld.6720495385597071503" value="124.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="30.0" />
         </node>
       </node>
