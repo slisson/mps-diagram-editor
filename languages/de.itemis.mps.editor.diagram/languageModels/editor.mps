@@ -4,6 +4,8 @@
   <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="9a8" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" version="-1" />
+  <import index="ejnv" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" version="-1" />
+  <import index="2o4v" modelUID="r:2a70cba0-4dc5-4697-986d-5cba44622d22(de.itemis.mps.editor.diagram.runtime)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
   <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="0" implicit="yes" />
   <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" implicit="yes" />
@@ -1150,6 +1152,19 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4248950780688850200" nodeInfo="nn" />
+    </node>
+  </root>
+  <root type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="7748731993776587970" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="DiagramStyleAttributes" />
+    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="7748731993776588482" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="vertical-align" />
+      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7748731993776787055" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="2o4v.7748731993776755423" resolveInfo="VerticalAlign" />
+      </node>
+      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7748731993777547275" nodeInfo="nn">
+        <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="2o4v.7748731993776763122" resolveInfo="CENTER" />
+        <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="2o4v.7748731993776755423" resolveInfo="VerticalAlign" />
+      </node>
     </node>
   </root>
 </model>
