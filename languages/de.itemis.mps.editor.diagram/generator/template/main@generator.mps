@@ -27,6 +27,7 @@
   <import index="ar19" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" version="-1" />
   <import index="9a8" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" version="-1" />
   <import index="hv2a" modelUID="r:f9baf9f7-5ee1-4bc6-80f8-80eb0f3b5e58(de.itemis.mps.editor.diagram.runtime.style)" version="-1" />
+  <import index="88j9" modelUID="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpf3" modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" implicit="yes" />
@@ -35,7 +36,6 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
   <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
-  <import index="88j9" modelUID="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" version="-1" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1110129820007083941" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="main" />
     <node role="rootMappingRule" roleId="tpf8.1167514678247" type="tpf8.Root_MappingRule" typeId="tpf8.1167514355419" id="7464726264119439555" nodeInfo="ng">
@@ -2523,27 +2523,6 @@
   </root>
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="6987730699891418101" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="styles" />
-    <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="6987730699891419697" nodeInfo="ng">
-      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2qld.6987730699889040828" resolveInfo="LineColor" />
-      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="6987730699891427203" nodeInfo="ng">
-        <node role="templateNode" roleId="tpf8.1177093586806" type="tpc2.AttributeStyleClassItem" typeId="tpc2.3982520150122341378" id="6987730699891427212" nodeInfo="ng">
-          <link role="attribute" roleId="tpc2.3982520150122346707" targetNodeId="88j9.6987730699889114801" resolveInfo="__line-color" />
-          <node role="query" roleId="tpc2.3982520150122341379" type="tpc2.QueryFunction_AttributeStyleParameter" typeId="tpc2.3982520150125052579" id="6987730699891427214" nodeInfo="ng">
-            <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6987730699891427216" nodeInfo="sn">
-              <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6987730699891457419" nodeInfo="nn">
-                <node role="expression" roleId="tpee.1068581517676" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="6987730699891428712" nodeInfo="nn">
-                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~Color%dBLACK" resolveInfo="BLACK" />
-                  <link role="classifier" roleId="tpee.1144433057691" targetNodeId="9a8.~MPSColors" resolveInfo="MPSColors" />
-                  <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.TemplateSwitchMacro" typeId="tpf8.982871510068000147" id="6987730699891461460" nodeInfo="ng">
-                    <link role="template" roleId="tpf8.1722980698497626483" targetNodeId="tpc3.1186404942965" resolveInfo="StyleAttributeValue" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
     <node role="reductionMappingRule" roleId="tpf8.1167328349397" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="6987730699891462473" nodeInfo="ng">
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2qld.6987730699888898446" resolveInfo="LineStyle" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="6987730699891463522" nodeInfo="ng">
@@ -2655,6 +2634,18 @@
               </node>
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+  </root>
+  <root type="tpf8.TemplateSwitch" typeId="tpf8.1112730859144" id="9156661112500570411" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="StyleAttribute" />
+    <link role="modifiedSwitch" roleId="tpf8.1112820671508" targetNodeId="tpc3.6083395046987581465" resolveInfo="StyleAttribute" />
+    <node role="reductionMappingRule" roleId="tpf8.1167340453568" type="tpf8.Reduction_MappingRule" typeId="tpf8.1167327847730" id="6083395046988280801" nodeInfo="ng">
+      <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2qld.6987730699889040828" resolveInfo="LineColor" />
+      <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="6083395046988280802" nodeInfo="ng">
+        <node role="templateNode" roleId="tpf8.1177093586806" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="9156661112500570448" nodeInfo="ng">
+          <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="88j9.6987730699889114801" resolveInfo="__line-color" />
         </node>
       </node>
     </node>
