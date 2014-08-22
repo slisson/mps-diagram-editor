@@ -564,5 +564,44 @@
       <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6987730699888898446" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="LineStyle" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="line-style" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="style" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1186402475462" resolveInfo="StyleClassItem" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6987730699889504313" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="6987730699889504308" resolveInfo="LineStyleValues" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6987730699889040827" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="style" />
+    <property name="name" nameId="tpck.1169194664001" value="LineWidth" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="line-width" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1186402475462" resolveInfo="StyleClassItem" />
+    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6987730699889499559" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="value" />
+      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6987730699889040828" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="style" />
+    <property name="name" nameId="tpck.1169194664001" value="LineColor" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="line-color" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1186403694788" resolveInfo="ColorStyleClassItem" />
+  </root>
+  <root type="tpce.EnumerationDataTypeDeclaration" typeId="tpce.1082978164219" id="6987730699889504308" nodeInfo="ng">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="style" />
+    <property name="name" nameId="tpck.1169194664001" value="LineStyleValues" />
+    <link role="memberDataType" roleId="tpce.1083171729157" targetNodeId="tpck.1082983041843" resolveInfo="string" />
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6987730699889504309" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="SOLID" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="SOLID" />
+    </node>
+    <node role="member" roleId="tpce.1083172003582" type="tpce.EnumerationMemberDeclaration" typeId="tpce.1083171877298" id="6987730699889504310" nodeInfo="ig">
+      <property name="externalValue" nameId="tpce.1083923523172" value="DASHED" />
+      <property name="internalValue" nameId="tpce.1083923523171" value="DASHED" />
+    </node>
+  </root>
 </model>
 
