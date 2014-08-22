@@ -419,7 +419,11 @@
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1993059304076885998" nodeInfo="ng">
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7fae.4414688570900765899" />
         </node>
-        <node role="childCellModel" roleId="tpc2.1073389446424" type="2qld.CellModel_Compartment" typeId="2qld.4254343767716913574" id="7748731993778838088" nodeInfo="ng" />
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="2qld.CellModel_Compartment" typeId="2qld.4254343767716913574" id="7748731993778838088" nodeInfo="ng">
+          <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineWidth" typeId="2qld.6987730699889040827" id="9156661112498892508" nodeInfo="ng">
+            <property name="value" nameId="2qld.6987730699889499559" value="1.0" />
+          </node>
+        </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7748731993778838097" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="dfsfdfgfh" />
         </node>
