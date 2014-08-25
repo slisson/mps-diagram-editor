@@ -7,11 +7,13 @@
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/jgraphx.jar" />
       <sourceRoot location="lib/commons-math3-3.3/commons-math3-3.3.jar" />
+      <sourceRoot location="lib/klay-emf_2014-05.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/jgraphx.jar" />
     <stubModelEntry path="${module}/lib/commons-math3-3.3/commons-math3-3.3.jar" />
+    <stubModelEntry path="${module}/lib/klay-emf_2014-05.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
