@@ -6,13 +6,11 @@
     </modelRoot>
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/jgraphx.jar" />
-      <sourceRoot location="lib/commons-math3-3.3/commons-math3-3.3.jar" />
       <sourceRoot location="lib/klay-emf_2014-05.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/jgraphx.jar" />
-    <stubModelEntry path="${module}/lib/commons-math3-3.3/commons-math3-3.3.jar" />
     <stubModelEntry path="${module}/lib/klay-emf_2014-05.jar" />
   </stubModelEntries>
   <sourcePath />
@@ -22,6 +20,7 @@
     <dependency reexport="false">742f6602-5a2f-4313-aa6e-ae1cd4ffdc61(MPS.Platform)</dependency>
     <dependency reexport="false">fa13cc63-c476-4d46-9c96-d53670abe7bc(de.itemis.mps.editor.diagram)</dependency>
     <dependency reexport="false">7037b32c-9607-4f8e-81bd-1f028a4c117b(de.slisson.mps.reflection.runtime)</dependency>
+    <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>654422bf-e75f-44dc-936d-188890a746ce(de.slisson.mps.reflection)</usedLanguage>
