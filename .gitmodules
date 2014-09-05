@@ -1,3 +1,6 @@
 [submodule "jgraphx"]
 	path = jgraphx
 	url = https://github.com/slisson/jgraphx.git
+[submodule "adaptagrams"]
+	path = adaptagrams
+	url = https://github.com/slisson/adaptagrams.git

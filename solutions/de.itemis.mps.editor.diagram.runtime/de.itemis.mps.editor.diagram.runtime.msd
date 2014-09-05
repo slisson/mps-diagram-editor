@@ -7,11 +7,17 @@
     <modelRoot contentPath="${module}" type="java_classes">
       <sourceRoot location="lib/jgraphx.jar" />
       <sourceRoot location="lib/klay-emf_2014-05.jar" />
+      <sourceRoot location="lib/KIELER/org.adaptagrams-0.1.0-SNAPSHOT.jar" />
+      <sourceRoot location="lib/KIELER/de.cau.cs.kieler.kiml.libavoid-0.1.0-SNAPSHOT.jar" />
+      <sourceRoot location="lib/libavoid/adaptagrams.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
     <stubModelEntry path="${module}/lib/jgraphx.jar" />
     <stubModelEntry path="${module}/lib/klay-emf_2014-05.jar" />
+    <stubModelEntry path="${module}/lib/KIELER/org.adaptagrams-0.1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/lib/KIELER/de.cau.cs.kieler.kiml.libavoid-0.1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/lib/libavoid/adaptagrams.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
