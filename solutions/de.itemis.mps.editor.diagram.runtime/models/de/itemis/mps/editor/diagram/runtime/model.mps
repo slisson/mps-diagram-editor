@@ -6298,20 +6298,24 @@
   </root>
   <root type="tpee.ClassConcept" typeId="tpee.1068390468198" id="1933649609530609475" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Port" />
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="8890393803070286986" nodeInfo="igu">
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="9113392345119133013" nodeInfo="igu">
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="DEFAULT_PORT_WIDTH" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="8890393803070286987" nodeInfo="nn" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.DoubleType" typeId="tpee.1070534513062" id="6694825547355154346" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="9113392345119091201" nodeInfo="nn" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="8890393803070309128" nodeInfo="nn">
         <property name="value" nameId="tpee.1068580320021" value="12" />
       </node>
     </node>
-    <node role="member" roleId="tpee.5375687026011219971" type="tpee.FieldDeclaration" typeId="tpee.1068390468200" id="8890393803070322430" nodeInfo="igu">
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.StaticFieldDeclaration" typeId="tpee.1070462154015" id="9113392345119142295" nodeInfo="igu">
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
       <property name="name" nameId="tpck.1169194664001" value="DEFAULT_PORT_HEIGHT" />
-      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PrivateVisibility" typeId="tpee.1146644623116" id="8890393803070322431" nodeInfo="nn" />
+      <property name="isFinal" nameId="tpee.1176718929932" value="true" />
       <node role="type" roleId="tpee.5680397130376446158" type="tpee.DoubleType" typeId="tpee.1070534513062" id="6694825547355155253" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="9113392345119092078" nodeInfo="nn" />
       <node role="initializer" roleId="tpee.1068431790190" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8890393803070353798" nodeInfo="nn">
-        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8890393803070286986" resolveInfo="DEFAULT_PORT_WIDTH" />
+        <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9113392345119133013" resolveInfo="DEFAULT_PORT_WIDTH" />
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="1933649609530609539" nodeInfo="ngu" />
@@ -6753,7 +6757,7 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6694825547355128308" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6694825547355153521" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6694825547355153520" nodeInfo="nn">
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8890393803070286986" resolveInfo="DEFAULT_PORT_WIDTH" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9113392345119133013" resolveInfo="DEFAULT_PORT_WIDTH" />
           </node>
         </node>
       </node>
@@ -6766,7 +6770,7 @@
       <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6694825547355140385" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6694825547355153943" nodeInfo="nn">
           <node role="expression" roleId="tpee.1068580123156" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6694825547355153942" nodeInfo="nn">
-            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8890393803070322430" resolveInfo="DEFAULT_PORT_HEIGHT" />
+            <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="9113392345119142295" resolveInfo="DEFAULT_PORT_HEIGHT" />
           </node>
         </node>
       </node>
