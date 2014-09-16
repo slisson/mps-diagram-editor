@@ -9,14 +9,12 @@
   <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="0" />
   <import index="tpco" modelUID="r:00000000-0000-4000-0000-011c89590284(jetbrains.mps.lang.core.editor)" version="-1" />
   <import index="tpen" modelUID="r:00000000-0000-4000-0000-011c895902c3(jetbrains.mps.baseLanguage.editor)" version="-1" />
-  <import index="hv2a" modelUID="r:f9baf9f7-5ee1-4bc6-80f8-80eb0f3b5e58(de.itemis.mps.editor.diagram.runtime.style)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
-  <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="tpc5" modelUID="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" version="-1" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5806942359871434639" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2qld.1110129820007229393" resolveInfo="CellModel_Diagram" />
@@ -1294,63 +1292,6 @@
         </node>
       </node>
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="4248950780688850200" nodeInfo="nn" />
-    </node>
-  </root>
-  <root type="tpc2.StyleSheet" typeId="tpc2.1186402211651" id="7748731993776587970" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="DiagramStyleAttributes" />
-    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="7748731993776588482" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="vertical-align" />
-      <property name="inherited" nameId="tpc2.8714766435264464176" value="false" />
-      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7748731993776787055" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="hv2a.6987730699888809750" resolveInfo="VerticalAlign" />
-      </node>
-      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7748731993777547275" nodeInfo="nn">
-        <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="hv2a.6987730699888809752" resolveInfo="CENTER" />
-        <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="hv2a.6987730699888809750" resolveInfo="VerticalAlign" />
-      </node>
-    </node>
-    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6987730699888790417" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="__line-style" />
-      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6987730699889061124" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="hv2a.6987730699889043555" resolveInfo="LineStyle" />
-      </node>
-      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6987730699889061164" nodeInfo="nn">
-        <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="hv2a.6987730699889061020" resolveInfo="SOLID" />
-        <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="hv2a.6987730699889043555" resolveInfo="LineStyle" />
-      </node>
-    </node>
-    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6987730699889061198" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="__line-width" />
-      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6987730699889499960" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="e2lb.~Float" resolveInfo="Float" />
-      </node>
-      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6987730699889114385" nodeInfo="nn">
-        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="e2lb.~Float" resolveInfo="Float" />
-        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="e2lb.~Float%dvalueOf(float)%cjava%dlang%dFloat" resolveInfo="valueOf" />
-        <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="6987730699889502960" nodeInfo="nn">
-          <property name="value" nameId="tpee.1113006610751" value="1.0f" />
-        </node>
-      </node>
-    </node>
-    <node role="styleClass" roleId="tpc2.1186402402630" type="tpc2.StyleAttributeDeclaration" typeId="tpc2.3982520150113085419" id="6987730699889114801" nodeInfo="ng">
-      <property name="name" nameId="tpck.1169194664001" value="__line-color" />
-      <node role="valueType" roleId="tpc2.3982520150113092206" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="6987730699889476831" nodeInfo="in">
-        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="1t7x.~Color" resolveInfo="Color" />
-      </node>
-      <node role="defaultValue" roleId="tpc2.3982520150113147643" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6950424856690588405" nodeInfo="nn">
-        <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6950424856690588406" nodeInfo="nn">
-          <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Color%d&lt;init&gt;(int,int,int)" resolveInfo="Color" />
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.HexIntegerLiteral" typeId="tpee.1179360813171" id="6950424856690588407" nodeInfo="nn">
-            <property name="value" nameId="tpee.1179360856892" value="64" />
-          </node>
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.HexIntegerLiteral" typeId="tpee.1179360813171" id="6950424856690588408" nodeInfo="nn">
-            <property name="value" nameId="tpee.1179360856892" value="82" />
-          </node>
-          <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.HexIntegerLiteral" typeId="tpee.1179360813171" id="6950424856690588409" nodeInfo="nn">
-            <property name="value" nameId="tpee.1179360856892" value="B9" />
-          </node>
-        </node>
-      </node>
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6987730699890929124" nodeInfo="ng">

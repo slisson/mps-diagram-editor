@@ -27,15 +27,15 @@
   <import index="7ou7" modelUID="r:c2174d48-8423-45ea-b84e-77408df7449d(de.itemis.mps.editor.diagram.runtime.shape)" version="-1" />
   <import index="ar19" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" version="-1" />
   <import index="9a8" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.nodeEditor(MPS.Editor/jetbrains.mps.nodeEditor@java_stub)" version="-1" />
-  <import index="hv2a" modelUID="r:f9baf9f7-5ee1-4bc6-80f8-80eb0f3b5e58(de.itemis.mps.editor.diagram.runtime.style)" version="-1" />
   <import index="88j9" modelUID="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" version="-1" />
+  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" />
+  <import index="swi3" modelUID="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" version="-1" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tpf8" modelUID="r:00000000-0000-4000-0000-011c895902e8(jetbrains.mps.lang.generator.structure)" version="2" implicit="yes" />
   <import index="tpf3" modelUID="r:00000000-0000-4000-0000-011c895902f3(jetbrains.mps.lang.generator.generationContext.structure)" version="0" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
-  <import index="fxg7" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.io(JDK/java.io@java_stub)" version="-1" implicit="yes" />
   <import index="tp68" modelUID="r:00000000-0000-4000-0000-011c895903ac(jetbrains.mps.baseLanguageInternal.structure)" version="2" implicit="yes" />
   <root type="tpf8.MappingConfiguration" typeId="tpf8.1095416546421" id="1110129820007083941" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="main" />
@@ -2495,13 +2495,13 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2qld.6987730699888898446" resolveInfo="LineStyle" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="6987730699891463522" nodeInfo="ng">
         <node role="templateNode" roleId="tpf8.1177093586806" type="tpc2.AttributeStyleClassItem" typeId="tpc2.3982520150122341378" id="6987730699891466872" nodeInfo="ng">
-          <link role="attribute" roleId="tpc2.3982520150122346707" targetNodeId="88j9.6987730699888790417" resolveInfo="__line-style" />
+          <link role="attribute" roleId="tpc2.3982520150122346707" targetNodeId="swi3.5014430417954764710" resolveInfo="__line-style" />
           <node role="query" roleId="tpc2.3982520150122341379" type="tpc2.QueryFunction_AttributeStyleParameter" typeId="tpc2.3982520150125052579" id="6987730699891466874" nodeInfo="ng">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6987730699891466875" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6987730699891466876" nodeInfo="nn">
                 <node role="expression" roleId="tpee.1068581517676" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="6987730699891475359" nodeInfo="nn">
-                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="hv2a.6987730699889061020" resolveInfo="SOLID" />
-                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="hv2a.6987730699889043555" resolveInfo="LineStyle" />
+                  <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="swi3.5014430417954847839" resolveInfo="SOLID" />
+                  <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="swi3.5014430417954847838" resolveInfo="LineStyle" />
                   <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpf8.ReferenceMacro" typeId="tpf8.1088761943574" id="6987730699891476081" nodeInfo="nn">
                     <property name="linkRole" nameId="tpck.1757699476691236116" value="enumConstantDeclaration" />
                     <node role="referentFunction" roleId="tpf8.1167770376702" type="tpf8.ReferenceMacro_GetReferent" typeId="tpf8.1167770111131" id="6987730699891476082" nodeInfo="nn">
@@ -2528,7 +2528,7 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2qld.6987730699889040827" resolveInfo="LineWidth" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="6987730699891465599" nodeInfo="ng">
         <node role="templateNode" roleId="tpf8.1177093586806" type="tpc2.AttributeStyleClassItem" typeId="tpc2.3982520150122341378" id="6987730699891469968" nodeInfo="ng">
-          <link role="attribute" roleId="tpc2.3982520150122346707" targetNodeId="88j9.6987730699889061198" resolveInfo="__line-width" />
+          <link role="attribute" roleId="tpc2.3982520150122346707" targetNodeId="swi3.5014430417954764713" resolveInfo="__line-width" />
           <node role="query" roleId="tpc2.3982520150122341379" type="tpc2.QueryFunction_AttributeStyleParameter" typeId="tpc2.3982520150125052579" id="6987730699891469970" nodeInfo="ng">
             <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="6987730699891469971" nodeInfo="sn">
               <node role="statement" roleId="tpee.1068581517665" type="tpee.ReturnStatement" typeId="tpee.1068581242878" id="6987730699891469972" nodeInfo="nn">
@@ -2613,7 +2613,7 @@
       <link role="applicableConcept" roleId="tpf8.1167169349424" targetNodeId="2qld.6987730699889040828" resolveInfo="LineColor" />
       <node role="ruleConsequence" roleId="tpf8.1169672767469" type="tpf8.InlineTemplate_RuleConsequence" typeId="tpf8.1177093525992" id="6083395046988280802" nodeInfo="ng">
         <node role="templateNode" roleId="tpf8.1177093586806" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="9156661112500570448" nodeInfo="ng">
-          <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="88j9.6987730699889114801" resolveInfo="__line-color" />
+          <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="swi3.5014430417954764717" resolveInfo="__line-color" />
         </node>
       </node>
     </node>

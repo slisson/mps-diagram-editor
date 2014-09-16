@@ -64,12 +64,12 @@
   <import index="qe67" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.style(MPS.Editor/jetbrains.mps.openapi.editor.style@java_stub)" version="-1" />
   <import index="ejnv" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" version="-1" />
   <import index="88j9" modelUID="r:20c4aa5c-ab36-4815-af32-01895ee9c2f5(de.itemis.mps.editor.diagram.editor)" version="-1" />
-  <import index="hv2a" modelUID="r:f9baf9f7-5ee1-4bc6-80f8-80eb0f3b5e58(de.itemis.mps.editor.diagram.runtime.style)" version="-1" />
   <import index="88zw" modelUID="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.module(MPS.OpenAPI/org.jetbrains.mps.openapi.module@java_stub)" version="-1" />
   <import index="xqcy" modelUID="r:2f0e0056-e2f7-4ba8-ac85-d459187b2415(de.itemis.mps.editor.diagram.runtime.layout)" version="-1" />
   <import index="2y1d" modelUID="f:java_stub#b0f8641f-bd77-4421-8425-30d9088a82f7#org.apache.commons.math3.geometry.euclidean.twod(org.apache.commons/org.apache.commons.math3.geometry.euclidean.twod@java_stub)" version="-1" />
   <import index="srpm" modelUID="f:java_stub#1144260c-e9a5-49a2-9add-39a1a1a7077e#com.mxgraph.swing.view(de.itemis.mps.editor.diagram.runtime/com.mxgraph.swing.view@java_stub)" version="-1" />
   <import index="18oi" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.beans(JDK/java.beans@java_stub)" version="-1" />
+  <import index="swi3" modelUID="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" version="-1" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="pxpg" modelUID="r:5a550369-d6d9-4c89-a89b-1bb748dc20b3(jetbrains.mps.baseLanguage.checkedDots.structure)" version="-1" implicit="yes" />
@@ -7479,8 +7479,8 @@
                               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xqcy.1315262826370492137" resolveInfo="ILayouter" />
                             </node>
                             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="7418126174069604335" nodeInfo="nn">
-                              <node role="creator" roleId="tpee.1145553007750" type="tpee.DefaultClassCreator" typeId="tpee.2820489544401957797" id="7418126174069604336" nodeInfo="nn">
-                                <link role="classifier" roleId="tpee.2820489544401957798" targetNodeId="xqcy.7745558105096648248" resolveInfo="LibavoidLayouter" />
+                              <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="5014430417956427304" nodeInfo="nn">
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="xqcy.3136447030812780583" resolveInfo="LibavoidLayouter" />
                               </node>
                             </node>
                           </node>
@@ -27283,7 +27283,7 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="7748731993776771419" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="valign" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7748731993776774213" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="hv2a.6987730699888809750" resolveInfo="VerticalAlign" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="swi3.5014430417954847918" resolveInfo="VerticalAlign" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7748731993776771421" nodeInfo="nn">
               <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7748731993776771422" nodeInfo="nn">
@@ -27292,7 +27292,7 @@
               <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="7748731993776771423" nodeInfo="nn">
                 <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="qe67.~Style%dget(jetbrains%dmps%dopenapi%deditor%dstyle%dStyleAttribute)%cjava%dlang%dObject" resolveInfo="get" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpc2.StyleAttributeReferenceExpression" typeId="tpc2.6029276237631252951" id="7748731993776780827" nodeInfo="ng">
-                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="88j9.7748731993776588482" resolveInfo="vertical-align" />
+                  <link role="attributeDeclaration" roleId="tpc2.6029276237631253682" targetNodeId="swi3.5014430417954764707" resolveInfo="vertical-align" />
                 </node>
               </node>
             </node>
@@ -27435,8 +27435,8 @@
           </node>
           <node role="condition" roleId="tpee.1068580123160" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7748731993776802685" nodeInfo="nn">
             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7748731993776806314" nodeInfo="nn">
-              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="hv2a.6987730699888809752" resolveInfo="CENTER" />
-              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="hv2a.6987730699888809750" resolveInfo="VerticalAlign" />
+              <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="swi3.5014430417954847920" resolveInfo="CENTER" />
+              <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="swi3.5014430417954847918" resolveInfo="VerticalAlign" />
             </node>
             <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7748731993776800557" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7748731993776771419" resolveInfo="valign" />
@@ -27445,8 +27445,8 @@
           <node role="elsifClauses" roleId="tpee.1206060520071" type="tpee.ElsifClause" typeId="tpee.1206060495898" id="7748731993776806390" nodeInfo="ng">
             <node role="condition" roleId="tpee.1206060619838" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="7748731993776808609" nodeInfo="nn">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EnumConstantReference" typeId="tpee.1083260308424" id="7748731993776808703" nodeInfo="nn">
-                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="hv2a.6987730699888809753" resolveInfo="BOTTOM" />
-                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="hv2a.6987730699888809750" resolveInfo="VerticalAlign" />
+                <link role="enumConstantDeclaration" roleId="tpee.1083260308426" targetNodeId="swi3.5014430417954847921" resolveInfo="BOTTOM" />
+                <link role="enumClass" roleId="tpee.1144432896254" targetNodeId="swi3.5014430417954847918" resolveInfo="VerticalAlign" />
               </node>
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.VariableReference" typeId="tpee.1068498886296" id="7748731993776807815" nodeInfo="nn">
                 <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="7748731993776771419" resolveInfo="valign" />
@@ -27911,8 +27911,8 @@
                 </node>
                 <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6987730699897438235" nodeInfo="nn">
                   <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="6987730699897451049" nodeInfo="nn">
-                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hv2a.6987730699897441403" resolveInfo="configureLineStyle" />
-                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hv2a.6987730699897421108" resolveInfo="StyleUtils" />
+                    <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="swi3.5014430417954847843" resolveInfo="configureLineStyle" />
+                    <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="swi3.5014430417954847842" resolveInfo="StyleUtils" />
                     <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6987730699897452958" nodeInfo="nn">
                       <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="271480814664289535" resolveInfo="g" />
                     </node>
@@ -28587,8 +28587,8 @@
                     </node>
                     <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="2878046532259255616" nodeInfo="nn">
                       <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="2878046532259255617" nodeInfo="nn">
-                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hv2a.6987730699897421108" resolveInfo="StyleUtils" />
-                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hv2a.6987730699897441403" resolveInfo="configureLineStyle" />
+                        <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="swi3.5014430417954847842" resolveInfo="StyleUtils" />
+                        <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="swi3.5014430417954847843" resolveInfo="configureLineStyle" />
                         <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2878046532259275575" nodeInfo="nn">
                           <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="2878046532259275349" nodeInfo="nn">
                             <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="2878046532259235021" resolveInfo="canvas" />
@@ -30790,8 +30790,8 @@
             </node>
             <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="9156661112497643143" nodeInfo="nn">
               <node role="expression" roleId="tpee.1068580123156" type="tpee.StaticMethodCall" typeId="tpee.1081236700937" id="9156661112497643144" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="hv2a.6987730699897441403" resolveInfo="configureLineStyle" />
-                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="hv2a.6987730699897421108" resolveInfo="StyleUtils" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="swi3.5014430417954847843" resolveInfo="configureLineStyle" />
+                <link role="classConcept" roleId="tpee.1144433194310" targetNodeId="swi3.5014430417954847842" resolveInfo="StyleUtils" />
                 <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.VariableReference" typeId="tpee.1068498886296" id="9156661112497643145" nodeInfo="nn">
                   <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4254343767716535560" resolveInfo="g" />
                 </node>
