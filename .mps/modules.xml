@@ -2,6 +2,11 @@
 <project version="4">
   <component name="MPSProject">
     <projectModules>
+      <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.diagram.test/jetbrains.mps.diagram.test.mpl" folder="commonDefinitionLanguage" />
+      <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.diagram/jetbrains.mps.editor.diagram.mpl" folder="commonDefinitionLanguage" />
+      <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.diagram/runtime/jetbrains.mps.editor.diagram.runtime.msd" folder="commonDefinitionLanguage" />
+      <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.diagram/sandbox/jetbrains.mps.editor.diagram.sandbox.msd" folder="commonDefinitionLanguage" />
+      <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.figures/jetbrains.mps.editor.figures.mpl" folder="commonDefinitionLanguage" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demoentities/de.itemis.mps.editor.diagram.demoentities.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demolang/de.itemis.mps.editor.diagram.demolang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.styles/de.itemis.mps.editor.diagram.styles.mpl" folder="" />
