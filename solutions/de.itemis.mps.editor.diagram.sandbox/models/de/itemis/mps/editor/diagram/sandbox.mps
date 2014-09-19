@@ -25,7 +25,16 @@
         <property name="roleTo" nameId="7fae.3378824149782230872" value="b3" />
         <link role="from" roleId="7fae.6237710625714439240" targetNodeId="1933649609531670082" resolveInfo="Abaaaaaaaaaaaac" />
         <link role="to" roleId="7fae.6237710625714439242" targetNodeId="1933649609531670084" resolveInfo="Def" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="2319506556917169188" nodeInfo="ng" />
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="2319506556917169188" nodeInfo="ng">
+          <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="3083158263460462281" nodeInfo="ng">
+            <property name="x" nameId="2qld.2319506556913310861" value="598.5" />
+            <property name="y" nameId="2qld.2319506556913310863" value="271.0" />
+          </node>
+          <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="3083158263460462282" nodeInfo="ng">
+            <property name="x" nameId="2qld.2319506556913310861" value="598.5" />
+            <property name="y" nameId="2qld.2319506556913310863" value="186.10000610351562" />
+          </node>
+        </node>
       </node>
       <node role="connections" roleId="7fae.6237710625714092848" type="7fae.Connection" typeId="7fae.6237710625713838724" id="7817667712699456177" nodeInfo="ng">
         <property name="fromPort" nameId="7fae.1933649609528844846" value="out1" />
@@ -35,13 +44,22 @@
         <property name="roleTo" nameId="7fae.3378824149782230872" value="a553" />
         <link role="from" roleId="7fae.6237710625714439240" targetNodeId="1933649609531670082" resolveInfo="Abaaaaaaaaaaaac" />
         <link role="to" roleId="7fae.6237710625714439242" targetNodeId="1933649609531670084" resolveInfo="Def" />
-        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="2319506556917169190" nodeInfo="ng" />
+        <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="2319506556917169190" nodeInfo="ng">
+          <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="3083158263460462279" nodeInfo="ng">
+            <property name="x" nameId="2qld.2319506556913310861" value="579.5" />
+            <property name="y" nameId="2qld.2319506556913310863" value="223.0" />
+          </node>
+          <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="3083158263460462280" nodeInfo="ng">
+            <property name="x" nameId="2qld.2319506556913310861" value="579.5" />
+            <property name="y" nameId="2qld.2319506556913310863" value="105.5999984741211" />
+          </node>
+        </node>
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="1933649609531670082" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Abaaaaaaaaaaaac" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="2319506556913304466" nodeInfo="ng">
-          <property name="bounds_x" nameId="2qld.6720495385597071501" value="30.0" />
-          <property name="bounds_y" nameId="2qld.6720495385597071502" value="150.0" />
+          <property name="bounds_x" nameId="2qld.6720495385597071501" value="52.0" />
+          <property name="bounds_y" nameId="2qld.6720495385597071502" value="163.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="238.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="120.0" />
         </node>
@@ -49,8 +67,8 @@
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="1933649609531670084" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="Def" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="2319506556913304469" nodeInfo="ng">
-          <property name="bounds_x" nameId="2qld.6720495385597071501" value="574.0" />
-          <property name="bounds_y" nameId="2qld.6720495385597071502" value="132.0" />
+          <property name="bounds_x" nameId="2qld.6720495385597071501" value="797.0" />
+          <property name="bounds_y" nameId="2qld.6720495385597071502" value="82.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="112.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="142.0" />
         </node>
@@ -58,8 +76,8 @@
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.Component" typeId="7fae.6237710625713136478" id="7464726264121402820" nodeInfo="ng">
         <property name="name" nameId="tpck.1169194664001" value="compaaonent" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="2319506556913304470" nodeInfo="ng">
-          <property name="bounds_x" nameId="2qld.6720495385597071501" value="277.0" />
-          <property name="bounds_y" nameId="2qld.6720495385597071502" value="328.0" />
+          <property name="bounds_x" nameId="2qld.6720495385597071501" value="210.0" />
+          <property name="bounds_y" nameId="2qld.6720495385597071502" value="428.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="176.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="93.0" />
         </node>
@@ -76,17 +94,17 @@
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.ComponentReference" typeId="7fae.5490129062797969030" id="6950424856690544670" nodeInfo="ng">
         <link role="componentDeclaration" roleId="7fae.5490129062798056454" targetNodeId="5490129062797968944" resolveInfo="Component1" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="2319506556913304468" nodeInfo="ng">
-          <property name="bounds_x" nameId="2qld.6720495385597071501" value="543.0" />
-          <property name="bounds_y" nameId="2qld.6720495385597071502" value="409.0" />
+          <property name="bounds_x" nameId="2qld.6720495385597071501" value="687.0" />
+          <property name="bounds_y" nameId="2qld.6720495385597071502" value="514.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="108.0" />
-          <property name="bounds_height" nameId="2qld.6720495385597071504" value="23.0" />
+          <property name="bounds_height" nameId="2qld.6720495385597071504" value="25.0" />
         </node>
       </node>
       <node role="nodes" roleId="7fae.6237710625714092846" type="7fae.ComponentReference" typeId="7fae.5490129062797969030" id="4254343767715872241" nodeInfo="ng">
         <link role="componentDeclaration" roleId="7fae.5490129062798056454" targetNodeId="5490129062797968947" resolveInfo="Component2" />
         <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="4254343767715872242" nodeInfo="ng">
-          <property name="bounds_x" nameId="2qld.6720495385597071501" value="576.0" />
-          <property name="bounds_y" nameId="2qld.6720495385597071502" value="323.0" />
+          <property name="bounds_x" nameId="2qld.6720495385597071501" value="720.0" />
+          <property name="bounds_y" nameId="2qld.6720495385597071502" value="428.0" />
           <property name="bounds_width" nameId="2qld.6720495385597071503" value="124.0" />
           <property name="bounds_height" nameId="2qld.6720495385597071504" value="30.0" />
         </node>

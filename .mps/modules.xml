@@ -11,10 +11,11 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demolang/de.itemis.mps.editor.diagram.demolang.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.styles/de.itemis.mps.editor.diagram.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="nativelibs" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.demoentities.sandbox/de.itemis.mps.editor.diagram.demoentities.sandbox.msd" folder="" />
-      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.runtime.libavoid/de.itemis.mps.editor.diagram.runtime.libavoid.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.runtime/de.itemis.mps.editor.diagram.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.nativelibs.plugin/de.itemis.mps.nativelibs.plugin.msd" folder="nativelibs" />
     </projectModules>
   </component>
 </project>

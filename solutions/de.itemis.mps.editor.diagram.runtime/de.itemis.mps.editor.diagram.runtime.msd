@@ -9,6 +9,7 @@
       <sourceRoot location="lib/klay-emf_2014-05.jar" />
       <sourceRoot location="lib/KIELER/org.adaptagrams-0.1.0-SNAPSHOT.jar" />
       <sourceRoot location="lib/KIELER/de.cau.cs.kieler.kiml.libavoid-0.1.0-SNAPSHOT.jar" />
+      <sourceRoot location="lib/libavoid/adaptagrams.jar" />
     </modelRoot>
   </models>
   <stubModelEntries>
@@ -16,6 +17,7 @@
     <stubModelEntry path="${module}/lib/klay-emf_2014-05.jar" />
     <stubModelEntry path="${module}/lib/KIELER/org.adaptagrams-0.1.0-SNAPSHOT.jar" />
     <stubModelEntry path="${module}/lib/KIELER/de.cau.cs.kieler.kiml.libavoid-0.1.0-SNAPSHOT.jar" />
+    <stubModelEntry path="${module}/lib/libavoid/adaptagrams.jar" />
   </stubModelEntries>
   <sourcePath />
   <dependencies>
@@ -29,6 +31,7 @@
     <dependency reexport="false">b0f8641f-bd77-4421-8425-30d9088a82f7(org.apache.commons)</dependency>
   </dependencies>
   <usedLanguages>
+    <usedLanguage>99b0bd58-d9c1-4744-b159-3ea91da414ff(de.itemis.mps.nativelibs)</usedLanguage>
     <usedLanguage>654422bf-e75f-44dc-936d-188890a746ce(de.slisson.mps.reflection)</usedLanguage>
     <usedLanguage>774bf8a0-62e5-41e1-af63-f4812e60e48b(jetbrains.mps.baseLanguage.checkedDots)</usedLanguage>
     <usedLanguage>443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)</usedLanguage>

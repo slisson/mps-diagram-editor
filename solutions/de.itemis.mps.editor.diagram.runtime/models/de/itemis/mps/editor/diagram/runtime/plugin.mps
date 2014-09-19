@@ -4,6 +4,7 @@
   <language namespace="ef7bf5ac-d06c-4342-b11d-e42104eb9343(jetbrains.mps.lang.plugin.standalone)" />
   <language namespace="28f9e497-3b42-4291-aeba-0a1039153ab1(jetbrains.mps.lang.plugin)" />
   <language namespace="443f4c36-fcf5-4eb6-9500-8d06ed259e3e(jetbrains.mps.baseLanguage.classifiers)" />
+  <language namespace="99b0bd58-d9c1-4744-b159-3ea91da414ff(de.itemis.mps.nativelibs)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="r3rm" modelUID="r:7fc96130-6279-4a55-aeeb-422a6879539d(de.itemis.mps.editor.diagram.runtime.jgraph)" version="-1" />
   <import index="nu8v" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.cells(MPS.Editor/jetbrains.mps.openapi.editor.cells@java_stub)" version="-1" />
@@ -20,6 +21,7 @@
   <import index="jwd7" modelUID="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.tools(MPS.Platform/jetbrains.mps.ide.tools@java_stub)" version="-1" implicit="yes" />
   <import index="nx1" modelUID="f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" version="-1" implicit="yes" />
   <import index="1d7m" modelUID="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.ide.editor(MPS.Editor/jetbrains.mps.ide.editor@java_stub)" version="-1" implicit="yes" />
+  <import index="9lvj" modelUID="r:96ef99ad-4777-4e07-b5ac-713fe7c8396a(de.itemis.mps.nativelibs.structure)" version="0" implicit="yes" />
   <root type="tgbt.StandalonePluginDescriptor" typeId="tgbt.7520713872864775836" id="5490129062794787262" nodeInfo="ng" />
   <root type="tp4k.ToolDeclaration" typeId="tp4k.1203071677434" id="5490129062794787314" nodeInfo="ng">
     <property name="name" nameId="tpck.1169194664001" value="Palette" />
@@ -241,6 +243,57 @@
     <node role="modifier" roleId="tp4k.1204991552650" type="tp4k.ModificationStatement" typeId="tp4k.1203092361741" id="8029218887504858366" nodeInfo="ng">
       <link role="modifiedGroup" roleId="tp4k.1203092736097" targetNodeId="tprs.1204991238062" resolveInfo="Tools" />
       <link role="point" roleId="tp4k.1204992316090" targetNodeId="tprs.1217598172089" resolveInfo="customTools" />
+    </node>
+  </root>
+  <root type="9lvj.NativeLibraries" typeId="9lvj.3127003635836699072" id="3127003635836895219" nodeInfo="ng">
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836895267" nodeInfo="ng">
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/linux32/adaptagrams.so" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898357" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="LINUX64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/linux64/adaptagrams.so" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898360" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="OSX32" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/osx32/adaptagrams.dylib" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898364" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="OSX64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/osx64/adaptagrams.dylib" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898369" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN32" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win32/adaptagrams.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898375" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win64/adaptagrams.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906820" nodeInfo="ng">
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/linux32/libavoid.so" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906821" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="LINUX64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/linux64/libavoid.so" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906822" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="OSX32" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/osx32/libavoid.dylib" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906823" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="OSX64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/osx64/libavoid.dylib" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906824" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN32" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win32/libavoid.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906825" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win64/libavoid.dll" />
+    </node>
+    <node role="jars" roleId="9lvj.1978400252114418866" type="9lvj.JavaLibrary" typeId="9lvj.1978400252114399609" id="1978400252114465940" nodeInfo="ng">
+      <property name="path" nameId="9lvj.1978400252114406446" value="lib/libavoid/adaptagrams.jar" />
     </node>
   </root>
 </model>
