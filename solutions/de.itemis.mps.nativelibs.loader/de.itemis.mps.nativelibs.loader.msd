@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<solution name="de.itemis.mps.nativelibs.plugin" uuid="3dab3694-933d-4958-b49c-2725a180220c" compileInMPS="true">
+<solution name="de.itemis.mps.nativelibs.loader" uuid="3dab3694-933d-4958-b49c-2725a180220c" compileInMPS="true">
   <models>
     <modelRoot contentPath="${module}" type="default">
       <sourceRoot location="models" />
