@@ -18931,7 +18931,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="4414688570903150899" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="4414688570903153001" nodeInfo="nn">
           <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="4414688570903153957" nodeInfo="nn">
-            <property name="text" nameId="tpee.6329021646629104958" value="45° angle" />
+            <property name="text" nameId="tpee.6329021646629104958" value="45 deg angle" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4414688570903173734" nodeInfo="nn">
@@ -19238,7 +19238,7 @@
         <node role="statement" roleId="tpee.1068581517665" type="tpee.Statement" typeId="tpee.1068580123157" id="4414688570904330433" nodeInfo="nn" />
         <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="4414688570904372634" nodeInfo="nn">
           <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.TextCommentPart" typeId="tpee.6329021646629104957" id="4414688570904375104" nodeInfo="nn">
-            <property name="text" nameId="tpee.6329021646629104958" value="90°" />
+            <property name="text" nameId="tpee.6329021646629104958" value="90 deg" />
           </node>
         </node>
         <node role="statement" roleId="tpee.1068581517665" type="tpee.IfStatement" typeId="tpee.1068580123159" id="4414688570897431517" nodeInfo="nn">
