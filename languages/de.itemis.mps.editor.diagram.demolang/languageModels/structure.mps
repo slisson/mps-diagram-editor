@@ -136,5 +136,15 @@
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="tpck.1169194658468" resolveInfo="INamedConcept" />
     </node>
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3469399874292359781" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ComponentAnnotation" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="3469399874292782723" nodeInfo="ng">
+      <property name="role" nameId="tpce.7588428831955550663" value="componentAnnotation" />
+      <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="3469399874292793434" nodeInfo="ng">
+        <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="6237710625713136478" resolveInfo="Component" />
+      </node>
+    </node>
+  </root>
 </model>
 
