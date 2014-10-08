@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="5">
+<model modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="7">
   <persistence version="8" />
   <language namespace="c72da2b9-7cce-4447-8389-f407dc1158b7(jetbrains.mps.lang.structure)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
@@ -7,7 +7,7 @@
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
-  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="5" implicit="yes" />
+  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="7" implicit="yes" />
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="1110129820007229393" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CellModel_Diagram" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="diagram" />
@@ -640,8 +640,8 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="3155126767690989914" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
-    <property name="name" nameId="tpck.1169194664001" value="Content_GenericBlockQuery" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="generic block query" />
+    <property name="name" nameId="tpck.1169194664001" value="Content_GenericBoxQuery" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="generic box query" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="7890587897031726207" resolveInfo="Content_GenericElementQuery" />
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8963411245958171550" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="3155126767688724548" resolveInfo="IDiagramContent" />
@@ -654,7 +654,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8963411245958754161" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
-    <property name="name" nameId="tpck.1169194664001" value="Content_GenericBlockQuery_ParameterObject" />
+    <property name="name" nameId="tpck.1169194664001" value="Content_GenericElementQuery_ParameterObject" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="parameterObject" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068431790191" resolveInfo="Expression" />
   </root>

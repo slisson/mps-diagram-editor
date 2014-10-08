@@ -36,5 +36,17 @@
     </dependencies>
     <rename id="2qld.8963411245957652387" type="CONCEPT" from="Content_GenericBlockQuery_Query" to="Content_GenericElementQuery_Query" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="5" />
+    </dependencies>
+    <rename id="2qld.3155126767690989914" type="CONCEPT" from="Content_GenericBlockQuery" to="Content_GenericBoxQuery" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="6" />
+    </dependencies>
+    <rename id="2qld.8963411245958754161" type="CONCEPT" from="Content_GenericBlockQuery_ParameterObject" to="Content_GenericElementQuery_ParameterObject" />
+  </StructureModification>
 </history>
 

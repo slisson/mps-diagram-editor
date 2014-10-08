@@ -19,7 +19,7 @@
   <import index="r2fl" modelUID="r:31803fcd-8d85-4949-9084-9d2d1e54cbb8(de.itemis.mps.editor.diagram.demolang.behavior)" version="-1" />
   <import index="tqfk" modelUID="r:46801d97-c3c4-4ecd-82ca-44e1f74de5ab(de.itemis.mps.editor.diagram.demolang.shapes)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
-  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="5" implicit="yes" />
+  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="7" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -1112,7 +1112,7 @@
           </node>
         </node>
       </node>
-      <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericBlockQuery" typeId="2qld.3155126767690989914" id="8963411245958222312" nodeInfo="ng">
+      <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericBoxQuery" typeId="2qld.3155126767690989914" id="8963411245958222312" nodeInfo="ng">
         <node role="parameterType" roleId="2qld.7890587897031726224" type="tpee.StringType" typeId="tpee.1225271177708" id="8963411245958230488" nodeInfo="in" />
         <node role="query" roleId="2qld.7890587897031726225" type="2qld.Content_GenericElementQuery_Query" typeId="2qld.8963411245957652387" id="8963411245958222316" nodeInfo="ng">
           <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8963411245958222318" nodeInfo="sn">
@@ -1134,7 +1134,7 @@
             </node>
           </node>
         </node>
-        <node role="id" roleId="2qld.7890587897031726226" type="2qld.Content_GenericBlockQuery_ParameterObject" typeId="2qld.8963411245958754161" id="8963411245958794849" nodeInfo="ng" />
+        <node role="id" roleId="2qld.7890587897031726226" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="8963411245958794849" nodeInfo="ng" />
       </node>
       <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericEdgeQuery" typeId="2qld.7890587897031711745" id="7890587897032981156" nodeInfo="ng">
         <node role="parameterType" roleId="2qld.7890587897031726224" type="cx9y.IndexedTupleType" typeId="cx9y.1238852151516" id="7890587897032993656" nodeInfo="in">
@@ -1181,7 +1181,7 @@
                 <node role="index" roleId="cx9y.1238857834412" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7890587897033049187" nodeInfo="nn">
                   <property name="value" nameId="tpee.1068580320021" value="0" />
                 </node>
-                <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericBlockQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033048370" nodeInfo="ng" />
+                <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033048370" nodeInfo="ng" />
               </node>
             </node>
             <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="7890587897033049971" nodeInfo="nn">
@@ -1192,20 +1192,20 @@
             <node role="index" roleId="cx9y.1238857834412" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7890587897033057436" nodeInfo="nn">
               <property name="value" nameId="tpee.1068580320021" value="1" />
             </node>
-            <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericBlockQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033056141" nodeInfo="ng" />
+            <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033056141" nodeInfo="ng" />
           </node>
         </node>
         <node role="from" roleId="2qld.7890587897033058950" type="cx9y.IndexedTupleMemberAccessExpression" typeId="cx9y.1238857743184" id="7890587897033154311" nodeInfo="nn">
           <node role="index" roleId="cx9y.1238857834412" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7890587897033156218" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580320021" value="0" />
           </node>
-          <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericBlockQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033152064" nodeInfo="ng" />
+          <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033152064" nodeInfo="ng" />
         </node>
         <node role="to" roleId="2qld.7890587897033058954" type="cx9y.IndexedTupleMemberAccessExpression" typeId="cx9y.1238857743184" id="7890587897033158561" nodeInfo="nn">
           <node role="index" roleId="cx9y.1238857834412" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7890587897033160514" nodeInfo="nn">
             <property name="value" nameId="tpee.1068580320021" value="1" />
           </node>
-          <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericBlockQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033156268" nodeInfo="ng" />
+          <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="7890587897033156268" nodeInfo="ng" />
         </node>
       </node>
     </node>

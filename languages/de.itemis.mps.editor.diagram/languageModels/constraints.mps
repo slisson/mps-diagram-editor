@@ -4,7 +4,7 @@
   <language namespace="3f4bc5f5-c6c1-4a28-8b10-c83066ffa4a1(jetbrains.mps.lang.constraints)" />
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="6xgk" modelUID="r:6e9ad488-5df2-49e4-8c01-8a7f3812adf7(jetbrains.mps.lang.scopes.runtime)" version="-1" />
-  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="5" />
+  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="7" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
   <import index="tpcn" modelUID="r:00000000-0000-4000-0000-011c8959028b(jetbrains.mps.lang.structure.behavior)" version="-1" />
   <import index="tp1t" modelUID="r:00000000-0000-4000-0000-011c8959030d(jetbrains.mps.lang.constraints.structure)" version="9" implicit="yes" />
@@ -134,7 +134,7 @@
   </root>
   <root type="tp1t.ConceptConstraints" typeId="tp1t.1213093968558" id="8963411245958960704" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />
-    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="2qld.8963411245958754161" resolveInfo="Content_GenericBlockQuery_ParameterObject" />
+    <link role="concept" roleId="tp1t.1213093996982" targetNodeId="2qld.8963411245958754161" resolveInfo="Content_GenericElementQuery_ParameterObject" />
     <node role="canBeChild" roleId="tp1t.1213106463729" type="tp1t.ConstraintFunction_CanBeAChild" typeId="tp1t.1202989531578" id="8963411245958960756" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8963411245958960757" nodeInfo="sn">
         <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="8963411245958968197" nodeInfo="nn">
