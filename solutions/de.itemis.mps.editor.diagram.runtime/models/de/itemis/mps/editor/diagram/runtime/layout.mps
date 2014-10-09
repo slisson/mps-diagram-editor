@@ -3149,7 +3149,7 @@
                       <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6308306161998608930" resolveInfo="edge" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="3170189018904453059" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="nkm5.8417783717433070027" resolveInfo="getEndpointFrom" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="nkm5.8417783717433070059" resolveInfo="getEndpointTo" />
                     </node>
                   </node>
                 </node>
@@ -3167,7 +3167,7 @@
                       <link role="variable" roleId="tp2q.1153944258490" targetNodeId="6308306161998608930" resolveInfo="edge" />
                     </node>
                     <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="6482141033936322500" nodeInfo="nn">
-                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="nkm5.8417783717433070059" resolveInfo="getEndpointTo" />
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="nkm5.8417783717433070027" resolveInfo="getEndpointFrom" />
                     </node>
                   </node>
                 </node>
