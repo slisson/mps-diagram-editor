@@ -4,10 +4,12 @@
   <language namespace="7cf26568-7255-45b6-b975-a44162a7e7e2(de.itemis.mps.editor.diagram.demolang)" />
   <language namespace="fa13cc63-c476-4d46-9c96-d53670abe7bc(de.itemis.mps.editor.diagram)" />
   <language namespace="f3061a53-9226-4cc5-a443-f952ceaf5816(jetbrains.mps.baseLanguage)" />
+  <language namespace="3ba72f2f-a5c2-46e4-8b7e-b7ef6fb0cfc7(de.itemis.mps.editor.diagram.demo.callgraph)" />
   <import index="7fae" modelUID="r:120be759-a4d3-4f3c-b9c0-033221c73671(de.itemis.mps.editor.diagram.demolang.structure)" version="-1" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="7" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
+  <import index="l3nj" modelUID="r:df7376ee-3f0c-4164-a1ba-eb712d3e9944(de.itemis.mps.editor.diagram.demo.callgraph.structure)" version="-1" implicit="yes" />
   <root type="7fae.RootConcept" typeId="7fae.5806942359871455438" id="5806942359871459852" nodeInfo="ng">
     <node role="componentDeclarations" roleId="7fae.5490129062797934996" type="7fae.ComponentDeclaration" typeId="7fae.5490129062797934814" id="5490129062797968944" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="Component1" />
@@ -402,6 +404,11 @@
             <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6554619383005430212" resolveInfo="methodD" />
           </node>
         </node>
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6554619383009575523" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="6554619383009575521" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6554619383005430589" resolveInfo="methodE" />
+          </node>
+        </node>
       </node>
     </node>
     <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="6554619383005430149" nodeInfo="ngu" />
@@ -443,7 +450,167 @@
         </node>
       </node>
     </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="6554619383009645005" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6554619383009645270" nodeInfo="igu">
+      <property name="name" nameId="tpck.1169194664001" value="methodF" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.VoidType" typeId="tpee.1068581517677" id="6554619383009645272" nodeInfo="in" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6554619383009645273" nodeInfo="nn" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6554619383009645274" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6554619383009645655" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.LocalMethodCall" typeId="tpee.7812454656619025412" id="6554619383009645654" nodeInfo="nn">
+            <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="6554619383005430040" resolveInfo="methodA" />
+          </node>
+        </node>
+      </node>
+    </node>
     <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6554619383005430009" nodeInfo="nn" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="l3nj.CallGraphAnnotation" typeId="l3nj.6554619383009423700" id="6554619383009575062" nodeInfo="ng">
+      <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="2qld.LayoutMap" typeId="2qld.8963411245960991886" id="6554619383009575144" nodeInfo="ng">
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575145" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430111" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="6554619383009575143" nodeInfo="ng">
+            <property name="bounds_x" nameId="2qld.6720495385597071501" value="62.000099182128906" />
+            <property name="bounds_y" nameId="2qld.6720495385597071502" value="187.0" />
+            <property name="bounds_width" nameId="2qld.6720495385597071503" value="104.0" />
+            <property name="bounds_height" nameId="2qld.6720495385597071504" value="23.0" />
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575147" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430176" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="6554619383009575146" nodeInfo="ng">
+            <property name="bounds_x" nameId="2qld.6720495385597071501" value="216.00030517578125" />
+            <property name="bounds_y" nameId="2qld.6720495385597071502" value="114.0" />
+            <property name="bounds_width" nameId="2qld.6720495385597071503" value="104.0" />
+            <property name="bounds_height" nameId="2qld.6720495385597071504" value="23.0" />
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575149" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430589" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="6554619383009575148" nodeInfo="ng">
+            <property name="bounds_x" nameId="2qld.6720495385597071501" value="378.00048828125" />
+            <property name="bounds_y" nameId="2qld.6720495385597071502" value="114.0" />
+            <property name="bounds_width" nameId="2qld.6720495385597071503" value="104.0" />
+            <property name="bounds_height" nameId="2qld.6720495385597071504" value="23.0" />
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575151" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430040" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="6554619383009575150" nodeInfo="ng">
+            <property name="bounds_x" nameId="2qld.6720495385597071501" value="540.000732421875" />
+            <property name="bounds_y" nameId="2qld.6720495385597071502" value="187.0" />
+            <property name="bounds_width" nameId="2qld.6720495385597071503" value="104.0" />
+            <property name="bounds_height" nameId="2qld.6720495385597071504" value="23.0" />
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575153" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430212" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="6554619383009575152" nodeInfo="ng">
+            <property name="bounds_x" nameId="2qld.6720495385597071501" value="216.00030517578125" />
+            <property name="bounds_y" nameId="2qld.6720495385597071502" value="187.0" />
+            <property name="bounds_width" nameId="2qld.6720495385597071503" value="104.0" />
+            <property name="bounds_height" nameId="2qld.6720495385597071504" value="23.0" />
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575155" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430418" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="6554619383009575154" nodeInfo="ng" />
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575159" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430320" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="6554619383009575158" nodeInfo="ng">
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575160" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="669.0007934570312" />
+              <property name="y" nameId="2qld.2319506556913310863" value="198.5000457763672" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575161" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="669.0007934570312" />
+              <property name="y" nameId="2qld.2319506556913310863" value="12.0" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575162" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="12.0" />
+              <property name="y" nameId="2qld.2319506556913310863" value="12.0" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575163" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="12.0" />
+              <property name="y" nameId="2qld.2319506556913310863" value="198.5000457763672" />
+            </node>
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575165" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430832" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="6554619383009575164" nodeInfo="ng">
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009645597" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="345.0003967285156" />
+              <property name="y" nameId="2qld.2319506556913310863" value="198.5000457763672" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009645598" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="345.0003967285156" />
+              <property name="y" nameId="2qld.2319506556913310863" value="125.50005340576172" />
+            </node>
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575585" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430368" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="6554619383009575584" nodeInfo="ng">
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009645595" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="191.0001983642578" />
+              <property name="y" nameId="2qld.2319506556913310863" value="198.5000457763672" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009645596" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="191.0001983642578" />
+              <property name="y" nameId="2qld.2319506556913310863" value="125.50005340576172" />
+            </node>
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575589" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383009575521" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="6554619383009575588" nodeInfo="ng">
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575590" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="191.0001983642578" />
+              <property name="y" nameId="2qld.2319506556913310863" value="198.5000457763672" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575591" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="191.0001983642578" />
+              <property name="y" nameId="2qld.2319506556913310863" value="63.0" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575592" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="345.0003967285156" />
+              <property name="y" nameId="2qld.2319506556913310863" value="63.0" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009575593" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="345.0003967285156" />
+              <property name="y" nameId="2qld.2319506556913310863" value="125.50005340576172" />
+            </node>
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009575720" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430798" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="6554619383009575719" nodeInfo="ng" />
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009645594" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383009645270" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Node" typeId="2qld.6720495385597071406" id="6554619383009645593" nodeInfo="ng">
+            <property name="bounds_x" nameId="2qld.6720495385597071501" value="370.00048828125" />
+            <property name="bounds_y" nameId="2qld.6720495385597071502" value="187.0" />
+            <property name="bounds_width" nameId="2qld.6720495385597071503" value="120.0" />
+            <property name="bounds_height" nameId="2qld.6720495385597071504" value="23.0" />
+          </node>
+        </node>
+        <node role="entries" roleId="2qld.8963411245960991904" type="2qld.LayoutMapEntry" typeId="2qld.8963411245960991903" id="6554619383009645689" nodeInfo="ng">
+          <property name="key" nameId="2qld.8963411245960998400" value="6554619383005430873" />
+          <node role="value" roleId="2qld.8963411245960998404" type="2qld.Layout_Connection" typeId="2qld.2319506556913310852" id="6554619383009645688" nodeInfo="ng">
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009645690" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="515.0006103515625" />
+              <property name="y" nameId="2qld.2319506556913310863" value="125.50005340576172" />
+            </node>
+            <node role="anchors" roleId="2qld.2319506556913311101" type="2qld.Point" typeId="2qld.2319506556913310727" id="6554619383009645691" nodeInfo="ng">
+              <property name="x" nameId="2qld.2319506556913310861" value="515.0006103515625" />
+              <property name="y" nameId="2qld.2319506556913310863" value="198.5000457763672" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
   </root>
 </model>
 
