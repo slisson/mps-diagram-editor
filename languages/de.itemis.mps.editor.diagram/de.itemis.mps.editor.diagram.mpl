@@ -6,9 +6,7 @@
       <sourceRoot location="languageAccessories" />
     </modelRoot>
   </models>
-  <accessoryModels>
-    <model modelUID="r:b6fcec8e-7351-482a-a9d9-9791f2f9d079(de.itemis.mps.editor.diagram.shapes)" />
-  </accessoryModels>
+  <accessoryModels />
   <generators>
     <generator name="" generatorUID="de.itemis.mps.editor.diagram#1110129820007083940" uuid="9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f">
       <models>
