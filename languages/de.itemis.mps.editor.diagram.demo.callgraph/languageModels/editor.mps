@@ -120,6 +120,9 @@
                 <node role="positionX" roleId="2qld.6554619383005758750" type="tpee.FloatingPointConstant" typeId="tpee.1111509017652" id="5468226901224375353" nodeInfo="nn">
                   <property name="value" nameId="tpee.1113006610751" value="1.0" />
                 </node>
+                <node role="shape" roleId="2qld.6554619383005758749" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="5126420796713947817" nodeInfo="ng">
+                  <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="5642467428246420661" resolveInfo="Ellipsis" />
+                </node>
               </node>
             </node>
             <node role="ports" roleId="2qld.5468226901223577682" type="2qld.Port" typeId="2qld.6554619383005758499" id="5126420796713378841" nodeInfo="ng">
