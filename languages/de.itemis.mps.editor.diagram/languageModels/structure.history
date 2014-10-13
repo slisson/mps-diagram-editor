@@ -48,5 +48,53 @@
     </dependencies>
     <rename id="2qld.8963411245958754161" type="CONCEPT" from="Content_GenericBlockQuery_ParameterObject" to="Content_GenericElementQuery_ParameterObject" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="7" />
+    </dependencies>
+    <rename id="2qld.6554619383001456685" type="CONCEPT" from="IEndpoint" to="IEndpointReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="8" />
+    </dependencies>
+    <rename id="2qld.6554619383001456740" type="CONCEPT" from="BoxEndpoint" to="BoxEndpointReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="9" />
+    </dependencies>
+    <rename id="2qld.6554619383001705551" type="CONCEPT" from="ConditionalEndpoint" to="ConditionalEndpointReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="10" />
+    </dependencies>
+    <rename id="2qld.6554619383001456866" type="CONCEPT" from="PortEndpoint" to="PortEndpointReference" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="11" />
+    </dependencies>
+    <rename id="2qld.6554619383001456685" type="CONCEPT" from="IEndpointReference" to="IEndpointTarget" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="12" />
+    </dependencies>
+    <rename id="2qld.6554619383001456866" type="CONCEPT" from="PortEndpointReference" to="PortEndpointTarget" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="13" />
+    </dependencies>
+    <rename id="2qld.6554619383001705551" type="CONCEPT" from="ConditionalEndpointReference" to="ConditionalEndpointTarget" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="14" />
+    </dependencies>
+    <rename id="2qld.6554619383001456740" type="CONCEPT" from="BoxEndpointReference" to="BoxEndpointTarget" />
+  </StructureModification>
 </history>
 

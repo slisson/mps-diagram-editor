@@ -7,15 +7,15 @@
   <import index="nkm5" modelUID="r:095345ad-6627-42ca-9d3f-fc1b2d9fbd61(de.itemis.mps.editor.diagram.runtime.model)" version="-1" />
   <import index="1t7x" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt(JDK/java.awt@java_stub)" version="-1" />
   <import index="ar19" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" version="-1" />
+  <import index="l3nj" modelUID="r:df7376ee-3f0c-4164-a1ba-eb712d3e9944(de.itemis.mps.editor.diagram.demo.callgraph.structure)" version="-1" />
+  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
+  <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
-  <import index="l3nj" modelUID="r:df7376ee-3f0c-4164-a1ba-eb712d3e9944(de.itemis.mps.editor.diagram.demo.callgraph.structure)" version="-1" implicit="yes" />
-  <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
-  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="7" implicit="yes" />
-  <import index="tpek" modelUID="r:00000000-0000-4000-0000-011c895902c0(jetbrains.mps.baseLanguage.behavior)" version="-1" implicit="yes" />
+  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="15" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6554619383009483773" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="l3nj.6554619383009423700" resolveInfo="CallGraphAnnotation" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="6554619383009483842" nodeInfo="nn">
@@ -223,11 +223,11 @@
             <node role="startShape" roleId="2qld.6554619383000822952" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="6554619383009522552" nodeInfo="ng">
               <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="5642467428246420661" resolveInfo="Ellipsis" />
             </node>
-            <node role="toEndpoint" roleId="2qld.6554619383001476820" type="2qld.PortEndpoint" typeId="2qld.6554619383001456866" id="5126420796713383010" nodeInfo="ng">
+            <node role="toEndpoint" roleId="2qld.6554619383001476820" type="2qld.PortEndpointTarget" typeId="2qld.6554619383001456866" id="5126420796713383010" nodeInfo="ng">
               <node role="portName" roleId="2qld.6554619383001456867" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="5126420796713385250" nodeInfo="nn">
                 <property name="value" nameId="tpee.1070475926801" value="In" />
               </node>
-              <node role="box" roleId="2qld.6554619383001456869" type="2qld.BoxEndpoint" typeId="2qld.6554619383001456740" id="6554619383001637096" nodeInfo="ng">
+              <node role="box" roleId="2qld.6554619383001456869" type="2qld.BoxEndpointTarget" typeId="2qld.6554619383001456740" id="6554619383001637096" nodeInfo="ng">
                 <node role="targetId" roleId="2qld.6554619383001456819" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6554619383001639507" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="6554619383001639508" nodeInfo="ng" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SLinkAccess" typeId="tp25.1138056143562" id="6554619383001639509" nodeInfo="nn">
@@ -236,8 +236,8 @@
                 </node>
               </node>
             </node>
-            <node role="fromEndpoint" roleId="2qld.6554619383001476814" type="2qld.PortEndpoint" typeId="2qld.6554619383001456866" id="5126420796713836542" nodeInfo="ng">
-              <node role="box" roleId="2qld.6554619383001456869" type="2qld.BoxEndpoint" typeId="2qld.6554619383001456740" id="5126420796713836543" nodeInfo="ng">
+            <node role="fromEndpoint" roleId="2qld.6554619383001476814" type="2qld.PortEndpointTarget" typeId="2qld.6554619383001456866" id="5126420796713836542" nodeInfo="ng">
+              <node role="box" roleId="2qld.6554619383001456869" type="2qld.BoxEndpointTarget" typeId="2qld.6554619383001456740" id="5126420796713836543" nodeInfo="ng">
                 <node role="targetId" roleId="2qld.6554619383001456819" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6554619383001636645" nodeInfo="nn">
                   <node role="operand" roleId="tpee.1197027771414" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="6554619383001636646" nodeInfo="ng" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_GetAncestorOperation" typeId="tp25.1171407110247" id="6554619383001636647" nodeInfo="nn">
