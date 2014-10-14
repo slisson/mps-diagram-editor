@@ -96,5 +96,11 @@
     </dependencies>
     <rename id="2qld.6554619383001456740" type="CONCEPT" from="BoxEndpointReference" to="BoxEndpointTarget" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="15" />
+    </dependencies>
+    <rename id="2qld.5490129062795541784" type="CONCEPT" from="Function_GetSubstituteInfo" to="PaletteSource_Query" />
+  </StructureModification>
 </history>
 

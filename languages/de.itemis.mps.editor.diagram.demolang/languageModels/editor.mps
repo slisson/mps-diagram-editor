@@ -20,7 +20,7 @@
   <import index="tqfk" modelUID="r:46801d97-c3c4-4ecd-82ca-44e1f74de5ab(de.itemis.mps.editor.diagram.demolang.shapes)" version="-1" />
   <import index="ec5l" modelUID="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" version="-1" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
-  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="15" implicit="yes" />
+  <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="16" implicit="yes" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" implicit="yes" />
   <import index="tp25" modelUID="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" version="16" implicit="yes" />
   <import index="tp2q" modelUID="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" version="7" implicit="yes" />
@@ -649,24 +649,6 @@
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6237710625714092874" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="7fae.6237710625714092845" resolveInfo="Diagram" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="2qld.CellModel_Diagram" typeId="2qld.1110129820007229393" id="6237710625714092876" nodeInfo="ng">
-      <node role="getSubstituteInfo" roleId="2qld.5490129062795556272" type="2qld.Function_GetSubstituteInfo" typeId="2qld.5490129062795541784" id="5490129062796053617" nodeInfo="ng">
-        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5490129062796053618" nodeInfo="sn">
-          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5490129062796055263" nodeInfo="nn">
-            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5490129062796055449" nodeInfo="nn">
-              <node role="operand" roleId="tpee.1197027771414" type="2qld.Parameter_SubstituteInfoFactory" typeId="2qld.5490129062795632136" id="5490129062796055262" nodeInfo="ng" />
-              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="5490129062796056279" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="tc27.5490129062795630708" resolveInfo="forChild" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="2qld.Parameter_Node" typeId="2qld.6237710625713964946" id="5490129062796066018" nodeInfo="ng" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="5490129062796066556" nodeInfo="nn" />
-                <node role="actualArgument" roleId="tpee.1068499141038" type="tp25.LinkRefExpression" typeId="tp25.1226359078165" id="5490129062796066982" nodeInfo="nn">
-                  <link role="linkDeclaration" roleId="tp25.1226359192215" targetNodeId="7fae.6237710625714092846" />
-                  <link role="conceptDeclaration" roleId="tp25.1226359078166" targetNodeId="7fae.6237710625714092845" resolveInfo="Diagram" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
       <node role="paletteFolder" roleId="2qld.8637411062062914773" type="2qld.Function_PaletteFolder" typeId="2qld.8637411062062430894" id="8637411062072478158" nodeInfo="ng">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="8637411062072478159" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.LocalVariableDeclarationStatement" typeId="tpee.1068581242864" id="4254343767723688007" nodeInfo="nn">
@@ -1147,6 +1129,33 @@
         </node>
         <node role="startShape" roleId="2qld.6554619383000822952" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="6554619383003376308" nodeInfo="ng">
           <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="tqfk.5642467428246420661" resolveInfo="Ellipsis" />
+        </node>
+      </node>
+      <node role="paletteSources" roleId="2qld.1981294357059564524" type="2qld.FilteringPaletteSource" typeId="2qld.1981294357061019414" id="1981294357061159013" nodeInfo="ng">
+        <node role="source" roleId="2qld.1981294357061021215" type="2qld.ChildRolePaletteSource" typeId="2qld.1981294357059563448" id="1981294357061162350" nodeInfo="ng">
+          <link role="linkDeclaration" roleId="2qld.1981294357059564497" targetNodeId="7fae.6237710625714092846" />
+        </node>
+        <node role="filterQuery" roleId="2qld.1981294357061028835" type="2qld.FilteringPaletteSource_FilterQuery" typeId="2qld.1981294357061021217" id="1981294357061169023" nodeInfo="ng">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="1981294357061169024" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="1981294357061699705" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1981294357061704462" nodeInfo="nn">
+                <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="1981294357061706067" nodeInfo="nn">
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1981294357061706510" nodeInfo="nn" />
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="2qld.Parameter_PaletteFolder_TargetNode" typeId="2qld.4254343767721607990" id="1981294357061705237" nodeInfo="ng" />
+                </node>
+                <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.AndExpression" typeId="tpee.1080120340718" id="1981294357061701356" nodeInfo="nn">
+                  <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="1981294357061699971" nodeInfo="nn">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="2qld.Parameter_Node" typeId="2qld.6237710625713964946" id="1981294357061699704" nodeInfo="ng" />
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1981294357061700661" nodeInfo="nn" />
+                  </node>
+                  <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="1981294357061702996" nodeInfo="nn">
+                    <node role="leftExpression" roleId="tpee.1081773367580" type="2qld.Parameter_PaletteFolder_Concept" typeId="2qld.8637411062062623445" id="1981294357061702080" nodeInfo="ng" />
+                    <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="1981294357061703726" nodeInfo="nn" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
