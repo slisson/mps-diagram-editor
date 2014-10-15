@@ -1067,20 +1067,24 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4894669000201289672" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4894669000201289673" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4894669000201289674" nodeInfo="nn">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4894669000201289667" resolveInfo="g2d" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4894669000201289675" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Graphics2D%dsetRenderingHint(java%dawt%dRenderingHints$Key,java%dlang%dObject)%cvoid" resolveInfo="setRenderingHint" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000201289676" nodeInfo="nn">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dKEY_FRACTIONALMETRICS" resolveInfo="KEY_FRACTIONALMETRICS" />
-              </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000201289677" nodeInfo="nn">
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dVALUE_FRACTIONALMETRICS_ON" resolveInfo="VALUE_FRACTIONALMETRICS_ON" />
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="140555830592103678" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="140555830592103679" nodeInfo="nn">
+            <node role="commentedStatement" roleId="tpee.6329021646629175144" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4894669000201289672" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4894669000201289673" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4894669000201289674" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4894669000201289667" resolveInfo="g2d" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4894669000201289675" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Graphics2D%dsetRenderingHint(java%dawt%dRenderingHints$Key,java%dlang%dObject)%cvoid" resolveInfo="setRenderingHint" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000201289676" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dKEY_FRACTIONALMETRICS" resolveInfo="KEY_FRACTIONALMETRICS" />
+                  </node>
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000201289677" nodeInfo="nn">
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dVALUE_FRACTIONALMETRICS_ON" resolveInfo="VALUE_FRACTIONALMETRICS_ON" />
+                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -13617,20 +13621,24 @@
             </node>
           </node>
         </node>
-        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4894669000200381288" nodeInfo="nn">
-          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4894669000200383004" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4894669000200381286" nodeInfo="nn">
-              <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4894669000200376105" resolveInfo="g2d" />
-            </node>
-            <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4894669000200385756" nodeInfo="nn">
-              <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Graphics2D%dsetRenderingHint(java%dawt%dRenderingHints$Key,java%dlang%dObject)%cvoid" resolveInfo="setRenderingHint" />
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000200385833" nodeInfo="nn">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dKEY_FRACTIONALMETRICS" resolveInfo="KEY_FRACTIONALMETRICS" />
-              </node>
-              <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000200386165" nodeInfo="nn">
-                <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
-                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dVALUE_FRACTIONALMETRICS_ON" resolveInfo="VALUE_FRACTIONALMETRICS_ON" />
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.SingleLineComment" typeId="tpee.6329021646629104954" id="140555830591646126" nodeInfo="nn">
+          <node role="commentPart" roleId="tpee.6329021646629175155" type="tpee.StatementCommentPart" typeId="tpee.6329021646629175143" id="140555830591646127" nodeInfo="nn">
+            <node role="commentedStatement" roleId="tpee.6329021646629175144" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="4894669000200381288" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="4894669000200383004" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="4894669000200381286" nodeInfo="nn">
+                  <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="4894669000200376105" resolveInfo="g2d" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="4894669000200385756" nodeInfo="nn">
+                  <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="1t7x.~Graphics2D%dsetRenderingHint(java%dawt%dRenderingHints$Key,java%dlang%dObject)%cvoid" resolveInfo="setRenderingHint" />
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000200385833" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dKEY_FRACTIONALMETRICS" resolveInfo="KEY_FRACTIONALMETRICS" />
+                  </node>
+                  <node role="actualArgument" roleId="tpee.1068499141038" type="tpee.StaticFieldReference" typeId="tpee.1070533707846" id="4894669000200386165" nodeInfo="nn">
+                    <link role="classifier" roleId="tpee.1144433057691" targetNodeId="1t7x.~RenderingHints" resolveInfo="RenderingHints" />
+                    <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="1t7x.~RenderingHints%dVALUE_FRACTIONALMETRICS_ON" resolveInfo="VALUE_FRACTIONALMETRICS_ON" />
+                  </node>
+                </node>
               </node>
             </node>
           </node>
@@ -15513,6 +15521,26 @@
         </node>
       </node>
       <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="7713880216714144287" nodeInfo="nn">
+        <link role="annotation" roleId="tpee.1188208074048" targetNodeId="e2lb.~Override" resolveInfo="Override" />
+      </node>
+    </node>
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="6475322632620106757" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.PlaceholderMember" typeId="tpee.1465982738277781862" id="6475322632620106878" nodeInfo="ngu" />
+    <node role="member" roleId="tpee.5375687026011219971" type="tpee.InstanceMethodDeclaration" typeId="tpee.1068580123165" id="6475322632620111426" nodeInfo="igu">
+      <property name="isAbstract" nameId="tpee.1178608670077" value="false" />
+      <property name="name" nameId="tpck.1169194664001" value="isCloneEnabled" />
+      <property name="isFinal" nameId="tpee.1181808852946" value="false" />
+      <property name="isDeprecated" nameId="tpee.1224848525476" value="false" />
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="6475322632620111427" nodeInfo="nn" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.BooleanType" typeId="tpee.1070534644030" id="6475322632620111429" nodeInfo="in" />
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="6475322632620111430" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="6475322632620145872" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="6475322632620145871" nodeInfo="nn">
+            <property name="value" nameId="tpee.1068580123138" value="false" />
+          </node>
+        </node>
+      </node>
+      <node role="annotation" roleId="tpee.1188208488637" type="tpee.AnnotationInstance" typeId="tpee.1188207840427" id="6475322632620111431" nodeInfo="nn">
         <link role="annotation" roleId="tpee.1188208074048" targetNodeId="e2lb.~Override" resolveInfo="Override" />
       </node>
     </node>
