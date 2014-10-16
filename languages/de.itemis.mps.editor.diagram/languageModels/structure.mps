@@ -5,6 +5,7 @@
   <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
   <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" />
   <import index="tpee" modelUID="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" version="5" />
+  <import index="suqv" modelUID="r:9a28b49a-e98c-4186-a7e1-7e782b3f4fc3(de.itemis.mps.editor.diagram.layout.structure)" version="0" />
   <import index="tpce" modelUID="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" version="0" implicit="yes" />
   <import index="tpck" modelUID="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" version="0" implicit="yes" />
   <import index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="16" implicit="yes" />
@@ -450,23 +451,7 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6720495385597071406" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Layout_Node" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071501" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_x" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071502" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_y" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071503" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_width" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="6720495385597071504" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="bounds_height" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="suqv.6720495385597071406" resolveInfo="Layout_Box" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="6720495385597071477" nodeInfo="ng">
       <property name="role" nameId="tpce.7588428831955550663" value="layout" />
       <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="6720495385597071481" nodeInfo="ng">
@@ -476,30 +461,18 @@
         <property name="value" nameId="tpce.6054523464626875854" value="false" />
       </node>
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="1350375459505895531" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2319506556913310727" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Point" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2319506556913310861" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="x" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="2319506556913310863" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="y" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpc2.1239805001815" resolveInfo="_FloatOrInteger_String" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="suqv.2319506556913310727" resolveInfo="Point" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="1350375459505895540" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="2319506556913310852" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Layout_Connection" />
     <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="2319506556913311101" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="anchors" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="2319506556913310727" resolveInfo="Point" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="suqv.2319506556913310852" resolveInfo="Layout_Connection" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="2319506556913310853" nodeInfo="ng">
       <property name="role" nameId="tpce.7588428831955550663" value="connectionLayout" />
       <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="2319506556913310857" nodeInfo="ng">
@@ -509,6 +482,7 @@
         <property name="value" nameId="tpce.6054523464626875854" value="false" />
       </node>
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="1350375459505895522" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8637411062062430894" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Function_PaletteFolder" />
@@ -740,33 +714,20 @@
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8963411245960991886" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
     <property name="name" nameId="tpck.1169194664001" value="LayoutMap" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.3364660638048049748" resolveInfo="NodeAttribute" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8963411245960991904" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="entries" />
-      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="8963411245960991903" resolveInfo="LayoutMapEntry" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="suqv.8963411245960991886" resolveInfo="LayoutMap" />
     <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.AttributeInfo" typeId="tpce.2992811758677295509" id="8963411245960991908" nodeInfo="ng">
       <property name="role" nameId="tpce.7588428831955550663" value="layoutMap" />
       <node role="attributed" roleId="tpce.7588428831947959310" type="tpce.AttributeInfo_AttributedConcept" typeId="tpce.6054523464627964745" id="8963411245960991916" nodeInfo="ng">
         <link role="concept" roleId="tpce.6054523464627965081" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
       </node>
     </node>
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="1350375459505895512" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8963411245960991903" nodeInfo="ig">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
     <property name="name" nameId="tpck.1169194664001" value="LayoutMapEntry" />
-    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8963411245960998404" nodeInfo="ig">
-      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
-      <property name="role" nameId="tpce.1071599776563" value="value" />
-      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
-    </node>
-    <node role="propertyDeclaration" roleId="tpce.1071489727084" type="tpce.PropertyDeclaration" typeId="tpce.1071489288299" id="8963411245960998400" nodeInfo="ig">
-      <property name="name" nameId="tpck.1169194664001" value="key" />
-      <link role="dataType" roleId="tpce.1082985295845" targetNodeId="tpck.1082983041843" resolveInfo="string" />
-    </node>
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="suqv.8963411245960991903" resolveInfo="LayoutMapEntry" />
+    <node role="smodelAttribute" roleId="tpck.5169995583184591170" type="tpce.DeprecatedNodeAnnotation" typeId="tpce.1224240836180" id="1350375459505895519" nodeInfo="ig" />
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="7890587897031711745" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="Content_GenericEdgeQuery" />

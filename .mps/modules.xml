@@ -7,9 +7,11 @@
       <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.diagram/runtime/jetbrains.mps.editor.diagram.runtime.msd" folder="commonDefinitionLanguage" />
       <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.diagram/sandbox/jetbrains.mps.editor.diagram.sandbox.msd" folder="commonDefinitionLanguage" />
       <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.figures/jetbrains.mps.editor.figures.mpl" folder="commonDefinitionLanguage" />
+      <modulePath path="$PROJECT_DIR$/devkits/de.itemis.mps.editor.diagram.devkit.devkit" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demo.callgraph/de.itemis.mps.editor.diagram.demo.callgraph.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demoentities/de.itemis.mps.editor.diagram.demoentities.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demolang/de.itemis.mps.editor.diagram.demolang.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.layout/de.itemis.mps.editor.diagram.layout.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.styles/de.itemis.mps.editor.diagram.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="nativelibs" />

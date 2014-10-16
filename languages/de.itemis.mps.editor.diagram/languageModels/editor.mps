@@ -1407,16 +1407,6 @@
       <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Indent" typeId="tpc2.1237303669825" id="7464726264118061803" nodeInfo="nn" />
     </node>
   </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2319506556913210775" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2qld.6720495385597071406" resolveInfo="Layout_Node" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="2319506556913221061" nodeInfo="ng" />
-  </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2319506556916701021" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2qld.2319506556913310852" resolveInfo="Layout_Connection" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="2319506556916701074" nodeInfo="ng" />
-  </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="3454709602156468997" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="shape" />
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2qld.3454709602156468860" resolveInfo="ShapeParameterDeclaration" />
@@ -1925,11 +1915,6 @@
       <link role="parentStyleClass" roleId="tpc2.1381004262292426837" targetNodeId="tpc5.3229274890674099465" resolveInfo="KeyWord" />
       <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpco.2900100530630621651" resolveInfo="alias" />
     </node>
-  </root>
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="8963411245961932714" nodeInfo="ng">
-    <property name="virtualPackage" nameId="tpck.1193676396447" value="layout" />
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="2qld.8963411245960991886" resolveInfo="LayoutMap" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_AttributedNodeCell" typeId="tpc2.1149850725784" id="8963411245961932767" nodeInfo="ng" />
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="7890587897031747242" nodeInfo="ng">
     <property name="virtualPackage" nameId="tpck.1193676396447" value="content" />

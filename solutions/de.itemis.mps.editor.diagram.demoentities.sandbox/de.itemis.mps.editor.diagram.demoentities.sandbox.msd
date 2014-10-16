@@ -13,5 +13,8 @@
   <usedLanguages>
     <usedLanguage>46b1f1f4-3955-4255-af94-7acb92d5711a(de.itemis.mps.editor.diagram.demoentities)</usedLanguage>
   </usedLanguages>
+  <usedDevKits>
+    <usedDevKit>b1972fb0-9171-4e58-8cee-05866bb91ec2(de.itemis.mps.editor.diagram.devkit)</usedDevKit>
+  </usedDevKits>
 </solution>
 
