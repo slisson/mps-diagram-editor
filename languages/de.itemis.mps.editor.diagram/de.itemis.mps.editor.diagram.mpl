@@ -15,6 +15,7 @@
         </modelRoot>
       </models>
       <external-templates>
+        <generator generatorUID="a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)" />
         <generator generatorUID="0647eca7-da98-422a-8a8b-6ebc0bd014ea(jetbrains.mps.lang.editor#1129914002149)" />
       </external-templates>
       <dependencies>
@@ -63,6 +64,20 @@
             </external-mapping>
           </lesser-priority-mapping>
         </mapping-priority-rule>
+        <mapping-priority-rule kind="strictly_before">
+          <greater-priority-mapping>
+            <generator generatorUID="9a94d19e-1f70-46b2-87a7-a5b1c8e1fc5f(de.itemis.mps.editor.diagram#1110129820007083940)" />
+            <external-mapping>
+              <mapping-node modelUID="r:9270b118-f381-43ed-ba74-93e780e8de68(de.itemis.mps.editor.diagram.generator.template.main@generator)" nodeID="1110129820007083941" />
+            </external-mapping>
+          </greater-priority-mapping>
+          <lesser-priority-mapping>
+            <generator generatorUID="a150150e-46ee-4c9e-b080-08d136e4eefb(jetbrains.mps.baseLanguage.tuples#1238919486295)" />
+            <external-mapping>
+              <mapping-node modelUID="r:c71b740e-a20d-4190-9688-0f8df932da4d(jetbrains.mps.baseLanguage.tuples.generator.template.main@generator)" nodeID="*" />
+            </external-mapping>
+          </lesser-priority-mapping>
+        </mapping-priority-rule>
       </mapping-priorities>
     </generator>
   </generators>
@@ -88,6 +103,7 @@
   <extendedLanguages>
     <extendedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</extendedLanguage>
     <extendedLanguage>8ca79d43-eb45-4791-bdd4-0d6130ff895b(de.itemis.mps.editor.diagram.layout)</extendedLanguage>
+    <extendedLanguage>a247e09e-2435-45ba-b8d2-07e93feba96a(jetbrains.mps.baseLanguage.tuples)</extendedLanguage>
   </extendedLanguages>
 </language>
 
