@@ -24,7 +24,7 @@
   <import index="9lvj" modelUID="r:96ef99ad-4777-4e07-b5ac-713fe7c8396a(de.itemis.mps.nativelibs.structure)" version="0" implicit="yes" />
   <root type="tgbt.StandalonePluginDescriptor" typeId="tgbt.7520713872864775836" id="5490129062794787262" nodeInfo="ng" />
   <root type="tp4k.ToolDeclaration" typeId="tp4k.1203071677434" id="5490129062794787314" nodeInfo="ng">
-    <property name="name" nameId="tpck.1169194664001" value="Palette" />
+    <property name="name" nameId="tpck.1169194664001" value="Diagram Palette" />
     <property name="position" nameId="tp4k.2498620720770664572" value="RIGHT" />
     <node role="methodDeclaration" roleId="tp4k.6547237850567462848" type="tp4f.DefaultClassifierMethodDeclaration" typeId="tp4f.1205769003971" id="5490129062796718505" nodeInfo="ng">
       <property name="name" nameId="tpck.1169194664001" value="update" />
@@ -169,7 +169,7 @@
                 </node>
               </node>
               <node role="operation" roleId="tpee.1197027833540" type="tgbt.GetToolInProjectOperation" typeId="tgbt.681855071694758165" id="1165977097523271458" nodeInfo="nn">
-                <link role="tool" roleId="tgbt.681855071694758166" targetNodeId="5490129062794787314" resolveInfo="Palette" />
+                <link role="tool" roleId="tgbt.681855071694758166" targetNodeId="5490129062794787314" resolveInfo="Diagram Palette" />
               </node>
             </node>
             <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierMethodCallOperation" typeId="tp4f.1205769149993" id="5490129062797004336" nodeInfo="nn">
