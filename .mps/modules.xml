@@ -8,6 +8,7 @@
       <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.diagram/sandbox/jetbrains.mps.editor.diagram.sandbox.msd" folder="commonDefinitionLanguage" />
       <modulePath path="$PROJECT_DIR$/definitionLanguage/languages/jetbrains.mps.editor.figures/jetbrains.mps.editor.figures.mpl" folder="commonDefinitionLanguage" />
       <modulePath path="$PROJECT_DIR$/devkits/de.itemis.mps.editor.diagram.devkit.devkit" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.collapsible/de.itemis.mps.editor.collapsible.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demo.callgraph/de.itemis.mps.editor.diagram.demo.callgraph.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demoentities/de.itemis.mps.editor.diagram.demoentities.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.demolang/de.itemis.mps.editor.diagram.demolang.mpl" folder="" />
@@ -15,6 +16,7 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.styles/de.itemis.mps.editor.diagram.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="nativelibs" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.collapsible.runtime/de.itemis.mps.editor.collapsible.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.demoentities.sandbox/de.itemis.mps.editor.diagram.demoentities.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.runtime/de.itemis.mps.editor.diagram.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="" />
