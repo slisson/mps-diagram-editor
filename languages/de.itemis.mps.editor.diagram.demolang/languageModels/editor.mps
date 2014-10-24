@@ -40,23 +40,58 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="o1st.CellModel_Collapsible" typeId="o1st.4767615435807737350" id="4767615435809760313" nodeInfo="ng">
         <property name="showCollapsedAlways" nameId="o1st.4767615435812496286" value="true" />
         <property name="collapsedByDefault" nameId="o1st.4767615435813506612" value="true" />
-        <node role="expandedCell" roleId="o1st.4767615435808541838" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435809760397" nodeInfo="nn">
-          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435809760410" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="expanded" />
-          </node>
-          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435809760414" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="expanded" />
-          </node>
-          <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435811701204" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="expanded" />
-          </node>
-          <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="4767615435809760400" nodeInfo="nn" />
-          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="4767615435809760401" nodeInfo="nn">
-            <property name="flag" nameId="tpc2.1186414551515" value="false" />
-          </node>
-        </node>
         <node role="collapsedCell" roleId="o1st.4767615435811051865" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435811338115" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="collapsed" />
+        </node>
+        <node role="expandedCell" roleId="o1st.4767615435808541838" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435814503596" nodeInfo="nn">
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="o1st.CellModel_Collapsible" typeId="o1st.4767615435807737350" id="4767615435814503325" nodeInfo="ng">
+            <property name="showCollapsedAlways" nameId="o1st.4767615435812496286" value="true" />
+            <property name="collapsedByDefault" nameId="o1st.4767615435813506612" value="true" />
+            <node role="expandedCell" roleId="o1st.4767615435808541838" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435809760397" nodeInfo="nn">
+              <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435809760410" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="expanded" />
+              </node>
+              <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435809760414" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="expanded" />
+              </node>
+              <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435811701204" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="expanded" />
+              </node>
+              <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="4767615435809760400" nodeInfo="nn" />
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="4767615435809760401" nodeInfo="nn">
+                <property name="flag" nameId="tpc2.1186414551515" value="false" />
+              </node>
+            </node>
+            <node role="collapsedCell" roleId="o1st.4767615435811051865" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435814503362" nodeInfo="nn">
+              <property name="text" nameId="tpc2.1073389577007" value="child1" />
+            </node>
+          </node>
+          <node role="childCellModel" roleId="tpc2.1073389446424" type="o1st.CellModel_Collapsible" typeId="o1st.4767615435807737350" id="4767615435814503648" nodeInfo="ng">
+            <property name="showCollapsedAlways" nameId="o1st.4767615435812496286" value="true" />
+            <property name="collapsedByDefault" nameId="o1st.4767615435813506612" value="true" />
+            <node role="expandedCell" roleId="o1st.4767615435808541838" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435814503649" nodeInfo="nn">
+              <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435814503650" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="expanded" />
+              </node>
+              <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435814503651" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="expanded" />
+              </node>
+              <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435814503652" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="expanded" />
+              </node>
+              <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="4767615435814503653" nodeInfo="nn" />
+              <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="4767615435814503654" nodeInfo="nn">
+                <property name="flag" nameId="tpc2.1186414551515" value="false" />
+              </node>
+            </node>
+            <node role="collapsedCell" roleId="o1st.4767615435811051865" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435814503655" nodeInfo="nn">
+              <property name="text" nameId="tpc2.1073389577007" value="child2" />
+            </node>
+          </node>
+          <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="4767615435814503597" nodeInfo="nn" />
+          <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="4767615435814503598" nodeInfo="nn">
+            <property name="flag" nameId="tpc2.1186414551515" value="false" />
+          </node>
         </node>
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5490129062797935045" nodeInfo="nn">
