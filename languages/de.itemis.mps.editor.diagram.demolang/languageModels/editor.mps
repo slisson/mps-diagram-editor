@@ -38,8 +38,8 @@
         <property name="text" nameId="tpc2.1073389577007" value="root concept" />
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="o1st.CellModel_Collapsible" typeId="o1st.4767615435807737350" id="4767615435809760313" nodeInfo="ng">
-        <property name="showCollapsedAlways" nameId="o1st.4767615435812496286" value="true" />
         <property name="collapsedByDefault" nameId="o1st.4767615435813506612" value="true" />
+        <property name="showBracketLine" nameId="o1st.4767615435817184498" value="true" />
         <node role="collapsedCell" roleId="o1st.4767615435811051865" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435811338115" nodeInfo="nn">
           <property name="text" nameId="tpc2.1073389577007" value="collapsed" />
         </node>
@@ -47,6 +47,7 @@
           <node role="childCellModel" roleId="tpc2.1073389446424" type="o1st.CellModel_Collapsible" typeId="o1st.4767615435807737350" id="4767615435814503325" nodeInfo="ng">
             <property name="showCollapsedAlways" nameId="o1st.4767615435812496286" value="true" />
             <property name="collapsedByDefault" nameId="o1st.4767615435813506612" value="true" />
+            <property name="showBracketLine" nameId="o1st.4767615435817184498" value="true" />
             <node role="expandedCell" roleId="o1st.4767615435808541838" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435809760397" nodeInfo="nn">
               <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435809760410" nodeInfo="nn">
                 <property name="text" nameId="tpc2.1073389577007" value="expanded" />
@@ -195,6 +196,7 @@
           <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="1315262826372639397" nodeInfo="nn" />
         </node>
         <node role="childCellModel" roleId="tpc2.1073389446424" type="o1st.CellModel_Collapsible" typeId="o1st.4767615435807737350" id="4767615435809179582" nodeInfo="ng">
+          <property name="collapsedByDefault" nameId="o1st.4767615435813506612" value="true" />
           <node role="expandedCell" roleId="o1st.4767615435808541838" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435809179629" nodeInfo="nn">
             <node role="childCellModel" roleId="tpc2.1073389446424" type="2qld.CellModel_Compartment" typeId="2qld.4254343767716913574" id="4254343767716976302" nodeInfo="ng" />
             <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_RefNode" typeId="tpc2.1073389882823" id="1993059304076885998" nodeInfo="ng">
@@ -225,8 +227,28 @@
               <property name="flag" nameId="tpc2.1186414551515" value="false" />
             </node>
           </node>
+          <node role="collapsedCell" roleId="o1st.4767615435811051865" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435815636628" nodeInfo="nn">
+            <node role="childCellModel" roleId="tpc2.1073389446424" type="2qld.CellModel_Compartment" typeId="2qld.4254343767716913574" id="4767615435815636667" nodeInfo="ng">
+              <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineWidth" typeId="2qld.6987730699889040827" id="4767615435816193277" nodeInfo="ng">
+                <property name="value" nameId="2qld.6987730699889499559" value="1.0" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineColor" typeId="2qld.6987730699889040828" id="4767615435816193278" nodeInfo="ng">
+                <property name="color" nameId="tpc2.1186403713874" value="black" />
+              </node>
+              <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineStyle" typeId="2qld.6987730699888898446" id="4767615435816193279" nodeInfo="ng">
+                <property name="value" nameId="2qld.6987730699889504313" value="SOLID" />
+              </node>
+            </node>
+            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="4767615435815636629" nodeInfo="nn" />
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="4767615435815636630" nodeInfo="nn">
+              <property name="flag" nameId="tpc2.1186414551515" value="false" />
+            </node>
+          </node>
         </node>
         <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="4254343767716976114" nodeInfo="nn" />
+        <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435815822956" nodeInfo="nn">
+          <property name="text" nameId="tpc2.1073389577007" value=" " />
+        </node>
       </node>
       <node role="contentList" roleId="2qld.3462102746002398088" type="2qld.Content_GenericBoxQuery" typeId="2qld.3155126767690989914" id="3462102746002955936" nodeInfo="ng">
         <node role="editorComponent" roleId="2qld.6554619383004026644" type="2qld.Content_GenericElementQuery_InlineEditorComponent" typeId="2qld.6554619383003875357" id="3462102746002955937" nodeInfo="ng">
