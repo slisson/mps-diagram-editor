@@ -39,6 +39,7 @@
       </node>
       <node role="childCellModel" roleId="tpc2.1073389446424" type="o1st.CellModel_Collapsible" typeId="o1st.4767615435807737350" id="4767615435809760313" nodeInfo="ng">
         <property name="showCollapsedAlways" nameId="o1st.4767615435812496286" value="true" />
+        <property name="collapsedByDefault" nameId="o1st.4767615435813506612" value="true" />
         <node role="expandedCell" roleId="o1st.4767615435808541838" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="4767615435809760397" nodeInfo="nn">
           <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="4767615435809760410" nodeInfo="nn">
             <property name="text" nameId="tpc2.1073389577007" value="expanded" />
