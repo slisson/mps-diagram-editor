@@ -3012,7 +3012,7 @@
               </node>
             </node>
           </node>
-          <node role="inputSequence" roleId="tp2q.1153944424730" type="tpee.DotExpression" typeId="tpee.1197027756228" id="6308306161998608918" nodeInfo="nn">
+          <node role="inputSequence" roleId="tp2q.1153944424730" type="pxpg.CheckedDotExpression" typeId="pxpg.4079382982702596667" id="8320467315878309930" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="6308306161998608919" nodeInfo="nn">
               <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="6308306161998608709" resolveInfo="myModel" />
             </node>
