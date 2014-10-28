@@ -269,14 +269,6 @@
       <property name="os" nameId="9lvj.3127003635836813259" value="OSX64" />
       <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/osx64/adaptagrams.dylib" />
     </node>
-    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898369" nodeInfo="ng">
-      <property name="os" nameId="9lvj.3127003635836813259" value="WIN32" />
-      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win32/adaptagrams.dll" />
-    </node>
-    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898375" nodeInfo="ng">
-      <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
-      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win64/adaptagrams.dll" />
-    </node>
     <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906820" nodeInfo="ng">
       <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/linux32/libavoid.so" />
     </node>
@@ -292,9 +284,37 @@
       <property name="os" nameId="9lvj.3127003635836813259" value="OSX64" />
       <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/osx64/libavoid.dylib" />
     </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898369" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN32" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win32/libgcc_s_dw2-1.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="5095863056599901539" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN32" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win32/libstdc++-6.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="5095863056599901522" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN32" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win32/adaptagrams.dll" />
+    </node>
     <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906824" nodeInfo="ng">
       <property name="os" nameId="9lvj.3127003635836813259" value="WIN32" />
       <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win32/libavoid.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="4473909030265654513" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win64/libwinpthread-1.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="4473909030265654782" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win64/libgcc_s_seh-1.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836898375" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win64/libstdc++-6.dll" />
+    </node>
+    <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="4473909030265635192" nodeInfo="ng">
+      <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
+      <property name="path" nameId="9lvj.3127003635836719887" value="lib/libavoid/win64/adaptagrams.dll" />
     </node>
     <node role="libraries" roleId="9lvj.3127003635836719881" type="9lvj.NativeLibrary" typeId="9lvj.3127003635836719880" id="3127003635836906825" nodeInfo="ng">
       <property name="os" nameId="9lvj.3127003635836813259" value="WIN64" />
