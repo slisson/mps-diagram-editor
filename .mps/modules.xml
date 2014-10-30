@@ -15,12 +15,16 @@
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.layout/de.itemis.mps.editor.diagram.layout.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram.styles/de.itemis.mps.editor.diagram.styles.mpl" folder="" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.diagram/de.itemis.mps.editor.diagram.mpl" folder="" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.layout.demolang/de.itemis.mps.editor.layout.demolang.mpl" folder="layout" />
+      <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.editor.layout/de.itemis.mps.editor.layout.mpl" folder="layout" />
       <modulePath path="$PROJECT_DIR$/languages/de.itemis.mps.nativelibs/de.itemis.mps.nativelibs.mpl" folder="nativelibs" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.collapsible.runtime/de.itemis.mps.editor.collapsible.runtime.msd" folder="collapsible" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.demoentities.sandbox/de.itemis.mps.editor.diagram.demoentities.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.runtime/de.itemis.mps.editor.diagram.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.sandbox/de.itemis.mps.editor.diagram.sandbox.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.shapes/de.itemis.mps.editor.diagram.shapes.msd" folder="" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.layout.runtime/de.itemis.mps.editor.layout.runtime.msd" folder="layout" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.layout.sandbox/de.itemis.mps.editor.layout.sandbox.msd" folder="layout" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.nativelibs.loader/de.itemis.mps.nativelibs.loader.msd" folder="nativelibs" />
     </projectModules>
   </component>
