@@ -82,6 +82,10 @@
       <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Component" typeId="tpc2.1078939183254" id="1214478849829" nodeInfo="ng">
         <link role="editorComponent" roleId="tpc2.1078939183255" targetNodeId="tpc5.1214476568032" resolveInfo="_CellModel_Common" />
       </node>
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795016196524" nodeInfo="nn" />
+      <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795016196529" nodeInfo="nn">
+        <property name="text" nameId="tpc2.1073389577007" value="Cheat Sheet: http://migcalendar.com/miglayout/cheatsheet.html" />
+      </node>
       <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.SelectableStyleSheetItem" typeId="tpc2.1186414928363" id="1214310993752" nodeInfo="nn">
         <property name="flag" nameId="tpc2.1186414551515" value="false" />
       </node>
