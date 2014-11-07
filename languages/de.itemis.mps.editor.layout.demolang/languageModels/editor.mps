@@ -38,19 +38,6 @@
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014271730" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="east" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795015782081" nodeInfo="ng">
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795015782084" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795015782096" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="East" />
-              </node>
-            </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015782152" nodeInfo="nn">
-              <property name="color" nameId="tpc2.1186403713874" value="cyan" />
-            </node>
-          </node>
-        </node>
         <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014271882" nodeInfo="ng">
           <property name="constraints" nameId="fu06.2693937328336480554" value="south" />
           <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795015782184" nodeInfo="ng">
@@ -61,6 +48,19 @@
             </node>
             <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015782255" nodeInfo="nn">
               <property name="color" nameId="tpc2.1186403713874" value="DARK_GREEN" />
+            </node>
+          </node>
+        </node>
+        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014271730" nodeInfo="ng">
+          <property name="constraints" nameId="fu06.2693937328336480554" value="east" />
+          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795015782081" nodeInfo="ng">
+            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795015782084" nodeInfo="ng">
+              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795015782096" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="East" />
+              </node>
+            </node>
+            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015782152" nodeInfo="nn">
+              <property name="color" nameId="tpc2.1186403713874" value="cyan" />
             </node>
           </node>
         </node>
@@ -75,6 +75,11 @@
             <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015782312" nodeInfo="nn">
               <property name="color" nameId="tpc2.1186403713874" value="yellow" />
             </node>
+          </node>
+        </node>
+        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795018599283" nodeInfo="ng">
+          <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="500099795018599415" nodeInfo="ng">
+            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="6m47.500099795018599280" resolveInfo="property1" />
           </node>
         </node>
         <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="2693937328336519640" nodeInfo="ng">
