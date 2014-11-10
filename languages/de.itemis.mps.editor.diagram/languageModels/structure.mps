@@ -72,7 +72,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6237710625713195816" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CellModel_DiagramNode" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="box" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="diagram.box" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5490129062797975263" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -129,7 +129,7 @@
   </root>
   <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="6237710625713831199" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="CellModel_DiagramConnector" />
-    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="connector" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="diagram.edge" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
     <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="6237710625716706780" nodeInfo="ig">
       <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
@@ -1069,6 +1069,17 @@
       <property name="role" nameId="tpce.1071599776563" value="shape" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="1" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="7464726264117677936" resolveInfo="IShape" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="301931493264781535" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="CellModel_DiagramContent" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="diagram.content" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpc2.1073389214265" resolveInfo="EditorCellModel" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="301931493264781774" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="contentList" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="3155126767688724548" resolveInfo="IDiagramContent" />
     </node>
   </root>
 </model>
