@@ -1318,7 +1318,7 @@
           <property name="layoutConstraints" nameId="fu06.2693937328336481223" value="wrap1" />
           <property name="columnConstraints" nameId="fu06.2693937328336481226" value="center" />
           <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795021628349" nodeInfo="ng">
-            <property name="constraints" nameId="fu06.2693937328336480554" value="w 30, h 20" />
+            <property name="constraints" nameId="fu06.2693937328336480554" value="w 100, h 80" />
             <node role="cell" roleId="fu06.2693937328336480561" type="2qld.CellModel_Shape" typeId="2qld.500099795019625460" id="500099795021628391" nodeInfo="ng">
               <node role="shape" roleId="2qld.500099795019625833" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="500099795021628392" nodeInfo="ng">
                 <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="tqfk.5642467428246420661" resolveInfo="Ellipsis" />
