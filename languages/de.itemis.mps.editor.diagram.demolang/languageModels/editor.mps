@@ -432,6 +432,16 @@
           </node>
         </node>
       </node>
+      <node role="deleteHandler" roleId="2qld.5725606875425244480" type="2qld.DeleteHandler" typeId="2qld.3462102746004176270" id="5725606875425699139" nodeInfo="ng">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5725606875425699140" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5725606875425701677" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5725606875425701795" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="2qld.ThisNodeExpression" typeId="2qld.8587703283519920118" id="5725606875425701676" nodeInfo="ng" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_DeleteOperation" typeId="tp25.1140133623887" id="5725606875425702558" nodeInfo="nn" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="6237710625713838799" nodeInfo="ng">
@@ -613,6 +623,16 @@
           <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="7fae.3378824149782230872" resolveInfo="roleTo" />
           <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.FontSizeStyleClassItem" typeId="tpc2.1186415722038" id="8587703283524115943" nodeInfo="nn">
             <property name="value" nameId="tpc2.1221209241505" value="8" />
+          </node>
+        </node>
+      </node>
+      <node role="deleteHandler" roleId="2qld.5725606875425248008" type="2qld.DeleteHandler" typeId="2qld.3462102746004176270" id="5725606875425704810" nodeInfo="ng">
+        <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5725606875425704811" nodeInfo="sn">
+          <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="5725606875425705848" nodeInfo="nn">
+            <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5725606875425705925" nodeInfo="nn">
+              <node role="operand" roleId="tpee.1197027771414" type="2qld.ThisNodeExpression" typeId="2qld.8587703283519920118" id="5725606875425705847" nodeInfo="ng" />
+              <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_DeleteOperation" typeId="tp25.1140133623887" id="5725606875425706462" nodeInfo="nn" />
+            </node>
           </node>
         </node>
       </node>
