@@ -1081,6 +1081,16 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3155126767688724548" resolveInfo="IDiagramContent" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="301931493268065286" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="ingoingRedirect" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6554619383001456685" resolveInfo="IEndpointTarget" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="301931493268065521" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="outgoingRedirect" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="6554619383001456685" resolveInfo="IEndpointTarget" />
+    </node>
   </root>
 </model>
 
