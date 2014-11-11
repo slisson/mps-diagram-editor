@@ -1358,6 +1358,9 @@
           <node role="operation" roleId="tpee.1197027833540" type="tp2q.GetLastOperation" typeId="tp2q.1165595910856" id="301931493268259195" nodeInfo="nn" />
         </node>
       </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineColor" typeId="2qld.6987730699889040828" id="301931493276071786" nodeInfo="ng">
+        <property name="color" nameId="tpc2.1186403713874" value="blue" />
+      </node>
     </node>
   </root>
 </model>
