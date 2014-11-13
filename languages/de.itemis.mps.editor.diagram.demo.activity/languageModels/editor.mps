@@ -1063,7 +1063,7 @@
       <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="5725606875425088899" resolveInfo="ActivityAsDiagram" />
     </node>
     <node role="cellModel" roleId="tpc2.1080736633877" type="2qld.CellModel_DiagramContent" typeId="2qld.301931493264781535" id="301931493266737131" nodeInfo="ng">
-      <node role="contentList" roleId="2qld.301931493264781774" type="2qld.Content_BLQuery" typeId="2qld.6237710625713942002" id="301931493266737134" nodeInfo="ng">
+      <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_BLQuery" typeId="2qld.6237710625713942002" id="301931493266737134" nodeInfo="ng">
         <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="301931493266737135" nodeInfo="sn">
           <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="301931493266737817" nodeInfo="nn">
             <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="301931493266744012" nodeInfo="nn">
@@ -1080,7 +1080,7 @@
           </node>
         </node>
       </node>
-      <node role="contentList" roleId="2qld.301931493264781774" type="2qld.Content_GenericEdgeQuery" typeId="2qld.7890587897031711745" id="301931493267253855" nodeInfo="ng">
+      <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericEdgeQuery" typeId="2qld.7890587897031711745" id="301931493267253855" nodeInfo="ng">
         <node role="fromEndpoint" roleId="2qld.6554619383001476814" type="2qld.BoxEndpointTarget" typeId="2qld.6554619383001456740" id="301931493267253856" nodeInfo="ng">
           <node role="targetId" roleId="2qld.6554619383001456819" type="cx9y.IndexedTupleMemberAccessExpression" typeId="cx9y.1238857743184" id="301931493267253857" nodeInfo="nn">
             <node role="index" roleId="cx9y.1238857834412" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="301931493267253858" nodeInfo="nn">
@@ -1187,7 +1187,7 @@
           </node>
         </node>
       </node>
-      <node role="contentList" roleId="2qld.301931493264781774" type="2qld.Content_GenericEdgeQuery" typeId="2qld.7890587897031711745" id="301931493267305855" nodeInfo="ng">
+      <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericEdgeQuery" typeId="2qld.7890587897031711745" id="301931493267305855" nodeInfo="ng">
         <node role="fromEndpoint" roleId="2qld.6554619383001476814" type="2qld.BoxEndpointTarget" typeId="2qld.6554619383001456740" id="301931493267641080" nodeInfo="ng">
           <node role="targetId" roleId="2qld.6554619383001456819" type="tpee.DotExpression" typeId="tpee.1197027756228" id="301931493267657703" nodeInfo="nn">
             <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="301931493267647338" nodeInfo="nn">
@@ -1324,6 +1324,9 @@
               </node>
             </node>
           </node>
+        </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineColor" typeId="2qld.6987730699889040828" id="5383048119162482929" nodeInfo="ng">
+          <property name="color" nameId="tpc2.1186403713874" value="DARK_MAGENTA" />
         </node>
       </node>
       <node role="ingoingRedirect" roleId="2qld.301931493268065286" type="2qld.BoxEndpointTarget" typeId="2qld.6554619383001456740" id="301931493268202879" nodeInfo="ng">
