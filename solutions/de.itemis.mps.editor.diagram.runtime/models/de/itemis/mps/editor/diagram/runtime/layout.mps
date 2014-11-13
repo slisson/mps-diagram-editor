@@ -6363,7 +6363,7 @@
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6308306161998608760" nodeInfo="nn">
               <node role="creator" roleId="tpee.1145553007750" type="tpee.ClassCreator" typeId="tpee.1212685548494" id="6308306161998608761" nodeInfo="nn">
-                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="7t40.~LayeredLayoutProvider%d&lt;init&gt;()" resolveInfo="LayeredLayoutProvider" />
+                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="r38u.~TreeLayoutProvider%d&lt;init&gt;()" resolveInfo="TreeLayoutProvider" />
               </node>
             </node>
           </node>

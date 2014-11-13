@@ -1359,7 +1359,10 @@
         </node>
       </node>
       <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineColor" typeId="2qld.6987730699889040828" id="301931493276071786" nodeInfo="ng">
-        <property name="color" nameId="tpc2.1186403713874" value="blue" />
+        <property name="color" nameId="tpc2.1186403713874" value="orange" />
+      </node>
+      <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineWidth" typeId="2qld.6987730699889040827" id="5422144414820284744" nodeInfo="ng">
+        <property name="value" nameId="2qld.6987730699889499559" value="2.0" />
       </node>
     </node>
   </root>
