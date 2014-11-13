@@ -48,5 +48,16 @@
   <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="5725606875425068433" nodeInfo="ig">
     <property name="name" nameId="tpck.1169194664001" value="IActivityModuleContent" />
   </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="5383048119166641787" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="BranchStatement" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="branch" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1068580123157" resolveInfo="Statement" />
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="5383048119166641894" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="branches" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="1..n" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="tpee.1068580123136" resolveInfo="StatementList" />
+    </node>
+  </root>
 </model>
 
