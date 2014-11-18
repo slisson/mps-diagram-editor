@@ -8818,9 +8818,12 @@
                             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7505463618574452928" nodeInfo="in">
                               <link role="classifier" roleId="tpee.1107535924139" targetNodeId="xqcy.1315262826370492137" resolveInfo="ILayouter" />
                             </node>
-                            <node role="initializer" roleId="tpee.1068431790190" type="tpee.GenericNewExpression" typeId="tpee.1145552977093" id="6694825547356799291" nodeInfo="nn">
-                              <node role="creator" roleId="tpee.1145553007750" type="tpee.DefaultClassCreator" typeId="tpee.2820489544401957797" id="7418126174069762621" nodeInfo="nn">
-                                <link role="classifier" roleId="tpee.2820489544401957798" targetNodeId="xqcy.7745558105096942579" resolveInfo="LayeredLayouter" />
+                            <node role="initializer" roleId="tpee.1068431790190" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8433227566819351737" nodeInfo="nn">
+                              <node role="operand" roleId="tpee.1197027771414" type="tpee.VariableReference" typeId="tpee.1068498886296" id="8433227566819351530" nodeInfo="nn">
+                                <link role="variableDeclaration" roleId="tpee.1068581517664" targetNodeId="8637411062064145119" resolveInfo="myModel" />
+                              </node>
+                              <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="8433227566819352442" nodeInfo="nn">
+                                <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="nkm5.8433227566818886913" resolveInfo="getLayouter" />
                               </node>
                             </node>
                           </node>

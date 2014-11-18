@@ -63,6 +63,12 @@
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="1981294357059557456" resolveInfo="IPaletteSource" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="8433227566816393050" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="layoutAlgorithm" />
+      <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..1" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="8433227566816385664" resolveInfo="ILayoutAlgorithm" />
+    </node>
     <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="5383048119156619342" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="5383048119156619323" resolveInfo="IDiagramElementsProvider" />
     </node>
@@ -1090,6 +1096,28 @@
       <property name="role" nameId="tpce.1071599776563" value="contentList" />
       <property name="sourceCardinality" nameId="tpce.1071599893252" value="0..n" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="3155126767688724548" resolveInfo="IDiagramContent" />
+    </node>
+  </root>
+  <root type="tpce.InterfaceConceptDeclaration" typeId="tpce.1169125989551" id="8433227566816385664" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="ILayoutAlgorithm" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="layoutAlgorithm" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8433227566817223068" nodeInfo="ig">
+    <property name="name" nameId="tpck.1169194664001" value="LayeredLayoutAlgorithm" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="layered" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="layoutAlgorithm" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8433227566817223360" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8433227566816385664" resolveInfo="ILayoutAlgorithm" />
+    </node>
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="8433227566817752538" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="layoutAlgorithm" />
+    <property name="name" nameId="tpck.1169194664001" value="TreeLayoutAlgorithm" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="tree" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpck.1133920641626" resolveInfo="BaseConcept" />
+    <node role="implements" roleId="tpce.1169129564478" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="8433227566817752539" nodeInfo="ig">
+      <link role="intfc" roleId="tpce.1169127628841" targetNodeId="8433227566816385664" resolveInfo="ILayoutAlgorithm" />
     </node>
   </root>
 </model>

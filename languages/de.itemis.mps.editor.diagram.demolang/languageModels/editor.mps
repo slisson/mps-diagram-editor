@@ -253,7 +253,7 @@
           <property name="text" nameId="tpc2.1073389577007" value=" " />
         </node>
       </node>
-      <node role="contentList" roleId="2qld.3462102746002398088" type="2qld.Content_GenericBoxQuery" typeId="2qld.3155126767690989914" id="3462102746002955936" nodeInfo="ng">
+      <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericBoxQuery" typeId="2qld.3155126767690989914" id="3462102746002955936" nodeInfo="ng">
         <node role="editorComponent" roleId="2qld.6554619383004026644" type="2qld.Content_GenericElementQuery_InlineEditorComponent" typeId="2qld.6554619383003875357" id="3462102746002955937" nodeInfo="ng">
           <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_ReadOnlyModelAccessor" typeId="tpc2.1225900081164" id="3462102746002984855" nodeInfo="ng">
             <node role="modelAccessor" roleId="tpc2.1225900141900" type="tpc2.ReadOnlyModelAccessor" typeId="tpc2.1225898583838" id="3462102746002984857" nodeInfo="ng">
@@ -1269,6 +1269,7 @@
           </node>
         </node>
       </node>
+      <node role="layoutAlgorithm" roleId="2qld.8433227566816393050" type="2qld.LayeredLayoutAlgorithm" typeId="2qld.8433227566817223068" id="8433227566818280291" nodeInfo="ng" />
     </node>
   </root>
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5490129062797934886" nodeInfo="ng">
