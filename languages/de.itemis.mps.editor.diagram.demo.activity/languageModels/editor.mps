@@ -421,7 +421,9 @@
           </node>
         </node>
       </node>
-      <node role="layoutAlgorithm" roleId="2qld.8433227566816393050" type="2qld.TreeLayoutAlgorithm" typeId="2qld.8433227566817752538" id="7623784619785168366" nodeInfo="ng" />
+      <node role="layoutAlgorithm" roleId="2qld.8433227566816393050" type="2qld.LayeredLayoutAlgorithm" typeId="2qld.8433227566817223068" id="7623784619793196638" nodeInfo="ng">
+        <property name="direction" nameId="2qld.7623784619795245948" value="DOWN" />
+      </node>
     </node>
     <node role="contextHints" roleId="tpc2.2597348684684069742" type="tpc2.ConceptEditorHintDeclarationReference" typeId="tpc2.6822301196700715228" id="5725606875425818534" nodeInfo="ig">
       <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="5725606875425088899" resolveInfo="ActivityAsDiagram" />
