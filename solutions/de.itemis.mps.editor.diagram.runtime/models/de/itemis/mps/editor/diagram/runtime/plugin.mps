@@ -59,9 +59,26 @@
       <node role="parameter" roleId="tpee.1068580123134" type="tpee.ParameterDeclaration" typeId="tpee.1068498886292" id="2397067194338741771" nodeInfo="ir">
         <property name="name" nameId="tpck.1169194664001" value="diagramCell" />
         <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="2397067194338741770" nodeInfo="in">
-          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="DiagramCell" />
+          <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="RootDiagramCell" />
         </node>
       </node>
+    </node>
+    <node role="methodDeclaration" roleId="tp4k.6547237850567462848" type="tp4f.DefaultClassifierMethodDeclaration" typeId="tp4f.1205769003971" id="7623784619788764550" nodeInfo="ng">
+      <property name="name" nameId="tpck.1169194664001" value="getPaletteComponent" />
+      <node role="returnType" roleId="tpee.1068580123133" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="7623784619788768151" nodeInfo="in">
+        <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062794788793" resolveInfo="Palette" />
+      </node>
+      <node role="body" roleId="tpee.1068580123135" type="tpee.StatementList" typeId="tpee.1068580123136" id="7623784619788764552" nodeInfo="sn">
+        <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="7623784619788768359" nodeInfo="nn">
+          <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="7623784619788768353" nodeInfo="nn">
+            <node role="operand" roleId="tpee.1197027771414" type="tp4f.ThisClassifierExpression" typeId="tp4f.1205752633985" id="7623784619788768356" nodeInfo="nn" />
+            <node role="operation" roleId="tpee.1197027833540" type="tp4f.DefaultClassifierFieldAccessOperation" typeId="tp4f.1213999117680" id="7623784619788768358" nodeInfo="nn">
+              <link role="member" roleId="tp4f.1205756909548" targetNodeId="5490129062794811625" resolveInfo="myComponent" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node role="visibility" roleId="tpee.1178549979242" type="tpee.PublicVisibility" typeId="tpee.1146644602865" id="7623784619788767957" nodeInfo="nn" />
     </node>
     <node role="getComponentBlock" roleId="tp4k.1214307129846" type="tp4k.GetComponentBlock" typeId="tp4k.1214307303872" id="5490129062794787541" nodeInfo="nn">
       <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="5490129062794787542" nodeInfo="sn">
@@ -160,11 +177,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5490129062796997800" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="selectedCell" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5490129062796997801" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="DiagramCell" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="RootDiagramCell" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.AsExpression" typeId="tpee.1224071154655" id="5490129062796997802" nodeInfo="nn">
               <node role="classifierType" roleId="tpee.1224071154657" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5490129062796997803" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="DiagramCell" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="RootDiagramCell" />
               </node>
               <node role="expression" roleId="tpee.1224071154656" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5490129062796997804" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5490129062796997805" nodeInfo="nn">
@@ -210,11 +227,11 @@
           <node role="localVariableDeclaration" roleId="tpee.1068581242865" type="tpee.LocalVariableDeclaration" typeId="tpee.1068581242863" id="5490129062796982084" nodeInfo="nr">
             <property name="name" nameId="tpck.1169194664001" value="selectedCell" />
             <node role="type" roleId="tpee.5680397130376446158" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5490129062796985549" nodeInfo="in">
-              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="DiagramCell" />
+              <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="RootDiagramCell" />
             </node>
             <node role="initializer" roleId="tpee.1068431790190" type="tpee.AsExpression" typeId="tpee.1224071154655" id="5490129062796986352" nodeInfo="nn">
               <node role="classifierType" roleId="tpee.1224071154657" type="tpee.ClassifierType" typeId="tpee.1107535904670" id="5490129062796986355" nodeInfo="in">
-                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="DiagramCell" />
+                <link role="classifier" roleId="tpee.1107535924139" targetNodeId="r3rm.5490129062792847787" resolveInfo="RootDiagramCell" />
               </node>
               <node role="expression" roleId="tpee.1224071154656" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5490129062796982085" nodeInfo="nn">
                 <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="5490129062796982086" nodeInfo="nn">
