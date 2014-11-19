@@ -315,6 +315,11 @@
             <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="5725606875426694240" nodeInfo="ng" />
           </node>
         </node>
+        <node role="label" roleId="2qld.5126420796714340658" type="2qld.Content_GenericElementQuery_InlineEditorComponent" typeId="2qld.6554619383003875357" id="7623784619782159599" nodeInfo="ng">
+          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7623784619782161801" nodeInfo="nn">
+            <property name="text" nameId="tpc2.1073389577007" value="abc" />
+          </node>
+        </node>
       </node>
       <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericEdgeQuery" typeId="2qld.7890587897031711745" id="5725606875426902907" nodeInfo="ng">
         <node role="fromEndpoint" roleId="2qld.6554619383001476814" type="2qld.BoxEndpointTarget" typeId="2qld.6554619383001456740" id="5725606875426902908" nodeInfo="ng">
@@ -416,7 +421,7 @@
           </node>
         </node>
       </node>
-      <node role="layoutAlgorithm" roleId="2qld.8433227566816393050" type="2qld.TreeLayoutAlgorithm" typeId="2qld.8433227566817752538" id="8433227566820773385" nodeInfo="ng" />
+      <node role="layoutAlgorithm" roleId="2qld.8433227566816393050" type="2qld.TreeLayoutAlgorithm" typeId="2qld.8433227566817752538" id="7623784619785168366" nodeInfo="ng" />
     </node>
     <node role="contextHints" roleId="tpc2.2597348684684069742" type="tpc2.ConceptEditorHintDeclarationReference" typeId="tpc2.6822301196700715228" id="5725606875425818534" nodeInfo="ig">
       <link role="hint" roleId="tpc2.5944657839026714445" targetNodeId="5725606875425088899" resolveInfo="ActivityAsDiagram" />
