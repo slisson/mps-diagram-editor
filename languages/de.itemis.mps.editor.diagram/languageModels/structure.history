@@ -102,5 +102,29 @@
     </dependencies>
     <rename id="2qld.5490129062795541784" type="CONCEPT" from="Function_GetSubstituteInfo" to="PaletteSource_Query" />
   </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="16" />
+    </dependencies>
+    <rename id="2qld.6554619383003875357" type="CONCEPT" from="Content_GenericElementQuery_InlineEditorComponent" to="InlineEditorComponent" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="17" />
+    </dependencies>
+    <rename id="2qld.5725606875425248008" type="CHILD" from="deleteHandler" to="delete" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="18" />
+    </dependencies>
+    <rename id="2qld.9064581101900865530" type="CONCEPT" from="Content_GenericEdgeQuery_CanCreate" to="EdgeEditor_CanCreate" />
+  </StructureModification>
+  <StructureModification>
+    <dependencies>
+      <model index="2qld" modelUID="r:24bac084-437d-402d-b9a3-49599b18a0d1(de.itemis.mps.editor.diagram.structure)" version="19" />
+    </dependencies>
+    <rename id="2qld.9064581101900865529" type="CONCEPT" from="Content_GenericEdgeQuery_CreateHandler" to="EdgeEditor_CreateHandler" />
+  </StructureModification>
 </history>
 
