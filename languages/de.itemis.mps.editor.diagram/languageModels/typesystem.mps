@@ -673,5 +673,23 @@
       <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2qld.7464726264117677937" resolveInfo="ShapeReference" />
     </node>
   </root>
+  <root type="tpd4.NonTypesystemRule" typeId="tpd4.1195214364922" id="4813805589696323597" nodeInfo="ng">
+    <property name="name" nameId="tpck.1169194664001" value="check_ShapeNodeExpression" />
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="shape" />
+    <node role="body" roleId="tpd4.1195213635060" type="tpee.StatementList" typeId="tpee.1068580123136" id="4813805589696323949" nodeInfo="sn">
+      <node role="statement" roleId="tpee.1068581517665" type="tpd4.WarningStatement" typeId="tpd4.1207055528241" id="4813805589696324650" nodeInfo="nn">
+        <node role="warningText" roleId="tpd4.1207055552304" type="tpee.StringLiteral" typeId="tpee.1070475926800" id="4813805589696324692" nodeInfo="nn">
+          <property name="value" nameId="tpee.1070475926801" value="Deprecated. Execute the migration script \&quot;Migrate Diagram Editor\&quot; " />
+        </node>
+        <node role="nodeToReport" roleId="tpd4.1227096802790" type="tpd4.ApplicableNodeReference" typeId="tpd4.1174650418652" id="4813805589696325042" nodeInfo="nn">
+          <link role="applicableNode" roleId="tpd4.1174650432090" targetNodeId="4813805589696323951" resolveInfo="node" />
+        </node>
+      </node>
+    </node>
+    <node role="applicableNode" roleId="tpd4.1174648101952" type="tpd4.ConceptReference" typeId="tpd4.1174642788531" id="4813805589696323951" nodeInfo="ig">
+      <property name="name" nameId="tpck.1169194664001" value="node" />
+      <link role="concept" roleId="tpd4.1174642800329" targetNodeId="2qld.2630243574828768918" resolveInfo="ShapeNodeExpression" />
+    </node>
+  </root>
 </model>
 

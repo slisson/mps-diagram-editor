@@ -178,7 +178,7 @@
         <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="7464726264123686458" resolveInfo="ComponentShape2" />
         <node role="parameterValues" roleId="2qld.3454709602159778495" type="pxpg.CheckedDotExpression" typeId="pxpg.4079382982702596667" id="2630243574829203173" nodeInfo="nn">
           <node role="operand" roleId="tpee.1197027771414" type="tpee.DotExpression" typeId="tpee.1197027756228" id="2630243574829196778" nodeInfo="nn">
-            <node role="operand" roleId="tpee.1197027771414" type="2qld.ShapeNodeExpression" typeId="2qld.2630243574828768918" id="2630243574829196663" nodeInfo="ng" />
+            <node role="operand" roleId="tpee.1197027771414" type="2qld.ThisNodeExpression" typeId="2qld.8587703283519920118" id="4813805589696600450" nodeInfo="ng" />
             <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="2630243574829197541" nodeInfo="nn">
               <link role="property" roleId="tp25.1138056395725" targetNodeId="tpck.1169194664001" resolveInfo="name" />
             </node>
@@ -559,7 +559,7 @@
               <node role="condition" roleId="tpee.1163668914799" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="8587703283524113990" nodeInfo="nn">
                 <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="8587703283524113991" nodeInfo="nn" />
                 <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8587703283524113992" nodeInfo="nn">
-                  <node role="operand" roleId="tpee.1197027771414" type="2qld.ShapeNodeExpression" typeId="2qld.2630243574828768918" id="8587703283524113993" nodeInfo="ng" />
+                  <node role="operand" roleId="tpee.1197027771414" type="2qld.ThisNodeExpression" typeId="2qld.8587703283519920118" id="4813805589696601518" nodeInfo="ng" />
                   <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8587703283524113994" nodeInfo="nn">
                     <link role="property" roleId="tp25.1138056395725" targetNodeId="7fae.1933649609528844848" resolveInfo="toPort" />
                   </node>
@@ -575,7 +575,7 @@
             <node role="condition" roleId="2qld.4254343767714448733" type="tpee.EqualsExpression" typeId="tpee.1068580123152" id="8587703283524113998" nodeInfo="nn">
               <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.NullLiteral" typeId="tpee.1070534058343" id="8587703283524113999" nodeInfo="nn" />
               <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.DotExpression" typeId="tpee.1197027756228" id="8587703283524114000" nodeInfo="nn">
-                <node role="operand" roleId="tpee.1197027771414" type="2qld.ShapeNodeExpression" typeId="2qld.2630243574828768918" id="8587703283524114001" nodeInfo="ng" />
+                <node role="operand" roleId="tpee.1197027771414" type="2qld.ThisNodeExpression" typeId="2qld.8587703283519920118" id="4813805589696601520" nodeInfo="ng" />
                 <node role="operation" roleId="tpee.1197027833540" type="tp25.SPropertyAccess" typeId="tp25.1138056022639" id="8587703283524114002" nodeInfo="nn">
                   <link role="property" roleId="tp25.1138056395725" targetNodeId="7fae.1933649609528844848" resolveInfo="toPort" />
                 </node>
