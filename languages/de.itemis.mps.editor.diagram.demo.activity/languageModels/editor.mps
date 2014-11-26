@@ -24,6 +24,7 @@
   <import index="e2lb" modelUID="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" version="-1" implicit="yes" />
   <import index="cx9y" modelUID="r:309aeee7-bee8-445c-b31d-35928d1da75f(jetbrains.mps.baseLanguage.tuples.structure)" version="2" implicit="yes" />
   <import index="tp2c" modelUID="r:00000000-0000-4000-0000-011c89590338(jetbrains.mps.baseLanguage.closures.structure)" version="3" implicit="yes" />
+  <import index="fu06" modelUID="r:3e994e3f-0a98-45e0-a45a-13167140e86f(de.itemis.mps.editor.layout.structure)" version="-1" implicit="yes" />
   <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="5725606875425068441" nodeInfo="ng">
     <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="vux5.5725606875425068290" resolveInfo="ActivityModule" />
     <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="5725606875425068597" nodeInfo="nn">
@@ -456,7 +457,24 @@
       </node>
       <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericBoxQuery" typeId="2qld.3155126767690989914" id="5725606875426376693" nodeInfo="ng">
         <node role="editorComponent" roleId="2qld.6554619383004026644" type="2qld.InlineEditorComponent" typeId="2qld.6554619383003875357" id="5725606875426376695" nodeInfo="ng">
-          <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="5725606875426427461" nodeInfo="nn" />
+          <node role="cellModel" roleId="tpc2.1080736633877" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="621570459748036520" nodeInfo="ng">
+            <property name="layoutConstraints" nameId="fu06.2693937328336481223" value="wrap 1" />
+            <property name="columnConstraints" nameId="fu06.2693937328336481226" value="center" />
+            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="621570459748036522" nodeInfo="ng">
+              <property name="constraints" nameId="fu06.2693937328336480554" value="wmax 30, hmax 30" />
+              <node role="cell" roleId="fu06.2693937328336480561" type="2qld.CellModel_Shape" typeId="2qld.500099795019625460" id="621570459748036749" nodeInfo="ng">
+                <node role="shape" roleId="2qld.500099795019625833" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="621570459748043046" nodeInfo="ng">
+                  <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="5725606875426392145" resolveInfo="StartState" />
+                </node>
+              </node>
+            </node>
+            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="621570459748043049" nodeInfo="ng">
+              <property name="constraints" nameId="fu06.2693937328336480554" value="gaptop 6" />
+              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="621570459748043166" nodeInfo="nn">
+                <property name="text" nameId="tpc2.1073389577007" value="Initial" />
+              </node>
+            </node>
+          </node>
         </node>
         <node role="parameterType" roleId="2qld.7890587897031726224" type="tpee.StringType" typeId="tpee.1225271177708" id="5725606875426378654" nodeInfo="in" />
         <node role="query" roleId="2qld.7890587897031726225" type="2qld.Content_GenericElementQuery_Query" typeId="2qld.8963411245957652387" id="5725606875426376701" nodeInfo="ng">
@@ -469,8 +487,8 @@
           </node>
         </node>
         <node role="id" roleId="2qld.7890587897031726226" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="5725606875426389000" nodeInfo="ng" />
-        <node role="shape" roleId="2qld.5126420796713997777" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="5725606875426427464" nodeInfo="ng">
-          <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="5725606875426392145" resolveInfo="StartState" />
+        <node role="shape" roleId="2qld.5126420796713997777" type="2qld.ShapeReference" typeId="2qld.7464726264117677937" id="621570459748310640" nodeInfo="ng">
+          <link role="shape" roleId="2qld.7464726264117677938" targetNodeId="wo6c.6863180039789370085" resolveInfo="EmptyShape" />
         </node>
       </node>
       <node role="contentList" roleId="2qld.3155126767688717334" type="2qld.Content_GenericBoxQuery" typeId="2qld.3155126767690989914" id="5725606875426506998" nodeInfo="ng">
@@ -605,6 +623,37 @@
         <node role="labelCell" roleId="2qld.2044706694575458564" type="2qld.InlineEditorComponent" typeId="2qld.6554619383003875357" id="7623784619782159599" nodeInfo="ng">
           <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7623784619782161801" nodeInfo="nn">
             <property name="text" nameId="tpc2.1073389577007" value="abc" />
+          </node>
+        </node>
+        <node role="canSplit" roleId="2qld.621570459751239491" type="2qld.EdgeEditor_CanSplit" typeId="2qld.621570459751009499" id="621570459752407780" nodeInfo="ng">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="621570459752407781" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="621570459755946003" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="621570459755946002" nodeInfo="nn">
+                <property name="value" nameId="tpee.1068580123138" value="true" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node role="splitHandler" roleId="2qld.621570459749703015" type="2qld.EdgeEditor_SplitHandler" typeId="2qld.621570459749702197" id="621570459752410940" nodeInfo="ng">
+          <node role="body" roleId="tpee.1137022507850" type="tpee.StatementList" typeId="tpee.1068580123136" id="621570459752410941" nodeInfo="sn">
+            <node role="statement" roleId="tpee.1068581517665" type="tpee.ExpressionStatement" typeId="tpee.1068580123155" id="621570459752519255" nodeInfo="nn">
+              <node role="expression" roleId="tpee.1068580123156" type="tpee.DotExpression" typeId="tpee.1197027756228" id="621570459752524048" nodeInfo="nn">
+                <node role="operand" roleId="tpee.1197027771414" type="cx9y.IndexedTupleMemberAccessExpression" typeId="cx9y.1238857743184" id="621570459752523906" nodeInfo="nn">
+                  <node role="index" roleId="cx9y.1238857834412" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="621570459752523941" nodeInfo="nn">
+                    <property name="value" nameId="tpee.1068580320021" value="0" />
+                  </node>
+                  <node role="tuple" roleId="cx9y.1238857764950" type="2qld.Content_GenericElementQuery_ParameterObject" typeId="2qld.8963411245958754161" id="621570459752519254" nodeInfo="ng" />
+                </node>
+                <node role="operation" roleId="tpee.1197027833540" type="tp25.Node_InsertNextSiblingOperation" typeId="tp25.1143224066846" id="621570459752525182" nodeInfo="nn">
+                  <node role="insertedNode" roleId="tp25.1143224066849" type="tpee.DotExpression" typeId="tpee.1197027756228" id="621570459752533619" nodeInfo="nn">
+                    <node role="operand" roleId="tpee.1197027771414" type="2qld.EdgeEditor_SplitHandler_boxToInsert" typeId="2qld.621570459749711418" id="621570459752525270" nodeInfo="ng" />
+                    <node role="operation" roleId="tpee.1197027833540" type="tpee.InstanceMethodCallOperation" typeId="tpee.1202948039474" id="621570459752534075" nodeInfo="nn">
+                      <link role="baseMethodDeclaration" roleId="tpee.1068499141037" targetNodeId="nkm5.7139752554345857471" resolveInfo="getSNode" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
           </node>
         </node>
       </node>

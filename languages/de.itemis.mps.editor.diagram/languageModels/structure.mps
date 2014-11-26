@@ -1193,6 +1193,16 @@
       <property name="role" nameId="tpce.1071599776563" value="createHandler" />
       <link role="target" roleId="tpce.1071599976176" targetNodeId="9064581101900865529" resolveInfo="EdgeEditor_CreateHandler" />
     </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="621570459751239491" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="canSplit" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="621570459751009499" resolveInfo="EdgeEditor_CanSplit" />
+    </node>
+    <node role="linkDeclaration" roleId="tpce.1071489727083" type="tpce.LinkDeclaration" typeId="tpce.1071489288298" id="621570459749703015" nodeInfo="ig">
+      <property name="metaClass" nameId="tpce.1071599937831" value="aggregation" />
+      <property name="role" nameId="tpce.1071599776563" value="splitHandler" />
+      <link role="target" roleId="tpce.1071599976176" targetNodeId="621570459749702197" resolveInfo="EdgeEditor_SplitHandler" />
+    </node>
     <node role="extends" roleId="tpce.1169127546356" type="tpce.InterfaceConceptReference" typeId="tpce.1169127622168" id="7139752554336694410" nodeInfo="ig">
       <link role="intfc" roleId="tpce.1169127628841" targetNodeId="7139752554336382634" resolveInfo="IInlineEditorComponentContainer" />
     </node>
@@ -1211,6 +1221,28 @@
     <property name="virtualPackage" nameId="tpck.1193676396447" value="edgeEditor" />
     <property name="name" nameId="tpck.1169194664001" value="EdgeEditor_CanCreate_toEndpoint" />
     <property name="conceptAlias" nameId="tpce.5092175715804935370" value="toEndpoint" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="621570459749702197" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="edgeEditor" />
+    <property name="name" nameId="tpck.1169194664001" value="EdgeEditor_SplitHandler" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="621570459749711418" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="edgeEditor" />
+    <property name="name" nameId="tpck.1169194664001" value="EdgeEditor_SplitHandler_boxToInsert" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="boxToInsert" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="621570459751009499" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="edgeEditor" />
+    <property name="name" nameId="tpck.1169194664001" value="EdgeEditor_CanSplit" />
+    <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1137021947720" resolveInfo="ConceptFunction" />
+  </root>
+  <root type="tpce.ConceptDeclaration" typeId="tpce.1071489090640" id="621570459751009530" nodeInfo="ig">
+    <property name="virtualPackage" nameId="tpck.1193676396447" value="edgeEditor" />
+    <property name="name" nameId="tpck.1169194664001" value="EdgeEditor_CanSplit_concept" />
+    <property name="conceptAlias" nameId="tpce.5092175715804935370" value="concept" />
     <link role="extends" roleId="tpce.1071489389519" targetNodeId="tpee.1107135704075" resolveInfo="ConceptFunctionParameter" />
   </root>
 </model>
