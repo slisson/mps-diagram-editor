@@ -4,6 +4,3 @@
 [submodule "adaptagrams"]
 	path = adaptagrams
 	url = https://github.com/slisson/adaptagrams.git
-[submodule "definitionLanguage"]
-	path = definitionLanguage
-	url = https://github.com/alperovich/diagramEditor.git
