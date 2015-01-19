@@ -1694,6 +1694,9 @@
         <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineColor" typeId="2qld.6987730699889040828" id="5383048119162482929" nodeInfo="ng">
           <property name="color" nameId="tpc2.1186403713874" value="DARK_MAGENTA" />
         </node>
+        <node role="styleItem" roleId="tpc2.1219418656006" type="2qld.LineStyle" typeId="2qld.6987730699888898446" id="3805670394255947721" nodeInfo="ng">
+          <property name="value" nameId="2qld.6987730699889504313" value="DASHED" />
+        </node>
         <node role="endpointTo" roleId="2qld.8587703283523592242" type="2qld.ConnectionEndpoint" typeId="2qld.8587703283523590697" id="7139752554343933527" nodeInfo="ng">
           <node role="target" roleId="2qld.9064581101900868073" type="2qld.BoxEndpointTarget" typeId="2qld.6554619383001456740" id="301931493267672302" nodeInfo="ng">
             <node role="targetId" roleId="2qld.6554619383001456819" type="tpee.DotExpression" typeId="tpee.1197027756228" id="301931493267672303" nodeInfo="nn">
