@@ -625,6 +625,14 @@
                 <property name="value" nameId="tpee.1068580123138" value="false" />
               </node>
             </node>
+            <node role="shapeSize" roleId="2qld.7592386925309980865" type="tpee.MulExpression" typeId="tpee.1092119917967" id="7592386925310866812" nodeInfo="nn">
+              <node role="rightExpression" roleId="tpee.1081773367579" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7592386925310866815" nodeInfo="nn">
+                <property name="value" nameId="tpee.1068580320021" value="2" />
+              </node>
+              <node role="leftExpression" roleId="tpee.1081773367580" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="7592386925310865590" nodeInfo="nn">
+                <property name="value" nameId="tpee.1068580320021" value="6" />
+              </node>
+            </node>
           </node>
           <node role="labelCell" roleId="2qld.2044706694575458564" type="2qld.InlineEditorComponent" typeId="2qld.6554619383003875357" id="7623784619782159599" nodeInfo="ng">
             <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="7623784619782161801" nodeInfo="nn">
@@ -715,6 +723,9 @@
                 <property name="value" nameId="tpee.1068580123138" value="false" />
               </node>
             </node>
+            <node role="shapeSize" roleId="2qld.7592386925309980865" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5356585169034492728" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="12" />
+            </node>
           </node>
           <node role="labelCell" roleId="2qld.2044706694575458564" type="2qld.InlineEditorComponent" typeId="2qld.6554619383003875357" id="1122727885938249921" nodeInfo="ng">
             <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="1122727885938264470" nodeInfo="nn">
@@ -768,6 +779,9 @@
               <node role="parameterValues" roleId="2qld.3454709602159778495" type="tpee.BooleanConstant" typeId="tpee.1068580123137" id="5725606875426950239" nodeInfo="nn">
                 <property name="value" nameId="tpee.1068580123138" value="false" />
               </node>
+            </node>
+            <node role="shapeSize" roleId="2qld.7592386925309980865" type="tpee.IntegerConstant" typeId="tpee.1068580320020" id="5356585169034492981" nodeInfo="nn">
+              <property name="value" nameId="tpee.1068580320021" value="12" />
             </node>
           </node>
           <node role="endpointFrom" roleId="2qld.8587703283523592228" type="2qld.ConnectionEndpoint" typeId="2qld.8587703283523590697" id="7139752554343825275" nodeInfo="ng">
