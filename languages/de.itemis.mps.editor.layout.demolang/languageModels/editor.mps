@@ -1,197 +1,244 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<model modelUID="r:a6908768-b7ab-4235-b868-7d5825aa5fa3(de.itemis.mps.editor.layout.demolang.editor)">
-  <persistence version="8" />
-  <language namespace="18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)" />
-  <language namespace="21063c66-85ba-4e98-839b-036445b17ae2(de.itemis.mps.editor.layout)" />
-  <devkit namespace="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
-  <import index="tpc2" modelUID="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" version="35" implicit="yes" />
-  <import index="6m47" modelUID="r:f9bae91c-f1f5-4168-a6c5-8b7eb14b317d(de.itemis.mps.editor.layout.demolang.structure)" version="-1" implicit="yes" />
-  <import index="fu06" modelUID="r:3e994e3f-0a98-45e0-a45a-13167140e86f(de.itemis.mps.editor.layout.structure)" version="-1" implicit="yes" />
-  <root type="tpc2.ConceptEditorDeclaration" typeId="tpc2.1071666914219" id="2693937328336471326" nodeInfo="ng">
-    <link role="conceptDeclaration" roleId="tpc2.1166049300910" targetNodeId="6m47.2693937328336426453" resolveInfo="RootConcept" />
-    <node role="cellModel" roleId="tpc2.1080736633877" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="342472724011428998" nodeInfo="nn">
-      <node role="childCellModel" roleId="tpc2.1073389446424" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="2693937328336519638" nodeInfo="ng">
-        <property name="layoutConstraints" nameId="fu06.2693937328336481223" value="wrap 3" />
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014234417" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="north, growx, pushx" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795014502550" nodeInfo="ng">
-            <property name="layoutConstraints" nameId="fu06.2693937328336481223" value="fill" />
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795015538131" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795015538144" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="North" />
+<model ref="r:a6908768-b7ab-4235-b868-7d5825aa5fa3(de.itemis.mps.editor.layout.demolang.editor)">
+  <persistence version="9" />
+  <languages>
+    <use id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor" version="-1" />
+    <use id="21063c66-85ba-4e98-839b-036445b17ae2" name="de.itemis.mps.editor.layout" version="-1" />
+    <devkit ref="fbc25dd2-5da4-483a-8b19-70928e1b62d7(jetbrains.mps.devkit.general-purpose)" />
+  </languages>
+  <imports>
+    <import index="6m47" ref="r:f9bae91c-f1f5-4168-a6c5-8b7eb14b317d(de.itemis.mps.editor.layout.demolang.structure)" implicit="true" />
+  </imports>
+  <registry>
+    <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
+      <concept id="1071666914219" name="jetbrains.mps.lang.editor.structure.ConceptEditorDeclaration" flags="ig" index="24kQdi" />
+      <concept id="1106270549637" name="jetbrains.mps.lang.editor.structure.CellLayout_Horizontal" flags="nn" index="2iRfu4" />
+      <concept id="1106270571710" name="jetbrains.mps.lang.editor.structure.CellLayout_Vertical" flags="nn" index="2iRkQZ" />
+      <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
+        <child id="1080736633877" name="cellModel" index="2wV5jI" />
+      </concept>
+      <concept id="1186403694788" name="jetbrains.mps.lang.editor.structure.ColorStyleClassItem" flags="ln" index="VaVBg">
+        <property id="1186403713874" name="color" index="Vb096" />
+      </concept>
+      <concept id="1186404574412" name="jetbrains.mps.lang.editor.structure.BackgroundColorStyleClassItem" flags="ln" index="Veino" />
+      <concept id="1186414536763" name="jetbrains.mps.lang.editor.structure.BooleanStyleSheetItem" flags="ln" index="VOi$J">
+        <property id="1186414551515" name="flag" index="VOm3f" />
+      </concept>
+      <concept id="1186414976055" name="jetbrains.mps.lang.editor.structure.DrawBorderStyleClassItem" flags="ln" index="VPXOz" />
+      <concept id="1139848536355" name="jetbrains.mps.lang.editor.structure.CellModel_WithRole" flags="ng" index="1$h60E">
+        <reference id="1140103550593" name="relationDeclaration" index="1NtTu8" />
+      </concept>
+      <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
+        <child id="1106270802874" name="cellLayout" index="2iSdaV" />
+        <child id="1073389446424" name="childCellModel" index="3EZMnx" />
+      </concept>
+      <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
+        <property id="1073389577007" name="text" index="3F0ifm" />
+      </concept>
+      <concept id="1073389658414" name="jetbrains.mps.lang.editor.structure.CellModel_Property" flags="sg" stub="730538219796134133" index="3F0A7n" />
+      <concept id="1219418625346" name="jetbrains.mps.lang.editor.structure.IStyleContainer" flags="ng" index="3F0Thp">
+        <child id="1219418656006" name="styleItem" index="3F10Kt" />
+      </concept>
+      <concept id="1166049232041" name="jetbrains.mps.lang.editor.structure.AbstractComponent" flags="ng" index="1XWOmA">
+        <reference id="1166049300910" name="conceptDeclaration" index="1XX52x" />
+      </concept>
+    </language>
+    <language id="21063c66-85ba-4e98-839b-036445b17ae2" name="de.itemis.mps.editor.layout">
+      <concept id="2693937328336480553" name="de.itemis.mps.editor.layout.structure.MigLayoutChild" flags="ng" index="VMY2j">
+        <property id="2693937328336480554" name="constraints" index="VMY2g" />
+        <child id="2693937328336480561" name="cell" index="VMY2b" />
+      </concept>
+      <concept id="2693937328336479929" name="de.itemis.mps.editor.layout.structure.MigLayoutCell" flags="ng" index="VMYW3">
+        <property id="2693937328336481223" name="layoutConstraints" index="VMY9X" />
+        <child id="2693937328336479930" name="childCells" index="VMYW0" />
+      </concept>
+    </language>
+  </registry>
+  <node concept="24kQdi" id="2lyMrCuEgku">
+    <ref role="1XX52x" to="6m47:2lyMrCuE5nl" resolve="RootConcept" />
+    <node concept="3EZMnI" id="j0Hi33XyM6" role="2wV5jI">
+      <node concept="VMYW3" id="2lyMrCuEs7m" role="3EZMnx">
+        <property role="VMY9X" value="wrap 3" />
+        <node concept="VMY2j" id="rKHxOE4r4L" role="VMYW0">
+          <property role="VMY2g" value="north, growx, pushx" />
+          <node concept="VMYW3" id="rKHxOE5sym" role="VMY2b">
+            <property role="VMY9X" value="fill" />
+            <node concept="VMY2j" id="rKHxOE9pnj" role="VMYW0">
+              <node concept="3F0ifn" id="rKHxOE9pnw" role="VMY2b">
+                <property role="3F0ifm" value="North" />
               </node>
             </node>
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014502569" nodeInfo="ng">
-              <property name="constraints" nameId="fu06.2693937328336480554" value="right" />
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795014502579" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="htroN" />
-                <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="500099795014543881" nodeInfo="nn">
-                  <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            <node concept="VMY2j" id="rKHxOE5syD" role="VMYW0">
+              <property role="VMY2g" value="right" />
+              <node concept="3F0ifn" id="rKHxOE5syN" role="VMY2b">
+                <property role="3F0ifm" value="htroN" />
+                <node concept="VPXOz" id="rKHxOE5AC9" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
                 </node>
               </node>
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="500099795014543873" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            <node concept="VPXOz" id="rKHxOE5AC1" role="3F10Kt">
+              <property role="VOm3f" value="true" />
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015757408" nodeInfo="nn">
-              <property name="color" nameId="tpc2.1186403713874" value="LIGHT_BLUE" />
+            <node concept="Veino" id="rKHxOEaeTw" role="3F10Kt">
+              <property role="Vb096" value="LIGHT_BLUE" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014271882" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="south" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795015782184" nodeInfo="ng">
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795015782187" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795015782199" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="South" />
+        <node concept="VMY2j" id="rKHxOE4$ea" role="VMYW0">
+          <property role="VMY2g" value="south" />
+          <node concept="VMYW3" id="rKHxOEakWC" role="VMY2b">
+            <node concept="VMY2j" id="rKHxOEakWF" role="VMYW0">
+              <node concept="3F0ifn" id="rKHxOEakWR" role="VMY2b">
+                <property role="3F0ifm" value="South" />
               </node>
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015782255" nodeInfo="nn">
-              <property name="color" nameId="tpc2.1186403713874" value="DARK_GREEN" />
+            <node concept="Veino" id="rKHxOEakXJ" role="3F10Kt">
+              <property role="Vb096" value="DARK_GREEN" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014271730" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="east" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795015782081" nodeInfo="ng">
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795015782084" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795015782096" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="East" />
+        <node concept="VMY2j" id="rKHxOE4$bM" role="VMYW0">
+          <property role="VMY2g" value="east" />
+          <node concept="VMYW3" id="rKHxOEakV1" role="VMY2b">
+            <node concept="VMY2j" id="rKHxOEakV4" role="VMYW0">
+              <node concept="3F0ifn" id="rKHxOEakVg" role="VMY2b">
+                <property role="3F0ifm" value="East" />
               </node>
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015782152" nodeInfo="nn">
-              <property name="color" nameId="tpc2.1186403713874" value="cyan" />
+            <node concept="Veino" id="rKHxOEakW8" role="3F10Kt">
+              <property role="Vb096" value="cyan" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014271804" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="west" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795015782161" nodeInfo="ng">
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795015782164" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795015782176" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="West" />
+        <node concept="VMY2j" id="rKHxOE4$cW" role="VMYW0">
+          <property role="VMY2g" value="west" />
+          <node concept="VMYW3" id="rKHxOEakWh" role="VMY2b">
+            <node concept="VMY2j" id="rKHxOEakWk" role="VMYW0">
+              <node concept="3F0ifn" id="rKHxOEakWw" role="VMY2b">
+                <property role="3F0ifm" value="West" />
               </node>
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.BackgroundColorStyleClassItem" typeId="tpc2.1186404574412" id="500099795015782312" nodeInfo="nn">
-              <property name="color" nameId="tpc2.1186403713874" value="yellow" />
+            <node concept="Veino" id="rKHxOEakYC" role="3F10Kt">
+              <property role="Vb096" value="yellow" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795018599283" nodeInfo="ng">
-          <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Property" typeId="tpc2.1073389658414" id="500099795018599415" nodeInfo="ng">
-            <link role="relationDeclaration" roleId="tpc2.1140103550593" targetNodeId="6m47.500099795018599280" resolveInfo="property1" />
+        <node concept="VMY2j" id="rKHxOEl4HN" role="VMYW0">
+          <node concept="3F0A7n" id="rKHxOEl4JR" role="VMY2b">
+            <ref role="1NtTu8" to="6m47:rKHxOEl4HK" resolve="property1" />
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="2693937328336519640" nodeInfo="ng">
-          <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2693937328336519647" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="AA aa AA Aa" />
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724011428955" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        <node concept="VMY2j" id="2lyMrCuEs7o" role="VMYW0">
+          <node concept="3F0ifn" id="2lyMrCuEs7v" role="VMY2b">
+            <property role="3F0ifm" value="AA aa AA Aa" />
+            <node concept="VPXOz" id="j0Hi33XyLr" role="3F10Kt">
+              <property role="VOm3f" value="true" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="342472724011573481" nodeInfo="ng">
-          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="342472724011531814" nodeInfo="ng">
-            <property name="layoutConstraints" nameId="fu06.2693937328336481223" value="wrap 2, ins 6" />
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="342472724011531816" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="342472724011531826" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="111 11 11 1 111 1 111" />
-                <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724012137275" nodeInfo="nn">
-                  <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        <node concept="VMY2j" id="j0Hi33Y63D" role="VMYW0">
+          <node concept="VMYW3" id="j0Hi33XVSA" role="VMY2b">
+            <property role="VMY9X" value="wrap 2, ins 6" />
+            <node concept="VMY2j" id="j0Hi33XVSC" role="VMYW0">
+              <node concept="3F0ifn" id="j0Hi33XVSM" role="VMY2b">
+                <property role="3F0ifm" value="111 11 11 1 111 1 111" />
+                <node concept="VPXOz" id="j0Hi340fGV" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
                 </node>
               </node>
             </node>
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="342472724011531830" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="342472724011531840" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="222 22 222 22 2 2222 2" />
-                <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724012137282" nodeInfo="nn">
-                  <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            <node concept="VMY2j" id="j0Hi33XVSQ" role="VMYW0">
+              <node concept="3F0ifn" id="j0Hi33XVT0" role="VMY2b">
+                <property role="3F0ifm" value="222 22 222 22 2 2222 2" />
+                <node concept="VPXOz" id="j0Hi340fH2" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
                 </node>
               </node>
             </node>
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="342472724011531844" nodeInfo="ng">
-              <property name="constraints" nameId="fu06.2693937328336480554" value="center" />
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="342472724011531858" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="33 333 3 3 33 33333 333 3" />
-                <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724012137289" nodeInfo="nn">
-                  <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            <node concept="VMY2j" id="j0Hi33XVT4" role="VMYW0">
+              <property role="VMY2g" value="center" />
+              <node concept="3F0ifn" id="j0Hi33XVTi" role="VMY2b">
+                <property role="3F0ifm" value="33 333 3 3 33 33333 333 3" />
+                <node concept="VPXOz" id="j0Hi340fH9" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
                 </node>
               </node>
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724012116262" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            <node concept="VPXOz" id="j0Hi340a$A" role="3F10Kt">
+              <property role="VOm3f" value="true" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="2693937328336704956" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="right" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Collection" typeId="tpc2.1073389446423" id="2693937328336704964" nodeInfo="nn">
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724011428974" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        <node concept="VMY2j" id="2lyMrCuF9mW" role="VMYW0">
+          <property role="VMY2g" value="right" />
+          <node concept="3EZMnI" id="2lyMrCuF9n4" role="VMY2b">
+            <node concept="VPXOz" id="j0Hi33XyLI" role="3F10Kt">
+              <property role="VOm3f" value="true" />
             </node>
-            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2693937328336841551" nodeInfo="nn">
-              <property name="text" nameId="tpc2.1073389577007" value="BBbBb BBbBBb" />
+            <node concept="3F0ifn" id="2lyMrCuFEHf" role="3EZMnx">
+              <property role="3F0ifm" value="BBbBb BBbBBb" />
             </node>
-            <node role="childCellModel" roleId="tpc2.1073389446424" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2693937328336841554" nodeInfo="nn">
-              <property name="text" nameId="tpc2.1073389577007" value="CccCcCc ccC" />
+            <node concept="3F0ifn" id="2lyMrCuFEHi" role="3EZMnx">
+              <property role="3F0ifm" value="CccCcCc ccC" />
             </node>
-            <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Vertical" typeId="tpc2.1106270571710" id="2693937328336704967" nodeInfo="nn" />
+            <node concept="2iRkQZ" id="2lyMrCuF9n7" role="2iSdaV" />
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="2693937328336519650" nodeInfo="ng">
-          <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="2693937328336519656" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="DDDdddDDDDd" />
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724011428981" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
-            </node>
-          </node>
-        </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="342472724011446905" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="right" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="342472724011446935" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="EEEeEEeeeEEE eE" />
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724011462070" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        <node concept="VMY2j" id="2lyMrCuEs7y" role="VMYW0">
+          <node concept="3F0ifn" id="2lyMrCuEs7C" role="VMY2b">
+            <property role="3F0ifm" value="DDDdddDDDDd" />
+            <node concept="VPXOz" id="j0Hi33XyLP" role="3F10Kt">
+              <property role="VOm3f" value="true" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="342472724011496206" nodeInfo="ng">
-          <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="342472724011496242" nodeInfo="nn">
-            <property name="text" nameId="tpc2.1073389577007" value="FFFfFF  FFFfffF ff" />
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="342472724011513885" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        <node concept="VMY2j" id="j0Hi33XB9T" role="VMYW0">
+          <property role="VMY2g" value="right" />
+          <node concept="3F0ifn" id="j0Hi33XBan" role="VMY2b">
+            <property role="3F0ifm" value="EEEeEEeeeEEE eE" />
+            <node concept="VPXOz" id="j0Hi33XEQQ" role="3F10Kt">
+              <property role="VOm3f" value="true" />
             </node>
           </node>
         </node>
-        <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014609161" nodeInfo="ng">
-          <property name="constraints" nameId="fu06.2693937328336480554" value="spanx, growx" />
-          <node role="cell" roleId="fu06.2693937328336480561" type="fu06.MigLayoutCell" typeId="fu06.2693937328336479929" id="500099795014609267" nodeInfo="ng">
-            <property name="layoutConstraints" nameId="fu06.2693937328336481223" value="ins 0" />
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014609269" nodeInfo="ng">
-              <property name="constraints" nameId="fu06.2693937328336480554" value="push" />
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795014609279" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="GGgg" />
-                <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="500099795014633213" nodeInfo="nn">
-                  <property name="flag" nameId="tpc2.1186414551515" value="true" />
+        <node concept="VMY2j" id="j0Hi33XNce" role="VMYW0">
+          <node concept="3F0ifn" id="j0Hi33XNcM" role="VMY2b">
+            <property role="3F0ifm" value="FFFfFF  FFFfffF ff" />
+            <node concept="VPXOz" id="j0Hi33XRwt" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+          </node>
+        </node>
+        <node concept="VMY2j" id="rKHxOE5Q$9" role="VMYW0">
+          <property role="VMY2g" value="spanx, growx" />
+          <node concept="VMYW3" id="rKHxOE5Q_N" role="VMY2b">
+            <property role="VMY9X" value="ins 0" />
+            <node concept="VMY2j" id="rKHxOE5Q_P" role="VMYW0">
+              <property role="VMY2g" value="push" />
+              <node concept="3F0ifn" id="rKHxOE5Q_Z" role="VMY2b">
+                <property role="3F0ifm" value="GGgg" />
+                <node concept="VPXOz" id="rKHxOE5WrX" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
                 </node>
               </node>
             </node>
-            <node role="childCells" roleId="fu06.2693937328336479930" type="fu06.MigLayoutChild" typeId="fu06.2693937328336480553" id="500099795014609283" nodeInfo="ng">
-              <node role="cell" roleId="fu06.2693937328336480561" type="tpc2.CellModel_Constant" typeId="tpc2.1073389577006" id="500099795014609293" nodeInfo="nn">
-                <property name="text" nameId="tpc2.1073389577007" value="ggGG" />
-                <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="500099795014633220" nodeInfo="nn">
-                  <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            <node concept="VMY2j" id="rKHxOE5QA3" role="VMYW0">
+              <node concept="3F0ifn" id="rKHxOE5QAd" role="VMY2b">
+                <property role="3F0ifm" value="ggGG" />
+                <node concept="VPXOz" id="rKHxOE5Ws4" role="3F10Kt">
+                  <property role="VOm3f" value="true" />
                 </node>
               </node>
             </node>
-            <node role="styleItem" roleId="tpc2.1219418656006" type="tpc2.DrawBorderStyleClassItem" typeId="tpc2.1186414976055" id="500099795014633205" nodeInfo="nn">
-              <property name="flag" nameId="tpc2.1186414551515" value="true" />
+            <node concept="VPXOz" id="rKHxOE5WrP" role="3F10Kt">
+              <property role="VOm3f" value="true" />
             </node>
           </node>
         </node>
       </node>
-      <node role="cellLayout" roleId="tpc2.1106270802874" type="tpc2.CellLayout_Horizontal" typeId="tpc2.1106270549637" id="342472724011428999" nodeInfo="nn" />
+      <node concept="2iRfu4" id="j0Hi33XyM7" role="2iSdaV" />
     </node>
-  </root>
+  </node>
 </model>
 
