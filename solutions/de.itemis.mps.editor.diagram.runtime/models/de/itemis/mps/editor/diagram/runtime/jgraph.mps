@@ -1806,6 +1806,38 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4KKQOHIOe86" role="jymVt" />
+    <node concept="2tJIrI" id="3gmkhnZSEvN" role="jymVt" />
+    <node concept="3clFb_" id="3gmkhnZSMHm" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="paintChildCells" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tmbuc" id="3gmkhnZSMHn" role="1B3o_S" />
+      <node concept="3cqZAl" id="3gmkhnZSMHp" role="3clF45" />
+      <node concept="37vLTG" id="3gmkhnZSMHq" role="3clF46">
+        <property role="TrG5h" value="graphics" />
+        <node concept="3uibUv" id="3gmkhnZSMHr" role="1tU5fm">
+          <ref role="3uigEE" to="1t7x:~Graphics" resolve="Graphics" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="3gmkhnZSMHs" role="3clF46">
+        <property role="TrG5h" value="settings" />
+        <node concept="3uibUv" id="3gmkhnZSMHt" role="1tU5fm">
+          <ref role="3uigEE" to="jsgz:~ParentSettings" resolve="ParentSettings" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3gmkhnZSMHz" role="3clF47">
+        <node concept="3SKdUt" id="3gmkhnZY7vc" role="3cqZAp">
+          <node concept="3SKdUq" id="3gmkhnZY7vf" role="3SKWNk">
+            <property role="3SKdUp" value="they are painted by the diagram component" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3gmkhnZSQpC" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3gmkhnZSzR$" role="jymVt" />
     <node concept="3clFb_" id="4KKQOHIOe87" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isDrawBorder" />
