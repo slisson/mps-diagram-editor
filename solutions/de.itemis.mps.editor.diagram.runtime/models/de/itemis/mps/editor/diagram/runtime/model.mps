@@ -510,6 +510,7 @@
         <child id="1197932525128" name="key" index="3ElVtu" />
       </concept>
       <concept id="1176501494711" name="jetbrains.mps.baseLanguage.collections.structure.IsNotEmptyOperation" flags="nn" index="3GX2aA" />
+      <concept id="1172254888721" name="jetbrains.mps.baseLanguage.collections.structure.ContainsOperation" flags="nn" index="3JPx81" />
       <concept id="8293956702609956630" name="jetbrains.mps.baseLanguage.collections.structure.MultiForEachVariableReference" flags="nn" index="3M$PaV">
         <reference id="8293956702609966325" name="variable" index="3M$S_o" />
       </concept>
@@ -3722,9 +3723,8 @@
     <node concept="312cEg" id="6_7W6a9AAtf" role="jymVt">
       <property role="TrG5h" value="myConnectionTypes" />
       <node concept="3Tm6S6" id="6_7W6a9AAtg" role="1B3o_S" />
-      <node concept="3uibUv" id="6_7W6a9ATMn" role="1tU5fm">
-        <ref role="3uigEE" to="k7g3:~List" resolve="List" />
-        <node concept="3uibUv" id="6_7W6a9ATPN" role="11_B2D">
+      <node concept="_YKpA" id="3_yPGGok3Ns" role="1tU5fm">
+        <node concept="3uibUv" id="3_yPGGok3Nu" role="_ZDj9">
           <ref role="3uigEE" node="7vufT$m8LbU" resolve="IConnectionType_Internal" />
         </node>
       </node>
@@ -4645,24 +4645,67 @@
       <node concept="3clFbS" id="12$80X4Uf0Y" role="3clF47">
         <node concept="3clFbJ" id="6uRkloOB$Jw" role="3cqZAp">
           <node concept="3clFbS" id="6uRkloOB$Jz" role="3clFbx">
-            <node concept="3clFbF" id="6uRkloOBDIj" role="3cqZAp">
-              <node concept="37vLTI" id="6uRkloOBDMB" role="3clFbG">
-                <node concept="10Nm6u" id="6uRkloOBDNY" role="37vLTx" />
-                <node concept="37vLTw" id="6uRkloOBDIi" role="37vLTJ">
+            <node concept="3SKdUt" id="3_yPGGojQPn" role="3cqZAp">
+              <node concept="3SKdUq" id="3_yPGGojQSY" role="3SKWNk">
+                <property role="3SKdUp" value="Connection types may be recreated on each read." />
+              </node>
+            </node>
+            <node concept="3SKdUt" id="3_yPGGojQXA" role="3cqZAp">
+              <node concept="3SKdUq" id="3_yPGGojR1f" role="3SKWNk">
+                <property role="3SKdUp" value="Try to find the new entry by name." />
+              </node>
+            </node>
+            <node concept="3clFbF" id="3_yPGGok_Br" role="3cqZAp">
+              <node concept="37vLTI" id="3_yPGGok_H0" role="3clFbG">
+                <node concept="37vLTw" id="3_yPGGok_Bp" role="37vLTJ">
                   <ref role="3cqZAo" node="12$80X4SdG9" resolve="myPreferredConnectionType" />
+                </node>
+                <node concept="2OqwBi" id="3_yPGGojWC3" role="37vLTx">
+                  <node concept="37vLTw" id="3_yPGGojVQK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6_7W6a9AAtf" resolve="myConnectionTypes" />
+                  </node>
+                  <node concept="1z4cxt" id="3_yPGGokw7v" role="2OqNvi">
+                    <node concept="1bVj0M" id="3_yPGGokw7x" role="23t8la">
+                      <node concept="3clFbS" id="3_yPGGokw7y" role="1bW5cS">
+                        <node concept="3clFbF" id="3_yPGGokwo3" role="3cqZAp">
+                          <node concept="17R0WA" id="3_yPGGokx_D" role="3clFbG">
+                            <node concept="2OqwBi" id="3_yPGGokyny" role="3uHU7w">
+                              <node concept="37vLTw" id="3_yPGGokxRk" role="2Oq$k0">
+                                <ref role="3cqZAo" node="12$80X4SdG9" resolve="myPreferredConnectionType" />
+                              </node>
+                              <node concept="liA8E" id="3_yPGGokyO6" role="2OqNvi">
+                                <ref role="37wK5l" node="7vufT$m8Lj1" resolve="getName" />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="3_yPGGokwuZ" role="3uHU7B">
+                              <node concept="37vLTw" id="3_yPGGokwo2" role="2Oq$k0">
+                                <ref role="3cqZAo" node="3_yPGGokw7z" resolve="it" />
+                              </node>
+                              <node concept="liA8E" id="3_yPGGokx9b" role="2OqNvi">
+                                <ref role="37wK5l" node="7vufT$m8Lj1" resolve="getName" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="Rh6nW" id="3_yPGGokw7z" role="1bW2Oz">
+                        <property role="TrG5h" value="it" />
+                        <node concept="2jxLKc" id="3_yPGGokw7$" role="1tU5fm" />
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
           <node concept="1Wc70l" id="6uRkloOB_HJ" role="3clFbw">
             <node concept="3fqX7Q" id="6uRkloOBDqn" role="3uHU7w">
-              <node concept="2OqwBi" id="6uRkloOBDqp" role="3fr31v">
+              <node concept="2OqwBi" id="3_yPGGokq_Q" role="3fr31v">
                 <node concept="37vLTw" id="6uRkloOBDqq" role="2Oq$k0">
                   <ref role="3cqZAo" node="6_7W6a9AAtf" resolve="myConnectionTypes" />
                 </node>
-                <node concept="liA8E" id="6uRkloOBDqr" role="2OqNvi">
-                  <ref role="37wK5l" to="k7g3:~List.contains(java.lang.Object):boolean" resolve="contains" />
-                  <node concept="37vLTw" id="6uRkloOBDqs" role="37wK5m">
+                <node concept="3JPx81" id="3_yPGGoksIS" role="2OqNvi">
+                  <node concept="37vLTw" id="3_yPGGokteb" role="25WWJ7">
                     <ref role="3cqZAo" node="12$80X4SdG9" resolve="myPreferredConnectionType" />
                   </node>
                 </node>
