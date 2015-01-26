@@ -46,8 +46,8 @@
     <import index="ejnv" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.editor.runtime.style(MPS.Editor/jetbrains.mps.editor.runtime.style@java_stub)" />
     <import index="nj8y" ref="f:java_stub#1144260c-e9a5-49a2-9add-39a1a1a7077e#de.cau.cs.kieler.kiml.options(de.itemis.mps.editor.diagram.runtime/de.cau.cs.kieler.kiml.options@java_stub)" />
     <import index="glos" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.util.containers(MPS.IDEA/com.intellij.util.containers@java_stub)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -3820,7 +3820,14 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="6rrvvVdCv6U" role="jymVt" />
+    <node concept="312cEg" id="5TlQvVACR_" role="jymVt">
+      <property role="TrG5h" value="myDefaultBoxShape" />
+      <node concept="3Tm6S6" id="5TlQvVACRA" role="1B3o_S" />
+      <node concept="3uibUv" id="5TlQvVAR8K" role="1tU5fm">
+        <ref role="3uigEE" to="7ou7:6uo2fN6kjTa" resolve="IShape" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5TlQvVAs7Q" role="jymVt" />
     <node concept="3clFbW" id="27djZ8_ZTfQ" role="jymVt">
       <node concept="3cqZAl" id="27djZ8_ZTfS" role="3clF45" />
       <node concept="3Tm1VV" id="27djZ8_ZTfT" role="1B3o_S" />
@@ -6847,6 +6854,51 @@
             <ref role="1Pybhc" to="k7g3:~Collections" resolve="Collections" />
             <node concept="37vLTw" id="6rrvvVeaIXQ" role="37wK5m">
               <ref role="3cqZAo" node="6rrvvVe4YqA" resolve="myChildModels" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5TlQvV_znN" role="jymVt" />
+    <node concept="3clFb_" id="5TlQvV_$Uz" role="jymVt">
+      <property role="TrG5h" value="getDefaultBoxShape" />
+      <node concept="3uibUv" id="5TlQvVA2Xx" role="3clF45">
+        <ref role="3uigEE" to="7ou7:6uo2fN6kjTa" resolve="IShape" />
+      </node>
+      <node concept="3Tm1VV" id="5TlQvV_$UA" role="1B3o_S" />
+      <node concept="3clFbS" id="5TlQvV_$UB" role="3clF47">
+        <node concept="3clFbF" id="5TlQvVARiV" role="3cqZAp">
+          <node concept="37vLTw" id="5TlQvVARiU" role="3clFbG">
+            <ref role="3cqZAo" node="5TlQvVACR_" resolve="myDefaultBoxShape" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5TlQvVARmp" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5TlQvVB5_8" role="jymVt" />
+    <node concept="3clFb_" id="5TlQvVB78$" role="jymVt">
+      <property role="TrG5h" value="setDefaultBoxShape" />
+      <node concept="37vLTG" id="5TlQvVCM4R" role="3clF46">
+        <property role="TrG5h" value="shape" />
+        <node concept="3uibUv" id="5TlQvVCYOV" role="1tU5fm">
+          <ref role="3uigEE" to="7ou7:6uo2fN6kjTa" resolve="IShape" />
+        </node>
+        <node concept="2AHcQZ" id="5TlQvVD0tg" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5TlQvVCBwr" role="3clF45" />
+      <node concept="3Tm1VV" id="5TlQvVB78B" role="1B3o_S" />
+      <node concept="3clFbS" id="5TlQvVB78C" role="3clF47">
+        <node concept="3clFbF" id="5TlQvVD0ed" role="3cqZAp">
+          <node concept="37vLTI" id="5TlQvVD0nR" role="3clFbG">
+            <node concept="37vLTw" id="5TlQvVD0pg" role="37vLTx">
+              <ref role="3cqZAo" node="5TlQvVCM4R" resolve="shape" />
+            </node>
+            <node concept="37vLTw" id="5TlQvVD0ec" role="37vLTJ">
+              <ref role="3cqZAo" node="5TlQvVACR_" resolve="myDefaultBoxShape" />
             </node>
           </node>
         </node>
@@ -11603,6 +11655,18 @@
       <node concept="3Tm1VV" id="49KXtyXBhVa" role="1B3o_S" />
       <node concept="3clFbS" id="49KXtyXBhVb" role="3clF47" />
     </node>
+    <node concept="3clFb_" id="5TlQvVDpQu" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="getDefaultBoxShape" />
+      <node concept="3uibUv" id="5TlQvVDq56" role="3clF45">
+        <ref role="3uigEE" to="7ou7:6uo2fN6kjTa" resolve="IShape" />
+      </node>
+      <node concept="3Tm1VV" id="5TlQvVDpQx" role="1B3o_S" />
+      <node concept="3clFbS" id="5TlQvVDpQy" role="3clF47" />
+      <node concept="2AHcQZ" id="5TlQvVDvMV" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="4teJTSBwQIo" role="1B3o_S" />
     <node concept="3uibUv" id="30bR1EZg80J" role="3HQHJm">
       <ref role="3uigEE" node="30bR1EZfSRl" resolve="IAccessor" />
@@ -12935,6 +12999,24 @@
                   </node>
                 </node>
                 <node concept="ANE8D" id="63AkbuOzi_Q" role="2OqNvi" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5TlQvVDmC3" role="3cqZAp">
+          <node concept="2OqwBi" id="5TlQvVDowl" role="3clFbG">
+            <node concept="37vLTw" id="5TlQvVDmC1" role="2Oq$k0">
+              <ref role="3cqZAo" node="4teJTSBzNbU" resolve="myModel" />
+            </node>
+            <node concept="liA8E" id="5TlQvVDpnK" role="2OqNvi">
+              <ref role="37wK5l" node="5TlQvVB78$" resolve="setDefaultBoxShape" />
+              <node concept="2OqwBi" id="5TlQvVDpzP" role="37wK5m">
+                <node concept="37vLTw" id="5TlQvVDpqu" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4teJTSBzNbY" resolve="myDiagramAccessor" />
+                </node>
+                <node concept="liA8E" id="5TlQvVDuxE" role="2OqNvi">
+                  <ref role="37wK5l" node="5TlQvVDpQu" resolve="getDefaultBoxShape" />
+                </node>
               </node>
             </node>
           </node>
@@ -19009,6 +19091,22 @@
             <property role="3clFbU" value="true" />
           </node>
         </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="5TlQvVDuZZ" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getDefaultBoxShape" />
+      <node concept="3uibUv" id="5TlQvVDv00" role="3clF45">
+        <ref role="3uigEE" to="7ou7:6uo2fN6kjTa" resolve="IShape" />
+      </node>
+      <node concept="3Tm1VV" id="5TlQvVDv01" role="1B3o_S" />
+      <node concept="3clFbS" id="5TlQvVDv03" role="3clF47">
+        <node concept="3clFbF" id="5TlQvVDvIQ" role="3cqZAp">
+          <node concept="10Nm6u" id="5TlQvVDvIP" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5TlQvVDvsx" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="3Tm1VV" id="63AkbuOFp4S" role="1B3o_S" />

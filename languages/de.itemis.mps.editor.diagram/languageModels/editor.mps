@@ -13,9 +13,9 @@
     <import index="tpc5" ref="r:00000000-0000-4000-0000-011c89590299(jetbrains.mps.lang.editor.editor)" />
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="nh7q" ref="r:1c698dc1-0d14-425b-8c35-6d4f27e74333(de.itemis.mps.editor.diagram.behavior)" />
-    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" implicit="true" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="18bc6592-03a6-4e29-a83a-7ff23bde13ba" name="jetbrains.mps.lang.editor">
@@ -510,6 +510,24 @@
               </node>
             </node>
             <node concept="2iRfu4" id="49KXtyXi2EF" role="2iSdaV" />
+          </node>
+          <node concept="3EZMnI" id="5TlQvVxfJ6" role="3EZMnx">
+            <node concept="VPM3Z" id="5TlQvVxfJ7" role="3F10Kt">
+              <property role="VOm3f" value="false" />
+            </node>
+            <node concept="VPXOz" id="5TlQvVxfJ8" role="3F10Kt">
+              <property role="VOm3f" value="true" />
+            </node>
+            <node concept="3F0ifn" id="5TlQvVxfJ9" role="3EZMnx">
+              <property role="3F0ifm" value="default shape" />
+            </node>
+            <node concept="3F1sOY" id="5TlQvVxgZh" role="3EZMnx">
+              <ref role="1NtTu8" to="2qld:5TlQvVxgAb" />
+              <node concept="VPXOz" id="5TlQvVxhdf" role="3F10Kt">
+                <property role="VOm3f" value="true" />
+              </node>
+            </node>
+            <node concept="2iRfu4" id="5TlQvVxfJc" role="2iSdaV" />
           </node>
           <node concept="2EHx9g" id="5qgNcfDnhh8" role="2iSdaV" />
         </node>
