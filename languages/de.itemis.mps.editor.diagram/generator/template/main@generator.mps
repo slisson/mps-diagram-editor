@@ -78,6 +78,9 @@
       <concept id="4836112446988635817" name="jetbrains.mps.baseLanguage.structure.UndefinedType" flags="in" index="2jxLKc" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -5330,13 +5333,13 @@
           <node concept="3sjG9q" id="63Tq0M97QUi" role="3tD6jU">
             <node concept="3clFbS" id="63Tq0M97QUj" role="2VODD2">
               <node concept="3cpWs6" id="63Tq0M97QUk" role="3cqZAp">
-                <node concept="3b6qkQ" id="63Tq0M97Tx_" role="3cqZAk">
-                  <property role="$nhwW" value="0.0f" />
-                  <node concept="17Uvod" id="63Tq0M97Una" role="lGtFl">
+                <node concept="2$xPTn" id="7h3F9h$sYoY" role="3cqZAk">
+                  <property role="2$xPTl" value="0.0f" />
+                  <node concept="17Uvod" id="7h3F9h$sYBx" role="lGtFl">
+                    <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/5279705229678483897/5279705229678483899" />
                     <property role="2qtEX9" value="value" />
-                    <property role="P4ACc" value="f3061a53-9226-4cc5-a443-f952ceaf5816/1111509017652/1113006610751" />
-                    <node concept="3zFVjK" id="63Tq0M97Unb" role="3zH0cK">
-                      <node concept="3clFbS" id="63Tq0M97Unc" role="2VODD2">
+                    <node concept="3zFVjK" id="7h3F9h$sYBy" role="3zH0cK">
+                      <node concept="3clFbS" id="7h3F9h$sYBz" role="2VODD2">
                         <node concept="3cpWs8" id="63Tq0M97X9C" role="3cqZAp">
                           <node concept="3cpWsn" id="63Tq0M97X9D" role="3cpWs9">
                             <property role="TrG5h" value="result" />
