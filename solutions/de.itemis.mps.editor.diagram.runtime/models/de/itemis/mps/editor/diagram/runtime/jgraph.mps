@@ -419,13 +419,6 @@
       </concept>
       <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
     </language>
-    <language id="63650c59-16c8-498a-99c8-005c7ee9515d" name="jetbrains.mps.lang.access">
-      <concept id="8974276187400348173" name="jetbrains.mps.lang.access.structure.CommandClosureLiteral" flags="nn" index="1QHqEC" />
-      <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
-        <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
-      </concept>
-      <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
-    </language>
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
       <concept id="4079382982702596667" name="jetbrains.mps.baseLanguage.checkedDots.structure.CheckedDotExpression" flags="nn" index="2EnYce" />
     </language>
@@ -447,9 +440,7 @@
       <concept id="1205756064662" name="jetbrains.mps.baseLanguage.classifiers.structure.IMemberOperation" flags="ng" index="2WEnae">
         <reference id="1205756909548" name="member" index="2WH_rO" />
       </concept>
-      <concept id="1205769149993" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation" flags="nn" index="2XshWL">
-        <child id="1205770614681" name="actualArgument" index="2XxRq1" />
-      </concept>
+      <concept id="1205769149993" name="jetbrains.mps.baseLanguage.classifiers.structure.DefaultClassifierMethodCallOperation" flags="nn" index="2XshWL" />
     </language>
     <language id="df345b11-b8c7-4213-ac66-48d2a9b75d88" name="jetbrains.mps.baseLanguageInternal">
       <concept id="1176743162354" name="jetbrains.mps.baseLanguageInternal.structure.InternalVariableReference" flags="nn" index="3VmV3z">
@@ -1428,70 +1419,6 @@
       </node>
     </node>
     <node concept="2tJIrI" id="4dus55SGBy2" role="jymVt" />
-    <node concept="3clFb_" id="7YjR1lGR6Iw" role="jymVt">
-      <property role="TrG5h" value="handleSelection" />
-      <property role="1EzhhJ" value="false" />
-      <node concept="3cqZAl" id="7YjR1lGR6Ix" role="3clF45" />
-      <node concept="3Tmbuc" id="7YjR1lGR6Iy" role="1B3o_S" />
-      <node concept="3clFbS" id="7YjR1lGR6I$" role="3clF47">
-        <node concept="3clFbF" id="7YjR1lGR9XJ" role="3cqZAp">
-          <node concept="1rXfSq" id="7YjR1lGR9XI" role="3clFbG">
-            <ref role="37wK5l" node="7YjR1lGMZWI" resolve="updatePalette" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="7YjR1lGR3GZ" role="jymVt" />
-    <node concept="3clFb_" id="7YjR1lGMZWI" role="jymVt">
-      <property role="TrG5h" value="updatePalette" />
-      <node concept="3cqZAl" id="7YjR1lGMZWK" role="3clF45" />
-      <node concept="3Tm1VV" id="7YjR1lGMZWL" role="1B3o_S" />
-      <node concept="3clFbS" id="7YjR1lGMZWM" role="3clF47">
-        <node concept="1QHqEK" id="48SJwf9m8KI" role="3cqZAp">
-          <node concept="1QHqEC" id="48SJwf9m8KK" role="1QHqEI">
-            <node concept="3clFbS" id="48SJwf9m8KM" role="1bW5cS">
-              <node concept="3cpWs8" id="7YjR1lGN3qj" role="3cqZAp">
-                <node concept="3cpWsn" id="7YjR1lGN3qk" role="3cpWs9">
-                  <property role="TrG5h" value="ideaProject" />
-                  <node concept="3uibUv" id="7YjR1lGN3ql" role="1tU5fm">
-                    <ref role="3uigEE" to="b2mh:~Project" resolve="Project" />
-                  </node>
-                  <node concept="2YIFZM" id="7YjR1lGN3yb" role="33vP2m">
-                    <ref role="37wK5l" to="pt5l:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
-                    <ref role="1Pybhc" to="pt5l:~ProjectHelper" resolve="ProjectHelper" />
-                    <node concept="2OqwBi" id="7YjR1lGN3Go" role="37wK5m">
-                      <node concept="1rXfSq" id="7YjR1lGN3zZ" role="2Oq$k0">
-                        <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
-                      </node>
-                      <node concept="liA8E" id="7YjR1lGN48Z" role="2OqNvi">
-                        <ref role="37wK5l" to="cu2c:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="3clFbF" id="7YjR1lGN2dd" role="3cqZAp">
-                <node concept="2OqwBi" id="10IovSq7pvT" role="3clFbG">
-                  <node concept="2OqwBi" id="10IovSq7psu" role="2Oq$k0">
-                    <node concept="LR4U6" id="10IovSq7psy" role="2OqNvi">
-                      <ref role="LR4U5" to="3it5:4KKQOHIVBBM" resolve="Diagram Palette" />
-                    </node>
-                    <node concept="37vLTw" id="7YjR1lGN4c3" role="2Oq$k0">
-                      <ref role="3cqZAo" node="7YjR1lGN3qk" resolve="ideaProject" />
-                    </node>
-                  </node>
-                  <node concept="2XshWL" id="4KKQOHJ44SK" role="2OqNvi">
-                    <ref role="2WH_rO" to="3it5:4KKQOHJ2Z6D" resolve="update" />
-                    <node concept="Xjq3P" id="2545YAXlC60" role="2XxRq1" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="7YjR1lGMXOj" role="jymVt" />
     <node concept="3clFb_" id="6Bd7Vwq_Nhx" role="jymVt">
       <property role="TrG5h" value="getPalette" />
       <node concept="3uibUv" id="6Bd7Vwq_XzG" role="3clF45">
@@ -2721,6 +2648,47 @@
             </node>
             <node concept="liA8E" id="2l7cIJcYWuk" role="2OqNvi">
               <ref role="37wK5l" to="dbrf:~Timer.start():void" resolve="start" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="3kITFmIEFfb" role="3cqZAp" />
+        <node concept="3SKdUt" id="3kITFmIF32X" role="3cqZAp">
+          <node concept="3SKdUq" id="3kITFmIF3w9" role="3SKWNk">
+            <property role="3SKdUp" value="make palette available" />
+          </node>
+        </node>
+        <node concept="3cpWs8" id="3kITFmIEFIA" role="3cqZAp">
+          <node concept="3cpWsn" id="3kITFmIEFIB" role="3cpWs9">
+            <property role="TrG5h" value="ideaProject" />
+            <node concept="3uibUv" id="3kITFmIEFIC" role="1tU5fm">
+              <ref role="3uigEE" to="b2mh:~Project" resolve="Project" />
+            </node>
+            <node concept="2YIFZM" id="3kITFmIEFID" role="33vP2m">
+              <ref role="37wK5l" to="pt5l:~ProjectHelper.toIdeaProject(jetbrains.mps.project.Project):com.intellij.openapi.project.Project" resolve="toIdeaProject" />
+              <ref role="1Pybhc" to="pt5l:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="2OqwBi" id="3kITFmIEFIE" role="37wK5m">
+                <node concept="1rXfSq" id="3kITFmIEFIF" role="2Oq$k0">
+                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getOperationContext():jetbrains.mps.smodel.IOperationContext" resolve="getOperationContext" />
+                </node>
+                <node concept="liA8E" id="3kITFmIEFIG" role="2OqNvi">
+                  <ref role="37wK5l" to="cu2c:~IOperationContext.getProject():jetbrains.mps.project.Project" resolve="getProject" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3kITFmIEFIH" role="3cqZAp">
+          <node concept="2OqwBi" id="3kITFmIEFII" role="3clFbG">
+            <node concept="2OqwBi" id="3kITFmIEFIJ" role="2Oq$k0">
+              <node concept="LR4U6" id="3kITFmIEFIK" role="2OqNvi">
+                <ref role="LR4U5" to="3it5:4KKQOHIVBBM" resolve="Diagram Palette" />
+              </node>
+              <node concept="37vLTw" id="3kITFmIEFIL" role="2Oq$k0">
+                <ref role="3cqZAo" node="3kITFmIEFIB" resolve="ideaProject" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2v9Ij3$A1fU" role="2OqNvi">
+              <ref role="37wK5l" to="jwd7:~BaseTool.makeAvailableLater():void" resolve="makeAvailableLater" />
             </node>
           </node>
         </node>
