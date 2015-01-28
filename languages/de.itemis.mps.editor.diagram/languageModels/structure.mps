@@ -1367,5 +1367,26 @@
       <ref role="PrY4T" node="1HYYbxG1lxg" resolve="IPaletteSource" />
     </node>
   </node>
+  <node concept="1TIwiD" id="7h3F9h_dt7U">
+    <property role="3GE5qa" value="palette" />
+    <property role="TrG5h" value="PaletteSource_ReplaceEntry" />
+    <property role="34LRSv" value="replace entry" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="1TJgyj" id="7h3F9h_dt7X" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="source" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="1HYYbxG1lxg" resolve="IPaletteSource" />
+    </node>
+    <node concept="PrWs8" id="7h3F9h_dt7V" role="PzmwI">
+      <ref role="PrY4T" node="1HYYbxG1lxg" resolve="IPaletteSource" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7h3F9h_dulc">
+    <property role="3GE5qa" value="palette" />
+    <property role="TrG5h" value="Parameter_IPaletteEntry" />
+    <property role="34LRSv" value="paletteEntry" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
 </model>
 
