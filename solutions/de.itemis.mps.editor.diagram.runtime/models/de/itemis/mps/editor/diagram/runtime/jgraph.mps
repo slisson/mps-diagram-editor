@@ -1044,7 +1044,7 @@
             <ref role="3cqZAo" node="4KKQOHIOe7x" resolve="model" />
           </node>
           <node concept="37vLTw" id="5S8_I2G70Vc" role="37wK5m">
-            <ref role="3cqZAo" node="4KKQOHIZ4tU" resolve="diagramNodesSubstituteInfo" />
+            <ref role="3cqZAo" node="4KKQOHIZ4tU" resolve="paletteEntryProvider" />
           </node>
         </node>
         <node concept="3clFbF" id="4KKQOHIOe7d" role="3cqZAp">
@@ -1252,9 +1252,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="4KKQOHIZ4tU" role="3clF46">
-        <property role="TrG5h" value="diagramNodesSubstituteInfo" />
-        <node concept="3uibUv" id="4KKQOHIZ4NY" role="1tU5fm">
-          <ref role="3uigEE" to="nu8v:~SubstituteInfo" resolve="SubstituteInfo" />
+        <property role="TrG5h" value="paletteEntryProvider" />
+        <node concept="3uibUv" id="7h3F9h$EGeg" role="1tU5fm">
+          <ref role="3uigEE" to="nkm5:KILMQGpsgq" resolve="IPaletteEntryProvider" />
         </node>
       </node>
     </node>
@@ -12999,42 +12999,17 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs8" id="7h3F9h$6Ufp" role="3cqZAp">
-              <node concept="3cpWsn" id="7h3F9h$6Ufq" role="3cpWs9">
-                <property role="TrG5h" value="substituteInfo" />
-                <node concept="3uibUv" id="7h3F9h$6Ufl" role="1tU5fm">
-                  <ref role="3uigEE" to="nu8v:~SubstituteInfo" resolve="SubstituteInfo" />
-                </node>
-                <node concept="2EnYce" id="7h3F9h$6Ufr" role="33vP2m">
-                  <node concept="37vLTw" id="7h3F9h$6Ufs" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2545YAXjoSb" resolve="diagramCell" />
-                  </node>
-                  <node concept="liA8E" id="7h3F9h$6Uft" role="2OqNvi">
-                    <ref role="37wK5l" node="4KKQOHJ4cbW" resolve="getPaletteSubstituteInfo" />
-                  </node>
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="7h3F9h$6Vi5" role="3cqZAp">
               <node concept="37vLTI" id="7h3F9h$6Wat" role="3clFbG">
                 <node concept="37vLTw" id="7h3F9h$6Vi3" role="37vLTJ">
                   <ref role="3cqZAo" node="7h3F9h$6yin" resolve="myEntryProvider" />
                 </node>
-                <node concept="3K4zz7" id="7h3F9h$7iBd" role="37vLTx">
-                  <node concept="10Nm6u" id="7h3F9h$7iIt" role="3K4E3e" />
-                  <node concept="3clFbC" id="7h3F9h$7hWW" role="3K4Cdx">
-                    <node concept="10Nm6u" id="7h3F9h$7igE" role="3uHU7w" />
-                    <node concept="37vLTw" id="7h3F9h$7hPx" role="3uHU7B">
-                      <ref role="3cqZAo" node="7h3F9h$6Ufq" resolve="substituteInfo" />
-                    </node>
+                <node concept="2EnYce" id="7h3F9h$SzFJ" role="37vLTx">
+                  <node concept="37vLTw" id="7h3F9h$SzFK" role="2Oq$k0">
+                    <ref role="3cqZAo" node="2545YAXjoSb" resolve="diagramCell" />
                   </node>
-                  <node concept="2ShNRf" id="7h3F9h$6WeC" role="3K4GZi">
-                    <node concept="1pGfFk" id="7h3F9h$7hkF" role="2ShVmc">
-                      <ref role="37wK5l" to="nkm5:KILMQGpsJp" resolve="SubstituteInfoPaletteEntryProvider" />
-                      <node concept="37vLTw" id="7h3F9h$7hvQ" role="37wK5m">
-                        <ref role="3cqZAo" node="7h3F9h$6Ufq" resolve="substituteInfo" />
-                      </node>
-                    </node>
+                  <node concept="liA8E" id="7h3F9h$SzFL" role="2OqNvi">
+                    <ref role="37wK5l" node="4KKQOHJ4cbW" resolve="getPaletteEntryProvider" />
                   </node>
                 </node>
               </node>
@@ -41899,7 +41874,7 @@
             <ref role="3cqZAo" node="5S8_I2G71sz" resolve="model" />
           </node>
           <node concept="37vLTw" id="5S8_I2G71vX" role="37wK5m">
-            <ref role="3cqZAo" node="5S8_I2G71s_" resolve="diagramNodesSubstituteInfo" />
+            <ref role="3cqZAo" node="5S8_I2G71s_" resolve="paletteEntryProvider" />
           </node>
         </node>
         <node concept="3clFbF" id="2l7cIJdg8e5" role="3cqZAp">
@@ -41961,9 +41936,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="5S8_I2G71s_" role="3clF46">
-        <property role="TrG5h" value="diagramNodesSubstituteInfo" />
-        <node concept="3uibUv" id="5S8_I2G71sA" role="1tU5fm">
-          <ref role="3uigEE" to="nu8v:~SubstituteInfo" resolve="SubstituteInfo" />
+        <property role="TrG5h" value="paletteEntryProvider" />
+        <node concept="3uibUv" id="7h3F9h$EJSS" role="1tU5fm">
+          <ref role="3uigEE" to="nkm5:KILMQGpsgq" resolve="IPaletteEntryProvider" />
         </node>
       </node>
     </node>
@@ -42600,10 +42575,10 @@
       </node>
     </node>
     <node concept="312cEg" id="4KKQOHIZ6jt" role="jymVt">
-      <property role="TrG5h" value="myDiagramNodesSubstituteInfo" />
+      <property role="TrG5h" value="myPaletteEntryProvider" />
       <node concept="3Tmbuc" id="5S8_I2G6WiS" role="1B3o_S" />
-      <node concept="3uibUv" id="4KKQOHIZ7IB" role="1tU5fm">
-        <ref role="3uigEE" to="nu8v:~SubstituteInfo" resolve="SubstituteInfo" />
+      <node concept="3uibUv" id="7h3F9h$EAXw" role="1tU5fm">
+        <ref role="3uigEE" to="nkm5:KILMQGpsgq" resolve="IPaletteEntryProvider" />
       </node>
     </node>
     <node concept="2tJIrI" id="5S8_I2G6QZJ" role="jymVt" />
@@ -42640,10 +42615,10 @@
         <node concept="3clFbF" id="4KKQOHIZ8s3" role="3cqZAp">
           <node concept="37vLTI" id="4KKQOHIZ8K$" role="3clFbG">
             <node concept="37vLTw" id="4KKQOHIZ8O4" role="37vLTx">
-              <ref role="3cqZAo" node="5S8_I2G6qPE" resolve="diagramNodesSubstituteInfo" />
+              <ref role="3cqZAo" node="5S8_I2G6qPE" resolve="paletteEntryProvider" />
             </node>
             <node concept="37vLTw" id="4KKQOHIZ8s2" role="37vLTJ">
-              <ref role="3cqZAo" node="4KKQOHIZ6jt" resolve="myDiagramNodesSubstituteInfo" />
+              <ref role="3cqZAo" node="4KKQOHIZ6jt" resolve="myPaletteEntryProvider" />
             </node>
           </node>
         </node>
@@ -42665,9 +42640,9 @@
         </node>
       </node>
       <node concept="37vLTG" id="5S8_I2G6qPE" role="3clF46">
-        <property role="TrG5h" value="diagramNodesSubstituteInfo" />
-        <node concept="3uibUv" id="5S8_I2G6qPF" role="1tU5fm">
-          <ref role="3uigEE" to="nu8v:~SubstituteInfo" resolve="SubstituteInfo" />
+        <property role="TrG5h" value="paletteEntryProvider" />
+        <node concept="3uibUv" id="7h3F9h$EBSQ" role="1tU5fm">
+          <ref role="3uigEE" to="nkm5:KILMQGpsgq" resolve="IPaletteEntryProvider" />
         </node>
       </node>
     </node>
@@ -42716,15 +42691,15 @@
     </node>
     <node concept="2tJIrI" id="2l7cIJde9X0" role="jymVt" />
     <node concept="3clFb_" id="4KKQOHJ4cbW" role="jymVt">
-      <property role="TrG5h" value="getPaletteSubstituteInfo" />
-      <node concept="3uibUv" id="4KKQOHJ4_70" role="3clF45">
-        <ref role="3uigEE" to="nu8v:~SubstituteInfo" resolve="SubstituteInfo" />
+      <property role="TrG5h" value="getPaletteEntryProvider" />
+      <node concept="3uibUv" id="7h3F9h$EAOa" role="3clF45">
+        <ref role="3uigEE" to="nkm5:KILMQGpsgq" resolve="IPaletteEntryProvider" />
       </node>
       <node concept="3Tm1VV" id="4KKQOHJ4cbZ" role="1B3o_S" />
       <node concept="3clFbS" id="4KKQOHJ4cc0" role="3clF47">
         <node concept="3clFbF" id="4KKQOHJ4AK3" role="3cqZAp">
           <node concept="37vLTw" id="4KKQOHJ4AK2" role="3clFbG">
-            <ref role="3cqZAo" node="4KKQOHIZ6jt" resolve="myDiagramNodesSubstituteInfo" />
+            <ref role="3cqZAo" node="4KKQOHIZ6jt" resolve="myPaletteEntryProvider" />
           </node>
         </node>
       </node>

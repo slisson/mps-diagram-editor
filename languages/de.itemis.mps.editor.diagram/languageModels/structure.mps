@@ -9,8 +9,8 @@
     <import index="tpc2" ref="r:00000000-0000-4000-0000-011c8959029e(jetbrains.mps.lang.editor.structure)" />
     <import index="tpee" ref="r:00000000-0000-4000-0000-011c895902ca(jetbrains.mps.baseLanguage.structure)" />
     <import index="suqv" ref="r:9a28b49a-e98c-4186-a7e1-7e782b3f4fc3(de.itemis.mps.editor.diagram.layout.structure)" />
-    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
+    <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
   <registry>
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" name="jetbrains.mps.lang.structure">
@@ -314,7 +314,7 @@
   <node concept="1TIwiD" id="4KKQOHIYvOo">
     <property role="TrG5h" value="PaletteSource_Query" />
     <property role="3GE5qa" value="palette" />
-    <property role="34LRSv" value="query" />
+    <property role="34LRSv" value="substitute info query" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
     <node concept="PrWs8" id="1HYYbxGbHdc" role="PzmwI">
       <ref role="PrY4T" node="1HYYbxG1lxg" resolve="IPaletteSource" />
@@ -1356,6 +1356,15 @@
       <property role="20kJfa" value="variableValue" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="7h3F9h$AVCN">
+    <property role="3GE5qa" value="palette" />
+    <property role="TrG5h" value="PaletteSource_EntryQuery" />
+    <property role="34LRSv" value="query" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="7h3F9h$BZqN" role="PzmwI">
+      <ref role="PrY4T" node="1HYYbxG1lxg" resolve="IPaletteSource" />
     </node>
   </node>
 </model>
