@@ -15831,6 +15831,30 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6aY42aVzP5_" role="jymVt" />
+    <node concept="3clFb_" id="lG49FjpE8M" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="createGraphView" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tmbuc" id="lG49FjpE8N" role="1B3o_S" />
+      <node concept="3uibUv" id="lG49FjpE8P" role="3clF45">
+        <ref role="3uigEE" to="fkey:~mxGraphView" resolve="mxGraphView" />
+      </node>
+      <node concept="3clFbS" id="lG49FjpE8Q" role="3clF47">
+        <node concept="3clFbF" id="lG49FjpFOO" role="3cqZAp">
+          <node concept="2ShNRf" id="lG49FjpFOM" role="3clFbG">
+            <node concept="1pGfFk" id="lG49Fjq1up" role="2ShVmc">
+              <ref role="37wK5l" node="lG49Fjpp8O" resolve="MyGraphView" />
+              <node concept="Xjq3P" id="lG49Fjq1v9" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="lG49FjpE8R" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="lG49Fjq1wa" role="jymVt" />
     <node concept="3clFb_" id="6LXVPPFkJUh" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="isCellFoldable" />
@@ -15859,8 +15883,32 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
-    <node concept="2tJIrI" id="519t3kwBn7Q" role="jymVt" />
     <node concept="2tJIrI" id="519t3kwBnIi" role="jymVt" />
+    <node concept="3clFb_" id="lG49Fjxe5S" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isOrthogonal" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="lG49Fjxe5T" role="1B3o_S" />
+      <node concept="10P_77" id="lG49Fjxe5V" role="3clF45" />
+      <node concept="37vLTG" id="lG49Fjxe5W" role="3clF46">
+        <property role="TrG5h" value="state" />
+        <node concept="3uibUv" id="lG49Fjxe5X" role="1tU5fm">
+          <ref role="3uigEE" to="fkey:~mxCellState" resolve="mxCellState" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="lG49Fjxe5Y" role="3clF47">
+        <node concept="3clFbF" id="lG49FjxfOx" role="3cqZAp">
+          <node concept="3clFbT" id="lG49FjxfOw" role="3clFbG">
+            <property role="3clFbU" value="true" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="lG49Fjxe5Z" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="lG49Fj$FsE" role="jymVt" />
     <node concept="3clFb_" id="519t3kwBp5z" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="createEdge" />
@@ -46676,6 +46724,34 @@
   <node concept="3HP615" id="6rrvvVeJvln">
     <property role="TrG5h" value="IDiagramDCell" />
     <node concept="3Tm1VV" id="6rrvvVeJvlo" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="lG49FjpkfZ">
+    <property role="TrG5h" value="MyGraphView" />
+    <node concept="3Tm1VV" id="lG49Fjpkg0" role="1B3o_S" />
+    <node concept="3uibUv" id="lG49Fjpp8_" role="1zkMxy">
+      <ref role="3uigEE" to="fkey:~mxGraphView" resolve="mxGraphView" />
+    </node>
+    <node concept="2tJIrI" id="lG49FjppaC" role="jymVt" />
+    <node concept="3clFbW" id="lG49Fjpp8O" role="jymVt">
+      <node concept="3cqZAl" id="lG49Fjpp8P" role="3clF45" />
+      <node concept="3Tm1VV" id="lG49Fjpp8Q" role="1B3o_S" />
+      <node concept="3clFbS" id="lG49Fjpp8S" role="3clF47">
+        <node concept="XkiVB" id="lG49Fjpp8U" role="3cqZAp">
+          <ref role="37wK5l" to="fkey:~mxGraphView.&lt;init&gt;(com.mxgraph.view.mxGraph)" resolve="mxGraphView" />
+          <node concept="37vLTw" id="lG49Fjpp8Y" role="37wK5m">
+            <ref role="3cqZAo" node="lG49Fjpp8V" resolve="graph" />
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="lG49Fjpp8V" role="3clF46">
+        <property role="TrG5h" value="graph" />
+        <node concept="3uibUv" id="lG49Fjpp8X" role="1tU5fm">
+          <ref role="3uigEE" to="fkey:~mxGraph" resolve="mxGraph" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="lG49Fjtv47" role="jymVt" />
+    <node concept="2tJIrI" id="lG49Fjtv4i" role="jymVt" />
   </node>
 </model>
 
