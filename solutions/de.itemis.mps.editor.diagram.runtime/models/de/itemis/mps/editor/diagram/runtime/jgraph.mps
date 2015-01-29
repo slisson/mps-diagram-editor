@@ -1081,22 +1081,18 @@
           </node>
         </node>
         <node concept="3clFbH" id="5D3lA7lX97I" role="3cqZAp" />
-        <node concept="3SKdUt" id="7YAWia_48ap" role="3cqZAp">
-          <node concept="3SKWN0" id="7YAWia_48aq" role="3SKWNk">
-            <node concept="3clFbF" id="eyrvBdlyZJ" role="3SKWNf">
-              <node concept="37vLTI" id="eyrvBdl$pi" role="3clFbG">
-                <node concept="2OqwBi" id="eyrvBdl_pC" role="37vLTx">
-                  <node concept="37vLTw" id="eyrvBdl_j0" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4KKQOHIOe6L" resolve="myGraph" />
-                  </node>
-                  <node concept="liA8E" id="eyrvBdlRws" role="2OqNvi">
-                    <ref role="37wK5l" node="eyrvBdlDbJ" resolve="getGraphComponent" />
-                  </node>
-                </node>
-                <node concept="37vLTw" id="eyrvBdlyZH" role="37vLTJ">
-                  <ref role="3cqZAo" node="4KKQOHIOe6O" resolve="myGraphComponent" />
-                </node>
+        <node concept="3clFbF" id="eyrvBdlyZJ" role="3cqZAp">
+          <node concept="37vLTI" id="eyrvBdl$pi" role="3clFbG">
+            <node concept="2OqwBi" id="eyrvBdl_pC" role="37vLTx">
+              <node concept="37vLTw" id="eyrvBdl_j0" role="2Oq$k0">
+                <ref role="3cqZAo" node="4KKQOHIOe6L" resolve="myGraph" />
               </node>
+              <node concept="liA8E" id="eyrvBdlRws" role="2OqNvi">
+                <ref role="37wK5l" node="eyrvBdlDbJ" resolve="getGraphComponent" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="eyrvBdlyZH" role="37vLTJ">
+              <ref role="3cqZAo" node="4KKQOHIOe6O" resolve="myGraphComponent" />
             </node>
           </node>
         </node>
