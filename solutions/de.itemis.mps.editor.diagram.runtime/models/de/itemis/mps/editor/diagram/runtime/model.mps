@@ -9520,9 +9520,73 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="1jNpGJo3yec" role="jymVt" />
+    <node concept="3clFb_" id="1jNpGJo3x4v" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="clone" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="1jNpGJo3BtP" role="1B3o_S" />
+      <node concept="3uibUv" id="1jNpGJo3Al2" role="3clF45">
+        <ref role="3uigEE" node="20KyIMr11_p" resolve="Point" />
+      </node>
+      <node concept="3clFbS" id="1jNpGJo3x4$" role="3clF47">
+        <node concept="SfApY" id="1jNpGJo3DHQ" role="3cqZAp">
+          <node concept="3clFbS" id="1jNpGJo3DHS" role="SfCbr">
+            <node concept="3cpWs8" id="1jNpGJo3zwD" role="3cqZAp">
+              <node concept="3cpWsn" id="1jNpGJo3zwE" role="3cpWs9">
+                <property role="TrG5h" value="clone" />
+                <node concept="3uibUv" id="1jNpGJo3zHX" role="1tU5fm">
+                  <ref role="3uigEE" node="20KyIMr11_p" resolve="Point" />
+                </node>
+                <node concept="10QFUN" id="1jNpGJo3_4J" role="33vP2m">
+                  <node concept="3nyPlj" id="1jNpGJo3zwF" role="10QFUP">
+                    <ref role="37wK5l" to="e2lb:~Object.clone():java.lang.Object" resolve="clone" />
+                  </node>
+                  <node concept="3uibUv" id="1jNpGJo3_4K" role="10QFUM">
+                    <ref role="3uigEE" node="20KyIMr11_p" resolve="Point" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs6" id="1jNpGJo3zTN" role="3cqZAp">
+              <node concept="37vLTw" id="1jNpGJo3_da" role="3cqZAk">
+                <ref role="3cqZAo" node="1jNpGJo3zwE" resolve="clone" />
+              </node>
+            </node>
+          </node>
+          <node concept="TDmWw" id="1jNpGJo3DHT" role="TEbGg">
+            <node concept="3clFbS" id="1jNpGJo3DHV" role="TDEfX">
+              <node concept="YS8fn" id="1jNpGJo3Kcz" role="3cqZAp">
+                <node concept="2ShNRf" id="1jNpGJo3KYI" role="YScLw">
+                  <node concept="1pGfFk" id="1jNpGJo3LPq" role="2ShVmc">
+                    <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.Throwable)" resolve="RuntimeException" />
+                    <node concept="37vLTw" id="1jNpGJo3M0z" role="37wK5m">
+                      <ref role="3cqZAo" node="1jNpGJo3DHX" resolve="ex" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWsn" id="1jNpGJo3DHX" role="TDEfY">
+              <property role="TrG5h" value="ex" />
+              <node concept="3uibUv" id="1jNpGJo3EZR" role="1tU5fm">
+                <ref role="3uigEE" to="e2lb:~CloneNotSupportedException" resolve="CloneNotSupportedException" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1jNpGJo3x4_" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="20KyIMr11_q" role="1B3o_S" />
     <node concept="2AHcQZ" id="20KyIMr13wP" role="2AJF6D">
       <ref role="2AI5Lk" to="zfc2:~Immutable" resolve="Immutable" />
+    </node>
+    <node concept="3uibUv" id="1jNpGJo3vTR" role="EKbjA">
+      <ref role="3uigEE" to="e2lb:~Cloneable" resolve="Cloneable" />
     </node>
   </node>
   <node concept="3HP615" id="7vufT$m5fkU">
