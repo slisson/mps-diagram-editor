@@ -46424,8 +46424,11 @@
     <node concept="312cEg" id="1M7dGa32Ibs" role="jymVt">
       <property role="TrG5h" value="myECell" />
       <node concept="3Tm6S6" id="1M7dGa32Ibt" role="1B3o_S" />
-      <node concept="3uibUv" id="1M7dGa32IGM" role="1tU5fm">
-        <ref role="3uigEE" node="5S8_I2FXUUF" resolve="SubDiagramECell" />
+      <node concept="3uibUv" id="7t9P4mKvWWp" role="1tU5fm">
+        <ref role="3uigEE" to="nkm5:3FRjz$v9HRX" resolve="SerializableObjectHolder" />
+        <node concept="3uibUv" id="7t9P4mKw7_q" role="11_B2D">
+          <ref role="3uigEE" node="5S8_I2FXUUF" resolve="SubDiagramECell" />
+        </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1M7dGa32HHd" role="jymVt" />
@@ -46726,8 +46729,13 @@
       <node concept="3Tm1VV" id="1M7dGa32IMs" role="1B3o_S" />
       <node concept="3clFbS" id="1M7dGa32IMt" role="3clF47">
         <node concept="3clFbF" id="1M7dGa32IMu" role="3cqZAp">
-          <node concept="37vLTw" id="1M7dGa32IMp" role="3clFbG">
-            <ref role="3cqZAo" node="1M7dGa32Ibs" resolve="myECell" />
+          <node concept="2EnYce" id="7t9P4mKwaBS" role="3clFbG">
+            <node concept="37vLTw" id="1M7dGa32IMp" role="2Oq$k0">
+              <ref role="3cqZAo" node="1M7dGa32Ibs" resolve="myECell" />
+            </node>
+            <node concept="liA8E" id="7t9P4mKwayL" role="2OqNvi">
+              <ref role="37wK5l" to="nkm5:3FRjz$v9I0d" resolve="get" />
+            </node>
           </node>
         </node>
       </node>
@@ -46739,8 +46747,16 @@
       <node concept="3clFbS" id="1M7dGa32IMz" role="3clF47">
         <node concept="3clFbF" id="1M7dGa32IM$" role="3cqZAp">
           <node concept="37vLTI" id="1M7dGa32IM_" role="3clFbG">
-            <node concept="37vLTw" id="1M7dGa32IMA" role="37vLTx">
-              <ref role="3cqZAo" node="1M7dGa32IMB" resolve="eCell" />
+            <node concept="2ShNRf" id="7t9P4mKwaJX" role="37vLTx">
+              <node concept="1pGfFk" id="7t9P4mKwaJV" role="2ShVmc">
+                <ref role="37wK5l" to="nkm5:3FRjz$v9HV5" resolve="SerializableObjectHolder" />
+                <node concept="3uibUv" id="7t9P4mKwaJW" role="1pMfVU">
+                  <ref role="3uigEE" node="5S8_I2FXUUF" resolve="SubDiagramECell" />
+                </node>
+                <node concept="37vLTw" id="7t9P4mKwqof" role="37wK5m">
+                  <ref role="3cqZAo" node="1M7dGa32IMB" resolve="eCell" />
+                </node>
+              </node>
             </node>
             <node concept="37vLTw" id="1M7dGa32IMv" role="37vLTJ">
               <ref role="3cqZAo" node="1M7dGa32Ibs" resolve="myECell" />
