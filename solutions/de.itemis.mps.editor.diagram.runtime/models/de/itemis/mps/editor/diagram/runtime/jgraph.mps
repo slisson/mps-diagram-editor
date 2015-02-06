@@ -19235,7 +19235,7 @@
                 </node>
               </node>
               <node concept="3cmrfG" id="6zxgcXlyzJz" role="37wK5m">
-                <property role="3cmrfH" value="300" />
+                <property role="3cmrfH" value="30" />
               </node>
             </node>
             <node concept="2OqwBi" id="6zxgcXlypeC" role="37vLTJ">
@@ -19262,7 +19262,7 @@
                 </node>
               </node>
               <node concept="3cmrfG" id="6zxgcXlyHP6" role="37wK5m">
-                <property role="3cmrfH" value="200" />
+                <property role="3cmrfH" value="30" />
               </node>
             </node>
             <node concept="2OqwBi" id="6zxgcXlyBFk" role="37vLTJ">
