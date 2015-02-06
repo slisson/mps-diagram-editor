@@ -9046,6 +9046,19 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbF" id="5kFTseQk7js" role="3cqZAp">
+                  <node concept="2OqwBi" id="5kFTseQk7jt" role="3clFbG">
+                    <node concept="37vLTw" id="5kFTseQk7ju" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6OP6SOHAs53" resolve="subdcell" />
+                    </node>
+                    <node concept="liA8E" id="5kFTseQk7jv" role="2OqNvi">
+                      <ref role="37wK5l" node="1M7dGa32IMw" resolve="setECell" />
+                      <node concept="2GrUjf" id="5kFTseQk7jw" role="37wK5m">
+                        <ref role="2Gs0qQ" node="6OP6SOH_zdQ" resolve="subdiagram" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
                 <node concept="3clFbF" id="6OP6SOHBavR" role="3cqZAp">
                   <node concept="2OqwBi" id="6OP6SOHBaAJ" role="3clFbG">
                     <node concept="37vLTw" id="6OP6SOHBavP" role="2Oq$k0">
@@ -43122,6 +43135,22 @@
               <node concept="AQDAd" id="F$W_0KwPE_" role="2OqNvi">
                 <ref role="37wK5l" node="6GddiZH9Y6B" resolve="toInt" />
               </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5kFTseQnVq_" role="3cqZAp">
+          <node concept="1rXfSq" id="5kFTseQnVqA" role="3clFbG">
+            <ref role="37wK5l" to="jsgz:~EditorCell_Collection.setAscent(int):void" resolve="setAscent" />
+            <node concept="1rXfSq" id="5kFTseQnVqB" role="37wK5m">
+              <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getHeight():int" resolve="getHeight" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5kFTseQnVqC" role="3cqZAp">
+          <node concept="1rXfSq" id="5kFTseQnVqD" role="3clFbG">
+            <ref role="37wK5l" to="jsgz:~EditorCell_Collection.setDescent(int):void" resolve="setDescent" />
+            <node concept="3cmrfG" id="5kFTseQnVqE" role="37wK5m">
+              <property role="3cmrfH" value="0" />
             </node>
           </node>
         </node>
