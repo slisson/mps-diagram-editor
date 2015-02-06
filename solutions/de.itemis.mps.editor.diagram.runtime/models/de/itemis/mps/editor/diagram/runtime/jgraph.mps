@@ -1106,7 +1106,14 @@
                     <node concept="37vLTw" id="4KKQOHIOe7m" role="37wK5m">
                       <ref role="3cqZAo" node="4KKQOHIOe6L" resolve="myGraph" />
                     </node>
-                    <node concept="Xjq3P" id="6zxgcXlvRt0" role="37wK5m" />
+                    <node concept="2OqwBi" id="1M7dGa3nMVJ" role="37wK5m">
+                      <node concept="37vLTw" id="1M7dGa3nMNp" role="2Oq$k0">
+                        <ref role="3cqZAo" node="4KKQOHIOe7t" resolve="context" />
+                      </node>
+                      <node concept="liA8E" id="1M7dGa3nNl8" role="2OqNvi">
+                        <ref role="37wK5l" to="srng:~EditorContext.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="37vLTw" id="4KKQOHIOe7n" role="37vLTJ">
@@ -1119,6 +1126,17 @@
             <node concept="10Nm6u" id="eyrvBdlUxC" role="3uHU7w" />
             <node concept="37vLTw" id="eyrvBdlT7T" role="3uHU7B">
               <ref role="3cqZAo" node="4KKQOHIOe6O" resolve="myGraphComponent" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="1M7dGa3jKBD" role="3cqZAp">
+          <node concept="2OqwBi" id="1M7dGa3jM0f" role="3clFbG">
+            <node concept="37vLTw" id="1M7dGa3jKBB" role="2Oq$k0">
+              <ref role="3cqZAo" node="4KKQOHIOe6O" resolve="myGraphComponent" />
+            </node>
+            <node concept="liA8E" id="1M7dGa3k0_O" role="2OqNvi">
+              <ref role="37wK5l" node="1M7dGa3jgVu" resolve="setDiagramCell" />
+              <node concept="Xjq3P" id="1M7dGa3k0Gy" role="37wK5m" />
             </node>
           </node>
         </node>
@@ -9026,6 +9044,19 @@
                 </node>
               </node>
             </node>
+            <node concept="3clFbF" id="1M7dGa32X3P" role="3cqZAp">
+              <node concept="2OqwBi" id="1M7dGa32Ykm" role="3clFbG">
+                <node concept="37vLTw" id="1M7dGa32X3N" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6OP6SOHAs53" resolve="subdcell" />
+                </node>
+                <node concept="liA8E" id="1M7dGa32ZFR" role="2OqNvi">
+                  <ref role="37wK5l" node="1M7dGa32IMw" resolve="setECell" />
+                  <node concept="2GrUjf" id="1M7dGa32ZNd" role="37wK5m">
+                    <ref role="2Gs0qQ" node="6OP6SOH_zdQ" resolve="subdiagram" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="6rrvvVeLs4l" role="3cqZAp">
               <node concept="2OqwBi" id="6rrvvVeLwAi" role="3clFbG">
                 <node concept="37vLTw" id="6rrvvVeLs4j" role="2Oq$k0">
@@ -12741,7 +12772,7 @@
         <node concept="3clFbH" id="1b5aB8fkFvA" role="3cqZAp" />
         <node concept="3SKdUt" id="6Bd7Vwq$YqN" role="3cqZAp">
           <node concept="3SKdUq" id="6Bd7Vwq_0Sm" role="3SKWNk">
-            <property role="3SKdUp" value="allow the user to choosed the palette by clicking into the diagram " />
+            <property role="3SKdUp" value="allow the user to choose the palette by clicking into the diagram " />
           </node>
         </node>
         <node concept="3clFbJ" id="6Bd7Vwq$xZ6" role="3cqZAp">
@@ -18040,16 +18071,6 @@
             <ref role="3cqZAo" node="190K99KyNKm" resolve="graph" />
           </node>
         </node>
-        <node concept="3clFbF" id="6zxgcXlvjGI" role="3cqZAp">
-          <node concept="37vLTI" id="6zxgcXlvk2l" role="3clFbG">
-            <node concept="37vLTw" id="6zxgcXlvkbL" role="37vLTx">
-              <ref role="3cqZAo" node="6zxgcXlvgsd" resolve="diagramCell" />
-            </node>
-            <node concept="37vLTw" id="6zxgcXlvjGH" role="37vLTJ">
-              <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
-            </node>
-          </node>
-        </node>
         <node concept="3clFbF" id="190K99KySAr" role="3cqZAp">
           <node concept="2OqwBi" id="190K99KySCa" role="3clFbG">
             <node concept="37vLTw" id="190K99KySAq" role="2Oq$k0">
@@ -18136,13 +18157,8 @@
                   <node concept="3uibUv" id="1uCOQFMsUOH" role="10QFUM">
                     <ref role="3uigEE" to="9a8:~EditorComponent" resolve="EditorComponent" />
                   </node>
-                  <node concept="2OqwBi" id="1uCOQFMsUOI" role="10QFUP">
-                    <node concept="37vLTw" id="1uCOQFMsUOJ" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
-                    </node>
-                    <node concept="liA8E" id="1uCOQFMsUOK" role="2OqNvi">
-                      <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
-                    </node>
+                  <node concept="37vLTw" id="1M7dGa3nDCI" role="10QFUP">
+                    <ref role="3cqZAo" node="1M7dGa3nC4T" resolve="editorComponent" />
                   </node>
                 </node>
               </node>
@@ -18156,10 +18172,10 @@
           <ref role="3uigEE" node="190K99KhFiz" resolve="MyGraph" />
         </node>
       </node>
-      <node concept="37vLTG" id="6zxgcXlvgsd" role="3clF46">
-        <property role="TrG5h" value="diagramCell" />
-        <node concept="3uibUv" id="6zxgcXlvgAa" role="1tU5fm">
-          <ref role="3uigEE" node="4KKQOHIOe6F" resolve="RootDiagramECell" />
+      <node concept="37vLTG" id="1M7dGa3nC4T" role="3clF46">
+        <property role="TrG5h" value="editorComponent" />
+        <node concept="3uibUv" id="1M7dGa3nCSW" role="1tU5fm">
+          <ref role="3uigEE" to="srng:~EditorComponent" resolve="EditorComponent" />
         </node>
       </node>
     </node>
@@ -18175,6 +18191,30 @@
           <node concept="37vLTw" id="2l7cIJdgFj8" role="3clFbG">
             <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1M7dGa3jcbP" role="jymVt" />
+    <node concept="3clFb_" id="1M7dGa3jgVu" role="jymVt">
+      <property role="TrG5h" value="setDiagramCell" />
+      <node concept="3cqZAl" id="1M7dGa3jgVw" role="3clF45" />
+      <node concept="3Tm1VV" id="1M7dGa3jgVx" role="1B3o_S" />
+      <node concept="3clFbS" id="1M7dGa3jgVy" role="3clF47">
+        <node concept="3clFbF" id="1M7dGa3jwAT" role="3cqZAp">
+          <node concept="37vLTI" id="1M7dGa3jxAY" role="3clFbG">
+            <node concept="37vLTw" id="1M7dGa3jBJM" role="37vLTx">
+              <ref role="3cqZAo" node="1M7dGa3jyeg" resolve="cell" />
+            </node>
+            <node concept="37vLTw" id="1M7dGa3jwAS" role="37vLTJ">
+              <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1M7dGa3jyeg" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3uibUv" id="1M7dGa3jyef" role="1tU5fm">
+          <ref role="3uigEE" node="4KKQOHIOe6F" resolve="RootDiagramECell" />
         </node>
       </node>
     </node>
@@ -21453,6 +21493,12 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1M7dGa3rsDI" role="3cqZAp" />
+        <node concept="3SKdUt" id="1M7dGa3rtU2" role="3cqZAp">
+          <node concept="3SKdUq" id="1M7dGa3rufD" role="3SKWNk">
+            <property role="3SKdUp" value="clicked on a subdiagram?" />
+          </node>
+        </node>
         <node concept="3cpWs8" id="2l7cIJdlHax" role="3cqZAp">
           <node concept="3cpWsn" id="2l7cIJdlHay" role="3cpWs9">
             <property role="TrG5h" value="diagramCell" />
@@ -21488,70 +21534,74 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbJ" id="2l7cIJdlHCr" role="3cqZAp">
-          <node concept="3clFbS" id="2l7cIJdlHCu" role="3clFbx">
-            <node concept="3cpWs8" id="2l7cIJdlTFj" role="3cqZAp">
-              <node concept="3cpWsn" id="2l7cIJdlTFk" role="3cpWs9">
-                <property role="TrG5h" value="editorCell" />
-                <node concept="3uibUv" id="2l7cIJdlTF3" role="1tU5fm">
-                  <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
-                </node>
-                <node concept="2OqwBi" id="49KXtyX9BQz" role="33vP2m">
-                  <node concept="1eOMI4" id="2l7cIJdlTFm" role="2Oq$k0">
-                    <node concept="10QFUN" id="2l7cIJdlTFn" role="1eOMHV">
-                      <node concept="3uibUv" id="49KXtyX9BgP" role="10QFUM">
-                        <ref role="3uigEE" node="f4v_NgJPyX" resolve="BoxDCell" />
+        <node concept="MpOyq" id="1M7dGa3ruQz" role="3cqZAp">
+          <node concept="3clFbS" id="1M7dGa3ruQ_" role="2LFqv$">
+            <node concept="3clFbJ" id="2l7cIJdlHCr" role="3cqZAp">
+              <node concept="3clFbS" id="2l7cIJdlHCu" role="3clFbx">
+                <node concept="3clFbF" id="1M7dGa328Xf" role="3cqZAp">
+                  <node concept="37vLTI" id="1M7dGa32a5T" role="3clFbG">
+                    <node concept="2OqwBi" id="1M7dGa332iV" role="37vLTx">
+                      <node concept="1eOMI4" id="1M7dGa32aik" role="2Oq$k0">
+                        <node concept="10QFUN" id="1M7dGa32aih" role="1eOMHV">
+                          <node concept="3uibUv" id="1M7dGa32aim" role="10QFUM">
+                            <ref role="3uigEE" node="7SMOZKNYVb6" resolve="SubDiagramDCell" />
+                          </node>
+                          <node concept="37vLTw" id="1M7dGa32ain" role="10QFUP">
+                            <ref role="3cqZAo" node="2l7cIJdlHay" resolve="diagramCell" />
+                          </node>
+                        </node>
                       </node>
-                      <node concept="37vLTw" id="2l7cIJdlTFp" role="10QFUP">
+                      <node concept="liA8E" id="1M7dGa333Rt" role="2OqNvi">
+                        <ref role="37wK5l" node="1M7dGa32IMq" resolve="getECell" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="1M7dGa328Xd" role="37vLTJ">
+                      <ref role="3cqZAo" node="49KXtyXdcTl" resolve="clickedDiagram" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2ZW3vV" id="2l7cIJdlHMf" role="3clFbw">
+                <node concept="3uibUv" id="1M7dGa3269E" role="2ZW6by">
+                  <ref role="3uigEE" node="7SMOZKNYVb6" resolve="SubDiagramDCell" />
+                </node>
+                <node concept="37vLTw" id="2l7cIJdlHHx" role="2ZW6bz">
+                  <ref role="3cqZAo" node="2l7cIJdlHay" resolve="diagramCell" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="1M7dGa3rvPC" role="3cqZAp">
+              <node concept="37vLTI" id="1M7dGa3rw2r" role="3clFbG">
+                <node concept="2OqwBi" id="1M7dGa3rwdh" role="37vLTx">
+                  <node concept="1eOMI4" id="1M7dGa3rw4m" role="2Oq$k0">
+                    <node concept="10QFUN" id="1M7dGa3rw4j" role="1eOMHV">
+                      <node concept="3uibUv" id="1M7dGa3rw7W" role="10QFUM">
+                        <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+                      </node>
+                      <node concept="37vLTw" id="1M7dGa3rwaA" role="10QFUP">
                         <ref role="3cqZAo" node="2l7cIJdlHay" resolve="diagramCell" />
                       </node>
                     </node>
                   </node>
-                  <node concept="liA8E" id="49KXtyX9DRz" role="2OqNvi">
-                    <ref role="37wK5l" node="4dus55SF8VP" resolve="getBigCell" />
+                  <node concept="liA8E" id="1M7dGa3rxpR" role="2OqNvi">
+                    <ref role="37wK5l" to="g6dw:~mxCell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
                   </node>
                 </node>
-              </node>
-            </node>
-            <node concept="3clFbJ" id="2l7cIJdlV0v" role="3cqZAp">
-              <node concept="3clFbS" id="2l7cIJdlV0y" role="3clFbx">
-                <node concept="3clFbF" id="49KXtyXdjLv" role="3cqZAp">
-                  <node concept="37vLTI" id="49KXtyXdk9l" role="3clFbG">
-                    <node concept="37vLTw" id="49KXtyXdjLt" role="37vLTJ">
-                      <ref role="3cqZAo" node="49KXtyXdcTl" resolve="clickedDiagram" />
-                    </node>
-                    <node concept="1eOMI4" id="49KXtyXdmZE" role="37vLTx">
-                      <node concept="10QFUN" id="49KXtyXdmZF" role="1eOMHV">
-                        <node concept="3uibUv" id="49KXtyXdmZG" role="10QFUM">
-                          <ref role="3uigEE" node="5S8_I2FY6vo" resolve="BaseDiagramECell" />
-                        </node>
-                        <node concept="37vLTw" id="49KXtyXdmZH" role="10QFUP">
-                          <ref role="3cqZAo" node="2l7cIJdlTFk" resolve="editorCell" />
-                        </node>
-                      </node>
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2ZW3vV" id="2l7cIJdlV3q" role="3clFbw">
-                <node concept="3uibUv" id="2l7cIJdlVad" role="2ZW6by">
-                  <ref role="3uigEE" node="5S8_I2FY6vo" resolve="BaseDiagramECell" />
-                </node>
-                <node concept="37vLTw" id="2l7cIJdlV2s" role="2ZW6bz">
-                  <ref role="3cqZAo" node="2l7cIJdlTFk" resolve="editorCell" />
+                <node concept="37vLTw" id="1M7dGa3rvPA" role="37vLTJ">
+                  <ref role="3cqZAo" node="2l7cIJdlHay" resolve="diagramCell" />
                 </node>
               </node>
             </node>
           </node>
-          <node concept="2ZW3vV" id="2l7cIJdlHMf" role="3clFbw">
-            <node concept="3uibUv" id="49KXtyX9Bdf" role="2ZW6by">
-              <ref role="3uigEE" node="f4v_NgJPyX" resolve="BoxDCell" />
-            </node>
-            <node concept="37vLTw" id="2l7cIJdlHHx" role="2ZW6bz">
+          <node concept="3y3z36" id="1M7dGa3rxDN" role="MpTkK">
+            <node concept="10Nm6u" id="1M7dGa3rxQp" role="3uHU7w" />
+            <node concept="37vLTw" id="1M7dGa3rxsY" role="3uHU7B">
               <ref role="3cqZAo" node="2l7cIJdlHay" resolve="diagramCell" />
             </node>
           </node>
         </node>
+        <node concept="3clFbH" id="1M7dGa3rsZh" role="3cqZAp" />
+        <node concept="3clFbH" id="1M7dGa3rtbb" role="3cqZAp" />
         <node concept="3cpWs8" id="2l7cIJdlXrd" role="3cqZAp">
           <node concept="3cpWsn" id="2l7cIJdlXre" role="3cpWs9">
             <property role="TrG5h" value="project" />
@@ -46183,6 +46233,14 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6OP6SOHCOTV" role="jymVt" />
+    <node concept="312cEg" id="1M7dGa32Ibs" role="jymVt">
+      <property role="TrG5h" value="myECell" />
+      <node concept="3Tm6S6" id="1M7dGa32Ibt" role="1B3o_S" />
+      <node concept="3uibUv" id="1M7dGa32IGM" role="1tU5fm">
+        <ref role="3uigEE" node="5S8_I2FXUUF" resolve="SubDiagramECell" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1M7dGa32HHd" role="jymVt" />
     <node concept="3clFbW" id="6OP6SOHCOLN" role="jymVt">
       <node concept="3cqZAl" id="6OP6SOHCOLP" role="3clF45" />
       <node concept="3Tm1VV" id="6OP6SOHCOLQ" role="1B3o_S" />
@@ -46464,12 +46522,50 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="1M7dGa32JuP" role="jymVt" />
     <node concept="3Tm1VV" id="7SMOZKNYVb7" role="1B3o_S" />
     <node concept="3uibUv" id="7SMOZKNYXbB" role="1zkMxy">
       <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
     </node>
     <node concept="3uibUv" id="6rrvvVeL2tR" role="EKbjA">
       <ref role="3uigEE" node="6rrvvVeJvln" resolve="IDiagramDCell" />
+    </node>
+    <node concept="3clFb_" id="1M7dGa32IMq" role="jymVt">
+      <property role="TrG5h" value="getECell" />
+      <node concept="3uibUv" id="1M7dGa32IMr" role="3clF45">
+        <ref role="3uigEE" node="5S8_I2FXUUF" resolve="SubDiagramECell" />
+      </node>
+      <node concept="3Tm1VV" id="1M7dGa32IMs" role="1B3o_S" />
+      <node concept="3clFbS" id="1M7dGa32IMt" role="3clF47">
+        <node concept="3clFbF" id="1M7dGa32IMu" role="3cqZAp">
+          <node concept="37vLTw" id="1M7dGa32IMp" role="3clFbG">
+            <ref role="3cqZAo" node="1M7dGa32Ibs" resolve="myECell" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="3clFb_" id="1M7dGa32IMw" role="jymVt">
+      <property role="TrG5h" value="setECell" />
+      <node concept="3cqZAl" id="1M7dGa32IMx" role="3clF45" />
+      <node concept="3Tm1VV" id="1M7dGa32IMy" role="1B3o_S" />
+      <node concept="3clFbS" id="1M7dGa32IMz" role="3clF47">
+        <node concept="3clFbF" id="1M7dGa32IM$" role="3cqZAp">
+          <node concept="37vLTI" id="1M7dGa32IM_" role="3clFbG">
+            <node concept="37vLTw" id="1M7dGa32IMA" role="37vLTx">
+              <ref role="3cqZAo" node="1M7dGa32IMB" resolve="eCell" />
+            </node>
+            <node concept="37vLTw" id="1M7dGa32IMv" role="37vLTJ">
+              <ref role="3cqZAo" node="1M7dGa32Ibs" resolve="myECell" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="1M7dGa32IMB" role="3clF46">
+        <property role="TrG5h" value="eCell" />
+        <node concept="3uibUv" id="1M7dGa32IMC" role="1tU5fm">
+          <ref role="3uigEE" node="5S8_I2FXUUF" resolve="SubDiagramECell" />
+        </node>
+      </node>
     </node>
   </node>
   <node concept="312cEu" id="4xcnxwSAWO0">
