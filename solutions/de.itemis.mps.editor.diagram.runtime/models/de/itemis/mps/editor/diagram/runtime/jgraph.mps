@@ -5672,6 +5672,11 @@
                   </node>
                 </node>
                 <node concept="3clFbH" id="6rrvvVeGiIK" role="3cqZAp" />
+                <node concept="3SKdUt" id="1M7dGa3vjgM" role="3cqZAp">
+                  <node concept="3SKdUq" id="1M7dGa3vjH9" role="3SKWNk">
+                    <property role="3SKdUp" value="delete cells that not in the model anymore" />
+                  </node>
+                </node>
                 <node concept="3cpWs8" id="6rrvvVeFLtR" role="3cqZAp">
                   <node concept="3cpWsn" id="6rrvvVeFLtU" role="3cpWs9">
                     <property role="TrG5h" value="cellsToDelete" />
@@ -5734,27 +5739,37 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="1Wc70l" id="6rrvvVeMa1V" role="3clFbw">
-                        <node concept="2ZW3vV" id="6rrvvVeMbxi" role="3uHU7B">
-                          <node concept="3uibUv" id="6rrvvVeMcrQ" role="2ZW6by">
-                            <ref role="3uigEE" node="6rrvvVeJvln" resolve="IDiagramDCell" />
+                      <node concept="22lmx$" id="1M7dGa3vjOy" role="3clFbw">
+                        <node concept="2ZW3vV" id="1M7dGa3vlsK" role="3uHU7w">
+                          <node concept="3uibUv" id="1M7dGa3vmaz" role="2ZW6by">
+                            <ref role="3uigEE" node="4KKQOHJ9xGD" resolve="PaletteEntryMxCell" />
                           </node>
-                          <node concept="2GrUjf" id="6rrvvVeMaO4" role="2ZW6bz">
+                          <node concept="2GrUjf" id="1M7dGa3vl93" role="2ZW6bz">
                             <ref role="2Gs0qQ" node="6rrvvVeDMbS" resolve="cell" />
                           </node>
                         </node>
-                        <node concept="3fqX7Q" id="6rrvvVeDMc4" role="3uHU7w">
-                          <node concept="2OqwBi" id="6rrvvVeDMc5" role="3fr31v">
-                            <node concept="37vLTw" id="6rrvvVeF$d5" role="2Oq$k0">
-                              <ref role="3cqZAo" node="6rrvvVeEmPv" resolve="myCellsInModel" />
+                        <node concept="1Wc70l" id="6rrvvVeMa1V" role="3uHU7B">
+                          <node concept="2ZW3vV" id="6rrvvVeMbxi" role="3uHU7B">
+                            <node concept="3uibUv" id="6rrvvVeMcrQ" role="2ZW6by">
+                              <ref role="3uigEE" node="6rrvvVeJvln" resolve="IDiagramDCell" />
                             </node>
-                            <node concept="3JPx81" id="6rrvvVeDMc7" role="2OqNvi">
-                              <node concept="10QFUN" id="6rrvvVeF_Kk" role="25WWJ7">
-                                <node concept="3uibUv" id="6rrvvVeFAzQ" role="10QFUM">
-                                  <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
-                                </node>
-                                <node concept="2GrUjf" id="6rrvvVeF$Z0" role="10QFUP">
-                                  <ref role="2Gs0qQ" node="6rrvvVeDMbS" resolve="cell" />
+                            <node concept="2GrUjf" id="6rrvvVeMaO4" role="2ZW6bz">
+                              <ref role="2Gs0qQ" node="6rrvvVeDMbS" resolve="cell" />
+                            </node>
+                          </node>
+                          <node concept="3fqX7Q" id="6rrvvVeDMc4" role="3uHU7w">
+                            <node concept="2OqwBi" id="6rrvvVeDMc5" role="3fr31v">
+                              <node concept="37vLTw" id="6rrvvVeF$d5" role="2Oq$k0">
+                                <ref role="3cqZAo" node="6rrvvVeEmPv" resolve="myCellsInModel" />
+                              </node>
+                              <node concept="3JPx81" id="6rrvvVeDMc7" role="2OqNvi">
+                                <node concept="10QFUN" id="6rrvvVeF_Kk" role="25WWJ7">
+                                  <node concept="3uibUv" id="6rrvvVeFAzQ" role="10QFUM">
+                                    <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+                                  </node>
+                                  <node concept="2GrUjf" id="6rrvvVeF$Z0" role="10QFUP">
+                                    <ref role="2Gs0qQ" node="6rrvvVeDMbS" resolve="cell" />
+                                  </node>
                                 </node>
                               </node>
                             </node>
@@ -21600,7 +21615,6 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="1M7dGa3rsZh" role="3cqZAp" />
         <node concept="3clFbH" id="1M7dGa3rtbb" role="3cqZAp" />
         <node concept="3cpWs8" id="2l7cIJdlXrd" role="3cqZAp">
           <node concept="3cpWsn" id="2l7cIJdlXre" role="3cpWs9">
