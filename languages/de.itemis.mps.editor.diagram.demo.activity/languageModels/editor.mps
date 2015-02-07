@@ -53,6 +53,9 @@
       <concept id="1237307900041" name="jetbrains.mps.lang.editor.structure.IndentLayoutIndentStyleClassItem" flags="ln" index="lj46D" />
       <concept id="1237308012275" name="jetbrains.mps.lang.editor.structure.IndentLayoutNewLineStyleClassItem" flags="ln" index="ljvvj" />
       <concept id="1237385578942" name="jetbrains.mps.lang.editor.structure.IndentLayoutOnNewLineStyleClassItem" flags="ln" index="pVoyu" />
+      <concept id="4242538589859161874" name="jetbrains.mps.lang.editor.structure.ExplicitHintsSpecification" flags="ng" index="2w$q5c">
+        <child id="4242538589859162459" name="hints" index="2w$qW5" />
+      </concept>
       <concept id="1080736578640" name="jetbrains.mps.lang.editor.structure.BaseEditorComponent" flags="ig" index="2wURMF">
         <child id="1080736633877" name="cellModel" index="2wV5jI" />
       </concept>
@@ -75,6 +78,7 @@
       </concept>
       <concept id="1073389446423" name="jetbrains.mps.lang.editor.structure.CellModel_Collection" flags="sn" stub="3013115976261988961" index="3EZMnI">
         <child id="1106270802874" name="cellLayout" index="2iSdaV" />
+        <child id="4242538589862653897" name="addHints" index="2whIAn" />
         <child id="1073389446424" name="childCellModel" index="3EZMnx" />
       </concept>
       <concept id="1073389577006" name="jetbrains.mps.lang.editor.structure.CellModel_Constant" flags="sn" stub="3610246225209162225" index="3F0ifn">
@@ -471,6 +475,10 @@
     <node concept="2BsEeg" id="4XPshStfMm3" role="2ABdcP">
       <property role="2gpH_U" value="true" />
       <property role="TrG5h" value="ActivityAsDiagram" />
+    </node>
+    <node concept="2BsEeg" id="5kFTseQThOK" role="2ABdcP">
+      <property role="2gpH_U" value="true" />
+      <property role="TrG5h" value="InsideActivityDiagram" />
     </node>
   </node>
   <node concept="24kQdi" id="4XPshStfMnZ">
@@ -1250,6 +1258,11 @@
           </node>
         </node>
       </node>
+      <node concept="2w$q5c" id="5kFTseQTjoA" role="2whIAn">
+        <node concept="2aJ2om" id="5kFTseQTjoB" role="2w$qW5">
+          <ref role="2$4xQ3" node="5kFTseQThOK" resolve="InsideActivityDiagram" />
+        </node>
+      </node>
     </node>
     <node concept="2aJ2om" id="4XPshSti$uA" role="CpUAK">
       <ref role="2$4xQ3" node="4XPshStfMm3" resolve="ActivityAsDiagram" />
@@ -1875,8 +1888,8 @@
   </node>
   <node concept="24kQdi" id="4XPshStoNaC">
     <ref role="1XX52x" to="tpee:h8MpOA8" resolve="DoWhileStatement" />
-    <node concept="2aJ2om" id="4XPshStoNaE" role="CpUAK">
-      <ref role="2$4xQ3" node="4XPshStfMm3" resolve="ActivityAsDiagram" />
+    <node concept="2aJ2om" id="5kFTseQTssf" role="CpUAK">
+      <ref role="2$4xQ3" node="5kFTseQThOK" resolve="InsideActivityDiagram" />
     </node>
     <node concept="3IJ5R8" id="gKFhvEEGvF" role="2wV5jI">
       <node concept="2ZMM4L" id="gKFhvEEGvI" role="aCds2">
@@ -2686,8 +2699,8 @@
   </node>
   <node concept="24kQdi" id="4EOrrTBPZmW">
     <ref role="1XX52x" to="tpee:gDDw8bY" resolve="ForStatement" />
-    <node concept="2aJ2om" id="4EOrrTBPZmX" role="CpUAK">
-      <ref role="2$4xQ3" node="4XPshStfMm3" resolve="ActivityAsDiagram" />
+    <node concept="2aJ2om" id="5kFTseQTofk" role="CpUAK">
+      <ref role="2$4xQ3" node="5kFTseQThOK" resolve="InsideActivityDiagram" />
     </node>
     <node concept="3IJ5R8" id="4EOrrTBPZmY" role="2wV5jI">
       <node concept="2ZMM4L" id="4EOrrTBPZmZ" role="aCds2">
