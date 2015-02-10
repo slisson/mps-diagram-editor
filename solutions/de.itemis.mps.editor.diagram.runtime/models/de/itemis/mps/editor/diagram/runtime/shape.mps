@@ -182,6 +182,7 @@
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
       <concept id="1146644641414" name="jetbrains.mps.baseLanguage.structure.ProtectedVisibility" flags="nn" index="3Tmbuc" />
+      <concept id="1178893518978" name="jetbrains.mps.baseLanguage.structure.ThisConstructorInvocation" flags="nn" index="1VxSAg" />
       <concept id="8064396509828172209" name="jetbrains.mps.baseLanguage.structure.UnaryMinus" flags="nn" index="1ZRNhn" />
     </language>
     <language id="ceab5195-25ea-4f22-9b92-103b95ca8c0c" name="jetbrains.mps.lang.core">
@@ -2848,6 +2849,257 @@
     </node>
     <node concept="3uibUv" id="5WYUu8Hcqvs" role="EKbjA">
       <ref role="3uigEE" to="p8q8:rKHxOE_4TB" resolve="ITopDownLayoutCell" />
+    </node>
+  </node>
+  <node concept="312cEu" id="5K7KC_ppJCT">
+    <property role="TrG5h" value="TransformingShape" />
+    <node concept="312cEg" id="5K7KC_ppP9H" role="jymVt">
+      <property role="TrG5h" value="myShape" />
+      <node concept="3Tm6S6" id="5K7KC_ppP9I" role="1B3o_S" />
+      <node concept="3uibUv" id="5K7KC_ppPhS" role="1tU5fm">
+        <ref role="3uigEE" node="6uo2fN6kjTa" resolve="IShape" />
+      </node>
+    </node>
+    <node concept="312cEg" id="5K7KC_ppKBh" role="jymVt">
+      <property role="TrG5h" value="myTransform" />
+      <node concept="3Tm6S6" id="5K7KC_ppKBi" role="1B3o_S" />
+      <node concept="3uibUv" id="5K7KC_ppKEK" role="1tU5fm">
+        <ref role="3uigEE" to="ar19:~AffineTransform" resolve="AffineTransform" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K7KC_ppKz6" role="jymVt" />
+    <node concept="3clFbW" id="5K7KC_pqcZ8" role="jymVt">
+      <node concept="3cqZAl" id="5K7KC_pqcZa" role="3clF45" />
+      <node concept="3Tm1VV" id="5K7KC_pqcZb" role="1B3o_S" />
+      <node concept="3clFbS" id="5K7KC_pqcZc" role="3clF47">
+        <node concept="1VxSAg" id="5K7KC_pqdmE" role="3cqZAp">
+          <ref role="37wK5l" node="5K7KC_ppQfj" resolve="TransformingShape" />
+          <node concept="37vLTw" id="5K7KC_pqdoS" role="37wK5m">
+            <ref role="3cqZAo" node="5K7KC_pqdjd" resolve="shape" />
+          </node>
+          <node concept="10Nm6u" id="5K7KC_pqdA5" role="37wK5m" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K7KC_pqdjd" role="3clF46">
+        <property role="TrG5h" value="shape" />
+        <node concept="3uibUv" id="5K7KC_pqdjc" role="1tU5fm">
+          <ref role="3uigEE" node="6uo2fN6kjTa" resolve="IShape" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K7KC_pqcN3" role="jymVt" />
+    <node concept="3clFbW" id="5K7KC_ppQfj" role="jymVt">
+      <node concept="3cqZAl" id="5K7KC_ppQfk" role="3clF45" />
+      <node concept="3Tm1VV" id="5K7KC_ppQfl" role="1B3o_S" />
+      <node concept="3clFbS" id="5K7KC_ppQfn" role="3clF47">
+        <node concept="3clFbF" id="5K7KC_ppQfr" role="3cqZAp">
+          <node concept="37vLTI" id="5K7KC_ppQft" role="3clFbG">
+            <node concept="37vLTw" id="5K7KC_ppQfx" role="37vLTJ">
+              <ref role="3cqZAo" node="5K7KC_ppP9H" resolve="myShape" />
+            </node>
+            <node concept="37vLTw" id="5K7KC_ppQfy" role="37vLTx">
+              <ref role="3cqZAo" node="5K7KC_ppQfq" resolve="shape" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5K7KC_ppQf_" role="3cqZAp">
+          <node concept="37vLTI" id="5K7KC_ppQfB" role="3clFbG">
+            <node concept="37vLTw" id="5K7KC_ppQfF" role="37vLTJ">
+              <ref role="3cqZAo" node="5K7KC_ppKBh" resolve="myTransform" />
+            </node>
+            <node concept="37vLTw" id="5K7KC_ppQfG" role="37vLTx">
+              <ref role="3cqZAo" node="5K7KC_ppQf$" resolve="transform" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K7KC_ppQfq" role="3clF46">
+        <property role="TrG5h" value="shape" />
+        <node concept="3uibUv" id="5K7KC_ppQfp" role="1tU5fm">
+          <ref role="3uigEE" node="6uo2fN6kjTa" resolve="IShape" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K7KC_ppQf$" role="3clF46">
+        <property role="TrG5h" value="transform" />
+        <node concept="3uibUv" id="5K7KC_ppQfz" role="1tU5fm">
+          <ref role="3uigEE" to="ar19:~AffineTransform" resolve="AffineTransform" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K7KC_ppQ5d" role="jymVt" />
+    <node concept="3Tm1VV" id="5K7KC_ppJCU" role="1B3o_S" />
+    <node concept="3uibUv" id="5K7KC_ppKqV" role="EKbjA">
+      <ref role="3uigEE" node="6uo2fN6kjTa" resolve="IShape" />
+    </node>
+    <node concept="3clFb_" id="5K7KC_ppKrc" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="draw" />
+      <node concept="37vLTG" id="5K7KC_ppKrd" role="3clF46">
+        <property role="TrG5h" value="graphics" />
+        <node concept="3uibUv" id="5K7KC_ppKre" role="1tU5fm">
+          <ref role="3uigEE" to="1t7x:~Graphics2D" resolve="Graphics2D" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K7KC_ppKrf" role="3clF46">
+        <property role="TrG5h" value="bounds" />
+        <node concept="3uibUv" id="5K7KC_ppKrg" role="1tU5fm">
+          <ref role="3uigEE" to="ar19:~Rectangle2D" resolve="Rectangle2D" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="5K7KC_ppKrh" role="3clF46">
+        <property role="TrG5h" value="style" />
+        <node concept="3uibUv" id="5K7KC_ppKri" role="1tU5fm">
+          <ref role="3uigEE" node="6uo2fN6ypgN" resolve="IShapeStyle" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="5K7KC_ppKrj" role="3clF45" />
+      <node concept="3Tm1VV" id="5K7KC_ppKrk" role="1B3o_S" />
+      <node concept="3clFbS" id="5K7KC_ppKrm" role="3clF47">
+        <node concept="3cpWs8" id="5K7KC_pqfT5" role="3cqZAp">
+          <node concept="3cpWsn" id="5K7KC_pqfT6" role="3cpWs9">
+            <property role="TrG5h" value="transform" />
+            <node concept="3uibUv" id="5K7KC_pqfSB" role="1tU5fm">
+              <ref role="3uigEE" to="ar19:~AffineTransform" resolve="AffineTransform" />
+            </node>
+            <node concept="1rXfSq" id="5K7KC_pqfT7" role="33vP2m">
+              <ref role="37wK5l" node="5K7KC_pqbIp" resolve="getTransform" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbJ" id="5K7KC_pqdJm" role="3cqZAp">
+          <node concept="3clFbS" id="5K7KC_pqdJo" role="3clFbx">
+            <node concept="3clFbF" id="5K7KC_ppM9Q" role="3cqZAp">
+              <node concept="2OqwBi" id="5K7KC_ppMwn" role="3clFbG">
+                <node concept="37vLTw" id="5K7KC_ppM9P" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5K7KC_ppKrd" resolve="graphics" />
+                </node>
+                <node concept="liA8E" id="5K7KC_ppMKF" role="2OqNvi">
+                  <ref role="37wK5l" to="1t7x:~Graphics2D.translate(double,double):void" resolve="translate" />
+                  <node concept="2OqwBi" id="5K7KC_ppMNB" role="37wK5m">
+                    <node concept="37vLTw" id="5K7KC_ppMLB" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5K7KC_ppKrf" resolve="bounds" />
+                    </node>
+                    <node concept="liA8E" id="5K7KC_ppNax" role="2OqNvi">
+                      <ref role="37wK5l" to="ar19:~RectangularShape.getCenterX():double" resolve="getCenterX" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="5K7KC_ppNki" role="37wK5m">
+                    <node concept="37vLTw" id="5K7KC_ppNei" role="2Oq$k0">
+                      <ref role="3cqZAo" node="5K7KC_ppKrf" resolve="bounds" />
+                    </node>
+                    <node concept="liA8E" id="5K7KC_ppNGu" role="2OqNvi">
+                      <ref role="37wK5l" to="ar19:~RectangularShape.getCenterY():double" resolve="getCenterY" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5K7KC_ppOu8" role="3cqZAp">
+              <node concept="2OqwBi" id="5K7KC_ppO$o" role="3clFbG">
+                <node concept="37vLTw" id="5K7KC_ppOu6" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5K7KC_ppKrd" resolve="graphics" />
+                </node>
+                <node concept="liA8E" id="5K7KC_ppOS$" role="2OqNvi">
+                  <ref role="37wK5l" to="1t7x:~Graphics2D.transform(java.awt.geom.AffineTransform):void" resolve="transform" />
+                  <node concept="1rXfSq" id="5K7KC_pqcG7" role="37wK5m">
+                    <ref role="37wK5l" node="5K7KC_pqbIp" resolve="getTransform" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5K7KC_ppO4i" role="3cqZAp">
+              <node concept="2OqwBi" id="5K7KC_ppO4j" role="3clFbG">
+                <node concept="37vLTw" id="5K7KC_ppO4k" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5K7KC_ppKrd" resolve="graphics" />
+                </node>
+                <node concept="liA8E" id="5K7KC_ppO4l" role="2OqNvi">
+                  <ref role="37wK5l" to="1t7x:~Graphics2D.translate(double,double):void" resolve="translate" />
+                  <node concept="1ZRNhn" id="5K7KC_ppO4m" role="37wK5m">
+                    <node concept="2OqwBi" id="5K7KC_ppO4n" role="2$L3a6">
+                      <node concept="37vLTw" id="5K7KC_ppO4o" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5K7KC_ppKrf" resolve="bounds" />
+                      </node>
+                      <node concept="liA8E" id="5K7KC_ppO4p" role="2OqNvi">
+                        <ref role="37wK5l" to="ar19:~RectangularShape.getCenterX():double" resolve="getCenterX" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="1ZRNhn" id="5K7KC_ppO4q" role="37wK5m">
+                    <node concept="2OqwBi" id="5K7KC_ppO4r" role="2$L3a6">
+                      <node concept="37vLTw" id="5K7KC_ppO4s" role="2Oq$k0">
+                        <ref role="3cqZAo" node="5K7KC_ppKrf" resolve="bounds" />
+                      </node>
+                      <node concept="liA8E" id="5K7KC_ppO4t" role="2OqNvi">
+                        <ref role="37wK5l" to="ar19:~RectangularShape.getCenterY():double" resolve="getCenterY" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="5K7KC_pqgNZ" role="3clFbw">
+            <node concept="10Nm6u" id="5K7KC_pqgUz" role="3uHU7w" />
+            <node concept="37vLTw" id="5K7KC_pqgGc" role="3uHU7B">
+              <ref role="3cqZAo" node="5K7KC_pqfT6" resolve="transform" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5K7KC_ppPl9" role="3cqZAp">
+          <node concept="2OqwBi" id="5K7KC_ppPv1" role="3clFbG">
+            <node concept="37vLTw" id="5K7KC_ppPl7" role="2Oq$k0">
+              <ref role="3cqZAo" node="5K7KC_ppP9H" resolve="myShape" />
+            </node>
+            <node concept="liA8E" id="5K7KC_ppPMT" role="2OqNvi">
+              <ref role="37wK5l" node="6uo2fN6kjTb" resolve="draw" />
+              <node concept="37vLTw" id="5K7KC_ppPQK" role="37wK5m">
+                <ref role="3cqZAo" node="5K7KC_ppKrd" resolve="graphics" />
+              </node>
+              <node concept="37vLTw" id="5K7KC_ppPVI" role="37wK5m">
+                <ref role="3cqZAo" node="5K7KC_ppKrf" resolve="bounds" />
+              </node>
+              <node concept="37vLTw" id="5K7KC_ppQ17" role="37wK5m">
+                <ref role="3cqZAo" node="5K7KC_ppKrh" resolve="style" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K7KC_ppKIJ" role="jymVt" />
+    <node concept="3clFb_" id="5K7KC_pqbIp" role="jymVt">
+      <property role="TrG5h" value="getTransform" />
+      <node concept="3uibUv" id="5K7KC_pqczu" role="3clF45">
+        <ref role="3uigEE" to="ar19:~AffineTransform" resolve="AffineTransform" />
+      </node>
+      <node concept="3Tmbuc" id="5K7KC_pqdbx" role="1B3o_S" />
+      <node concept="3clFbS" id="5K7KC_pqbIt" role="3clF47">
+        <node concept="3clFbF" id="5K7KC_pqcwH" role="3cqZAp">
+          <node concept="37vLTw" id="5K7KC_pqcwG" role="3clFbG">
+            <ref role="3cqZAo" node="5K7KC_ppKBh" resolve="myTransform" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5K7KC_pqhpa" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5K7KC_pqckD" role="jymVt" />
+    <node concept="3clFb_" id="5K7KC_ppKrn" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getDefaultSize" />
+      <node concept="3uibUv" id="5K7KC_ppKro" role="3clF45">
+        <ref role="3uigEE" to="e2lb:~Double" resolve="Double" />
+      </node>
+      <node concept="3Tm1VV" id="5K7KC_ppKrp" role="1B3o_S" />
+      <node concept="2AHcQZ" id="5K7KC_ppKrr" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3clFbS" id="5K7KC_ppKrs" role="3clF47">
+        <node concept="3clFbF" id="5K7KC_ppKru" role="3cqZAp">
+          <node concept="10Nm6u" id="5K7KC_ppKrt" role="3clFbG" />
+        </node>
+      </node>
     </node>
   </node>
 </model>

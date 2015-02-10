@@ -128,6 +128,10 @@
       <property role="TrG5h" value="bounds_height" />
       <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
     </node>
+    <node concept="1TJgyi" id="3YrTy06Qzfo" role="1TKVEl">
+      <property role="TrG5h" value="transform" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
     <node concept="M6xJ_" id="5P3ZJ9da_1P" role="lGtFl">
       <property role="Hh88m" value="layout" />
       <node concept="trNpa" id="5P3ZJ9da_1T" role="EQaZv">
