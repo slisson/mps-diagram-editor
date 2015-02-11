@@ -584,15 +584,29 @@
   <node concept="Zd50a" id="5K7KC_qu7y_">
     <property role="TrG5h" value="DiagramKeymap" />
     <node concept="Zd509" id="5K7KC_qu7$D" role="Zd508">
-      <ref role="1bYAoF" node="5K7KC_qu7$R" resolve="RotateBoxAction" />
+      <ref role="1bYAoF" node="5K7KC_qu7$R" resolve="RotateBoxClockwiseAction" />
       <node concept="pLAjd" id="5K7KC_qu7$E" role="Zd501">
         <property role="pLAjc" value="ctrl" />
         <property role="pLAjf" value="VK_R" />
       </node>
     </node>
+    <node concept="Zd509" id="2THfnm7vNtC" role="Zd508">
+      <ref role="1bYAoF" node="2THfnm7nqSH" resolve="RotateBoxCounterClockWiseAction" />
+      <node concept="pLAjd" id="2THfnm7vNtD" role="Zd501">
+        <property role="pLAjc" value="ctrl+shift" />
+        <property role="pLAjf" value="VK_R" />
+      </node>
+    </node>
+    <node concept="Zd509" id="2THfnm7nqS7" role="Zd508">
+      <ref role="1bYAoF" node="2THfnm7nq5w" resolve="FlipBoxAction" />
+      <node concept="pLAjd" id="2THfnm7nqS9" role="Zd501">
+        <property role="pLAjc" value="ctrl" />
+        <property role="pLAjf" value="VK_I" />
+      </node>
+    </node>
   </node>
   <node concept="sE7Ow" id="5K7KC_qu7$R">
-    <property role="TrG5h" value="RotateBoxAction" />
+    <property role="TrG5h" value="RotateBoxClockwiseAction" />
     <property role="2uzpH1" value="Rotate Diagram Box" />
     <node concept="tnohg" id="5K7KC_qu7$S" role="tncku">
       <node concept="3clFbS" id="5K7KC_qu7$T" role="2VODD2">
@@ -836,6 +850,164 @@
           </node>
         </node>
       </node>
+    </node>
+  </node>
+  <node concept="sE7Ow" id="2THfnm7nq5w">
+    <property role="TrG5h" value="FlipBoxAction" />
+    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <node concept="tnohg" id="2THfnm7nq5x" role="tncku">
+      <node concept="3clFbS" id="2THfnm7nq5y" role="2VODD2">
+        <node concept="3cpWs8" id="2THfnm7nq5z" role="3cqZAp">
+          <node concept="3cpWsn" id="2THfnm7nq5$" role="3cpWs9">
+            <property role="TrG5h" value="selection" />
+            <node concept="3uibUv" id="2THfnm7nq5_" role="1tU5fm">
+              <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+            </node>
+            <node concept="10QFUN" id="2THfnm7nq5A" role="33vP2m">
+              <node concept="2OqwBi" id="2THfnm7nq5B" role="10QFUP">
+                <node concept="2OqwBi" id="2THfnm7nq5C" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2THfnm7nq5D" role="2Oq$k0">
+                    <node concept="2WthIp" id="2THfnm7nq5E" role="2Oq$k0" />
+                    <node concept="1DTwFV" id="2THfnm7nq5F" role="2OqNvi">
+                      <ref role="2WH_rO" node="2THfnm7nq5Z" resolve="editorComponent" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2THfnm7nq5G" role="2OqNvi">
+                    <ref role="37wK5l" to="9a8:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2THfnm7nq5H" role="2OqNvi">
+                  <ref role="37wK5l" to="y596:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="2THfnm7nq5I" role="10QFUM">
+                <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2THfnm7nq5J" role="3cqZAp">
+          <node concept="2OqwBi" id="2THfnm7nq5K" role="3clFbG">
+            <node concept="37vLTw" id="2THfnm7nq5L" role="2Oq$k0">
+              <ref role="3cqZAo" node="2THfnm7nq5$" resolve="selection" />
+            </node>
+            <node concept="liA8E" id="2THfnm7nq5M" role="2OqNvi">
+              <ref role="37wK5l" to="r3rm:2THfnm7mrrp" resolve="executeFlipHorizontally" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="2THfnm7nq5N" role="tmbBb">
+      <node concept="3clFbS" id="2THfnm7nq5O" role="2VODD2">
+        <node concept="3clFbF" id="2THfnm7nq5P" role="3cqZAp">
+          <node concept="2ZW3vV" id="2THfnm7nq5Q" role="3clFbG">
+            <node concept="3uibUv" id="2THfnm7nq5R" role="2ZW6by">
+              <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+            </node>
+            <node concept="2OqwBi" id="2THfnm7nq5S" role="2ZW6bz">
+              <node concept="2OqwBi" id="2THfnm7nq5T" role="2Oq$k0">
+                <node concept="2OqwBi" id="2THfnm7nq5U" role="2Oq$k0">
+                  <node concept="2WthIp" id="2THfnm7nq5V" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="2THfnm7nq5W" role="2OqNvi">
+                    <ref role="2WH_rO" node="2THfnm7nq5Z" resolve="editorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2THfnm7nq5X" role="2OqNvi">
+                  <ref role="37wK5l" to="9a8:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2THfnm7nq5Y" role="2OqNvi">
+                <ref role="37wK5l" to="y596:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="2THfnm7nq5Z" role="1NuT2Z">
+      <property role="TrG5h" value="editorComponent" />
+      <ref role="1DUlNI" to="1d7m:~MPSEditorDataKeys.EDITOR_COMPONENT" resolve="EDITOR_COMPONENT" />
+      <node concept="1oajcY" id="2THfnm7nq60" role="1oa70y" />
+    </node>
+  </node>
+  <node concept="sE7Ow" id="2THfnm7nqSH">
+    <property role="TrG5h" value="RotateBoxCounterClockWiseAction" />
+    <property role="2uzpH1" value="Rotate Diagram Box" />
+    <node concept="tnohg" id="2THfnm7nqSI" role="tncku">
+      <node concept="3clFbS" id="2THfnm7nqSJ" role="2VODD2">
+        <node concept="3cpWs8" id="2THfnm7nqSK" role="3cqZAp">
+          <node concept="3cpWsn" id="2THfnm7nqSL" role="3cpWs9">
+            <property role="TrG5h" value="selection" />
+            <node concept="3uibUv" id="2THfnm7nqSM" role="1tU5fm">
+              <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+            </node>
+            <node concept="10QFUN" id="2THfnm7nqSN" role="33vP2m">
+              <node concept="2OqwBi" id="2THfnm7nqSO" role="10QFUP">
+                <node concept="2OqwBi" id="2THfnm7nqSP" role="2Oq$k0">
+                  <node concept="2OqwBi" id="2THfnm7nqSQ" role="2Oq$k0">
+                    <node concept="2WthIp" id="2THfnm7nqSR" role="2Oq$k0" />
+                    <node concept="1DTwFV" id="2THfnm7nqSS" role="2OqNvi">
+                      <ref role="2WH_rO" node="2THfnm7nqTc" resolve="editorComponent" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2THfnm7nqST" role="2OqNvi">
+                    <ref role="37wK5l" to="9a8:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2THfnm7nqSU" role="2OqNvi">
+                  <ref role="37wK5l" to="y596:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="2THfnm7nqSV" role="10QFUM">
+                <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2THfnm7nqSW" role="3cqZAp">
+          <node concept="2OqwBi" id="2THfnm7nqSX" role="3clFbG">
+            <node concept="37vLTw" id="2THfnm7nqSY" role="2Oq$k0">
+              <ref role="3cqZAo" node="2THfnm7nqSL" resolve="selection" />
+            </node>
+            <node concept="liA8E" id="2THfnm7nqSZ" role="2OqNvi">
+              <ref role="37wK5l" to="r3rm:2THfnm7nwN$" resolve="executeRotateCounterClockwise" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2ScWuX" id="2THfnm7nqT0" role="tmbBb">
+      <node concept="3clFbS" id="2THfnm7nqT1" role="2VODD2">
+        <node concept="3clFbF" id="2THfnm7nqT2" role="3cqZAp">
+          <node concept="2ZW3vV" id="2THfnm7nqT3" role="3clFbG">
+            <node concept="3uibUv" id="2THfnm7nqT4" role="2ZW6by">
+              <ref role="3uigEE" to="r3rm:4dus55SzBCX" resolve="GraphSelection" />
+            </node>
+            <node concept="2OqwBi" id="2THfnm7nqT5" role="2ZW6bz">
+              <node concept="2OqwBi" id="2THfnm7nqT6" role="2Oq$k0">
+                <node concept="2OqwBi" id="2THfnm7nqT7" role="2Oq$k0">
+                  <node concept="2WthIp" id="2THfnm7nqT8" role="2Oq$k0" />
+                  <node concept="1DTwFV" id="2THfnm7nqT9" role="2OqNvi">
+                    <ref role="2WH_rO" node="2THfnm7nqTc" resolve="editorComponent" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="2THfnm7nqTa" role="2OqNvi">
+                  <ref role="37wK5l" to="9a8:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                </node>
+              </node>
+              <node concept="liA8E" id="2THfnm7nqTb" role="2OqNvi">
+                <ref role="37wK5l" to="y596:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1DS2jV" id="2THfnm7nqTc" role="1NuT2Z">
+      <property role="TrG5h" value="editorComponent" />
+      <ref role="1DUlNI" to="1d7m:~MPSEditorDataKeys.EDITOR_COMPONENT" resolve="EDITOR_COMPONENT" />
+      <node concept="1oajcY" id="2THfnm7nqTd" role="1oa70y" />
     </node>
   </node>
 </model>
