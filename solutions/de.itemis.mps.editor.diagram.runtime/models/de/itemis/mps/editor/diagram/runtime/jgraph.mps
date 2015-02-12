@@ -33346,6 +33346,9 @@
                         <node concept="37vLTw" id="63Tq0M9uHg3" role="37wK5m">
                           <ref role="3cqZAo" node="63Tq0M9dY4E" resolve="style" />
                         </node>
+                        <node concept="37vLTw" id="ru$G4ivzMd" role="37wK5m">
+                          <ref role="3cqZAo" node="f4v_NgRPvy" resolve="scale" />
+                        </node>
                       </node>
                     </node>
                     <node concept="3clFbF" id="f4v_NhpwNV" role="3cqZAp">
@@ -34055,6 +34058,14 @@
                               </node>
                               <node concept="liA8E" id="1SrfPdD9ls$" role="2OqNvi">
                                 <ref role="37wK5l" to="nkm5:4EOrrTBGXX1" resolve="getStyle" />
+                              </node>
+                            </node>
+                            <node concept="2OqwBi" id="ru$G4ivOEU" role="37wK5m">
+                              <node concept="37vLTw" id="ru$G4ivOCq" role="2Oq$k0">
+                                <ref role="3cqZAo" node="2vKS1aimOjd" resolve="canvas" />
+                              </node>
+                              <node concept="liA8E" id="ru$G4ivPHu" role="2OqNvi">
+                                <ref role="37wK5l" to="jnnx:~mxBasicCanvas.getScale():double" resolve="getScale" />
                               </node>
                             </node>
                           </node>
@@ -36671,6 +36682,25 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="3GatLR38d9F" role="3clF47">
+        <node concept="3cpWs8" id="ru$G4ivBmp" role="3cqZAp">
+          <node concept="3cpWsn" id="ru$G4ivBmq" role="3cpWs9">
+            <property role="TrG5h" value="scale" />
+            <node concept="10P55v" id="ru$G4ivBmn" role="1tU5fm" />
+            <node concept="2OqwBi" id="ru$G4ivBmr" role="33vP2m">
+              <node concept="2OqwBi" id="ru$G4ivBms" role="2Oq$k0">
+                <node concept="37vLTw" id="ru$G4ivBmt" role="2Oq$k0">
+                  <ref role="3cqZAo" node="3GatLR38kBp" resolve="state" />
+                </node>
+                <node concept="liA8E" id="ru$G4ivBmu" role="2OqNvi">
+                  <ref role="37wK5l" to="fkey:~mxCellState.getView():com.mxgraph.view.mxGraphView" resolve="getView" />
+                </node>
+              </node>
+              <node concept="liA8E" id="ru$G4ivBmv" role="2OqNvi">
+                <ref role="37wK5l" to="fkey:~mxGraphView.getScale():double" resolve="getScale" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="3GatLR38BMB" role="3cqZAp">
           <node concept="3cpWsn" id="3GatLR38BMC" role="3cpWs9">
             <property role="TrG5h" value="compartmentCells" />
@@ -36873,6 +36903,9 @@
                 </node>
                 <node concept="37vLTw" id="7WiZGib3xUa" role="37wK5m">
                   <ref role="3cqZAo" node="7WiZGib3xU0" resolve="style" />
+                </node>
+                <node concept="37vLTw" id="ru$G4ivBmw" role="37wK5m">
+                  <ref role="3cqZAo" node="ru$G4ivBmq" resolve="scale" />
                 </node>
               </node>
             </node>
@@ -45059,6 +45092,7 @@
         <node concept="3cpWs8" id="75dWns_cvG5" role="3cqZAp">
           <node concept="3cpWsn" id="75dWns_cvG6" role="3cpWs9">
             <property role="TrG5h" value="scale" />
+            <property role="3TUv4t" value="true" />
             <node concept="10P55v" id="75dWns_cvG7" role="1tU5fm" />
             <node concept="2OqwBi" id="75dWns_cvG8" role="33vP2m">
               <node concept="2OqwBi" id="75dWns_cvG9" role="2Oq$k0">
@@ -45264,6 +45298,9 @@
                         </node>
                         <node concept="37vLTw" id="75dWns_cvHo" role="37wK5m">
                           <ref role="3cqZAo" node="75dWns_cvHe" resolve="style" />
+                        </node>
+                        <node concept="37vLTw" id="ru$G4ivVe7" role="37wK5m">
+                          <ref role="3cqZAo" node="75dWns_cvG6" resolve="scale" />
                         </node>
                       </node>
                     </node>

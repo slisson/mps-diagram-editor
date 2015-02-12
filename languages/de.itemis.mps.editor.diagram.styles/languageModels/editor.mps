@@ -41,6 +41,9 @@
       <concept id="1179360813171" name="jetbrains.mps.baseLanguage.structure.HexIntegerLiteral" flags="nn" index="2nou5x">
         <property id="1179360856892" name="value" index="2noCCI" />
       </concept>
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1188207840427" name="jetbrains.mps.baseLanguage.structure.AnnotationInstance" flags="nn" index="2AHcQZ">
         <reference id="1188208074048" name="annotation" index="2AI5Lk" />
       </concept>
@@ -80,6 +83,11 @@
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
+      <concept id="1070534513062" name="jetbrains.mps.baseLanguage.structure.DoubleType" flags="in" index="10P55v" />
+      <concept id="1070534934090" name="jetbrains.mps.baseLanguage.structure.CastExpression" flags="nn" index="10QFUN">
+        <child id="1070534934091" name="type" index="10QFUM" />
+        <child id="1070534934092" name="expression" index="10QFUP" />
+      </concept>
       <concept id="1068390468198" name="jetbrains.mps.baseLanguage.structure.ClassConcept" flags="ig" index="312cEu" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -120,6 +128,9 @@
       </concept>
       <concept id="1068581242863" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclaration" flags="nr" index="3cpWsn" />
       <concept id="1068581517677" name="jetbrains.mps.baseLanguage.structure.VoidType" flags="in" index="3cqZAl" />
+      <concept id="1079359253375" name="jetbrains.mps.baseLanguage.structure.ParenthesizedExpression" flags="nn" index="1eOMI4">
+        <child id="1079359253376" name="expression" index="1eOMHV" />
+      </concept>
       <concept id="1154542696413" name="jetbrains.mps.baseLanguage.structure.ArrayCreatorWithInitializer" flags="nn" index="3g6Rrh">
         <child id="1154542793668" name="componentType" index="3g7fb8" />
         <child id="1154542803372" name="initValue" index="3g7hyw" />
@@ -273,14 +284,24 @@
           <node concept="3cpWsn" id="4mmPun57bLI" role="3cpWs9">
             <property role="TrG5h" value="lineWidth" />
             <node concept="10OMs4" id="4mmPun57bLJ" role="1tU5fm" />
-            <node concept="2OqwBi" id="4mmPun57bLK" role="33vP2m">
-              <node concept="37vLTw" id="4mmPun57bLL" role="2Oq$k0">
-                <ref role="3cqZAo" node="4mmPun57bMD" resolve="style" />
+            <node concept="17qRlL" id="ru$G4ivtYs" role="33vP2m">
+              <node concept="1eOMI4" id="ru$G4ivvJm" role="3uHU7w">
+                <node concept="10QFUN" id="ru$G4ivvJn" role="1eOMHV">
+                  <node concept="37vLTw" id="ru$G4ivvJl" role="10QFUP">
+                    <ref role="3cqZAo" node="ru$G4ivt7r" resolve="scale" />
+                  </node>
+                  <node concept="10OMs4" id="ru$G4ivvR9" role="10QFUM" />
+                </node>
               </node>
-              <node concept="liA8E" id="4mmPun57bLM" role="2OqNvi">
-                <ref role="37wK5l" to="qe67:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
-                <node concept="1Z6Ecs" id="4mmPun57bLN" role="37wK5m">
-                  <ref role="1Z6EpT" node="4mmPun56RuD" resolve="__line-width" />
+              <node concept="2OqwBi" id="4mmPun57bLK" role="3uHU7B">
+                <node concept="37vLTw" id="4mmPun57bLL" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4mmPun57bMD" resolve="style" />
+                </node>
+                <node concept="liA8E" id="4mmPun57bLM" role="2OqNvi">
+                  <ref role="37wK5l" to="qe67:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
+                  <node concept="1Z6Ecs" id="4mmPun57bLN" role="37wK5m">
+                    <ref role="1Z6EpT" node="4mmPun56RuD" resolve="__line-width" />
+                  </node>
                 </node>
               </node>
             </node>
@@ -353,23 +374,23 @@
                           <ref role="3cqZAo" to="1t7x:~BasicStroke.JOIN_MITER" resolve="JOIN_MITER" />
                           <ref role="1PxDUh" to="1t7x:~BasicStroke" resolve="BasicStroke" />
                         </node>
-                        <node concept="3b6qkQ" id="4mmPun57bMg" role="37wK5m">
-                          <property role="$nhwW" value="10.0f" />
+                        <node concept="2$xPTn" id="ru$G4ivrNX" role="37wK5m">
+                          <property role="2$xPTl" value="10.0f" />
                         </node>
                         <node concept="2ShNRf" id="4mmPun57bMh" role="37wK5m">
                           <node concept="3g6Rrh" id="4mmPun57bMi" role="2ShVmc">
                             <node concept="10OMs4" id="4mmPun57bMj" role="3g7fb8" />
                             <node concept="17qRlL" id="4mmPun57bMk" role="3g7hyw">
-                              <node concept="3b6qkQ" id="4mmPun57bMl" role="3uHU7w">
-                                <property role="$nhwW" value="3.0f" />
+                              <node concept="2$xPTn" id="ru$G4ivrOj" role="3uHU7w">
+                                <property role="2$xPTl" value="3.0f" />
                               </node>
                               <node concept="37vLTw" id="4mmPun57bMm" role="3uHU7B">
                                 <ref role="3cqZAo" node="4mmPun57bLI" resolve="lineWidth" />
                               </node>
                             </node>
                             <node concept="17qRlL" id="4mmPun57bMn" role="3g7hyw">
-                              <node concept="3b6qkQ" id="4mmPun57bMo" role="3uHU7w">
-                                <property role="$nhwW" value="2.0f" />
+                              <node concept="2$xPTn" id="ru$G4ivrO8" role="3uHU7w">
+                                <property role="2$xPTl" value="2.0f" />
                               </node>
                               <node concept="37vLTw" id="4mmPun57bMp" role="3uHU7B">
                                 <ref role="3cqZAo" node="4mmPun57bLI" resolve="lineWidth" />
@@ -377,8 +398,8 @@
                             </node>
                           </node>
                         </node>
-                        <node concept="3b6qkQ" id="4mmPun57bMq" role="37wK5m">
-                          <property role="$nhwW" value="0.0f" />
+                        <node concept="2$xPTn" id="ru$G4ivrNK" role="37wK5m">
+                          <property role="2$xPTl" value="0.0f" />
                         </node>
                       </node>
                     </node>
@@ -431,6 +452,10 @@
         <node concept="2AHcQZ" id="519t3kwFu18" role="2AJF6D">
           <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
         </node>
+      </node>
+      <node concept="37vLTG" id="ru$G4ivt7r" role="3clF46">
+        <property role="TrG5h" value="scale" />
+        <node concept="10P55v" id="ru$G4ivtxU" role="1tU5fm" />
       </node>
       <node concept="3cqZAl" id="4mmPun57bMF" role="3clF45" />
       <node concept="3Tm1VV" id="4mmPun57bMG" role="1B3o_S" />
