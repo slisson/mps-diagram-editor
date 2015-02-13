@@ -43,6 +43,9 @@
       <concept id="1153422105332" name="jetbrains.mps.baseLanguage.structure.RemExpression" flags="nn" index="2dk9JS" />
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="5279705229678483897" name="jetbrains.mps.baseLanguage.structure.FloatingPointFloatConstant" flags="nn" index="2$xPTn">
+        <property id="5279705229678483899" name="value" index="2$xPTl" />
+      </concept>
       <concept id="1239714755177" name="jetbrains.mps.baseLanguage.structure.AbstractUnaryNumberOperation" flags="nn" index="2$Kvd9">
         <child id="1239714902950" name="expression" index="2$L3a6" />
       </concept>
@@ -681,8 +684,8 @@
                       <node concept="2ShNRf" id="48DYfEtp28$" role="37wK5m">
                         <node concept="1pGfFk" id="48DYfEtp2se" role="2ShVmc">
                           <ref role="37wK5l" to="1t7x:~BasicStroke.&lt;init&gt;(float)" resolve="BasicStroke" />
-                          <node concept="3b6qkQ" id="48DYfEtp2uI" role="37wK5m">
-                            <property role="$nhwW" value="1.0f" />
+                          <node concept="2$xPTn" id="1aUVIRrsyhw" role="37wK5m">
+                            <property role="2$xPTl" value="1.0f" />
                           </node>
                         </node>
                       </node>
@@ -1304,7 +1307,7 @@
               <ref role="3cqZAo" node="48DYfEthdrE" resolve="myContentContainer" />
             </node>
             <node concept="liA8E" id="48DYfEtiFfh" role="2OqNvi">
-              <ref role="37wK5l" to="jsgz:~EditorCell_Basic.requestRelayout():void" resolve="requestRelayout" />
+              <ref role="37wK5l" to="jsgz:~EditorCell_Collection.requestRelayout():void" resolve="requestRelayout" />
             </node>
           </node>
         </node>
