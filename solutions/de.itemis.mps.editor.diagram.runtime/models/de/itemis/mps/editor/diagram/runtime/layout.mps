@@ -867,7 +867,7 @@
                       <ref role="2Gs0qQ" node="61tQzM67c6p" resolve="port" />
                     </node>
                     <node concept="liA8E" id="61tQzM6c4tk" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getRelativeXNotNull" />
+                      <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getTransformedRelativeX" />
                     </node>
                   </node>
                   <node concept="3b6qkQ" id="61tQzM6c52E" role="37wK5m">
@@ -881,7 +881,7 @@
                       <ref role="2Gs0qQ" node="61tQzM67c6p" resolve="port" />
                     </node>
                     <node concept="liA8E" id="61tQzM6bR5N" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getRelativeXNotNull" />
+                      <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getTransformedRelativeX" />
                     </node>
                   </node>
                   <node concept="3b6qkQ" id="61tQzM6c36N" role="37wK5m">
@@ -923,7 +923,7 @@
                       <ref role="2Gs0qQ" node="61tQzM67c6p" resolve="port" />
                     </node>
                     <node concept="liA8E" id="61tQzM6c7wN" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getRelativeYNotNull" />
+                      <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getTransformedRelativeY" />
                     </node>
                   </node>
                   <node concept="3b6qkQ" id="61tQzM6c7wO" role="37wK5m">
@@ -937,7 +937,7 @@
                       <ref role="2Gs0qQ" node="61tQzM67c6p" resolve="port" />
                     </node>
                     <node concept="liA8E" id="61tQzM6c7wS" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getRelativeYNotNull" />
+                      <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getTransformedRelativeY" />
                     </node>
                   </node>
                   <node concept="3b6qkQ" id="61tQzM6c7wT" role="37wK5m">
@@ -1142,7 +1142,7 @@
                       <ref role="2Gs0qQ" node="3FRjz$vzCbD" resolve="port" />
                     </node>
                     <node concept="liA8E" id="fQhyIM9DCA" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getRelativeXNotNull" />
+                      <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getTransformedRelativeX" />
                     </node>
                   </node>
                 </node>
@@ -1160,7 +1160,7 @@
                       <ref role="2Gs0qQ" node="3FRjz$vzCbD" resolve="port" />
                     </node>
                     <node concept="liA8E" id="fQhyIM9Ei6" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getRelativeYNotNull" />
+                      <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getTransformedRelativeY" />
                     </node>
                   </node>
                 </node>
@@ -1439,26 +1439,31 @@
               <node concept="3cpWsn" id="3FRjz$vD9BN" role="3cpWs9">
                 <property role="TrG5h" value="amountX" />
                 <node concept="10P55v" id="3FRjz$vD9BI" role="1tU5fm" />
-                <node concept="3cpWs3" id="3FRjz$vDZWx" role="33vP2m">
-                  <node concept="37vLTw" id="3FRjz$vEgAp" role="3uHU7w">
-                    <ref role="3cqZAo" node="7TThwQl_5Ux" resolve="SPACE_BETWEEN_PORTS" />
+                <node concept="3cpWs3" id="3sIDN_ZrLUH" role="33vP2m">
+                  <node concept="3b6qkQ" id="3sIDN_ZrLW7" role="3uHU7w">
+                    <property role="$nhwW" value="0.1" />
                   </node>
-                  <node concept="3cpWsd" id="3FRjz$vDa9a" role="3uHU7B">
-                    <node concept="2OqwBi" id="3FRjz$vD9LR" role="3uHU7B">
-                      <node concept="37vLTw" id="3FRjz$vD9H3" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3FRjz$vD1bZ" resolve="rect1" />
+                  <node concept="3cpWs3" id="3FRjz$vDZWx" role="3uHU7B">
+                    <node concept="3cpWsd" id="3FRjz$vDa9a" role="3uHU7B">
+                      <node concept="2OqwBi" id="3FRjz$vD9LR" role="3uHU7B">
+                        <node concept="37vLTw" id="3FRjz$vD9H3" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3FRjz$vD1bZ" resolve="rect1" />
+                        </node>
+                        <node concept="liA8E" id="3FRjz$vDfeq" role="2OqNvi">
+                          <ref role="37wK5l" to="ar19:~RectangularShape.getMaxX():double" resolve="getMaxX" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="3FRjz$vDfeq" role="2OqNvi">
-                        <ref role="37wK5l" to="ar19:~RectangularShape.getMaxX():double" resolve="getMaxX" />
+                      <node concept="2OqwBi" id="3FRjz$vDahq" role="3uHU7w">
+                        <node concept="37vLTw" id="3FRjz$vDadq" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2BjZSlQDz8w" resolve="rect2" />
+                        </node>
+                        <node concept="liA8E" id="3FRjz$vDcK7" role="2OqNvi">
+                          <ref role="37wK5l" to="ar19:~RectangularShape.getMinX():double" resolve="getMinX" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="3FRjz$vDahq" role="3uHU7w">
-                      <node concept="37vLTw" id="3FRjz$vDadq" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2BjZSlQDz8w" resolve="rect2" />
-                      </node>
-                      <node concept="liA8E" id="3FRjz$vDcK7" role="2OqNvi">
-                        <ref role="37wK5l" to="ar19:~RectangularShape.getMinX():double" resolve="getMinX" />
-                      </node>
+                    <node concept="37vLTw" id="3FRjz$vEgAp" role="3uHU7w">
+                      <ref role="3cqZAo" node="7TThwQl_5Ux" resolve="SPACE_BETWEEN_PORTS" />
                     </node>
                   </node>
                 </node>
@@ -1468,26 +1473,31 @@
               <node concept="3cpWsn" id="3FRjz$vDfs1" role="3cpWs9">
                 <property role="TrG5h" value="amountY" />
                 <node concept="10P55v" id="3FRjz$vDfrW" role="1tU5fm" />
-                <node concept="3cpWs3" id="3FRjz$vE0oo" role="33vP2m">
-                  <node concept="37vLTw" id="3FRjz$vEgLQ" role="3uHU7w">
-                    <ref role="3cqZAo" node="7TThwQl_5Ux" resolve="SPACE_BETWEEN_PORTS" />
+                <node concept="3cpWs3" id="3sIDN_ZrMva" role="33vP2m">
+                  <node concept="3b6qkQ" id="3sIDN_ZrMw$" role="3uHU7w">
+                    <property role="$nhwW" value="0.1" />
                   </node>
-                  <node concept="3cpWsd" id="3FRjz$vDuaq" role="3uHU7B">
-                    <node concept="2OqwBi" id="3FRjz$vDrq8" role="3uHU7B">
-                      <node concept="37vLTw" id="3FRjz$vDrmd" role="2Oq$k0">
-                        <ref role="3cqZAo" node="3FRjz$vD1bZ" resolve="rect1" />
+                  <node concept="3cpWs3" id="3FRjz$vE0oo" role="3uHU7B">
+                    <node concept="3cpWsd" id="3FRjz$vDuaq" role="3uHU7B">
+                      <node concept="2OqwBi" id="3FRjz$vDrq8" role="3uHU7B">
+                        <node concept="37vLTw" id="3FRjz$vDrmd" role="2Oq$k0">
+                          <ref role="3cqZAo" node="3FRjz$vD1bZ" resolve="rect1" />
+                        </node>
+                        <node concept="liA8E" id="3FRjz$vDu0x" role="2OqNvi">
+                          <ref role="37wK5l" to="ar19:~RectangularShape.getMaxY():double" resolve="getMaxY" />
+                        </node>
                       </node>
-                      <node concept="liA8E" id="3FRjz$vDu0x" role="2OqNvi">
-                        <ref role="37wK5l" to="ar19:~RectangularShape.getMaxY():double" resolve="getMaxY" />
+                      <node concept="2OqwBi" id="3FRjz$vDujd" role="3uHU7w">
+                        <node concept="37vLTw" id="3FRjz$vDuen" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2BjZSlQDz8w" resolve="rect2" />
+                        </node>
+                        <node concept="liA8E" id="3FRjz$vDwZz" role="2OqNvi">
+                          <ref role="37wK5l" to="ar19:~RectangularShape.getMinY():double" resolve="getMinY" />
+                        </node>
                       </node>
                     </node>
-                    <node concept="2OqwBi" id="3FRjz$vDujd" role="3uHU7w">
-                      <node concept="37vLTw" id="3FRjz$vDuen" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2BjZSlQDz8w" resolve="rect2" />
-                      </node>
-                      <node concept="liA8E" id="3FRjz$vDwZz" role="2OqNvi">
-                        <ref role="37wK5l" to="ar19:~RectangularShape.getMinY():double" resolve="getMinY" />
-                      </node>
+                    <node concept="37vLTw" id="3FRjz$vEgLQ" role="3uHU7w">
+                      <ref role="3cqZAo" node="7TThwQl_5Ux" resolve="SPACE_BETWEEN_PORTS" />
                     </node>
                   </node>
                 </node>
@@ -1549,7 +1559,7 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbH" id="3FRjz$vDFdP" role="3cqZAp" />
+            <node concept="3clFbH" id="6c$n8bq_xrL" role="3cqZAp" />
             <node concept="3SKdUt" id="3FRjz$vDS9l" role="3cqZAp">
               <node concept="3SKdUq" id="3FRjz$vDSt7" role="3SKWNk">
                 <property role="3SKdUp" value="which direction?" />
@@ -1567,7 +1577,7 @@
                         <ref role="3cqZAo" node="3FRjz$vzVYg" resolve="port1" />
                       </node>
                       <node concept="liA8E" id="3FRjz$vZlPG" role="2OqNvi">
-                        <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getRelativeXNotNull" />
+                        <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getTransformedRelativeX" />
                       </node>
                     </node>
                     <node concept="3b6qkQ" id="61tQzM6c1FT" role="37wK5m">
@@ -1581,7 +1591,7 @@
                         <ref role="3cqZAo" node="3FRjz$vzVYg" resolve="port1" />
                       </node>
                       <node concept="liA8E" id="3FRjz$vZm5u" role="2OqNvi">
-                        <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getRelativeXNotNull" />
+                        <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getTransformedRelativeX" />
                       </node>
                     </node>
                     <node concept="3b6qkQ" id="61tQzM6c1XW" role="37wK5m">
@@ -1933,7 +1943,7 @@
               </node>
             </node>
             <node concept="3cpWs6" id="3FRjz$vEwln" role="3cqZAp">
-              <node concept="3clFbT" id="3FRjz$vEzuw" role="3cqZAk">
+              <node concept="3clFbT" id="3sIDN_ZsWcp" role="3cqZAk">
                 <property role="3clFbU" value="true" />
               </node>
             </node>
@@ -2136,7 +2146,7 @@
                     <ref role="2Gs0qQ" node="3FRjz$w142q" resolve="port" />
                   </node>
                   <node concept="liA8E" id="fQhyIM8xPJ" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getRelativeXNotNull" />
+                    <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getTransformedRelativeX" />
                   </node>
                 </node>
               </node>
@@ -2150,7 +2160,7 @@
                     <ref role="2Gs0qQ" node="3FRjz$w142q" resolve="port" />
                   </node>
                   <node concept="liA8E" id="fQhyIM8$Pd" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getRelativeYNotNull" />
+                    <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getTransformedRelativeY" />
                   </node>
                 </node>
               </node>
@@ -4672,7 +4682,7 @@
                     <ref role="3cqZAo" node="5ubAKwglrIp" resolve="port" />
                   </node>
                   <node concept="liA8E" id="5ubAKwglrHJ" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getRelativeXNotNull" />
+                    <ref role="37wK5l" to="nkm5:fQhyIM96j4" resolve="getTransformedRelativeX" />
                   </node>
                 </node>
                 <node concept="2OqwBi" id="5ubAKwglrHK" role="37wK5m">
@@ -4680,7 +4690,7 @@
                     <ref role="3cqZAo" node="5ubAKwglrIp" resolve="port" />
                   </node>
                   <node concept="liA8E" id="5ubAKwglrHM" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getRelativeYNotNull" />
+                    <ref role="37wK5l" to="nkm5:fQhyIM9cdx" resolve="getTransformedRelativeY" />
                   </node>
                 </node>
               </node>
