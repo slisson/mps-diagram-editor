@@ -112,6 +112,12 @@
   <node concept="1TIwiD" id="5P3ZJ9da_0I">
     <property role="TrG5h" value="Layout_Box" />
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="1TJgyj" id="D0N6DjqlKw" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="portLayouts" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="D0N6Djqfyx" resolve="Layout_Port" />
+    </node>
     <node concept="1TJgyi" id="5P3ZJ9da_2d" role="1TKVEl">
       <property role="TrG5h" value="bounds_x" />
       <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
@@ -182,6 +188,22 @@
     <node concept="1TJgyi" id="48DYfEsvqfn" role="1TKVEl">
       <property role="TrG5h" value="type" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="D0N6Djqfyx">
+    <property role="TrG5h" value="Layout_Port" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="D0N6Djqfz3" role="1TKVEl">
+      <property role="TrG5h" value="portName" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyi" id="D0N6Djqfz6" role="1TKVEl">
+      <property role="TrG5h" value="relativeX" />
+      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
+    </node>
+    <node concept="1TJgyi" id="D0N6DjqhRS" role="1TKVEl">
+      <property role="TrG5h" value="relativeY" />
+      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
     </node>
   </node>
 </model>

@@ -906,5 +906,70 @@
       <ref role="1YaFvo" to="2qld:7sHDEc2ShCD" resolve="ConnectionEndpoint" />
     </node>
   </node>
+  <node concept="1YbPZF" id="D0N6Dj0ofW">
+    <property role="TrG5h" value="typeof_Content_GenericBoxQuery" />
+    <property role="3GE5qa" value="content" />
+    <node concept="3clFbS" id="D0N6Dj0ofX" role="18ibNy">
+      <node concept="1ZobV4" id="D0N6Dj0pJB" role="3cqZAp">
+        <node concept="mw_s8" id="D0N6Dj0pKn" role="1ZfhKB">
+          <node concept="2ShNRf" id="D0N6Dj0pKj" role="mwGJk">
+            <node concept="3zrR0B" id="D0N6Dj0rex" role="2ShVmc">
+              <node concept="3Tqbb2" id="D0N6Dj0rez" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="D0N6Dj0pJE" role="1ZfhK$">
+          <node concept="1Z2H0r" id="D0N6Dj0ovg" role="mwGJk">
+            <node concept="2OqwBi" id="D0N6Dj0pqL" role="1Z2MuG">
+              <node concept="1YBJjd" id="D0N6Dj0ovU" role="2Oq$k0">
+                <ref role="1YBMHb" node="D0N6Dj0ofZ" resolve="node" />
+              </node>
+              <node concept="3TrEf2" id="D0N6Dj0pGa" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:D0N6Dj0o1V" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="D0N6Dj0ofZ" role="1YuTPh">
+      <property role="TrG5h" value="node" />
+      <ref role="1YaFvo" to="2qld:2J9gLgxz45q" resolve="Content_GenericBoxQuery" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="D0N6Dj0Lwp">
+    <property role="TrG5h" value="typeof_CellModel_DiagramNode" />
+    <node concept="3clFbS" id="D0N6Dj0Lwq" role="18ibNy">
+      <node concept="1ZobV4" id="D0N6Dj0L_T" role="3cqZAp">
+        <node concept="mw_s8" id="D0N6Dj0L_U" role="1ZfhKB">
+          <node concept="2ShNRf" id="D0N6Dj0L_V" role="mwGJk">
+            <node concept="3zrR0B" id="D0N6Dj0L_W" role="2ShVmc">
+              <node concept="3Tqbb2" id="D0N6Dj0L_X" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="mw_s8" id="D0N6Dj0L_Y" role="1ZfhK$">
+          <node concept="1Z2H0r" id="D0N6Dj0L_Z" role="mwGJk">
+            <node concept="2OqwBi" id="D0N6Dj0LA0" role="1Z2MuG">
+              <node concept="1YBJjd" id="D0N6Dj0LA1" role="2Oq$k0">
+                <ref role="1YBMHb" node="D0N6Dj0Lws" resolve="node" />
+              </node>
+              <node concept="3TrEf2" id="D0N6Dj0Nwz" role="2OqNvi">
+                <ref role="3Tt5mk" to="2qld:D0N6Dj0JN2" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="D0N6Dj0Lws" role="1YuTPh">
+      <property role="TrG5h" value="node" />
+      <ref role="1YaFvo" to="2qld:5qgNcfDk8GC" resolve="CellModel_DiagramNode" />
+    </node>
+  </node>
 </model>
 

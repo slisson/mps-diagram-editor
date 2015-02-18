@@ -155,6 +155,12 @@
       <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" node="5FQFTBpWGk2" resolve="IPort" />
     </node>
+    <node concept="1TJgyj" id="D0N6Dj0JN2" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="preservePortOrder" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="6uo2fN6gQa7" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="shape" />
@@ -761,6 +767,11 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="shape" />
       <ref role="20lvS9" node="6uo2fN6gOXK" resolve="IShape" />
+    </node>
+    <node concept="1TJgyj" id="D0N6Dj0o1V" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="preservePortOrder" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="7L$rKAV50Iu" role="PzmwI">
       <ref role="PrY4T" node="2J9gLgxqr14" resolve="IDiagramContent" />
