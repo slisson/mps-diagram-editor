@@ -21333,20 +21333,6 @@
                   <ref role="37wK5l" to="1t7x:~Component.repaint():void" resolve="repaint" />
                 </node>
               </node>
-              <node concept="3clFbF" id="2KxApij9OT2" role="3cqZAp">
-                <node concept="2OqwBi" id="2KxApij9OSZ" role="3clFbG">
-                  <node concept="10M0yZ" id="2KxApij9OT0" role="2Oq$k0">
-                    <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
-                    <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
-                  </node>
-                  <node concept="liA8E" id="2KxApij9OT1" role="2OqNvi">
-                    <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
-                    <node concept="Xl_RD" id="2KxApij9OXb" role="37wK5m">
-                      <property role="Xl_RC" value="repaint" />
-                    </node>
-                  </node>
-                </node>
-              </node>
             </node>
             <node concept="37vLTw" id="2KxApij9MGT" role="3clFbw">
               <ref role="3cqZAo" node="2KxApij9$wh" resolve="anyChanged" />
