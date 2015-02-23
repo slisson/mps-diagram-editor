@@ -235,7 +235,6 @@
         <child id="6554619383001456819" name="targetId" index="23hSWE" />
       </concept>
       <concept id="1110129820007229393" name="de.itemis.mps.editor.diagram.structure.CellModel_Diagram" flags="ng" index="27vDVx">
-        <property id="4787596715132191458" name="disableEdgeRouting" index="3ZefsU" />
         <child id="8433227566816393050" name="layoutAlgorithm" index="35U2g" />
         <child id="8637411062076630380" name="connectionTypes" index="1xLlFP" />
         <child id="8637411062062914773" name="paletteFolder" index="1y_2dc" />
@@ -1198,7 +1197,6 @@
       </node>
       <node concept="l2Vlx" id="7SMOZKNVVRB" role="2iSdaV" />
       <node concept="27vDVx" id="5qgNcfDnzHc" role="3EZMnx">
-        <property role="3ZefsU" value="true" />
         <node concept="1yB8kR" id="7vufT$lR0Be" role="1y_2dc">
           <node concept="3clFbS" id="7vufT$lR0Bf" role="2VODD2">
             <node concept="3cpWs8" id="3GatLR3$k17" role="3cqZAp">
