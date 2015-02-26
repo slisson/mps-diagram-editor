@@ -265,6 +265,7 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
+      <concept id="1073063089578" name="jetbrains.mps.baseLanguage.structure.SuperMethodCall" flags="nn" index="3nyPlj" />
       <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk">
         <child id="1212687122400" name="typeParameter" index="1pMfVU" />
       </concept>
@@ -6976,6 +6977,71 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2KxApij6TKE" role="jymVt" />
+    <node concept="2tJIrI" id="4SFQkFfKeI5" role="jymVt" />
+    <node concept="3clFb_" id="4SFQkFfKmWU" role="jymVt">
+      <property role="TrG5h" value="layout" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="3cqZAl" id="4SFQkFfKmWV" role="3clF45" />
+      <node concept="3Tm1VV" id="4SFQkFfKmWW" role="1B3o_S" />
+      <node concept="2AHcQZ" id="4SFQkFfKmXu" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+      <node concept="37vLTG" id="4SFQkFfKmXv" role="3clF46">
+        <property role="TrG5h" value="model" />
+        <node concept="3uibUv" id="4SFQkFfKmXw" role="1tU5fm">
+          <ref role="3uigEE" to="nkm5:27djZ8_ZBps" resolve="DiagramModel" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="4SFQkFfKmXx" role="3clF47">
+        <node concept="3clFbJ" id="4SFQkFfKSr7" role="3cqZAp">
+          <node concept="3clFbS" id="4SFQkFfKSr8" role="3clFbx">
+            <node concept="3clFbF" id="4SFQkFfL1MU" role="3cqZAp">
+              <node concept="3nyPlj" id="4SFQkFfL1MT" role="3clFbG">
+                <ref role="37wK5l" node="5ubAKwglr_G" resolve="layout" />
+                <node concept="37vLTw" id="4SFQkFfL1Yl" role="37wK5m">
+                  <ref role="3cqZAo" node="4SFQkFfKmXv" resolve="model" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="1Wc70l" id="4SFQkFfKV5x" role="3clFbw">
+            <node concept="3eOVzh" id="4SFQkFfL1tf" role="3uHU7w">
+              <node concept="3cmrfG" id="4SFQkFfL1tF" role="3uHU7w">
+                <property role="3cmrfH" value="200" />
+              </node>
+              <node concept="2OqwBi" id="4SFQkFfKXJf" role="3uHU7B">
+                <node concept="2OqwBi" id="4SFQkFfKWfb" role="2Oq$k0">
+                  <node concept="37vLTw" id="4SFQkFfKVER" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4SFQkFfKmXv" resolve="model" />
+                  </node>
+                  <node concept="liA8E" id="4SFQkFfKX7S" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:27djZ8AkfS_" resolve="getEdges" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="4SFQkFfKYF7" role="2OqNvi" />
+              </node>
+            </node>
+            <node concept="3eOVzh" id="4SFQkFfKTBX" role="3uHU7B">
+              <node concept="2OqwBi" id="4SFQkFfKZxG" role="3uHU7B">
+                <node concept="2OqwBi" id="4SFQkFfKT4l" role="2Oq$k0">
+                  <node concept="37vLTw" id="4SFQkFfKSwi" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4SFQkFfKmXv" resolve="model" />
+                  </node>
+                  <node concept="liA8E" id="4SFQkFfKTq0" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:27djZ8Ak5Q_" resolve="getBoxes" />
+                  </node>
+                </node>
+                <node concept="34oBXx" id="4SFQkFfL0t3" role="2OqNvi" />
+              </node>
+              <node concept="3cmrfG" id="4SFQkFfKTCp" role="3uHU7w">
+                <property role="3cmrfH" value="100" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="4SFQkFfKgzh" role="jymVt" />
     <node concept="3clFb_" id="6HXK0WhtDjM" role="jymVt">
       <property role="TrG5h" value="doLayout" />
       <property role="1EzhhJ" value="false" />
