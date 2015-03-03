@@ -16061,6 +16061,15 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="1hOAOJDxsir" role="3cqZAp">
+          <node concept="1rXfSq" id="1hOAOJDxsip" role="3clFbG">
+            <ref role="37wK5l" to="fkey:~mxGraph.setDefaultLoopStyle(com.mxgraph.view.mxEdgeStyle$mxEdgeStyleFunction):void" resolve="setDefaultLoopStyle" />
+            <node concept="2YIFZM" id="1hOAOJDxzcT" role="37wK5m">
+              <ref role="37wK5l" node="3P47XPXUyks" resolve="getInstance" />
+              <ref role="1Pybhc" node="2IqJp3xDU0G" resolve="MyEdgeStyle" />
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="190K99Kl2lw" role="3clF46">
         <property role="TrG5h" value="elementMapper" />
