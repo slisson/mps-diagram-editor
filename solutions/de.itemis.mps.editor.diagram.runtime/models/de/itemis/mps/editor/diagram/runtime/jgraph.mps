@@ -4427,18 +4427,29 @@
                           <node concept="2EZike" id="6rrvvVeAuDE" role="2OqNvi" />
                         </node>
                       </node>
-                      <node concept="3clFbF" id="6rrvvVeibqT" role="3cqZAp">
-                        <node concept="1rXfSq" id="6rrvvVeibqS" role="3clFbG">
-                          <ref role="37wK5l" node="4KKQOHIOeeE" resolve="graph2Model" />
-                          <node concept="37vLTw" id="6rrvvVeibPy" role="37wK5m">
-                            <ref role="3cqZAo" node="6rrvvVegkgT" resolve="rootCell" />
-                          </node>
-                          <node concept="37vLTw" id="6rrvvVeib$1" role="37wK5m">
-                            <ref role="3cqZAo" node="6rrvvVe3CRy" resolve="myRootModel" />
-                          </node>
-                          <node concept="2ShNRf" id="6rrvvVezVw5" role="37wK5m">
-                            <node concept="HV5vD" id="6rrvvVezWCm" role="2ShVmc">
-                              <ref role="HV5vE" node="1O5GA4gelGy" resolve="SyncContext" />
+                      <node concept="3clFbF" id="1hOAOJDex4s" role="3cqZAp">
+                        <node concept="2YIFZM" id="1hOAOJDexIi" role="3clFbG">
+                          <ref role="37wK5l" to="nkm5:1ICLe2s9fBs" resolve="withScalingDisabled" />
+                          <ref role="1Pybhc" to="nkm5:4HsXOWVy42$" resolve="ScalableEditorCell" />
+                          <node concept="1bVj0M" id="1hOAOJDeyld" role="37wK5m">
+                            <property role="3yWfEV" value="true" />
+                            <node concept="3clFbS" id="1hOAOJDeyle" role="1bW5cS">
+                              <node concept="3clFbF" id="6rrvvVeibqT" role="3cqZAp">
+                                <node concept="1rXfSq" id="6rrvvVeibqS" role="3clFbG">
+                                  <ref role="37wK5l" node="4KKQOHIOeeE" resolve="graph2Model" />
+                                  <node concept="37vLTw" id="6rrvvVeibPy" role="37wK5m">
+                                    <ref role="3cqZAo" node="6rrvvVegkgT" resolve="rootCell" />
+                                  </node>
+                                  <node concept="37vLTw" id="6rrvvVeib$1" role="37wK5m">
+                                    <ref role="3cqZAo" node="6rrvvVe3CRy" resolve="myRootModel" />
+                                  </node>
+                                  <node concept="2ShNRf" id="6rrvvVezVw5" role="37wK5m">
+                                    <node concept="HV5vD" id="6rrvvVezWCm" role="2ShVmc">
+                                      <ref role="HV5vE" node="1O5GA4gelGy" resolve="SyncContext" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
                             </node>
                           </node>
                         </node>
@@ -5736,26 +5747,37 @@
         </node>
         <node concept="2GUZhq" id="4KKQOHIOeg_" role="3cqZAp">
           <node concept="3clFbS" id="4KKQOHIOegA" role="2GV8ay">
-            <node concept="3clFbF" id="6rrvvVewgFO" role="3cqZAp">
-              <node concept="2OqwBi" id="6rrvvVewgLf" role="3clFbG">
-                <node concept="37vLTw" id="6rrvvVewgFM" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1O5GA4gf9h7" resolve="syncContext" />
-                </node>
-                <node concept="liA8E" id="6rrvvVewgUv" role="2OqNvi">
-                  <ref role="37wK5l" node="6rrvvVevJoP" resolve="executeWithModel" />
-                  <node concept="37vLTw" id="6rrvvVewgZ$" role="37wK5m">
-                    <ref role="3cqZAo" node="6rrvvVe3kzu" resolve="dmodel" />
-                  </node>
-                  <node concept="1bVj0M" id="6rrvvVewhjw" role="37wK5m">
-                    <node concept="3clFbS" id="6rrvvVewhjy" role="1bW5cS">
-                      <node concept="3clFbF" id="4KKQOHIOegB" role="3cqZAp">
-                        <node concept="1rXfSq" id="4KKQOHIOegC" role="3clFbG">
-                          <ref role="37wK5l" node="4KKQOHIOegR" resolve="model2Graph_" />
-                          <node concept="37vLTw" id="5S8_I2GOVzt" role="37wK5m">
-                            <ref role="3cqZAo" node="5S8_I2GONHy" resolve="rootCell" />
+            <node concept="3clFbF" id="1hOAOJDevjh" role="3cqZAp">
+              <node concept="2YIFZM" id="1hOAOJDevtH" role="3clFbG">
+                <ref role="37wK5l" to="nkm5:1ICLe2s9fBs" resolve="withScalingDisabled" />
+                <ref role="1Pybhc" to="nkm5:4HsXOWVy42$" resolve="ScalableEditorCell" />
+                <node concept="1bVj0M" id="1hOAOJDev$O" role="37wK5m">
+                  <property role="3yWfEV" value="true" />
+                  <node concept="3clFbS" id="1hOAOJDev$P" role="1bW5cS">
+                    <node concept="3clFbF" id="6rrvvVewgFO" role="3cqZAp">
+                      <node concept="2OqwBi" id="6rrvvVewgLf" role="3clFbG">
+                        <node concept="37vLTw" id="6rrvvVewgFM" role="2Oq$k0">
+                          <ref role="3cqZAo" node="1O5GA4gf9h7" resolve="syncContext" />
+                        </node>
+                        <node concept="liA8E" id="6rrvvVewgUv" role="2OqNvi">
+                          <ref role="37wK5l" node="6rrvvVevJoP" resolve="executeWithModel" />
+                          <node concept="37vLTw" id="6rrvvVewgZ$" role="37wK5m">
+                            <ref role="3cqZAo" node="6rrvvVe3kzu" resolve="dmodel" />
                           </node>
-                          <node concept="37vLTw" id="1O5GA4gfk1A" role="37wK5m">
-                            <ref role="3cqZAo" node="1O5GA4gf9h7" resolve="syncContext" />
+                          <node concept="1bVj0M" id="6rrvvVewhjw" role="37wK5m">
+                            <node concept="3clFbS" id="6rrvvVewhjy" role="1bW5cS">
+                              <node concept="3clFbF" id="4KKQOHIOegB" role="3cqZAp">
+                                <node concept="1rXfSq" id="4KKQOHIOegC" role="3clFbG">
+                                  <ref role="37wK5l" node="4KKQOHIOegR" resolve="model2Graph_" />
+                                  <node concept="37vLTw" id="5S8_I2GOVzt" role="37wK5m">
+                                    <ref role="3cqZAo" node="5S8_I2GONHy" resolve="rootCell" />
+                                  </node>
+                                  <node concept="37vLTw" id="1O5GA4gfk1A" role="37wK5m">
+                                    <ref role="3cqZAo" node="1O5GA4gf9h7" resolve="syncContext" />
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
                           </node>
                         </node>
                       </node>
@@ -12053,7 +12075,7 @@
                               <ref role="3cqZAo" node="6rMuBfgszZH" resolve="layouter" />
                             </node>
                             <node concept="liA8E" id="6rMuBfgszZO" role="2OqNvi">
-                              <ref role="37wK5l" to="xqcy:5ubAKwglr_G" resolve="layout" />
+                              <ref role="37wK5l" to="xqcy:4SFQkFfKmWU" resolve="layout" />
                               <node concept="37vLTw" id="6rMuBfgszZP" role="37wK5m">
                                 <ref role="3cqZAo" node="7vufT$lnebv" resolve="myModel" />
                               </node>
