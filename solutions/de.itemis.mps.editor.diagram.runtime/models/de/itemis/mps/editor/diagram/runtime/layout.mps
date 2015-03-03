@@ -6783,6 +6783,37 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3clFbH" id="1HbXCcSNyoi" role="3cqZAp" />
+                <node concept="3SKdUt" id="1HbXCcSNF4u" role="3cqZAp">
+                  <node concept="3SKdUq" id="1HbXCcSNFrm" role="3SKWNk">
+                    <property role="3SKdUp" value="There is a bug for labels of loop edges" />
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="1HbXCcSNAFG" role="3cqZAp">
+                  <node concept="3cpWsn" id="1HbXCcSNAFJ" role="3cpWs9">
+                    <property role="TrG5h" value="isLoop" />
+                    <node concept="10P_77" id="1HbXCcSNAFE" role="1tU5fm" />
+                    <node concept="3clFbC" id="1HbXCcSNC_b" role="33vP2m">
+                      <node concept="2OqwBi" id="1HbXCcSNCD6" role="3uHU7w">
+                        <node concept="37vLTw" id="1HbXCcSNCBQ" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2O_8o3d3OsD" resolve="edge" />
+                        </node>
+                        <node concept="liA8E" id="1HbXCcSNDOi" role="2OqNvi">
+                          <ref role="37wK5l" to="nkm5:7jhYr4hE_7F" resolve="getEndpointTo" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="1HbXCcSNBJq" role="3uHU7B">
+                        <node concept="37vLTw" id="1HbXCcSNBIf" role="2Oq$k0">
+                          <ref role="3cqZAo" node="2O_8o3d3OsD" resolve="edge" />
+                        </node>
+                        <node concept="liA8E" id="1HbXCcSNCoe" role="2OqNvi">
+                          <ref role="37wK5l" to="nkm5:7jhYr4hE_7b" resolve="getEndpointFrom" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbH" id="1HbXCcSNDUM" role="3cqZAp" />
                 <node concept="3clFbJ" id="6Bd7Vwq2pDx" role="3cqZAp">
                   <node concept="3clFbS" id="6Bd7Vwq2pD$" role="3clFbx">
                     <node concept="3clFbF" id="2O_8o3djaED" role="3cqZAp">
@@ -6812,8 +6843,15 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="1rXfSq" id="6Bd7Vwq2pNa" role="3clFbw">
-                    <ref role="37wK5l" node="6IFcUQdHuC8" resolve="canLayoutLabels" />
+                  <node concept="1Wc70l" id="1HbXCcSNEnV" role="3clFbw">
+                    <node concept="3fqX7Q" id="1HbXCcSNEAj" role="3uHU7w">
+                      <node concept="37vLTw" id="1HbXCcSNED4" role="3fr31v">
+                        <ref role="3cqZAo" node="1HbXCcSNAFJ" resolve="isLoop" />
+                      </node>
+                    </node>
+                    <node concept="1rXfSq" id="6Bd7Vwq2pNa" role="3uHU7B">
+                      <ref role="37wK5l" node="6IFcUQdHuC8" resolve="canLayoutLabels" />
+                    </node>
                   </node>
                   <node concept="9aQIb" id="6Bd7Vwq2q0G" role="9aQIa">
                     <node concept="3clFbS" id="6Bd7Vwq2q0H" role="9aQI4">
