@@ -80,6 +80,7 @@
     <import index="byfi" ref="r:748eba57-285a-4bef-8d61-fdc378bdf275(de.itemis.mps.editor.diagram.runtime.coordinates)" />
     <import index="8dm4" ref="f:java_stub#6ed54515-acc8-4d1e-a16c-9fd6cfe951ea#jetbrains.mps.internal.collections.runtime(MPS.Core/jetbrains.mps.internal.collections.runtime@java_stub)" />
     <import index="glos" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.util.containers(MPS.IDEA/com.intellij.util.containers@java_stub)" />
+    <import index="nx1" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.actionSystem(MPS.IDEA/com.intellij.openapi.actionSystem@java_stub)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -5615,23 +5616,33 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="6rrvvVeFBvT" role="3cqZAp">
-                  <node concept="2OqwBi" id="6rrvvVeFBLt" role="3clFbG">
-                    <node concept="37vLTw" id="6rrvvVeFBvR" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
-                    </node>
-                    <node concept="liA8E" id="6rrvvVeFCiR" role="2OqNvi">
-                      <ref role="37wK5l" to="fkey:~mxGraph.removeCells(java.lang.Object[],boolean):java.lang.Object[]" resolve="removeCells" />
-                      <node concept="2OqwBi" id="6rrvvVeGdTG" role="37wK5m">
-                        <node concept="37vLTw" id="6rrvvVeGcjQ" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6rrvvVeFLtU" resolve="cellsToDelete" />
+                <node concept="3clFbJ" id="5AVLHj64u71" role="3cqZAp">
+                  <node concept="3clFbS" id="5AVLHj64u73" role="3clFbx">
+                    <node concept="3clFbF" id="6rrvvVeFBvT" role="3cqZAp">
+                      <node concept="2OqwBi" id="6rrvvVeFBLt" role="3clFbG">
+                        <node concept="37vLTw" id="6rrvvVeFBvR" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                         </node>
-                        <node concept="3_kTaI" id="6rrvvVeGgEE" role="2OqNvi" />
-                      </node>
-                      <node concept="3clFbT" id="6rrvvVeFCOs" role="37wK5m">
-                        <property role="3clFbU" value="false" />
+                        <node concept="liA8E" id="6rrvvVeFCiR" role="2OqNvi">
+                          <ref role="37wK5l" to="fkey:~mxGraph.removeCells(java.lang.Object[],boolean):java.lang.Object[]" resolve="removeCells" />
+                          <node concept="2OqwBi" id="6rrvvVeGdTG" role="37wK5m">
+                            <node concept="37vLTw" id="6rrvvVeGcjQ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="6rrvvVeFLtU" resolve="cellsToDelete" />
+                            </node>
+                            <node concept="3_kTaI" id="6rrvvVeGgEE" role="2OqNvi" />
+                          </node>
+                          <node concept="3clFbT" id="6rrvvVeFCOs" role="37wK5m">
+                            <property role="3clFbU" value="false" />
+                          </node>
+                        </node>
                       </node>
                     </node>
+                  </node>
+                  <node concept="2OqwBi" id="5AVLHj64vRd" role="3clFbw">
+                    <node concept="37vLTw" id="5AVLHj64uI4" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6rrvvVeFLtU" resolve="cellsToDelete" />
+                    </node>
+                    <node concept="3GX2aA" id="5AVLHj64$vb" role="2OqNvi" />
                   </node>
                 </node>
                 <node concept="3clFbF" id="kykzH46d21" role="3cqZAp">
@@ -18503,6 +18514,11 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="TBoO2mtI6A" role="3cqZAp">
+          <node concept="1rXfSq" id="TBoO2mtI6$" role="3clFbG">
+            <ref role="37wK5l" node="TBoO2mtuVl" resolve="initActions" />
+          </node>
+        </node>
         <node concept="3clFbF" id="1uCOQFMsTTo" role="3cqZAp">
           <node concept="1rXfSq" id="1uCOQFMsTTm" role="3clFbG">
             <ref role="37wK5l" to="w5rd:~mxGraphComponent.setCellEditor(com.mxgraph.swing.view.mxICellEditor):void" resolve="setCellEditor" />
@@ -18537,6 +18553,144 @@
       </node>
     </node>
     <node concept="2tJIrI" id="2l7cIJdgqRJ" role="jymVt" />
+    <node concept="3clFb_" id="TBoO2mtuVl" role="jymVt">
+      <property role="TrG5h" value="initActions" />
+      <node concept="3cqZAl" id="TBoO2mtuVn" role="3clF45" />
+      <node concept="3Tm1VV" id="TBoO2mtuVo" role="1B3o_S" />
+      <node concept="3clFbS" id="TBoO2mtuVp" role="3clF47">
+        <node concept="3cpWs8" id="TBoO2mur$2" role="3cqZAp">
+          <node concept="3cpWsn" id="TBoO2mur$3" role="3cpWs9">
+            <property role="TrG5h" value="deleteAction" />
+            <node concept="3uibUv" id="TBoO2mur$1" role="1tU5fm">
+              <ref role="3uigEE" to="nx1:~AnAction" resolve="AnAction" />
+            </node>
+            <node concept="2ShNRf" id="TBoO2mur$4" role="33vP2m">
+              <node concept="YeOm9" id="TBoO2mur$5" role="2ShVmc">
+                <node concept="1Y3b0j" id="TBoO2mur$6" role="YeSDq">
+                  <property role="2bfB8j" value="true" />
+                  <ref role="1Y3XeK" to="nx1:~AnAction" resolve="AnAction" />
+                  <ref role="37wK5l" to="nx1:~AnAction.&lt;init&gt;()" resolve="AnAction" />
+                  <node concept="3Tm1VV" id="TBoO2mur$7" role="1B3o_S" />
+                  <node concept="3clFb_" id="TBoO2mur$8" role="jymVt">
+                    <property role="1EzhhJ" value="false" />
+                    <property role="TrG5h" value="actionPerformed" />
+                    <property role="DiZV1" value="false" />
+                    <property role="IEkAT" value="false" />
+                    <node concept="3Tm1VV" id="TBoO2mur$9" role="1B3o_S" />
+                    <node concept="3cqZAl" id="TBoO2mur$a" role="3clF45" />
+                    <node concept="37vLTG" id="TBoO2mur$b" role="3clF46">
+                      <property role="TrG5h" value="event" />
+                      <node concept="3uibUv" id="TBoO2mur$c" role="1tU5fm">
+                        <ref role="3uigEE" to="nx1:~AnActionEvent" resolve="AnActionEvent" />
+                      </node>
+                      <node concept="2AHcQZ" id="TBoO2mur$d" role="2AJF6D">
+                        <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+                      </node>
+                    </node>
+                    <node concept="3clFbS" id="TBoO2mur$e" role="3clF47">
+                      <node concept="3clFbJ" id="TBoO2muLXC" role="3cqZAp">
+                        <node concept="3clFbS" id="TBoO2muLXD" role="3clFbx">
+                          <node concept="3clFbF" id="TBoO2muLXG" role="3cqZAp">
+                            <node concept="2OqwBi" id="TBoO2muLXH" role="3clFbG">
+                              <node concept="1rXfSq" id="TBoO2muLXI" role="2Oq$k0">
+                                <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
+                              </node>
+                              <node concept="liA8E" id="TBoO2muLXJ" role="2OqNvi">
+                                <ref role="37wK5l" to="fkey:~mxGraph.removeCells():java.lang.Object[]" resolve="removeCells" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="2ZW3vV" id="TBoO2muLYb" role="3clFbw">
+                          <node concept="3uibUv" id="TBoO2muLYc" role="2ZW6by">
+                            <ref role="3uigEE" node="4dus55SzBCX" resolve="GraphSelection" />
+                          </node>
+                          <node concept="2OqwBi" id="TBoO2muLYd" role="2ZW6bz">
+                            <node concept="2OqwBi" id="TBoO2muLYe" role="2Oq$k0">
+                              <node concept="1rXfSq" id="TBoO2muLYf" role="2Oq$k0">
+                                <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
+                              </node>
+                              <node concept="liA8E" id="TBoO2muLYg" role="2OqNvi">
+                                <ref role="37wK5l" to="9a8:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                              </node>
+                            </node>
+                            <node concept="liA8E" id="TBoO2muLYh" role="2OqNvi">
+                              <ref role="37wK5l" to="y596:~SelectionManager.getSelection():jetbrains.mps.openapi.editor.selection.Selection" resolve="getSelection" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="TBoO2muHWj" role="3cqZAp">
+          <node concept="3cpWsn" id="TBoO2muHWk" role="3cpWs9">
+            <property role="TrG5h" value="shortcuts" />
+            <node concept="3uibUv" id="TBoO2muHWd" role="1tU5fm">
+              <ref role="3uigEE" to="nx1:~CustomShortcutSet" resolve="CustomShortcutSet" />
+            </node>
+            <node concept="2ShNRf" id="TBoO2muHWl" role="33vP2m">
+              <node concept="1pGfFk" id="TBoO2muHWm" role="2ShVmc">
+                <ref role="37wK5l" to="nx1:~CustomShortcutSet.&lt;init&gt;(com.intellij.openapi.actionSystem.Shortcut...)" resolve="CustomShortcutSet" />
+                <node concept="2ShNRf" id="TBoO2m$2gA" role="37wK5m">
+                  <node concept="1pGfFk" id="TBoO2m$4JF" role="2ShVmc">
+                    <ref role="37wK5l" to="nx1:~KeyboardShortcut.&lt;init&gt;(javax.swing.KeyStroke,javax.swing.KeyStroke)" resolve="KeyboardShortcut" />
+                    <node concept="2YIFZM" id="TBoO2muHWn" role="37wK5m">
+                      <ref role="37wK5l" to="dbrf:~KeyStroke.getKeyStroke(int,int):javax.swing.KeyStroke" resolve="getKeyStroke" />
+                      <ref role="1Pybhc" to="dbrf:~KeyStroke" resolve="KeyStroke" />
+                      <node concept="10M0yZ" id="TBoO2muHWo" role="37wK5m">
+                        <ref role="1PxDUh" to="8q6x:~KeyEvent" resolve="KeyEvent" />
+                        <ref role="3cqZAo" to="8q6x:~KeyEvent.VK_BACK_SPACE" resolve="VK_BACK_SPACE" />
+                      </node>
+                      <node concept="3cmrfG" id="TBoO2muHWp" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                    <node concept="10Nm6u" id="TBoO2m$5Mc" role="37wK5m" />
+                  </node>
+                </node>
+                <node concept="2ShNRf" id="TBoO2m$5Yj" role="37wK5m">
+                  <node concept="1pGfFk" id="TBoO2m$5Yk" role="2ShVmc">
+                    <ref role="37wK5l" to="nx1:~KeyboardShortcut.&lt;init&gt;(javax.swing.KeyStroke,javax.swing.KeyStroke)" resolve="KeyboardShortcut" />
+                    <node concept="2YIFZM" id="TBoO2m$5Yl" role="37wK5m">
+                      <ref role="1Pybhc" to="dbrf:~KeyStroke" resolve="KeyStroke" />
+                      <ref role="37wK5l" to="dbrf:~KeyStroke.getKeyStroke(int,int):javax.swing.KeyStroke" resolve="getKeyStroke" />
+                      <node concept="10M0yZ" id="TBoO2m$5Ym" role="37wK5m">
+                        <ref role="1PxDUh" to="8q6x:~KeyEvent" resolve="KeyEvent" />
+                        <ref role="3cqZAo" to="8q6x:~KeyEvent.VK_DELETE" resolve="VK_DELETE" />
+                      </node>
+                      <node concept="3cmrfG" id="TBoO2m$5Yn" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                    <node concept="10Nm6u" id="TBoO2m$5Yo" role="37wK5m" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="TBoO2mtJF7" role="3cqZAp">
+          <node concept="2OqwBi" id="TBoO2musWf" role="3clFbG">
+            <node concept="37vLTw" id="TBoO2mur$f" role="2Oq$k0">
+              <ref role="3cqZAo" node="TBoO2mur$3" resolve="deleteAction" />
+            </node>
+            <node concept="liA8E" id="TBoO2muvl2" role="2OqNvi">
+              <ref role="37wK5l" to="nx1:~AnAction.registerCustomShortcutSet(com.intellij.openapi.actionSystem.ShortcutSet,javax.swing.JComponent):void" resolve="registerCustomShortcutSet" />
+              <node concept="37vLTw" id="TBoO2muJek" role="37wK5m">
+                <ref role="3cqZAo" node="TBoO2muHWk" resolve="shortcuts" />
+              </node>
+              <node concept="Xjq3P" id="TBoO2muJIy" role="37wK5m" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="TBoO2mt0ts" role="jymVt" />
     <node concept="3clFb_" id="2l7cIJdg_1e" role="jymVt">
       <property role="TrG5h" value="getDiagramCell" />
       <node concept="3uibUv" id="2l7cIJdgDWv" role="3clF45">
