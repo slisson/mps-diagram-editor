@@ -45876,19 +45876,6 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbJ" id="5$rT8eoypB_" role="3cqZAp">
-              <node concept="3clFbS" id="5$rT8eoypBC" role="3clFbx">
-                <node concept="3N13vt" id="5$rT8eoyqtZ" role="3cqZAp" />
-              </node>
-              <node concept="2ZW3vV" id="5$rT8eoyq5b" role="3clFbw">
-                <node concept="3uibUv" id="5$rT8eoyqn1" role="2ZW6by">
-                  <ref role="3uigEE" node="75dWns_bEzK" resolve="LabelDCell" />
-                </node>
-                <node concept="37vLTw" id="5$rT8eoyq46" role="2ZW6bz">
-                  <ref role="3cqZAo" node="F$W_0Kwy0n" resolve="child" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="F$W_0Kwy8$" role="3cqZAp">
               <node concept="37vLTI" id="F$W_0Kwyjr" role="3clFbG">
                 <node concept="2YIFZM" id="F$W_0KwywQ" role="37vLTx">
