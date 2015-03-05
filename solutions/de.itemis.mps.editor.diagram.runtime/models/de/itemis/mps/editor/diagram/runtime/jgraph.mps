@@ -16148,9 +16148,7 @@
         <node concept="3clFbF" id="4I87$bvCuw9" role="3cqZAp">
           <node concept="1rXfSq" id="4I87$bvCuw7" role="3clFbG">
             <ref role="37wK5l" to="fkey:~mxGraph.setResetEdgesOnMove(boolean):void" resolve="setResetEdgesOnMove" />
-            <node concept="3clFbT" id="4I87$bvCuFi" role="37wK5m">
-              <property role="3clFbU" value="true" />
-            </node>
+            <node concept="3clFbT" id="4I87$bvCuFi" role="37wK5m" />
           </node>
         </node>
         <node concept="3clFbF" id="ru$G4ik7ZR" role="3cqZAp">
@@ -19415,7 +19413,7 @@
                   <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
                 </node>
                 <node concept="liA8E" id="6yUTIumVnkD" role="2OqNvi">
-                  <ref role="37wK5l" node="6yUTIumQtDH" resolve="requestRelayout" />
+                  <ref role="37wK5l" node="7$UfFVVzPtJ" resolve="requestRelayout" />
                 </node>
               </node>
             </node>
@@ -20059,7 +20057,7 @@
               <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
             </node>
             <node concept="liA8E" id="6yUTIumG_uH" role="2OqNvi">
-              <ref role="37wK5l" node="6yUTIumQtDH" resolve="requestRelayout" />
+              <ref role="37wK5l" node="7$UfFVVzPtJ" resolve="requestRelayout" />
             </node>
           </node>
         </node>
