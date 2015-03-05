@@ -40769,6 +40769,16 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="3jNLn3Lttn" role="3cqZAp">
+          <node concept="2OqwBi" id="3jNLn3LuWF" role="3clFbG">
+            <node concept="37vLTw" id="3jNLn3Lttl" role="2Oq$k0">
+              <ref role="3cqZAo" node="1uCOQFNbfu2" resolve="myEditor" />
+            </node>
+            <node concept="liA8E" id="3jNLn3LAJj" role="2OqNvi">
+              <ref role="37wK5l" to="1t7x:~Component.repaint():void" resolve="repaint" />
+            </node>
+          </node>
+        </node>
         <node concept="3SKdUt" id="7YAWia_v0vV" role="3cqZAp">
           <node concept="3SKWN0" id="7YAWia_v0vW" role="3SKWNk">
             <node concept="3clFbF" id="7YAWia_6Xuz" role="3SKWNf">
