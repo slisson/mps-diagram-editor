@@ -48005,6 +48005,41 @@
                         </node>
                         <node concept="3clFbJ" id="7$UfFVV33wm" role="3cqZAp">
                           <node concept="3clFbS" id="7$UfFVV33wo" role="3clFbx">
+                            <node concept="3clFbF" id="iiBXaO5M6b" role="3cqZAp">
+                              <node concept="37vLTI" id="iiBXaO5NdG" role="3clFbG">
+                                <node concept="1Ls8ON" id="iiBXaO5Nxh" role="37vLTx">
+                                  <node concept="17qRlL" id="iiBXaO5QQ1" role="1Lso8e">
+                                    <node concept="37vLTw" id="iiBXaO5RaC" role="3uHU7w">
+                                      <ref role="3cqZAo" to="fkey:~mxGraphView.scale" resolve="scale" />
+                                    </node>
+                                    <node concept="1LFfDK" id="iiBXaO5Q64" role="3uHU7B">
+                                      <node concept="3cmrfG" id="iiBXaO5Qq5" role="1LF_Uc">
+                                        <property role="3cmrfH" value="0" />
+                                      </node>
+                                      <node concept="37vLTw" id="iiBXaO5PBs" role="1LFl5Q">
+                                        <ref role="3cqZAo" node="7$UfFVV33gw" resolve="minimumSize" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="17qRlL" id="iiBXaO5Tjv" role="1Lso8e">
+                                    <node concept="37vLTw" id="iiBXaO5TGe" role="3uHU7w">
+                                      <ref role="3cqZAo" to="fkey:~mxGraphView.scale" resolve="scale" />
+                                    </node>
+                                    <node concept="1LFfDK" id="iiBXaO5Sv_" role="3uHU7B">
+                                      <node concept="3cmrfG" id="iiBXaO5SNH" role="1LF_Uc">
+                                        <property role="3cmrfH" value="1" />
+                                      </node>
+                                      <node concept="37vLTw" id="iiBXaO5RWF" role="1LFl5Q">
+                                        <ref role="3cqZAo" node="7$UfFVV33gw" resolve="minimumSize" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                                <node concept="37vLTw" id="iiBXaO5M69" role="37vLTJ">
+                                  <ref role="3cqZAo" node="7$UfFVV33gw" resolve="minimumSize" />
+                                </node>
+                              </node>
+                            </node>
                             <node concept="3clFbJ" id="7$UfFVV36A5" role="3cqZAp">
                               <property role="TyiWK" value="false" />
                               <property role="TyiWL" value="true" />
