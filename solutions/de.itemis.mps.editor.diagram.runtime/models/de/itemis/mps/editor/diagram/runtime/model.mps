@@ -1588,13 +1588,12 @@
                 </node>
                 <node concept="1bVj0M" id="7$UfFVVesE7" role="37wK5m">
                   <node concept="3clFbS" id="7$UfFVVesE9" role="1bW5cS">
-                    <node concept="3clFbF" id="6HcUfDV8RH0" role="3cqZAp">
-                      <node concept="2OqwBi" id="6HcUfDV8RId" role="3clFbG">
-                        <node concept="2GrUjf" id="63AkbuOZtbN" role="2Oq$k0">
+                    <node concept="3clFbF" id="5M2_W$sc320" role="3cqZAp">
+                      <node concept="2YIFZM" id="5M2_W$sc3zk" role="3clFbG">
+                        <ref role="1Pybhc" to="2o4v:1sJnak6wM3n" resolve="EditorUtil" />
+                        <ref role="37wK5l" to="2o4v:5M2_W$sbvzz" resolve="relayoutWithoutWrap" />
+                        <node concept="2GrUjf" id="5M2_W$scyw0" role="37wK5m">
                           <ref role="2Gs0qQ" node="63AkbuOZb9h" resolve="c" />
-                        </node>
-                        <node concept="liA8E" id="6HcUfDV8ROn" role="2OqNvi">
-                          <ref role="37wK5l" to="nu8v:~EditorCell.relayout():void" resolve="relayout" />
                         </node>
                       </node>
                     </node>
@@ -8352,13 +8351,12 @@
                         <property role="3SKdUp" value="fit size to childs" />
                       </node>
                     </node>
-                    <node concept="3clFbF" id="4xcnxwSDpuY" role="3cqZAp">
-                      <node concept="2OqwBi" id="4xcnxwSDqtq" role="3clFbG">
-                        <node concept="37vLTw" id="4xcnxwSDrpt" role="2Oq$k0">
+                    <node concept="3clFbF" id="5M2_W$scGEL" role="3cqZAp">
+                      <node concept="2YIFZM" id="5M2_W$scGEM" role="3clFbG">
+                        <ref role="1Pybhc" to="2o4v:1sJnak6wM3n" resolve="EditorUtil" />
+                        <ref role="37wK5l" to="2o4v:5M2_W$sbvzz" resolve="relayoutWithoutWrap" />
+                        <node concept="37vLTw" id="5M2_W$scHfa" role="37wK5m">
                           <ref role="3cqZAo" node="4xcnxwSDrpo" resolve="rootCell" />
-                        </node>
-                        <node concept="liA8E" id="4xcnxwSDrc8" role="2OqNvi">
-                          <ref role="37wK5l" to="nu8v:~EditorCell.relayout():void" resolve="relayout" />
                         </node>
                       </node>
                     </node>
