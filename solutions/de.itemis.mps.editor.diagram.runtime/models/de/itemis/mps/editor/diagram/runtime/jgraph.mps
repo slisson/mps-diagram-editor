@@ -44385,6 +44385,31 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5M2_W$s26RI" role="jymVt" />
+    <node concept="3clFb_" id="5M2_W$s1Smy" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="paintChildDecorations" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tmbuc" id="5M2_W$s1Smz" role="1B3o_S" />
+      <node concept="3cqZAl" id="5M2_W$s1Sm_" role="3clF45" />
+      <node concept="37vLTG" id="5M2_W$s1SmA" role="3clF46">
+        <property role="TrG5h" value="graphics" />
+        <node concept="3uibUv" id="5M2_W$s1SmB" role="1tU5fm">
+          <ref role="3uigEE" to="1t7x:~Graphics" resolve="Graphics" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5M2_W$s1SmE" role="3clF47">
+        <node concept="3SKdUt" id="5M2_W$s2eo3" role="3cqZAp">
+          <node concept="3SKdUq" id="5M2_W$s2eo4" role="3SKWNk">
+            <property role="3SKdUp" value="they are painted by the diagram component" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5M2_W$s1SmF" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="5S8_I2FYVEf">
     <property role="3GE5qa" value="" />
