@@ -21100,6 +21100,51 @@
             </node>
           </node>
           <node concept="3clFbH" id="48DYfEtH5vE" role="3cqZAp" />
+          <node concept="3SKdUt" id="5M2_W$sz8lq" role="3cqZAp">
+            <node concept="3SKdUq" id="5M2_W$sz8yA" role="3SKWNk">
+              <property role="3SKdUp" value="right click" />
+            </node>
+          </node>
+          <node concept="3clFbJ" id="5M2_W$sz8Xb" role="3cqZAp">
+            <node concept="3clFbS" id="5M2_W$sz8Xd" role="3clFbx">
+              <node concept="3clFbF" id="5M2_W$sztPk" role="3cqZAp">
+                <node concept="2OqwBi" id="5M2_W$szueO" role="3clFbG">
+                  <node concept="1rXfSq" id="5M2_W$sztPi" role="2Oq$k0">
+                    <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
+                  </node>
+                  <node concept="liA8E" id="5M2_W$szF1_" role="2OqNvi">
+                    <ref role="37wK5l" to="1t7x:~Component.dispatchEvent(java.awt.AWTEvent):void" resolve="dispatchEvent" />
+                    <node concept="2YIFZM" id="5M2_W$szFoK" role="37wK5m">
+                      <ref role="37wK5l" to="dbrf:~SwingUtilities.convertMouseEvent(java.awt.Component,java.awt.event.MouseEvent,java.awt.Component):java.awt.event.MouseEvent" resolve="convertMouseEvent" />
+                      <ref role="1Pybhc" to="dbrf:~SwingUtilities" resolve="SwingUtilities" />
+                      <node concept="Xjq3P" id="5M2_W$szFoL" role="37wK5m" />
+                      <node concept="37vLTw" id="5M2_W$szFoM" role="37wK5m">
+                        <ref role="3cqZAo" node="6zxgcXkHd4b" resolve="event" />
+                      </node>
+                      <node concept="1rXfSq" id="5M2_W$szFoN" role="37wK5m">
+                        <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbC" id="5M2_W$szaoG" role="3clFbw">
+              <node concept="2OqwBi" id="5M2_W$sz9iU" role="3uHU7B">
+                <node concept="37vLTw" id="5M2_W$sz9dv" role="2Oq$k0">
+                  <ref role="3cqZAo" node="6zxgcXkHd4b" resolve="event" />
+                </node>
+                <node concept="liA8E" id="5M2_W$szc6d" role="2OqNvi">
+                  <ref role="37wK5l" to="8q6x:~MouseEvent.getButton():int" resolve="getButton" />
+                </node>
+              </node>
+              <node concept="10M0yZ" id="5M2_W$szccy" role="3uHU7w">
+                <ref role="1PxDUh" to="8q6x:~MouseEvent" resolve="MouseEvent" />
+                <ref role="3cqZAo" to="8q6x:~MouseEvent.BUTTON3" resolve="BUTTON3" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="5M2_W$sz82$" role="3cqZAp" />
           <node concept="3clFbF" id="6zxgcXkJHEU" role="3cqZAp">
             <node concept="3nyPlj" id="6zxgcXkJHES" role="3clFbG">
               <ref role="37wK5l" to="dbrf:~JComponent.processMouseEvent(java.awt.event.MouseEvent):void" resolve="processMouseEvent" />
