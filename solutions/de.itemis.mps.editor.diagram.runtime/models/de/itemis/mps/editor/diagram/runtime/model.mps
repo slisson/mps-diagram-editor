@@ -16764,6 +16764,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="5M2_W$s8eOQ" role="3cqZAp">
+          <node concept="2OqwBi" id="5M2_W$s8eOR" role="3clFbG">
+            <node concept="37vLTw" id="5M2_W$s8eOS" role="2Oq$k0">
+              <ref role="3cqZAo" node="4teJTSBzNbU" resolve="myModel" />
+            </node>
+            <node concept="liA8E" id="5M2_W$s8eOT" role="2OqNvi">
+              <ref role="37wK5l" node="7VHo7EBTH$H" resolve="updateLabelReferencePoints" />
+              <node concept="3clFbT" id="5M2_W$s8eOU" role="37wK5m">
+                <property role="3clFbU" value="false" />
+              </node>
+            </node>
+          </node>
+        </node>
       </node>
       <node concept="37vLTG" id="iiBXaOKSde" role="3clF46">
         <property role="TrG5h" value="diagramECell" />
