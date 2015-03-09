@@ -3324,7 +3324,7 @@
         <node concept="3clFbF" id="7Hx1wY1knWl" role="3cqZAp">
           <node concept="37vLTI" id="7Hx1wY1ko6X" role="3clFbG">
             <node concept="3b6qkQ" id="7Hx1wY1koev" role="37vLTx">
-              <property role="$nhwW" value="0.15" />
+              <property role="$nhwW" value="0.8" />
             </node>
             <node concept="10M0yZ" id="7Hx1wY1knWk" role="37vLTJ">
               <ref role="1PxDUh" to="f5o7:~mxConstants" resolve="mxConstants" />
