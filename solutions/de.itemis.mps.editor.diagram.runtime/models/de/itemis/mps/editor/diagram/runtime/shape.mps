@@ -3187,5 +3187,40 @@
       </node>
     </node>
   </node>
+  <node concept="312cEu" id="65KXJw4zf3T">
+    <property role="TrG5h" value="EmptyShape" />
+    <node concept="3Tm1VV" id="65KXJw4zf3U" role="1B3o_S" />
+    <node concept="3uibUv" id="65KXJw4zfrc" role="1zkMxy">
+      <ref role="3uigEE" node="6uo2fN6kjTk" resolve="AbstractShape" />
+    </node>
+    <node concept="3clFb_" id="65KXJw4zfZF" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="draw" />
+      <node concept="37vLTG" id="65KXJw4zfZG" role="3clF46">
+        <property role="TrG5h" value="graphics" />
+        <node concept="3uibUv" id="65KXJw4zfZH" role="1tU5fm">
+          <ref role="3uigEE" to="1t7x:~Graphics2D" resolve="Graphics2D" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="65KXJw4zfZI" role="3clF46">
+        <property role="TrG5h" value="bounds" />
+        <node concept="3uibUv" id="65KXJw4zfZJ" role="1tU5fm">
+          <ref role="3uigEE" to="ar19:~Rectangle2D" resolve="Rectangle2D" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="65KXJw4zfZK" role="3clF46">
+        <property role="TrG5h" value="style" />
+        <node concept="3uibUv" id="65KXJw4zfZL" role="1tU5fm">
+          <ref role="3uigEE" node="6uo2fN6ypgN" resolve="IShapeStyle" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="65KXJw4zfZM" role="3clF45" />
+      <node concept="3Tm1VV" id="65KXJw4zfZN" role="1B3o_S" />
+      <node concept="2AHcQZ" id="65KXJw4zg29" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+      <node concept="3clFbS" id="65KXJw4zg2a" role="3clF47" />
+    </node>
+  </node>
 </model>
 
