@@ -260,7 +260,9 @@
         <property id="1176718929932" name="isFinal" index="3TUv4t" />
         <child id="1068431790190" name="initializer" index="33vP2m" />
       </concept>
-      <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ" />
+      <concept id="1109279763828" name="jetbrains.mps.baseLanguage.structure.TypeVariableDeclaration" flags="ng" index="16euLQ">
+        <child id="1214996921760" name="bound" index="3ztrMU" />
+      </concept>
       <concept id="1109279851642" name="jetbrains.mps.baseLanguage.structure.GenericDeclaration" flags="ng" index="16eOlS">
         <child id="1109279881614" name="typeVariableDeclaration" index="16eVyc" />
       </concept>
@@ -30537,6 +30539,124 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="cBApWZDuBL" role="jymVt" />
+    <node concept="2YIFZL" id="cBApWZDXX6" role="jymVt">
+      <property role="TrG5h" value="getAncestor" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="2AHcQZ" id="cBApWZDXee" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+      </node>
+      <node concept="3clFbS" id="cBApWZDvvI" role="3clF47">
+        <node concept="1Dw8fO" id="cBApWZDNPu" role="3cqZAp">
+          <node concept="3cpWsn" id="cBApWZDNPv" role="1Duv9x">
+            <property role="TrG5h" value="parent" />
+            <node concept="3uibUv" id="cBApWZDNTs" role="1tU5fm">
+              <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+            </node>
+            <node concept="10QFUN" id="cBApWZDR1M" role="33vP2m">
+              <node concept="2OqwBi" id="cBApWZDOO1" role="10QFUP">
+                <node concept="37vLTw" id="cBApWZDO13" role="2Oq$k0">
+                  <ref role="3cqZAo" node="cBApWZDwcb" resolve="descendant" />
+                </node>
+                <node concept="liA8E" id="cBApWZDQVk" role="2OqNvi">
+                  <ref role="37wK5l" to="g6dw:~mxCell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="cBApWZDR1N" role="10QFUM">
+                <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="cBApWZDNPw" role="2LFqv$">
+            <node concept="3clFbJ" id="cBApWZDT78" role="3cqZAp">
+              <node concept="3clFbS" id="cBApWZDT79" role="3clFbx">
+                <node concept="3cpWs6" id="cBApWZDWyO" role="3cqZAp">
+                  <node concept="10QFUN" id="cBApWZDWRe" role="3cqZAk">
+                    <node concept="16syzq" id="cBApWZDX4$" role="10QFUM">
+                      <ref role="16sUi3" node="cBApWZDwxU" resolve="T" />
+                    </node>
+                    <node concept="37vLTw" id="cBApWZDWFk" role="10QFUP">
+                      <ref role="3cqZAo" node="cBApWZDNPv" resolve="parent" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="cBApWZDTsV" role="3clFbw">
+                <node concept="37vLTw" id="cBApWZDTgS" role="2Oq$k0">
+                  <ref role="3cqZAo" node="cBApWZDw85" resolve="type" />
+                </node>
+                <node concept="liA8E" id="cBApWZDWki" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~Class.isInstance(java.lang.Object):boolean" resolve="isInstance" />
+                  <node concept="37vLTw" id="cBApWZDWpy" role="37wK5m">
+                    <ref role="3cqZAo" node="cBApWZDNPv" resolve="parent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="cBApWZDRcM" role="1Dwp0S">
+            <node concept="10Nm6u" id="cBApWZDRh7" role="3uHU7w" />
+            <node concept="37vLTw" id="cBApWZDR6Q" role="3uHU7B">
+              <ref role="3cqZAo" node="cBApWZDNPv" resolve="parent" />
+            </node>
+          </node>
+          <node concept="37vLTI" id="cBApWZDRpr" role="1Dwrff">
+            <node concept="10QFUN" id="cBApWZDSKC" role="37vLTx">
+              <node concept="2OqwBi" id="cBApWZDRwK" role="10QFUP">
+                <node concept="37vLTw" id="cBApWZDRt6" role="2Oq$k0">
+                  <ref role="3cqZAo" node="cBApWZDNPv" resolve="parent" />
+                </node>
+                <node concept="liA8E" id="cBApWZDSDV" role="2OqNvi">
+                  <ref role="37wK5l" to="g6dw:~mxCell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
+                </node>
+              </node>
+              <node concept="3uibUv" id="cBApWZDSKD" role="10QFUM">
+                <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="cBApWZDRjK" role="37vLTJ">
+              <ref role="3cqZAo" node="cBApWZDNPv" resolve="parent" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="cBApWZDSXB" role="3cqZAp">
+          <node concept="10Nm6u" id="cBApWZDSX_" role="3clFbG" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="cBApWZDwcb" role="3clF46">
+        <property role="TrG5h" value="descendant" />
+        <node concept="3uibUv" id="cBApWZDwj8" role="1tU5fm">
+          <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+        </node>
+        <node concept="2AHcQZ" id="cBApWZDXyW" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="cBApWZDw85" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="cBApWZDw84" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Class" resolve="Class" />
+          <node concept="16syzq" id="cBApWZDNEq" role="11_B2D">
+            <ref role="16sUi3" node="cBApWZDwxU" resolve="T" />
+          </node>
+        </node>
+        <node concept="2AHcQZ" id="cBApWZDXQB" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="16syzq" id="cBApWZDwCG" role="3clF45">
+        <ref role="16sUi3" node="cBApWZDwxU" resolve="T" />
+      </node>
+      <node concept="16euLQ" id="cBApWZDwxU" role="16eVyc">
+        <property role="TrG5h" value="T" />
+        <node concept="3uibUv" id="cBApWZDwK6" role="3ztrMU">
+          <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+        </node>
+      </node>
+      <node concept="3Tm1VV" id="cBApWZDvvH" role="1B3o_S" />
+    </node>
     <node concept="3Tm1VV" id="5biqYZYyZRj" role="1B3o_S" />
   </node>
   <node concept="312cEu" id="7NtDnA_AXIa">
@@ -54072,69 +54192,159 @@
       <node concept="10P_77" id="65KXJw4Cbaq" role="3clF45" />
       <node concept="3Tmbuc" id="65KXJw4C95I" role="1B3o_S" />
       <node concept="3clFbS" id="65KXJw4C8HV" role="3clF47">
-        <node concept="3clFbF" id="65KXJw4CxCw" role="3cqZAp">
-          <node concept="22lmx$" id="65KXJw4CwXf" role="3clFbG">
-            <node concept="2OqwBi" id="65KXJw4CwXg" role="3uHU7B">
-              <node concept="2OqwBi" id="65KXJw4CwXh" role="2Oq$k0">
-                <node concept="2OqwBi" id="65KXJw4LAGp" role="2Oq$k0">
-                  <node concept="37vLTw" id="65KXJw4CwXi" role="2Oq$k0">
-                    <ref role="3cqZAo" node="65KXJw4CcNn" resolve="movingState" />
-                  </node>
-                  <node concept="liA8E" id="65KXJw4LBWR" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="65KXJw4CwXj" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
-                </node>
-              </node>
-              <node concept="liA8E" id="65KXJw4CwXk" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~Class.isAssignableFrom(java.lang.Class):boolean" resolve="isAssignableFrom" />
-                <node concept="2OqwBi" id="65KXJw4CwXl" role="37wK5m">
-                  <node concept="2OqwBi" id="65KXJw4LC8x" role="2Oq$k0">
-                    <node concept="37vLTw" id="65KXJw4CwXm" role="2Oq$k0">
-                      <ref role="3cqZAo" node="65KXJw4Cdqq" resolve="otherState" />
+        <node concept="3cpWs8" id="cBApWZCZA4" role="3cqZAp">
+          <node concept="3cpWsn" id="cBApWZCZA5" role="3cpWs9">
+            <property role="TrG5h" value="sameType" />
+            <node concept="10P_77" id="cBApWZCZ_K" role="1tU5fm" />
+            <node concept="22lmx$" id="cBApWZCZA6" role="33vP2m">
+              <node concept="2OqwBi" id="cBApWZCZA7" role="3uHU7B">
+                <node concept="2OqwBi" id="cBApWZCZA8" role="2Oq$k0">
+                  <node concept="2OqwBi" id="cBApWZCZA9" role="2Oq$k0">
+                    <node concept="37vLTw" id="cBApWZCZAa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="65KXJw4CcNn" resolve="movingState" />
                     </node>
-                    <node concept="liA8E" id="65KXJw4LDn9" role="2OqNvi">
+                    <node concept="liA8E" id="cBApWZCZAb" role="2OqNvi">
                       <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="65KXJw4CwXn" role="2OqNvi">
+                  <node concept="liA8E" id="cBApWZCZAc" role="2OqNvi">
                     <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="cBApWZCZAd" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~Class.isAssignableFrom(java.lang.Class):boolean" resolve="isAssignableFrom" />
+                  <node concept="2OqwBi" id="cBApWZCZAe" role="37wK5m">
+                    <node concept="2OqwBi" id="cBApWZCZAf" role="2Oq$k0">
+                      <node concept="37vLTw" id="cBApWZCZAg" role="2Oq$k0">
+                        <ref role="3cqZAo" node="65KXJw4Cdqq" resolve="otherState" />
+                      </node>
+                      <node concept="liA8E" id="cBApWZCZAh" role="2OqNvi">
+                        <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="cBApWZCZAi" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="cBApWZCZAj" role="3uHU7w">
+                <node concept="2OqwBi" id="cBApWZCZAk" role="2Oq$k0">
+                  <node concept="2OqwBi" id="cBApWZCZAl" role="2Oq$k0">
+                    <node concept="37vLTw" id="cBApWZCZAm" role="2Oq$k0">
+                      <ref role="3cqZAo" node="65KXJw4Cdqq" resolve="otherState" />
+                    </node>
+                    <node concept="liA8E" id="cBApWZCZAn" role="2OqNvi">
+                      <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="cBApWZCZAo" role="2OqNvi">
+                    <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="cBApWZCZAp" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~Class.isAssignableFrom(java.lang.Class):boolean" resolve="isAssignableFrom" />
+                  <node concept="2OqwBi" id="cBApWZCZAq" role="37wK5m">
+                    <node concept="2OqwBi" id="cBApWZCZAr" role="2Oq$k0">
+                      <node concept="37vLTw" id="cBApWZCZAs" role="2Oq$k0">
+                        <ref role="3cqZAo" node="65KXJw4CcNn" resolve="movingState" />
+                      </node>
+                      <node concept="liA8E" id="cBApWZCZAt" role="2OqNvi">
+                        <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="cBApWZCZAu" role="2OqNvi">
+                      <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                    </node>
                   </node>
                 </node>
               </node>
             </node>
-            <node concept="2OqwBi" id="65KXJw4CwXo" role="3uHU7w">
-              <node concept="2OqwBi" id="65KXJw4CwXp" role="2Oq$k0">
-                <node concept="2OqwBi" id="65KXJw4LDWT" role="2Oq$k0">
-                  <node concept="37vLTw" id="65KXJw4CwXq" role="2Oq$k0">
-                    <ref role="3cqZAo" node="65KXJw4Cdqq" resolve="otherState" />
+          </node>
+        </node>
+        <node concept="3clFbH" id="cBApWZDc0n" role="3cqZAp" />
+        <node concept="3cpWs8" id="cBApWZDZBO" role="3cqZAp">
+          <node concept="3cpWsn" id="cBApWZDZBP" role="3cpWs9">
+            <property role="TrG5h" value="subdiagram1" />
+            <node concept="3uibUv" id="cBApWZDZBN" role="1tU5fm">
+              <ref role="3uigEE" node="7SMOZKNYVb6" resolve="SubDiagramDCell" />
+            </node>
+            <node concept="2YIFZM" id="cBApWZDZBQ" role="33vP2m">
+              <ref role="37wK5l" node="cBApWZDXX6" resolve="getAncestor" />
+              <ref role="1Pybhc" node="5biqYZYyZRi" resolve="JGraphUtil" />
+              <node concept="1eOMI4" id="cBApWZE1tt" role="37wK5m">
+                <node concept="10QFUN" id="cBApWZE1tq" role="1eOMHV">
+                  <node concept="3uibUv" id="cBApWZE1_0" role="10QFUM">
+                    <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
                   </node>
-                  <node concept="liA8E" id="65KXJw4LECH" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="65KXJw4CwXr" role="2OqNvi">
-                  <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
-                </node>
-              </node>
-              <node concept="liA8E" id="65KXJw4CwXs" role="2OqNvi">
-                <ref role="37wK5l" to="e2lb:~Class.isAssignableFrom(java.lang.Class):boolean" resolve="isAssignableFrom" />
-                <node concept="2OqwBi" id="65KXJw4CwXt" role="37wK5m">
-                  <node concept="2OqwBi" id="65KXJw4LEOr" role="2Oq$k0">
-                    <node concept="37vLTw" id="65KXJw4CwXu" role="2Oq$k0">
+                  <node concept="2OqwBi" id="cBApWZE0JU" role="10QFUP">
+                    <node concept="37vLTw" id="cBApWZDZBR" role="2Oq$k0">
                       <ref role="3cqZAo" node="65KXJw4CcNn" resolve="movingState" />
                     </node>
-                    <node concept="liA8E" id="65KXJw4LFsB" role="2OqNvi">
+                    <node concept="liA8E" id="cBApWZE1nG" role="2OqNvi">
                       <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
                     </node>
                   </node>
-                  <node concept="liA8E" id="65KXJw4CwXv" role="2OqNvi">
-                    <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                </node>
+              </node>
+              <node concept="3VsKOn" id="cBApWZDZBS" role="37wK5m">
+                <ref role="3VsUkX" node="7SMOZKNYVb6" resolve="SubDiagramDCell" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="cBApWZE1St" role="3cqZAp">
+          <node concept="3cpWsn" id="cBApWZE1Su" role="3cpWs9">
+            <property role="TrG5h" value="subdiagram2" />
+            <node concept="3uibUv" id="cBApWZE1Sv" role="1tU5fm">
+              <ref role="3uigEE" node="7SMOZKNYVb6" resolve="SubDiagramDCell" />
+            </node>
+            <node concept="2YIFZM" id="cBApWZE1Sw" role="33vP2m">
+              <ref role="37wK5l" node="cBApWZDXX6" resolve="getAncestor" />
+              <ref role="1Pybhc" node="5biqYZYyZRi" resolve="JGraphUtil" />
+              <node concept="1eOMI4" id="cBApWZE1Sx" role="37wK5m">
+                <node concept="10QFUN" id="cBApWZE1Sy" role="1eOMHV">
+                  <node concept="3uibUv" id="cBApWZE1Sz" role="10QFUM">
+                    <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+                  </node>
+                  <node concept="2OqwBi" id="cBApWZE1S$" role="10QFUP">
+                    <node concept="37vLTw" id="cBApWZE2iA" role="2Oq$k0">
+                      <ref role="3cqZAo" node="65KXJw4Cdqq" resolve="otherState" />
+                    </node>
+                    <node concept="liA8E" id="cBApWZE1SA" role="2OqNvi">
+                      <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
+                    </node>
                   </node>
                 </node>
               </node>
+              <node concept="3VsKOn" id="cBApWZE1SB" role="37wK5m">
+                <ref role="3VsUkX" node="7SMOZKNYVb6" resolve="SubDiagramDCell" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="cBApWZE4aD" role="3cqZAp">
+          <node concept="3cpWsn" id="cBApWZE4aE" role="3cpWs9">
+            <property role="TrG5h" value="sameSubdiagram" />
+            <node concept="10P_77" id="cBApWZE4as" role="1tU5fm" />
+            <node concept="3clFbC" id="cBApWZE4aF" role="33vP2m">
+              <node concept="37vLTw" id="cBApWZE4aG" role="3uHU7w">
+                <ref role="3cqZAo" node="cBApWZE1Su" resolve="subdiagram2" />
+              </node>
+              <node concept="37vLTw" id="cBApWZE4aH" role="3uHU7B">
+                <ref role="3cqZAo" node="cBApWZDZBP" resolve="subdiagram1" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="cBApWZDccy" role="3cqZAp" />
+        <node concept="3clFbF" id="65KXJw4CxCw" role="3cqZAp">
+          <node concept="1Wc70l" id="cBApWZE2u$" role="3clFbG">
+            <node concept="37vLTw" id="cBApWZE4aI" role="3uHU7w">
+              <ref role="3cqZAo" node="cBApWZE4aE" resolve="sameSubdiagram" />
+            </node>
+            <node concept="37vLTw" id="cBApWZCZAv" role="3uHU7B">
+              <ref role="3cqZAo" node="cBApWZCZA5" resolve="sameType" />
             </node>
           </node>
         </node>
