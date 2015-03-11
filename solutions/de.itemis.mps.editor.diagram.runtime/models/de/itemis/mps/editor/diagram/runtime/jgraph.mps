@@ -19013,13 +19013,67 @@
                     <node concept="3clFbS" id="TBoO2mur$e" role="3clF47">
                       <node concept="3clFbJ" id="TBoO2muLXC" role="3cqZAp">
                         <node concept="3clFbS" id="TBoO2muLXD" role="3clFbx">
-                          <node concept="3clFbF" id="TBoO2muLXG" role="3cqZAp">
-                            <node concept="2OqwBi" id="TBoO2muLXH" role="3clFbG">
-                              <node concept="1rXfSq" id="TBoO2muLXI" role="2Oq$k0">
-                                <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
+                          <node concept="3clFbF" id="2CfAyFC9iYM" role="3cqZAp">
+                            <node concept="2OqwBi" id="2CfAyFC9l$0" role="3clFbG">
+                              <node concept="2OqwBi" id="2CfAyFC9j7G" role="2Oq$k0">
+                                <node concept="1rXfSq" id="2CfAyFC9iYK" role="2Oq$k0">
+                                  <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
+                                </node>
+                                <node concept="liA8E" id="2CfAyFC9ly5" role="2OqNvi">
+                                  <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                                </node>
                               </node>
-                              <node concept="liA8E" id="TBoO2muLXJ" role="2OqNvi">
-                                <ref role="37wK5l" to="fkey:~mxGraph.removeCells():java.lang.Object[]" resolve="removeCells" />
+                              <node concept="liA8E" id="2CfAyFC9m34" role="2OqNvi">
+                                <ref role="37wK5l" to="g6dw:~mxIGraphModel.beginUpdate():void" resolve="beginUpdate" />
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="2GUZhq" id="2CfAyFC9mZD" role="3cqZAp">
+                            <node concept="3clFbS" id="2CfAyFC9mZF" role="2GV8ay">
+                              <node concept="3clFbF" id="TBoO2muLXG" role="3cqZAp">
+                                <node concept="2OqwBi" id="TBoO2muLXH" role="3clFbG">
+                                  <node concept="1rXfSq" id="TBoO2muLXI" role="2Oq$k0">
+                                    <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
+                                  </node>
+                                  <node concept="liA8E" id="TBoO2muLXJ" role="2OqNvi">
+                                    <ref role="37wK5l" to="fkey:~mxGraph.removeCells():java.lang.Object[]" resolve="removeCells" />
+                                  </node>
+                                </node>
+                              </node>
+                              <node concept="3clFbF" id="2CfAyFC9nL1" role="3cqZAp">
+                                <node concept="2OqwBi" id="2CfAyFC9$cP" role="3clFbG">
+                                  <node concept="2OqwBi" id="2CfAyFC9o2E" role="2Oq$k0">
+                                    <node concept="1rXfSq" id="2CfAyFC9nKZ" role="2Oq$k0">
+                                      <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
+                                    </node>
+                                    <node concept="liA8E" id="2CfAyFC9$5c" role="2OqNvi">
+                                      <ref role="37wK5l" to="9a8:~EditorComponent.getSelectionManager():jetbrains.mps.openapi.editor.selection.SelectionManager" resolve="getSelectionManager" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="2CfAyFC9$XP" role="2OqNvi">
+                                    <ref role="37wK5l" to="y596:~SelectionManager.setSelection(jetbrains.mps.openapi.editor.cells.EditorCell):void" resolve="setSelection" />
+                                    <node concept="1rXfSq" id="2CfAyFCeihS" role="37wK5m">
+                                      <ref role="37wK5l" node="2l7cIJdg_1e" resolve="getDiagramCell" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3clFbS" id="2CfAyFC9mZG" role="2GVbov">
+                              <node concept="3clFbF" id="2CfAyFC9m7Q" role="3cqZAp">
+                                <node concept="2OqwBi" id="2CfAyFC9m7R" role="3clFbG">
+                                  <node concept="2OqwBi" id="2CfAyFC9m7S" role="2Oq$k0">
+                                    <node concept="1rXfSq" id="2CfAyFC9m7T" role="2Oq$k0">
+                                      <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
+                                    </node>
+                                    <node concept="liA8E" id="2CfAyFC9m7U" role="2OqNvi">
+                                      <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="2CfAyFC9m7V" role="2OqNvi">
+                                    <ref role="37wK5l" to="g6dw:~mxIGraphModel.endUpdate():void" resolve="endUpdate" />
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
