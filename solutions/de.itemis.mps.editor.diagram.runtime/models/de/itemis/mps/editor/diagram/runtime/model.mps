@@ -18568,13 +18568,13 @@
       <node concept="3cqZAl" id="OCogGtBJuf" role="3clF45" />
       <node concept="3Tm1VV" id="OCogGtBJug" role="1B3o_S" />
       <node concept="3clFbS" id="OCogGtBJuh" role="3clF47">
+        <node concept="3clFbF" id="OCogGtCwrA" role="3cqZAp">
+          <node concept="1rXfSq" id="OCogGtCwr_" role="3clFbG">
+            <ref role="37wK5l" node="OCogGtAIUb" resolve="updateEdgeStartEnd" />
+          </node>
+        </node>
         <node concept="3clFbJ" id="5A8i_2xkCHP" role="3cqZAp">
           <node concept="3clFbS" id="5A8i_2xkCHR" role="3clFbx">
-            <node concept="3clFbF" id="OCogGtCwrA" role="3cqZAp">
-              <node concept="1rXfSq" id="OCogGtCwr_" role="3clFbG">
-                <ref role="37wK5l" node="OCogGtAIUb" resolve="updateEdgeStartEnd" />
-              </node>
-            </node>
             <node concept="3clFbF" id="OCogGtCwtz" role="3cqZAp">
               <node concept="2OqwBi" id="OCogGtCwvi" role="3clFbG">
                 <node concept="37vLTw" id="OCogGtCwtx" role="2Oq$k0">
