@@ -22,6 +22,7 @@
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.diagram.shapes/de.itemis.mps.editor.diagram.shapes.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.layout.runtime/de.itemis.mps.editor.layout.runtime.msd" folder="layout" />
       <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.editor.layout.sandbox/de.itemis.mps.editor.layout.sandbox.msd" folder="layout" />
+      <modulePath path="$PROJECT_DIR$/solutions/de.itemis.mps.mouselistener.runtime/de.itemis.mps.mouselistener.runtime.msd" folder="" />
       <modulePath path="$PROJECT_DIR$/solutions/test.de.itemis.mps.editor.diagram.solution/test.de.itemis.mps.editor.diagram.solution.msd" folder="tests" />
     </projectModules>
   </component>
