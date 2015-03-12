@@ -2839,7 +2839,7 @@
               <property role="3F0ifm" value="positionX" />
             </node>
             <node concept="3F1sOY" id="5FQFTBpWGAp" role="3EZMnx">
-              <property role="1$x2rV" value="auto" />
+              <property role="1$x2rV" value="0.0" />
               <ref role="1NtTu8" to="2qld:5FQFTBpWGku" />
               <node concept="VPXOz" id="5FQFTBpWGAq" role="3F10Kt">
                 <property role="VOm3f" value="true" />
@@ -2855,7 +2855,7 @@
               <property role="3F0ifm" value="positionY" />
             </node>
             <node concept="3F1sOY" id="5FQFTBpWGAv" role="3EZMnx">
-              <property role="1$x2rV" value="auto" />
+              <property role="1$x2rV" value="0.5" />
               <ref role="1NtTu8" to="2qld:5FQFTBpWGkv" />
               <node concept="VPXOz" id="5FQFTBpWGAw" role="3F10Kt">
                 <property role="VOm3f" value="true" />
