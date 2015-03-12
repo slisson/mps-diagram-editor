@@ -177,6 +177,12 @@
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" to="tpc2:fBEYTCT" resolve="EditorCellModel" />
     </node>
+    <node concept="1TJgyj" id="2uX18suW5I5" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="allowConnections" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="4KKQOHJ7LVv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="getLabel" />
@@ -771,6 +777,12 @@
     <node concept="1TJgyj" id="D0N6Dj0o1V" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="preservePortOrder" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2uX18sv2i2j" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="allowConnections" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="7L$rKAV50Iu" role="PzmwI">

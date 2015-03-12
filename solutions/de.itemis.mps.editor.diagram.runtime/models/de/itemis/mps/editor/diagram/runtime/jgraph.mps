@@ -18079,6 +18079,79 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="2uX18suOkOY" role="jymVt" />
+    <node concept="3clFb_" id="2uX18suOsQl" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="isCellConnectable" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="2uX18suOsQm" role="1B3o_S" />
+      <node concept="10P_77" id="2uX18suOsQo" role="3clF45" />
+      <node concept="37vLTG" id="2uX18suOsQp" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3uibUv" id="2uX18suOsQq" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="2uX18suOsQr" role="3clF47">
+        <node concept="3clFbJ" id="2uX18suOAFl" role="3cqZAp">
+          <node concept="3clFbS" id="2uX18suOAFn" role="3clFbx">
+            <node concept="3clFbJ" id="2uX18suOBWA" role="3cqZAp">
+              <property role="TyiWK" value="true" />
+              <property role="TyiWL" value="false" />
+              <node concept="3clFbS" id="2uX18suOBWC" role="3clFbx">
+                <node concept="3cpWs6" id="2uX18suOGEg" role="3cqZAp">
+                  <node concept="3clFbT" id="2uX18suOGEE" role="3cqZAk">
+                    <property role="3clFbU" value="false" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="2uX18suOGmh" role="3clFbw">
+                <node concept="2OqwBi" id="2uX18suOGmj" role="3fr31v">
+                  <node concept="2OqwBi" id="2uX18suOGmk" role="2Oq$k0">
+                    <node concept="1eOMI4" id="2uX18suOGml" role="2Oq$k0">
+                      <node concept="10QFUN" id="2uX18suOGmm" role="1eOMHV">
+                        <node concept="3uibUv" id="2uX18suOGmn" role="10QFUM">
+                          <ref role="3uigEE" node="f4v_NgJPyX" resolve="BoxDCell" />
+                        </node>
+                        <node concept="37vLTw" id="2uX18suOGmo" role="10QFUP">
+                          <ref role="3cqZAo" node="2uX18suOsQp" resolve="cell" />
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="2uX18suOGmp" role="2OqNvi">
+                      <ref role="37wK5l" node="5K7KC_qAcJd" resolve="getBox" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="2uX18suOGmq" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:2uX18suMiCb" resolve="isAllowConnectionsToBox" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="2uX18suOBzz" role="3clFbw">
+            <node concept="3uibUv" id="2uX18suOBSK" role="2ZW6by">
+              <ref role="3uigEE" node="f4v_NgJPyX" resolve="BoxDCell" />
+            </node>
+            <node concept="37vLTw" id="2uX18suOAVx" role="2ZW6bz">
+              <ref role="3cqZAo" node="2uX18suOsQp" resolve="cell" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="2uX18suOsQv" role="3cqZAp">
+          <node concept="3nyPlj" id="2uX18suOsQu" role="3clFbG">
+            <ref role="37wK5l" to="fkey:~mxGraph.isCellConnectable(java.lang.Object):boolean" resolve="isCellConnectable" />
+            <node concept="37vLTw" id="2uX18suOsQt" role="37wK5m">
+              <ref role="3cqZAo" node="2uX18suOsQp" resolve="cell" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="2uX18suOsQs" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="190K99KhFi$" role="1B3o_S" />
     <node concept="3uibUv" id="190K99KhFk$" role="1zkMxy">
       <ref role="3uigEE" to="fkey:~mxGraph" resolve="mxGraph" />
