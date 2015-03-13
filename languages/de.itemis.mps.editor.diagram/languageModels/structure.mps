@@ -88,8 +88,8 @@
     <node concept="1TJgyj" id="7vufT$m6QlG" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="connectionTypes" />
-      <property role="20lbJX" value="1" />
-      <ref role="20lvS9" node="7vufT$m6P1B" resolve="Function_ConnectionTypes" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" node="2uX18sve1VE" resolve="IConnectionType" />
     </node>
     <node concept="1TJgyj" id="1HYYbxG1nfG" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
@@ -574,7 +574,12 @@
   </node>
   <node concept="1TIwiD" id="7vufT$m6P1B">
     <property role="TrG5h" value="Function_ConnectionTypes" />
+    <property role="34LRSv" value="queryMany" />
+    <property role="3GE5qa" value="connectionType" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+    <node concept="PrWs8" id="2uX18sve1W_" role="PzmwI">
+      <ref role="PrY4T" node="2uX18sve1VE" resolve="IConnectionType" />
+    </node>
   </node>
   <node concept="1TIwiD" id="2ZLA1heEHDW">
     <property role="3GE5qa" value="shape" />
@@ -1409,6 +1414,140 @@
     <property role="3GE5qa" value="palette" />
     <property role="TrG5h" value="Parameter_IPaletteEntry" />
     <property role="34LRSv" value="paletteEntry" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="PlHQZ" id="2uX18sve1VE">
+    <property role="TrG5h" value="IConnectionType" />
+    <property role="3GE5qa" value="connectionType" />
+  </node>
+  <node concept="1TIwiD" id="2uX18svs6uU">
+    <property role="TrG5h" value="SimpleConnectionType" />
+    <property role="3GE5qa" value="connectionType" />
+    <property role="34LRSv" value="simple" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyi" id="2uX18svs8rZ" role="1TKVEl">
+      <property role="TrG5h" value="label" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+    <node concept="1TJgyj" id="2uX18svs8rW" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="labelExpression" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="2uX18svsmd_" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="canCreate" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2uX18svsm3n" resolve="SimpleConnectionType_CanCreate" />
+    </node>
+    <node concept="1TJgyj" id="2uX18svsmdE" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="create" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="2uX18svsm3y" resolve="SimpleConnectionType_Create" />
+    </node>
+    <node concept="PrWs8" id="2uX18svx0Gx" role="PzmwI">
+      <ref role="PrY4T" node="2uX18sve1VE" resolve="IConnectionType" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="2uX18svsm3n">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SimpleConnectionType_CanCreate" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2uX18svsm3y">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SimpleConnectionType_Create" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="2uX18svDhUZ">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="Parameter_EndpointFrom" />
+    <property role="34LRSv" value="from" />
+    <ref role="1TJDcQ" node="2uX18svDiaG" resolve="Parameter_Endpoint" />
+  </node>
+  <node concept="1TIwiD" id="2uX18svDia4">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="Parameter_EndpointTo" />
+    <property role="34LRSv" value="to" />
+    <ref role="1TJDcQ" node="2uX18svDiaG" resolve="Parameter_Endpoint" />
+  </node>
+  <node concept="1TIwiD" id="2uX18svDiaG">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="Parameter_Endpoint" />
+    <property role="R5$K7" value="true" />
+    <property role="R5$K2" value="false" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3HrJbrHKgcy">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConnectionType" />
+    <property role="34LRSv" value="nodes" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="3HrJbrHN9aS" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="canCreate" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3HrJbrHKgly" resolve="SNodeConnectionType_CanCreate" />
+    </node>
+    <node concept="1TJgyj" id="3HrJbrHN9aZ" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="create" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" node="3HrJbrHKgmH" resolve="SNodeConnectionType_Create" />
+    </node>
+    <node concept="1TJgyj" id="3HrJbrHN7d4" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="fromConcept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="1TJgyj" id="3HrJbrHN95Q" role="1TKVEi">
+      <property role="20lmBu" value="reference" />
+      <property role="20kJfa" value="toConcept" />
+      <property role="20lbJX" value="1" />
+      <ref role="20lvS9" to="tpce:h0PkWnZ" resolve="AbstractConceptDeclaration" />
+    </node>
+    <node concept="PrWs8" id="3HrJbrHKgkl" role="PzmwI">
+      <ref role="PrY4T" node="2uX18sve1VE" resolve="IConnectionType" />
+    </node>
+    <node concept="1TJgyi" id="3HrJbrHNbx7" role="1TKVEl">
+      <property role="TrG5h" value="label" />
+      <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
+    </node>
+  </node>
+  <node concept="1TIwiD" id="3HrJbrHKgly">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConnectionType_CanCreate" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="3HrJbrHKgmH">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConnectionType_Create" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="3HrJbrHNcg6">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConncetionType_fromNode" />
+    <property role="34LRSv" value="fromNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="3HrJbrHNcgK">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConncetionType_toNode" />
+    <property role="34LRSv" value="toNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1VJN2HU5AzU">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConnectionType_fromPort" />
+    <property role="34LRSv" value="fromPort" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="1VJN2HU5BwS">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConnectionType_toPort" />
+    <property role="34LRSv" value="toPort" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>

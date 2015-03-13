@@ -125,6 +125,22 @@
       <concept id="1196350785113" name="jetbrains.mps.lang.quotation.structure.Quotation" flags="nn" index="2c44tf">
         <child id="1196350785114" name="quotedNode" index="2c44tc" />
       </concept>
+      <concept id="5455284157994012186" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitLink" flags="ng" index="2pIpSj">
+        <reference id="5455284157994012188" name="link" index="2pIpSl" />
+      </concept>
+      <concept id="5455284157993911097" name="jetbrains.mps.lang.quotation.structure.NodeBuilderInitPart" flags="ng" index="2pJxcK">
+        <child id="5455284157993911094" name="expression" index="2pJxcZ" />
+      </concept>
+      <concept id="5455284157993863837" name="jetbrains.mps.lang.quotation.structure.NodeBuilder" flags="nn" index="2pJPEk">
+        <child id="5455284157993863838" name="quotedNode" index="2pJPEn" />
+      </concept>
+      <concept id="5455284157993863840" name="jetbrains.mps.lang.quotation.structure.NodeBuilderNode" flags="nn" index="2pJPED">
+        <reference id="5455284157993910961" name="concept" index="2pJxaS" />
+        <child id="5455284157993911099" name="values" index="2pJxcM" />
+      </concept>
+      <concept id="8182547171709614739" name="jetbrains.mps.lang.quotation.structure.NodeBuilderRef" flags="nn" index="36bGnv">
+        <reference id="8182547171709614741" name="target" index="36bGnp" />
+      </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
       <concept id="1179479408386" name="jetbrains.mps.lang.typesystem.structure.JoinType" flags="ng" index="2usRSg">
@@ -1354,6 +1370,7 @@
     </node>
   </node>
   <node concept="13h7C7" id="7vufT$m6P46">
+    <property role="3GE5qa" value="connectionType" />
     <ref role="13h7C2" to="2qld:7vufT$m6P1B" resolve="Function_ConnectionTypes" />
     <node concept="13hLZK" id="7vufT$m6P47" role="13h7CW">
       <node concept="3clFbS" id="7vufT$m6P48" role="2VODD2" />
@@ -2171,7 +2188,7 @@
   </node>
   <node concept="13h7C7" id="7h3F9h_dt7Z">
     <property role="3GE5qa" value="palette" />
-    <ref role="13h7C2" to="2qld:7h3F9h_dt7U" resolve="PaletteSource_ReplaceEntries" />
+    <ref role="13h7C2" to="2qld:7h3F9h_dt7U" resolve="PaletteSource_ReplaceEntry" />
     <node concept="13hLZK" id="7h3F9h_dt80" role="13h7CW">
       <node concept="3clFbS" id="7h3F9h_dt81" role="2VODD2" />
     </node>
@@ -2243,6 +2260,380 @@
         </node>
       </node>
       <node concept="3Tqbb2" id="7h3F9h_duln" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2uX18svDiaH">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:2uX18svDiaG" resolve="Parameter_Endpoint" />
+    <node concept="13hLZK" id="2uX18svDiaI" role="13h7CW">
+      <node concept="3clFbS" id="2uX18svDiaJ" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2uX18svDibd" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="2uX18svDibe" role="1B3o_S" />
+      <node concept="3clFbS" id="2uX18svDibj" role="3clF47">
+        <node concept="3clFbF" id="3HrJbrHCgmg" role="3cqZAp">
+          <node concept="2pJPEk" id="3HrJbrHCo8B" role="3clFbG">
+            <node concept="2pJPED" id="3HrJbrHCo8$" role="2pJPEn">
+              <ref role="2pJxaS" to="tpee:g7uibYu" resolve="ClassifierType" />
+              <node concept="2pIpSj" id="3HrJbrHCo8_" role="2pJxcM">
+                <ref role="2pIpSl" to="tpee:g7uigIF" />
+                <node concept="36bGnv" id="3HrJbrHDWcF" role="2pJxcZ">
+                  <ref role="36bGnp" to="nkm5:6clvLV1YfKy" resolve="IConnectionEndpoint" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="2uX18svDibk" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2uX18svDwhU">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:2uX18svsm3n" resolve="SimpleConnectionType_CanCreate" />
+    <node concept="13hLZK" id="2uX18svDwhV" role="13h7CW">
+      <node concept="3clFbS" id="2uX18svDwhW" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2uX18svDwiq" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="2uX18svDwiu" role="1B3o_S" />
+      <node concept="3clFbS" id="2uX18svDwiw" role="3clF47">
+        <node concept="3clFbF" id="2uX18svDwpT" role="3cqZAp">
+          <node concept="2c44tf" id="2uX18svDwpR" role="3clFbG">
+            <node concept="10P_77" id="2uX18svDwqr" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="2uX18svDwix" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="2uX18svDwiA" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="2uX18svDwj7" role="1B3o_S" />
+      <node concept="3clFbS" id="2uX18svDwj8" role="3clF47">
+        <node concept="3clFbF" id="2uX18svDwr7" role="3cqZAp">
+          <node concept="2ShNRf" id="2uX18svDwr5" role="3clFbG">
+            <node concept="Tc6Ow" id="2uX18svDwIB" role="2ShVmc">
+              <node concept="3THzug" id="2uX18svDx9b" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="2uX18svDxrv" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:2uX18svDhUZ" resolve="Parameter_EndpointFrom" />
+              </node>
+              <node concept="3TUQnm" id="2uX18svDxuR" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:2uX18svDia4" resolve="Parameter_EndpointTo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="2uX18svDwj9" role="3clF45">
+        <node concept="3THzug" id="2uX18svDwja" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="2uX18svDxy2">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:2uX18svsm3y" resolve="SimpleConnectionType_Create" />
+    <node concept="13hLZK" id="2uX18svDxy3" role="13h7CW">
+      <node concept="3clFbS" id="2uX18svDxy4" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="2uX18svDxyC" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="2uX18svDxz9" role="1B3o_S" />
+      <node concept="3clFbS" id="2uX18svDxza" role="3clF47">
+        <node concept="3clFbF" id="2uX18svDxDd" role="3cqZAp">
+          <node concept="2ShNRf" id="2uX18svDxDe" role="3clFbG">
+            <node concept="Tc6Ow" id="2uX18svDxDf" role="2ShVmc">
+              <node concept="3THzug" id="2uX18svDxDg" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="2uX18svDxDh" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:2uX18svDhUZ" resolve="Parameter_EndpointFrom" />
+              </node>
+              <node concept="3TUQnm" id="2uX18svDxDi" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:2uX18svDia4" resolve="Parameter_EndpointTo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="2uX18svDxzb" role="3clF45">
+        <node concept="3THzug" id="2uX18svDxzc" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3HrJbrHKgnb">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:3HrJbrHKgmH" resolve="SNodeConnectionType_Create" />
+    <node concept="13hLZK" id="3HrJbrHKgnc" role="13h7CW">
+      <node concept="3clFbS" id="3HrJbrHKgnd" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3HrJbrHN76L" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="3HrJbrHN77i" role="1B3o_S" />
+      <node concept="3clFbS" id="3HrJbrHN77j" role="3clF47">
+        <node concept="3clFbF" id="1VJN2HU5Cxr" role="3cqZAp">
+          <node concept="2ShNRf" id="1VJN2HU5Cxs" role="3clFbG">
+            <node concept="Tc6Ow" id="1VJN2HU5Cxt" role="2ShVmc">
+              <node concept="3THzug" id="1VJN2HU5Cxu" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="1VJN2HU5Cxv" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+              </node>
+              <node concept="3TUQnm" id="1VJN2HU5Cxw" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:3HrJbrHNcgK" resolve="SNodeConncetionType_toNode" />
+              </node>
+              <node concept="3TUQnm" id="1VJN2HU5Cxx" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:1VJN2HU5AzU" resolve="SNodeConnectionType_fromPort" />
+              </node>
+              <node concept="3TUQnm" id="1VJN2HU5Cxy" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:1VJN2HU5BwS" resolve="SNodeConnectionType_toPort" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="3HrJbrHN77k" role="3clF45">
+        <node concept="3THzug" id="3HrJbrHN77l" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="3HrJbrHNbCI">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:3HrJbrHKgly" resolve="SNodeConnectionType_CanCreate" />
+    <node concept="13hLZK" id="3HrJbrHNbCJ" role="13h7CW">
+      <node concept="3clFbS" id="3HrJbrHNbCK" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="3HrJbrHNbDe" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="3HrJbrHNbDJ" role="1B3o_S" />
+      <node concept="3clFbS" id="3HrJbrHNbDK" role="3clF47">
+        <node concept="3clFbF" id="3HrJbrHNcc8" role="3cqZAp">
+          <node concept="2ShNRf" id="3HrJbrHNcc9" role="3clFbG">
+            <node concept="Tc6Ow" id="3HrJbrHNcca" role="2ShVmc">
+              <node concept="3THzug" id="3HrJbrHNccb" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="3HrJbrHNd36" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+              </node>
+              <node concept="3TUQnm" id="3HrJbrHNdb6" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:3HrJbrHNcgK" resolve="SNodeConncetionType_toNode" />
+              </node>
+              <node concept="3TUQnm" id="3HrJbrHNccc" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:1VJN2HU5AzU" resolve="SNodeConnectionType_fromPort" />
+              </node>
+              <node concept="3TUQnm" id="3HrJbrHNccd" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:1VJN2HU5BwS" resolve="SNodeConnectionType_toPort" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="3HrJbrHNbDL" role="3clF45">
+        <node concept="3THzug" id="3HrJbrHNbDM" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="3HrJbrHNbDR" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="3HrJbrHNbDV" role="1B3o_S" />
+      <node concept="3clFbS" id="3HrJbrHNbDX" role="3clF47">
+        <node concept="3clFbF" id="3HrJbrHNbKH" role="3cqZAp">
+          <node concept="2ShNRf" id="3HrJbrHNbKF" role="3clFbG">
+            <node concept="3zrR0B" id="3HrJbrHNc4d" role="2ShVmc">
+              <node concept="3Tqbb2" id="3HrJbrHNc4f" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="3HrJbrHNbDY" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="1VJN2HU5jtH">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+    <node concept="13hLZK" id="1VJN2HU5jtI" role="13h7CW">
+      <node concept="3clFbS" id="1VJN2HU5jtJ" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1VJN2HU5jK2" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="1VJN2HU5jK3" role="1B3o_S" />
+      <node concept="3clFbS" id="1VJN2HU5jK8" role="3clF47">
+        <node concept="3clFbF" id="1VJN2HU5_W5" role="3cqZAp">
+          <node concept="2c44tf" id="1VJN2HU5_W3" role="3clFbG">
+            <node concept="3Tqbb2" id="1VJN2HU5_WV" role="2c44tc">
+              <ref role="ehGHo" to="tpck:gw2VY9q" resolve="BaseConcept" />
+              <node concept="2c44tb" id="1VJN2HU5_YT" role="lGtFl">
+                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
+                <property role="2qtEX8" value="concept" />
+                <node concept="2OqwBi" id="1VJN2HU5tWh" role="2c44t1">
+                  <node concept="2OqwBi" id="1VJN2HU5tqC" role="2Oq$k0">
+                    <node concept="13iPFW" id="1VJN2HU5rN0" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="1VJN2HU5tRp" role="2OqNvi">
+                      <node concept="1xMEDy" id="1VJN2HU5tRr" role="1xVPHs">
+                        <node concept="chp4Y" id="1VJN2HU5tSt" role="ri$Ld">
+                          <ref role="cht4Q" to="2qld:3HrJbrHKgcy" resolve="SNodeConnectionType" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="1VJN2HU5u7m" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2qld:3HrJbrHN7d4" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1VJN2HU5jK9" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1VJN2HU5A4r">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:3HrJbrHNcgK" resolve="SNodeConncetionType_toNode" />
+    <node concept="13hLZK" id="1VJN2HU5A4s" role="13h7CW">
+      <node concept="3clFbS" id="1VJN2HU5A4t" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1VJN2HU5A4u" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="1VJN2HU5A4v" role="1B3o_S" />
+      <node concept="3clFbS" id="1VJN2HU5A4$" role="3clF47">
+        <node concept="3clFbF" id="1VJN2HU5A8R" role="3cqZAp">
+          <node concept="2c44tf" id="1VJN2HU5A8S" role="3clFbG">
+            <node concept="3Tqbb2" id="1VJN2HU5A8T" role="2c44tc">
+              <ref role="ehGHo" to="tpck:gw2VY9q" resolve="BaseConcept" />
+              <node concept="2c44tb" id="1VJN2HU5A8U" role="lGtFl">
+                <property role="P3scX" value="7866978e-a0f0-4cc7-81bc-4d213d9375e1/1138055754698/1138405853777" />
+                <property role="2qtEX8" value="concept" />
+                <node concept="2OqwBi" id="1VJN2HU5A8V" role="2c44t1">
+                  <node concept="2OqwBi" id="1VJN2HU5A8W" role="2Oq$k0">
+                    <node concept="13iPFW" id="1VJN2HU5A8X" role="2Oq$k0" />
+                    <node concept="2Xjw5R" id="1VJN2HU5A8Y" role="2OqNvi">
+                      <node concept="1xMEDy" id="1VJN2HU5A8Z" role="1xVPHs">
+                        <node concept="chp4Y" id="1VJN2HU5A90" role="ri$Ld">
+                          <ref role="cht4Q" to="2qld:3HrJbrHKgcy" resolve="SNodeConnectionType" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="3TrEf2" id="1VJN2HU5Awe" role="2OqNvi">
+                    <ref role="3Tt5mk" to="2qld:3HrJbrHN95Q" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1VJN2HU5A4_" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1VJN2HU5BwT">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:1VJN2HU5BwS" resolve="SNodeConnectionType_toPort" />
+    <node concept="13hLZK" id="1VJN2HU5BwU" role="13h7CW">
+      <node concept="3clFbS" id="1VJN2HU5BwV" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1VJN2HU5BwW" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="1VJN2HU5BwX" role="1B3o_S" />
+      <node concept="3clFbS" id="1VJN2HU5Bx2" role="3clF47">
+        <node concept="3clFbF" id="1VJN2HU5B_1" role="3cqZAp">
+          <node concept="2ShNRf" id="1VJN2HU5B$R" role="3clFbG">
+            <node concept="3zrR0B" id="1VJN2HU5BSx" role="2ShVmc">
+              <node concept="3Tqbb2" id="1VJN2HU5BSz" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:hP7QB7G" resolve="StringType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1VJN2HU5Bx3" role="3clF45">
+        <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="1VJN2HU5BU1">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:1VJN2HU5AzU" resolve="SNodeConnectionType_fromPort" />
+    <node concept="13hLZK" id="1VJN2HU5BU2" role="13h7CW">
+      <node concept="3clFbS" id="1VJN2HU5BU3" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="1VJN2HU5BU4" role="13h7CS">
+      <property role="TrG5h" value="getType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:27DJnJtIQ9C" resolve="getType" />
+      <node concept="3Tm1VV" id="1VJN2HU5BU5" role="1B3o_S" />
+      <node concept="3clFbS" id="1VJN2HU5BUa" role="3clF47">
+        <node concept="3clFbF" id="1VJN2HU5BY8" role="3cqZAp">
+          <node concept="2ShNRf" id="1VJN2HU5BY9" role="3clFbG">
+            <node concept="3zrR0B" id="1VJN2HU5BYa" role="2ShVmc">
+              <node concept="3Tqbb2" id="1VJN2HU5BYb" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:hP7QB7G" resolve="StringType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="1VJN2HU5BUb" role="3clF45">
         <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
       </node>
     </node>
