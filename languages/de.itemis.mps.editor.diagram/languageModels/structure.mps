@@ -1032,6 +1032,12 @@
       <property role="20kJfa" value="positionY" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="6PI4N6JqPBN" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="tooltip" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="5FQFTBpPwwt" resolve="InlineEditorComponent" />
+    </node>
     <node concept="PrWs8" id="5FQFTBpX7MY" role="PzmwI">
       <ref role="PrY4T" node="5FQFTBpWGk2" resolve="IPort" />
     </node>
@@ -1059,6 +1065,9 @@
     </node>
     <node concept="PrWs8" id="5FQFTBpX7MW" role="PzmwI">
       <ref role="PrY4T" node="5FQFTBpWGk2" resolve="IPort" />
+    </node>
+    <node concept="PrWs8" id="6PI4N6JvhsC" role="PzmwI">
+      <ref role="PrY4T" node="6clvLV1q6UE" resolve="IInlineEditorComponentContainer" />
     </node>
   </node>
   <node concept="1TIwiD" id="4Jz2QkeGa7h">

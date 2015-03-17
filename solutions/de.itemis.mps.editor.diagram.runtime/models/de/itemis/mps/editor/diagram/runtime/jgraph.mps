@@ -3349,14 +3349,47 @@
                 </node>
               </node>
             </node>
-            <node concept="3cpWs6" id="6$BmuzAe7EL" role="3cqZAp">
-              <node concept="2ShNRf" id="6$BmuzAebpe" role="3cqZAk">
-                <node concept="1pGfFk" id="6$BmuzAehjd" role="2ShVmc">
-                  <ref role="37wK5l" node="6$BmuzAd9Ig" resolve="PortTooltip" />
-                  <node concept="Xjq3P" id="6$BmuzAelEa" role="37wK5m" />
-                  <node concept="37vLTw" id="6$BmuzAeqG2" role="37wK5m">
-                    <ref role="3cqZAo" node="6$BmuzAb7zp" resolve="portCell" />
+            <node concept="3cpWs8" id="6PI4N6JDH0v" role="3cqZAp">
+              <node concept="3cpWsn" id="6PI4N6JDH0w" role="3cpWs9">
+                <property role="TrG5h" value="tooltipCell" />
+                <node concept="3uibUv" id="6PI4N6JDH0p" role="1tU5fm">
+                  <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+                </node>
+                <node concept="2OqwBi" id="6PI4N6JDH0x" role="33vP2m">
+                  <node concept="2OqwBi" id="6PI4N6JDH0y" role="2Oq$k0">
+                    <node concept="37vLTw" id="6PI4N6JDH0z" role="2Oq$k0">
+                      <ref role="3cqZAo" node="6$BmuzAb7zp" resolve="portCell" />
+                    </node>
+                    <node concept="liA8E" id="6PI4N6JDH0$" role="2OqNvi">
+                      <ref role="37wK5l" node="5P3ZJ9cGe_j" resolve="getPort" />
+                    </node>
                   </node>
+                  <node concept="liA8E" id="6PI4N6JDH0_" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:6PI4N6Jx3gE" resolve="getTooltipCell" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="6PI4N6JDTQn" role="3cqZAp">
+              <property role="TyiWK" value="true" />
+              <property role="TyiWL" value="false" />
+              <node concept="3clFbS" id="6PI4N6JDTQp" role="3clFbx">
+                <node concept="3cpWs6" id="6$BmuzAe7EL" role="3cqZAp">
+                  <node concept="2ShNRf" id="6$BmuzAebpe" role="3cqZAk">
+                    <node concept="1pGfFk" id="6$BmuzAehjd" role="2ShVmc">
+                      <ref role="37wK5l" node="6$BmuzAd9Ig" resolve="PortTooltip" />
+                      <node concept="Xjq3P" id="6$BmuzAelEa" role="37wK5m" />
+                      <node concept="37vLTw" id="6$BmuzAeqG2" role="37wK5m">
+                        <ref role="3cqZAo" node="6$BmuzAb7zp" resolve="portCell" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="6PI4N6JDYxK" role="3clFbw">
+                <node concept="10Nm6u" id="6PI4N6JDY_S" role="3uHU7w" />
+                <node concept="37vLTw" id="6PI4N6JDY6G" role="3uHU7B">
+                  <ref role="3cqZAo" node="6PI4N6JDH0w" resolve="tooltipCell" />
                 </node>
               </node>
             </node>
@@ -56331,39 +56364,18 @@
         <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
       </node>
       <node concept="3clFbS" id="6$BmuzAbYEz" role="3clF47">
-        <node concept="3clFbF" id="6$BmuzAdEqf" role="3cqZAp">
-          <node concept="2ShNRf" id="6$BmuzAdEqd" role="3clFbG">
-            <node concept="1pGfFk" id="6$BmuzAdF$R" role="2ShVmc">
-              <ref role="37wK5l" to="jsgz:~EditorCell_Constant.&lt;init&gt;(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode,java.lang.String)" resolve="EditorCell_Constant" />
-              <node concept="2OqwBi" id="6$BmuzAdGn7" role="37wK5m">
-                <node concept="37vLTw" id="6$BmuzAdFB2" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6$BmuzAbZ7N" resolve="myDiagramECell" />
-                </node>
-                <node concept="liA8E" id="6$BmuzAdME0" role="2OqNvi">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getContext" />
-                </node>
+        <node concept="3clFbF" id="6PI4N6JEeYL" role="3cqZAp">
+          <node concept="2OqwBi" id="6PI4N6JEhp6" role="3clFbG">
+            <node concept="2OqwBi" id="6PI4N6JEfpW" role="2Oq$k0">
+              <node concept="37vLTw" id="6PI4N6JEeYJ" role="2Oq$k0">
+                <ref role="3cqZAo" node="6$BmuzAchAe" resolve="myPortDCell" />
               </node>
-              <node concept="2OqwBi" id="6$BmuzAdNP5" role="37wK5m">
-                <node concept="37vLTw" id="6$BmuzAdMYE" role="2Oq$k0">
-                  <ref role="3cqZAo" node="6$BmuzAbZ7N" resolve="myDiagramECell" />
-                </node>
-                <node concept="liA8E" id="6$BmuzAdUxM" role="2OqNvi">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
-                </node>
+              <node concept="liA8E" id="6PI4N6JEhid" role="2OqNvi">
+                <ref role="37wK5l" node="5P3ZJ9cGe_j" resolve="getPort" />
               </node>
-              <node concept="3cpWs3" id="6$BmuzAdXZ8" role="37wK5m">
-                <node concept="Xl_RD" id="6$BmuzAdYhX" role="3uHU7B">
-                  <property role="Xl_RC" value="" />
-                </node>
-                <node concept="2OqwBi" id="6$BmuzAdVW9" role="3uHU7w">
-                  <node concept="37vLTw" id="6$BmuzAdV_L" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6$BmuzAchAe" resolve="myPortDCell" />
-                  </node>
-                  <node concept="liA8E" id="6$BmuzAdXIa" role="2OqNvi">
-                    <ref role="37wK5l" node="3eVTQZAhz7A" resolve="getPortLabel" />
-                  </node>
-                </node>
-              </node>
+            </node>
+            <node concept="liA8E" id="6PI4N6JEjm6" role="2OqNvi">
+              <ref role="37wK5l" to="nkm5:6PI4N6Jx3gE" resolve="getTooltipCell" />
             </node>
           </node>
         </node>

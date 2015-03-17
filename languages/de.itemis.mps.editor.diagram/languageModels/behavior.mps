@@ -170,6 +170,9 @@
       </concept>
       <concept id="1171407110247" name="jetbrains.mps.lang.smodel.structure.Node_GetAncestorOperation" flags="nn" index="2Xjw5R" />
       <concept id="1139613262185" name="jetbrains.mps.lang.smodel.structure.Node_GetParentOperation" flags="nn" index="1mfA1w" />
+      <concept id="1139621453865" name="jetbrains.mps.lang.smodel.structure.Node_IsInstanceOfOperation" flags="nn" index="1mIQ4w">
+        <child id="1177027386292" name="conceptArgument" index="cj9EA" />
+      </concept>
       <concept id="1144100932627" name="jetbrains.mps.lang.smodel.structure.OperationParm_Inclusion" flags="ng" index="1xIGOp" />
       <concept id="1144101972840" name="jetbrains.mps.lang.smodel.structure.OperationParm_Concept" flags="ng" index="1xMEDy">
         <child id="1207343664468" name="conceptArgument" index="ri$Ld" />
@@ -179,6 +182,7 @@
       </concept>
       <concept id="1144146199828" name="jetbrains.mps.lang.smodel.structure.Node_CopyOperation" flags="nn" index="1$rogu" />
       <concept id="1140137987495" name="jetbrains.mps.lang.smodel.structure.SNodeTypeCastExpression" flags="nn" index="1PxgMI">
+        <property id="1238684351431" name="asCast" index="1BlNFB" />
         <reference id="1140138128738" name="concept" index="1PxNhF" />
         <child id="1140138123956" name="leftExpression" index="1PxMeX" />
       </concept>
@@ -1709,6 +1713,66 @@
         </node>
       </node>
     </node>
+    <node concept="13i0hz" id="6PI4N6JwqJ4" role="13h7CS">
+      <property role="TrG5h" value="isSNodeType" />
+      <node concept="3Tm1VV" id="6PI4N6JwqJ5" role="1B3o_S" />
+      <node concept="10P_77" id="6PI4N6JwqOc" role="3clF45" />
+      <node concept="3clFbS" id="6PI4N6JwqJ7" role="3clF47">
+        <node concept="3clFbF" id="6PI4N6JwqOl" role="3cqZAp">
+          <node concept="2OqwBi" id="6PI4N6JwqRr" role="3clFbG">
+            <node concept="BsUDl" id="6PI4N6JwqOk" role="2Oq$k0">
+              <ref role="37wK5l" node="4Jz2QkeJgJ3" resolve="getPortObjectType" />
+            </node>
+            <node concept="1mIQ4w" id="6PI4N6JwrdC" role="2OqNvi">
+              <node concept="chp4Y" id="6PI4N6Jwrf_" role="cj9EA">
+                <ref role="cht4Q" to="tp25:gzTqbfa" resolve="SNodeType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="6PI4N6Jvhxi" role="13h7CS">
+      <property role="TrG5h" value="getInlineEditorConcept" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" node="67EYkym$wx3" resolve="getInlineEditorConcept" />
+      <node concept="3Tm1VV" id="6PI4N6Jvhxl" role="1B3o_S" />
+      <node concept="3clFbS" id="6PI4N6Jvhxo" role="3clF47">
+        <node concept="3cpWs8" id="6PI4N6Jvi2o" role="3cqZAp">
+          <node concept="3cpWsn" id="6PI4N6Jvi2p" role="3cpWs9">
+            <property role="TrG5h" value="portObjectType" />
+            <node concept="3Tqbb2" id="6PI4N6Jvi2n" role="1tU5fm">
+              <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
+            </node>
+            <node concept="BsUDl" id="6PI4N6Jvi2q" role="33vP2m">
+              <ref role="37wK5l" node="4Jz2QkeJgJ3" resolve="getPortObjectType" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="6PI4N6JviOS" role="3cqZAp">
+          <node concept="2OqwBi" id="6PI4N6JviWR" role="3clFbG">
+            <node concept="1PxgMI" id="6PI4N6Jvk3g" role="2Oq$k0">
+              <property role="1BlNFB" value="true" />
+              <ref role="1PxNhF" to="tp25:gzTqbfa" resolve="SNodeType" />
+              <node concept="37vLTw" id="6PI4N6JvjWQ" role="1PxMeX">
+                <ref role="3cqZAo" node="6PI4N6Jvi2p" resolve="portObjectType" />
+              </node>
+            </node>
+            <node concept="3TrEf2" id="6PI4N6JvjT8" role="2OqNvi">
+              <ref role="3Tt5mk" to="tp25:g$ehGDh" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="6PI4N6Jvhxp" role="3clF46">
+        <property role="TrG5h" value="inlineEditor" />
+        <node concept="3Tqbb2" id="6PI4N6Jvhxq" role="1tU5fm">
+          <ref role="ehGHo" to="2qld:5FQFTBpPwwt" resolve="InlineEditorComponent" />
+        </node>
+      </node>
+      <node concept="3THzug" id="6PI4N6Jvhxr" role="3clF45" />
+    </node>
   </node>
   <node concept="13h7C7" id="1HYYbxG6Wqs">
     <property role="3GE5qa" value="palette" />
@@ -2636,6 +2700,13 @@
       <node concept="3Tqbb2" id="1VJN2HU5BUb" role="3clF45">
         <ref role="ehGHo" to="tpee:fz3vP1H" resolve="Type" />
       </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="6PI4N6JqV5l">
+    <property role="3GE5qa" value="port" />
+    <ref role="13h7C2" to="2qld:5FQFTBpWGgz" resolve="Port" />
+    <node concept="13hLZK" id="6PI4N6JqV5m" role="13h7CW">
+      <node concept="3clFbS" id="6PI4N6JqV5n" role="2VODD2" />
     </node>
   </node>
 </model>
