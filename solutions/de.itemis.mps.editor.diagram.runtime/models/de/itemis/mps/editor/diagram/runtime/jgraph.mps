@@ -5863,22 +5863,17 @@
           <node concept="2ShNRf" id="3$o23TSI1QF" role="3clFbG">
             <node concept="1pGfFk" id="3$o23TSI3yA" role="2ShVmc">
               <ref role="37wK5l" to="nkm5:641jOpdNw_j" resolve="AccessorFactory" />
-              <node concept="2OqwBi" id="3$o23TSI9f6" role="37wK5m">
-                <node concept="2OqwBi" id="3$o23TSI7xC" role="2Oq$k0">
-                  <node concept="2OqwBi" id="3$o23TSI7xD" role="2Oq$k0">
-                    <node concept="37vLTw" id="3$o23TSI7xE" role="2Oq$k0">
-                      <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
-                    </node>
-                    <node concept="liA8E" id="3$o23TSI7xF" role="2OqNvi">
-                      <ref role="37wK5l" node="eyrvBdlDbJ" resolve="getGraphComponent" />
-                    </node>
+              <node concept="2OqwBi" id="3$o23TSI7xC" role="37wK5m">
+                <node concept="2OqwBi" id="3$o23TSI7xD" role="2Oq$k0">
+                  <node concept="37vLTw" id="3$o23TSI7xE" role="2Oq$k0">
+                    <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                   </node>
-                  <node concept="liA8E" id="3$o23TSI7xG" role="2OqNvi">
-                    <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
+                  <node concept="liA8E" id="3$o23TSI7xF" role="2OqNvi">
+                    <ref role="37wK5l" node="eyrvBdlDbJ" resolve="getGraphComponent" />
                   </node>
                 </node>
-                <node concept="liA8E" id="3$o23TSIje4" role="2OqNvi">
-                  <ref role="37wK5l" to="9a8:~EditorComponent.getEditorContext():jetbrains.mps.nodeEditor.EditorContext" resolve="getEditorContext" />
+                <node concept="liA8E" id="3$o23TSI7xG" role="2OqNvi">
+                  <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
                 </node>
               </node>
               <node concept="37vLTw" id="6rrvvVefQua" role="37wK5m">
