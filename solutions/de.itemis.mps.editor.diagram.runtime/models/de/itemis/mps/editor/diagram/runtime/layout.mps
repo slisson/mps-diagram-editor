@@ -4071,6 +4071,38 @@
             </node>
           </node>
           <node concept="3clFbS" id="5ubAKwglrCA" role="2LFqv$">
+            <node concept="3cpWs8" id="7GZDrCwXzHA" role="3cqZAp">
+              <node concept="3cpWsn" id="7GZDrCwXzHB" role="3cpWs9">
+                <property role="TrG5h" value="resolvedEndpointFrom" />
+                <node concept="3uibUv" id="7GZDrCwXzGM" role="1tU5fm">
+                  <ref role="3uigEE" to="nkm5:2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+                </node>
+                <node concept="2OqwBi" id="7GZDrCwXzHC" role="33vP2m">
+                  <node concept="2GrUjf" id="7GZDrCwXzHD" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
+                  </node>
+                  <node concept="liA8E" id="7GZDrCwXzHE" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:4nlFaMefDTQ" resolve="getResolvedEndpointFrom" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="7GZDrCwX$Hs" role="3cqZAp">
+              <node concept="3cpWsn" id="7GZDrCwX$Ht" role="3cpWs9">
+                <property role="TrG5h" value="resolvedEndpointTo" />
+                <node concept="3uibUv" id="7GZDrCwX$EW" role="1tU5fm">
+                  <ref role="3uigEE" to="nkm5:2JYLxR6nEai" resolve="IConnectionEndpoint_Internal" />
+                </node>
+                <node concept="2OqwBi" id="7GZDrCwX$Hu" role="33vP2m">
+                  <node concept="2GrUjf" id="7GZDrCwX$Hv" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
+                  </node>
+                  <node concept="liA8E" id="7GZDrCwX$Hw" role="2OqNvi">
+                    <ref role="37wK5l" to="nkm5:4nlFaMefzhX" resolve="getResolvedEndpointTo" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbJ" id="5ubAKwglrCB" role="3cqZAp">
               <node concept="3clFbS" id="5ubAKwglrCC" role="3clFbx">
                 <node concept="3N13vt" id="5ubAKwglrCD" role="3cqZAp" />
@@ -4078,28 +4110,19 @@
               <node concept="22lmx$" id="5ubAKwglrCE" role="3clFbw">
                 <node concept="3clFbC" id="5ubAKwglrCF" role="3uHU7w">
                   <node concept="10Nm6u" id="5ubAKwglrCG" role="3uHU7w" />
-                  <node concept="2OqwBi" id="5ubAKwglrCH" role="3uHU7B">
-                    <node concept="2GrUjf" id="5ubAKwglrCI" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
-                    </node>
-                    <node concept="liA8E" id="5ubAKwglrCJ" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:7jhYr4hE_7F" resolve="getEndpointTo" />
-                    </node>
+                  <node concept="37vLTw" id="7GZDrCwX$Hy" role="3uHU7B">
+                    <ref role="3cqZAo" node="7GZDrCwX$Ht" resolve="resolvedEndpointTo" />
                   </node>
                 </node>
                 <node concept="3clFbC" id="5ubAKwglrCK" role="3uHU7B">
-                  <node concept="2OqwBi" id="5ubAKwglrCL" role="3uHU7B">
-                    <node concept="2GrUjf" id="5ubAKwglrCM" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
-                    </node>
-                    <node concept="liA8E" id="2JYLxR6CwSo" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:7jhYr4hE_7b" resolve="getEndpointFrom" />
-                    </node>
+                  <node concept="37vLTw" id="7GZDrCwXzHG" role="3uHU7B">
+                    <ref role="3cqZAo" node="7GZDrCwXzHB" resolve="resolvedEndpointFrom" />
                   </node>
                   <node concept="10Nm6u" id="5ubAKwglrCO" role="3uHU7w" />
                 </node>
               </node>
             </node>
+            <node concept="3clFbH" id="7GZDrCwX_oU" role="3cqZAp" />
             <node concept="3cpWs8" id="5ubAKwglrCP" role="3cqZAp">
               <node concept="3cpWsn" id="5ubAKwglrCQ" role="3cpWs9">
                 <property role="TrG5h" value="kedge" />
@@ -4121,13 +4144,8 @@
                 <node concept="2YIFZM" id="2JYLxR6CWVT" role="33vP2m">
                   <ref role="37wK5l" to="nkm5:2JYLxR6CE9S" resolve="getBox" />
                   <ref role="1Pybhc" to="nkm5:2JYLxR6CE8o" resolve="EndpointUtil" />
-                  <node concept="2OqwBi" id="2JYLxR6CWVU" role="37wK5m">
-                    <node concept="2GrUjf" id="2JYLxR6CWVV" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
-                    </node>
-                    <node concept="liA8E" id="2JYLxR6CWVW" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:7jhYr4hE_7b" resolve="getEndpointFrom" />
-                    </node>
+                  <node concept="37vLTw" id="7GZDrCwXzHH" role="37wK5m">
+                    <ref role="3cqZAo" node="7GZDrCwXzHB" resolve="resolvedEndpointFrom" />
                   </node>
                 </node>
               </node>
@@ -4141,13 +4159,8 @@
                 <node concept="2YIFZM" id="2JYLxR6DdZ0" role="33vP2m">
                   <ref role="37wK5l" to="nkm5:2JYLxR6CE9S" resolve="getBox" />
                   <ref role="1Pybhc" to="nkm5:2JYLxR6CE8o" resolve="EndpointUtil" />
-                  <node concept="2OqwBi" id="2JYLxR6DdZ1" role="37wK5m">
-                    <node concept="2GrUjf" id="2JYLxR6DdZ2" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
-                    </node>
-                    <node concept="liA8E" id="2JYLxR6DdZ3" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:7jhYr4hE_7F" resolve="getEndpointTo" />
-                    </node>
+                  <node concept="37vLTw" id="7GZDrCwX$Hz" role="37wK5m">
+                    <ref role="3cqZAo" node="7GZDrCwX$Ht" resolve="resolvedEndpointTo" />
                   </node>
                 </node>
               </node>
@@ -4159,13 +4172,8 @@
                 <node concept="2YIFZM" id="5BPceOJKvZ1" role="33vP2m">
                   <ref role="37wK5l" to="nkm5:5BPceOJKoNu" resolve="getPortName" />
                   <ref role="1Pybhc" to="nkm5:2JYLxR6CE8o" resolve="EndpointUtil" />
-                  <node concept="2OqwBi" id="5BPceOJKvZ2" role="37wK5m">
-                    <node concept="2GrUjf" id="5BPceOJKvZ3" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
-                    </node>
-                    <node concept="liA8E" id="5BPceOJKvZ4" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:7jhYr4hE_7b" resolve="getEndpointFrom" />
-                    </node>
+                  <node concept="37vLTw" id="7GZDrCwXzHF" role="37wK5m">
+                    <ref role="3cqZAo" node="7GZDrCwXzHB" resolve="resolvedEndpointFrom" />
                   </node>
                 </node>
               </node>
@@ -4177,13 +4185,8 @@
                 <node concept="2YIFZM" id="5BPceOJKt9g" role="33vP2m">
                   <ref role="37wK5l" to="nkm5:5BPceOJKoNu" resolve="getPortName" />
                   <ref role="1Pybhc" to="nkm5:2JYLxR6CE8o" resolve="EndpointUtil" />
-                  <node concept="2OqwBi" id="5BPceOJKt9h" role="37wK5m">
-                    <node concept="2GrUjf" id="5BPceOJKt9i" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="5ubAKwglrCy" resolve="edge" />
-                    </node>
-                    <node concept="liA8E" id="5BPceOJKt9j" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:7jhYr4hE_7F" resolve="getEndpointTo" />
-                    </node>
+                  <node concept="37vLTw" id="7GZDrCwX$Hx" role="37wK5m">
+                    <ref role="3cqZAo" node="7GZDrCwX$Ht" resolve="resolvedEndpointTo" />
                   </node>
                 </node>
               </node>
@@ -6888,7 +6891,7 @@
                           <ref role="3cqZAo" node="2O_8o3d3OsD" resolve="edge" />
                         </node>
                         <node concept="liA8E" id="1HbXCcSNDOi" role="2OqNvi">
-                          <ref role="37wK5l" to="nkm5:7jhYr4hE_7F" resolve="getEndpointTo" />
+                          <ref role="37wK5l" to="nkm5:4nlFaMefzhX" resolve="getResolvedEndpointTo" />
                         </node>
                       </node>
                       <node concept="2OqwBi" id="1HbXCcSNBJq" role="3uHU7B">
@@ -6896,7 +6899,7 @@
                           <ref role="3cqZAo" node="2O_8o3d3OsD" resolve="edge" />
                         </node>
                         <node concept="liA8E" id="1HbXCcSNCoe" role="2OqNvi">
-                          <ref role="37wK5l" to="nkm5:7jhYr4hE_7b" resolve="getEndpointFrom" />
+                          <ref role="37wK5l" to="nkm5:4nlFaMefDTQ" resolve="getResolvedEndpointFrom" />
                         </node>
                       </node>
                     </node>
