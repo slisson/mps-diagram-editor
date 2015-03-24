@@ -4218,28 +4218,19 @@
                 <node concept="10Nm6u" id="6yc1IGtjrIn" role="3uHU7w" />
               </node>
             </node>
-            <node concept="3clFbF" id="5ubAKwglrCZ" role="3cqZAp">
-              <node concept="2OqwBi" id="5ubAKwglrD0" role="3clFbG">
-                <node concept="37vLTw" id="5ubAKwglrD1" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
-                </node>
-                <node concept="liA8E" id="5ubAKwglrD2" role="2OqNvi">
-                  <ref role="37wK5l" to="5y6l:~KEdge.setSource(de.cau.cs.kieler.core.kgraph.KNode):void" resolve="setSource" />
-                  <node concept="37vLTw" id="6yc1IGtiTjD" role="37wK5m">
-                    <ref role="3cqZAo" node="6yc1IGtiTj_" resolve="fromKNode" />
-                  </node>
+            <node concept="3cpWs8" id="6yc1IGtjuG2" role="3cqZAp">
+              <node concept="3cpWsn" id="6yc1IGtjuG3" role="3cpWs9">
+                <property role="TrG5h" value="fromKPort" />
+                <node concept="3uibUv" id="6yc1IGtjuFy" role="1tU5fm">
+                  <ref role="3uigEE" to="5y6l:~KPort" resolve="KPort" />
                 </node>
               </node>
             </node>
             <node concept="3clFbJ" id="5ubAKwglrD8" role="3cqZAp">
               <node concept="3clFbS" id="5ubAKwglrD9" role="3clFbx">
-                <node concept="3cpWs8" id="6yc1IGtjuG2" role="3cqZAp">
-                  <node concept="3cpWsn" id="6yc1IGtjuG3" role="3cpWs9">
-                    <property role="TrG5h" value="fromKPort" />
-                    <node concept="3uibUv" id="6yc1IGtjuFy" role="1tU5fm">
-                      <ref role="3uigEE" to="5y6l:~KPort" resolve="KPort" />
-                    </node>
-                    <node concept="3EllGN" id="6yc1IGtjuG4" role="33vP2m">
+                <node concept="3clFbF" id="7Av0zyk6AW3" role="3cqZAp">
+                  <node concept="37vLTI" id="7Av0zyk6AW5" role="3clFbG">
+                    <node concept="3EllGN" id="6yc1IGtjuG4" role="37vLTx">
                       <node concept="1Ls8ON" id="6yc1IGtjuG5" role="3ElVtu">
                         <node concept="37vLTw" id="6yc1IGtjuG6" role="1Lso8e">
                           <ref role="3cqZAo" node="2JYLxR6CWVS" resolve="boxFrom" />
@@ -4251,6 +4242,9 @@
                       <node concept="37vLTw" id="6yc1IGtjuG8" role="3ElQJh">
                         <ref role="3cqZAo" node="5ubAKwglr$H" resolve="portsMap" />
                       </node>
+                    </node>
+                    <node concept="37vLTw" id="7Av0zyk6AW9" role="37vLTJ">
+                      <ref role="3cqZAo" node="6yc1IGtjuG3" resolve="fromKPort" />
                     </node>
                   </node>
                 </node>
@@ -4265,19 +4259,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="5ubAKwglrDa" role="3cqZAp">
-                  <node concept="2OqwBi" id="5ubAKwglrDb" role="3clFbG">
-                    <node concept="37vLTw" id="5ubAKwglrDc" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
-                    </node>
-                    <node concept="liA8E" id="5ubAKwglrDd" role="2OqNvi">
-                      <ref role="37wK5l" to="5y6l:~KEdge.setSourcePort(de.cau.cs.kieler.core.kgraph.KPort):void" resolve="setSourcePort" />
-                      <node concept="37vLTw" id="6yc1IGtjuG9" role="37wK5m">
-                        <ref role="3cqZAo" node="6yc1IGtjuG3" resolve="fromKPort" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
               </node>
               <node concept="3y3z36" id="5ubAKwglrDn" role="3clFbw">
                 <node concept="37vLTw" id="2JYLxR6D7_x" role="3uHU7B">
@@ -4287,20 +4268,17 @@
               </node>
               <node concept="9aQIb" id="5ubAKwglrDs" role="9aQIa">
                 <node concept="3clFbS" id="5ubAKwglrDt" role="9aQI4">
-                  <node concept="3clFbF" id="5ubAKwglrDu" role="3cqZAp">
-                    <node concept="2OqwBi" id="5ubAKwglrDv" role="3clFbG">
-                      <node concept="37vLTw" id="5ubAKwglrDw" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
+                  <node concept="3clFbF" id="7Av0zyk6ELS" role="3cqZAp">
+                    <node concept="37vLTI" id="7Av0zyk6EQ$" role="3clFbG">
+                      <node concept="37vLTw" id="7Av0zyk6ELQ" role="37vLTJ">
+                        <ref role="3cqZAo" node="6yc1IGtjuG3" resolve="fromKPort" />
                       </node>
-                      <node concept="liA8E" id="5ubAKwglrDx" role="2OqNvi">
-                        <ref role="37wK5l" to="5y6l:~KEdge.setSourcePort(de.cau.cs.kieler.core.kgraph.KPort):void" resolve="setSourcePort" />
-                        <node concept="3EllGN" id="5ubAKwglrDy" role="37wK5m">
-                          <node concept="37vLTw" id="2JYLxR6DbiE" role="3ElVtu">
-                            <ref role="3cqZAo" node="2JYLxR6CWVS" resolve="boxFrom" />
-                          </node>
-                          <node concept="37vLTw" id="5ubAKwglrDA" role="3ElQJh">
-                            <ref role="3cqZAo" node="5ubAKwglr_0" resolve="outputDummyPorts" />
-                          </node>
+                      <node concept="3EllGN" id="5ubAKwglrDy" role="37vLTx">
+                        <node concept="37vLTw" id="2JYLxR6DbiE" role="3ElVtu">
+                          <ref role="3cqZAo" node="2JYLxR6CWVS" resolve="boxFrom" />
+                        </node>
+                        <node concept="37vLTw" id="5ubAKwglrDA" role="3ElQJh">
+                          <ref role="3cqZAo" node="5ubAKwglr_0" resolve="outputDummyPorts" />
                         </node>
                       </node>
                     </node>
@@ -4335,28 +4313,19 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="5ubAKwglrDB" role="3cqZAp">
-              <node concept="2OqwBi" id="5ubAKwglrDC" role="3clFbG">
-                <node concept="37vLTw" id="5ubAKwglrDD" role="2Oq$k0">
-                  <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
-                </node>
-                <node concept="liA8E" id="5ubAKwglrDE" role="2OqNvi">
-                  <ref role="37wK5l" to="5y6l:~KEdge.setTarget(de.cau.cs.kieler.core.kgraph.KNode):void" resolve="setTarget" />
-                  <node concept="37vLTw" id="6yc1IGtjs8y" role="37wK5m">
-                    <ref role="3cqZAo" node="6yc1IGtjs8u" resolve="toKNode" />
-                  </node>
+            <node concept="3cpWs8" id="6yc1IGtjx1E" role="3cqZAp">
+              <node concept="3cpWsn" id="6yc1IGtjx1F" role="3cpWs9">
+                <property role="TrG5h" value="toKPort" />
+                <node concept="3uibUv" id="6yc1IGtjx0X" role="1tU5fm">
+                  <ref role="3uigEE" to="5y6l:~KPort" resolve="KPort" />
                 </node>
               </node>
             </node>
             <node concept="3clFbJ" id="5ubAKwglrDK" role="3cqZAp">
               <node concept="3clFbS" id="5ubAKwglrDL" role="3clFbx">
-                <node concept="3cpWs8" id="6yc1IGtjx1E" role="3cqZAp">
-                  <node concept="3cpWsn" id="6yc1IGtjx1F" role="3cpWs9">
-                    <property role="TrG5h" value="toKPort" />
-                    <node concept="3uibUv" id="6yc1IGtjx0X" role="1tU5fm">
-                      <ref role="3uigEE" to="5y6l:~KPort" resolve="KPort" />
-                    </node>
-                    <node concept="3EllGN" id="6yc1IGtjx1G" role="33vP2m">
+                <node concept="3clFbF" id="7Av0zyk6HAq" role="3cqZAp">
+                  <node concept="37vLTI" id="7Av0zyk6HAs" role="3clFbG">
+                    <node concept="3EllGN" id="6yc1IGtjx1G" role="37vLTx">
                       <node concept="1Ls8ON" id="6yc1IGtjx1H" role="3ElVtu">
                         <node concept="37vLTw" id="6yc1IGtjx1I" role="1Lso8e">
                           <ref role="3cqZAo" node="2JYLxR6DdYY" resolve="boxTo" />
@@ -4368,6 +4337,9 @@
                       <node concept="37vLTw" id="6yc1IGtjx1K" role="3ElQJh">
                         <ref role="3cqZAo" node="5ubAKwglr$H" resolve="portsMap" />
                       </node>
+                    </node>
+                    <node concept="37vLTw" id="7Av0zyk6HAw" role="37vLTJ">
+                      <ref role="3cqZAo" node="6yc1IGtjx1F" resolve="toKPort" />
                     </node>
                   </node>
                 </node>
@@ -4382,19 +4354,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="5ubAKwglrDM" role="3cqZAp">
-                  <node concept="2OqwBi" id="5ubAKwglrDN" role="3clFbG">
-                    <node concept="37vLTw" id="5ubAKwglrDO" role="2Oq$k0">
-                      <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
-                    </node>
-                    <node concept="liA8E" id="5ubAKwglrDP" role="2OqNvi">
-                      <ref role="37wK5l" to="5y6l:~KEdge.setTargetPort(de.cau.cs.kieler.core.kgraph.KPort):void" resolve="setTargetPort" />
-                      <node concept="37vLTw" id="6yc1IGtjx1L" role="37wK5m">
-                        <ref role="3cqZAo" node="6yc1IGtjx1F" resolve="toKPort" />
-                      </node>
-                    </node>
-                  </node>
-                </node>
               </node>
               <node concept="3y3z36" id="5ubAKwglrDZ" role="3clFbw">
                 <node concept="37vLTw" id="2JYLxR6Dj8D" role="3uHU7B">
@@ -4404,23 +4363,72 @@
               </node>
               <node concept="9aQIb" id="5ubAKwglrE4" role="9aQIa">
                 <node concept="3clFbS" id="5ubAKwglrE5" role="9aQI4">
-                  <node concept="3clFbF" id="5ubAKwglrE6" role="3cqZAp">
-                    <node concept="2OqwBi" id="5ubAKwglrE7" role="3clFbG">
-                      <node concept="37vLTw" id="5ubAKwglrE8" role="2Oq$k0">
-                        <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
+                  <node concept="3clFbF" id="7Av0zyk6KrS" role="3cqZAp">
+                    <node concept="37vLTI" id="7Av0zyk6KwX" role="3clFbG">
+                      <node concept="37vLTw" id="7Av0zyk6KrQ" role="37vLTJ">
+                        <ref role="3cqZAo" node="6yc1IGtjx1F" resolve="toKPort" />
                       </node>
-                      <node concept="liA8E" id="5ubAKwglrE9" role="2OqNvi">
-                        <ref role="37wK5l" to="5y6l:~KEdge.setTargetPort(de.cau.cs.kieler.core.kgraph.KPort):void" resolve="setTargetPort" />
-                        <node concept="3EllGN" id="5ubAKwglrEa" role="37wK5m">
-                          <node concept="37vLTw" id="2JYLxR6DmPt" role="3ElVtu">
-                            <ref role="3cqZAo" node="2JYLxR6DdYY" resolve="boxTo" />
-                          </node>
-                          <node concept="37vLTw" id="5ubAKwglrEe" role="3ElQJh">
-                            <ref role="3cqZAo" node="5ubAKwglr$V" resolve="inputDummyPorts" />
-                          </node>
+                      <node concept="3EllGN" id="5ubAKwglrEa" role="37vLTx">
+                        <node concept="37vLTw" id="2JYLxR6DmPt" role="3ElVtu">
+                          <ref role="3cqZAo" node="2JYLxR6DdYY" resolve="boxTo" />
+                        </node>
+                        <node concept="37vLTw" id="5ubAKwglrEe" role="3ElQJh">
+                          <ref role="3cqZAo" node="5ubAKwglr$V" resolve="inputDummyPorts" />
                         </node>
                       </node>
                     </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5ubAKwglrCZ" role="3cqZAp">
+              <node concept="2OqwBi" id="5ubAKwglrD0" role="3clFbG">
+                <node concept="37vLTw" id="5ubAKwglrD1" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
+                </node>
+                <node concept="liA8E" id="5ubAKwglrD2" role="2OqNvi">
+                  <ref role="37wK5l" to="5y6l:~KEdge.setSource(de.cau.cs.kieler.core.kgraph.KNode):void" resolve="setSource" />
+                  <node concept="37vLTw" id="6yc1IGtiTjD" role="37wK5m">
+                    <ref role="3cqZAo" node="6yc1IGtiTj_" resolve="fromKNode" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5ubAKwglrDa" role="3cqZAp">
+              <node concept="2OqwBi" id="5ubAKwglrDb" role="3clFbG">
+                <node concept="37vLTw" id="5ubAKwglrDc" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
+                </node>
+                <node concept="liA8E" id="5ubAKwglrDd" role="2OqNvi">
+                  <ref role="37wK5l" to="5y6l:~KEdge.setSourcePort(de.cau.cs.kieler.core.kgraph.KPort):void" resolve="setSourcePort" />
+                  <node concept="37vLTw" id="6yc1IGtjuG9" role="37wK5m">
+                    <ref role="3cqZAo" node="6yc1IGtjuG3" resolve="fromKPort" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5ubAKwglrDB" role="3cqZAp">
+              <node concept="2OqwBi" id="5ubAKwglrDC" role="3clFbG">
+                <node concept="37vLTw" id="5ubAKwglrDD" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
+                </node>
+                <node concept="liA8E" id="5ubAKwglrDE" role="2OqNvi">
+                  <ref role="37wK5l" to="5y6l:~KEdge.setTarget(de.cau.cs.kieler.core.kgraph.KNode):void" resolve="setTarget" />
+                  <node concept="37vLTw" id="6yc1IGtjs8y" role="37wK5m">
+                    <ref role="3cqZAo" node="6yc1IGtjs8u" resolve="toKNode" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5ubAKwglrDM" role="3cqZAp">
+              <node concept="2OqwBi" id="5ubAKwglrDN" role="3clFbG">
+                <node concept="37vLTw" id="5ubAKwglrDO" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5ubAKwglrCQ" resolve="kedge" />
+                </node>
+                <node concept="liA8E" id="5ubAKwglrDP" role="2OqNvi">
+                  <ref role="37wK5l" to="5y6l:~KEdge.setTargetPort(de.cau.cs.kieler.core.kgraph.KPort):void" resolve="setTargetPort" />
+                  <node concept="37vLTw" id="6yc1IGtjx1L" role="37wK5m">
+                    <ref role="3cqZAo" node="6yc1IGtjx1F" resolve="toKPort" />
                   </node>
                 </node>
               </node>
