@@ -99,6 +99,9 @@
       <concept id="1202948039474" name="jetbrains.mps.baseLanguage.structure.InstanceMethodCallOperation" flags="nn" index="liA8E" />
       <concept id="1224500799915" name="jetbrains.mps.baseLanguage.structure.BitwiseXorExpression" flags="nn" index="pVQyQ" />
       <concept id="1465982738277781862" name="jetbrains.mps.baseLanguage.structure.PlaceholderMember" flags="ng" index="2tJIrI" />
+      <concept id="1177326519037" name="jetbrains.mps.baseLanguage.structure.CommentedStatementsBlock" flags="nn" index="u8gfJ">
+        <child id="1177326540772" name="statement" index="u8lrQ" />
+      </concept>
       <concept id="1224573963862" name="jetbrains.mps.baseLanguage.structure.EnumValuesExpression" flags="nn" index="uiWXb">
         <reference id="1224573974191" name="enumClass" index="uiZuM" />
       </concept>
@@ -8728,76 +8731,78 @@
                         <property role="3SKdUp" value="fit size to childs" />
                       </node>
                     </node>
-                    <node concept="3clFbF" id="5M2_W$scGEL" role="3cqZAp">
-                      <node concept="2YIFZM" id="5M2_W$scGEM" role="3clFbG">
-                        <ref role="1Pybhc" to="2o4v:1sJnak6wM3n" resolve="EditorUtil" />
-                        <ref role="37wK5l" to="2o4v:5M2_W$sbvzz" resolve="relayoutWithoutWrap" />
-                        <node concept="37vLTw" id="5M2_W$scHfa" role="37wK5m">
-                          <ref role="3cqZAo" node="4xcnxwSDrpo" resolve="rootCell" />
+                    <node concept="u8gfJ" id="x7pamApTQ4" role="3cqZAp">
+                      <node concept="3clFbF" id="5M2_W$scGEL" role="u8lrQ">
+                        <node concept="2YIFZM" id="5M2_W$scGEM" role="3clFbG">
+                          <ref role="1Pybhc" to="2o4v:1sJnak6wM3n" resolve="EditorUtil" />
+                          <ref role="37wK5l" to="2o4v:5M2_W$sbvzz" resolve="relayoutWithoutWrap" />
+                          <node concept="37vLTw" id="5M2_W$scHfa" role="37wK5m">
+                            <ref role="3cqZAo" node="4xcnxwSDrpo" resolve="rootCell" />
+                          </node>
                         </node>
                       </node>
-                    </node>
-                    <node concept="3cpWs8" id="6Bd7Vwqkg3P" role="3cqZAp">
-                      <node concept="3cpWsn" id="6Bd7Vwqkg3Q" role="3cpWs9">
-                        <property role="TrG5h" value="bounds" />
-                        <node concept="3uibUv" id="6Bd7Vwqkg3t" role="1tU5fm">
-                          <ref role="3uigEE" node="190K99K1s2v" resolve="Bounds" />
+                      <node concept="3cpWs8" id="6Bd7Vwqkg3P" role="u8lrQ">
+                        <node concept="3cpWsn" id="6Bd7Vwqkg3Q" role="3cpWs9">
+                          <property role="TrG5h" value="bounds" />
+                          <node concept="3uibUv" id="6Bd7Vwqkg3t" role="1tU5fm">
+                            <ref role="3uigEE" node="190K99K1s2v" resolve="Bounds" />
+                          </node>
+                          <node concept="2OqwBi" id="6Bd7Vwqkg3R" role="33vP2m">
+                            <node concept="2GrUjf" id="6Bd7Vwqkg3S" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="7k8PWDQqnTi" resolve="box" />
+                            </node>
+                            <node concept="liA8E" id="6Bd7Vwqkg3T" role="2OqNvi">
+                              <ref role="37wK5l" node="190K99K25OU" resolve="getBounds" />
+                            </node>
+                          </node>
                         </node>
-                        <node concept="2OqwBi" id="6Bd7Vwqkg3R" role="33vP2m">
-                          <node concept="2GrUjf" id="6Bd7Vwqkg3S" role="2Oq$k0">
+                      </node>
+                      <node concept="3clFbF" id="6Bd7Vwqkfm4" role="u8lrQ">
+                        <node concept="2OqwBi" id="6Bd7Vwqkgi7" role="3clFbG">
+                          <node concept="37vLTw" id="6Bd7Vwqkg3U" role="2Oq$k0">
+                            <ref role="3cqZAo" node="6Bd7Vwqkg3Q" resolve="bounds" />
+                          </node>
+                          <node concept="liA8E" id="6Bd7VwqkgKD" role="2OqNvi">
+                            <ref role="37wK5l" node="6Bd7VwqkiND" resolve="setSize" />
+                            <node concept="3cpWs3" id="4xcnxwSDsJW" role="37wK5m">
+                              <node concept="3cmrfG" id="4xcnxwSDsKm" role="3uHU7w">
+                                <property role="3cmrfH" value="6" />
+                              </node>
+                              <node concept="2OqwBi" id="4xcnxwSDrTb" role="3uHU7B">
+                                <node concept="37vLTw" id="4xcnxwSDrNv" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4xcnxwSDrpo" resolve="rootCell" />
+                                </node>
+                                <node concept="liA8E" id="4xcnxwSDs1b" role="2OqNvi">
+                                  <ref role="37wK5l" to="nu8v:~EditorCell.getWidth():int" resolve="getWidth" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="3cpWs3" id="4xcnxwSDtsP" role="37wK5m">
+                              <node concept="3cmrfG" id="4xcnxwSDttf" role="3uHU7w">
+                                <property role="3cmrfH" value="6" />
+                              </node>
+                              <node concept="2OqwBi" id="4xcnxwSDsht" role="3uHU7B">
+                                <node concept="37vLTw" id="4xcnxwSDsaP" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4xcnxwSDrpo" resolve="rootCell" />
+                                </node>
+                                <node concept="liA8E" id="4xcnxwSDsqt" role="2OqNvi">
+                                  <ref role="37wK5l" to="nu8v:~EditorCell.getHeight():int" resolve="getHeight" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbF" id="6Bd7Vwqkx9w" role="u8lrQ">
+                        <node concept="2OqwBi" id="6Bd7Vwqkxha" role="3clFbG">
+                          <node concept="2GrUjf" id="6Bd7Vwqkx9u" role="2Oq$k0">
                             <ref role="2Gs0qQ" node="7k8PWDQqnTi" resolve="box" />
                           </node>
-                          <node concept="liA8E" id="6Bd7Vwqkg3T" role="2OqNvi">
-                            <ref role="37wK5l" node="190K99K25OU" resolve="getBounds" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbF" id="6Bd7Vwqkfm4" role="3cqZAp">
-                      <node concept="2OqwBi" id="6Bd7Vwqkgi7" role="3clFbG">
-                        <node concept="37vLTw" id="6Bd7Vwqkg3U" role="2Oq$k0">
-                          <ref role="3cqZAo" node="6Bd7Vwqkg3Q" resolve="bounds" />
-                        </node>
-                        <node concept="liA8E" id="6Bd7VwqkgKD" role="2OqNvi">
-                          <ref role="37wK5l" node="6Bd7VwqkiND" resolve="setSize" />
-                          <node concept="3cpWs3" id="4xcnxwSDsJW" role="37wK5m">
-                            <node concept="3cmrfG" id="4xcnxwSDsKm" role="3uHU7w">
-                              <property role="3cmrfH" value="6" />
+                          <node concept="liA8E" id="6Bd7VwqkxPG" role="2OqNvi">
+                            <ref role="37wK5l" node="190K99K1JUB" resolve="setBounds" />
+                            <node concept="37vLTw" id="6Bd7VwqkxTT" role="37wK5m">
+                              <ref role="3cqZAo" node="6Bd7Vwqkg3Q" resolve="bounds" />
                             </node>
-                            <node concept="2OqwBi" id="4xcnxwSDrTb" role="3uHU7B">
-                              <node concept="37vLTw" id="4xcnxwSDrNv" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4xcnxwSDrpo" resolve="rootCell" />
-                              </node>
-                              <node concept="liA8E" id="4xcnxwSDs1b" role="2OqNvi">
-                                <ref role="37wK5l" to="nu8v:~EditorCell.getWidth():int" resolve="getWidth" />
-                              </node>
-                            </node>
-                          </node>
-                          <node concept="3cpWs3" id="4xcnxwSDtsP" role="37wK5m">
-                            <node concept="3cmrfG" id="4xcnxwSDttf" role="3uHU7w">
-                              <property role="3cmrfH" value="6" />
-                            </node>
-                            <node concept="2OqwBi" id="4xcnxwSDsht" role="3uHU7B">
-                              <node concept="37vLTw" id="4xcnxwSDsaP" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4xcnxwSDrpo" resolve="rootCell" />
-                              </node>
-                              <node concept="liA8E" id="4xcnxwSDsqt" role="2OqNvi">
-                                <ref role="37wK5l" to="nu8v:~EditorCell.getHeight():int" resolve="getHeight" />
-                              </node>
-                            </node>
-                          </node>
-                        </node>
-                      </node>
-                    </node>
-                    <node concept="3clFbF" id="6Bd7Vwqkx9w" role="3cqZAp">
-                      <node concept="2OqwBi" id="6Bd7Vwqkxha" role="3clFbG">
-                        <node concept="2GrUjf" id="6Bd7Vwqkx9u" role="2Oq$k0">
-                          <ref role="2Gs0qQ" node="7k8PWDQqnTi" resolve="box" />
-                        </node>
-                        <node concept="liA8E" id="6Bd7VwqkxPG" role="2OqNvi">
-                          <ref role="37wK5l" node="190K99K1JUB" resolve="setBounds" />
-                          <node concept="37vLTw" id="6Bd7VwqkxTT" role="37wK5m">
-                            <ref role="3cqZAo" node="6Bd7Vwqkg3Q" resolve="bounds" />
                           </node>
                         </node>
                       </node>
