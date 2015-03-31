@@ -57303,19 +57303,36 @@
             </node>
           </node>
         </node>
-        <node concept="3clFbF" id="2KWY$Um7vxr" role="3cqZAp">
-          <node concept="2OqwBi" id="2KWY$Um7vN7" role="3clFbG">
-            <node concept="37vLTw" id="2KWY$Um7vxp" role="2Oq$k0">
-              <ref role="3cqZAo" node="2KWY$Um6$R3" resolve="myButtons" />
-            </node>
-            <node concept="TSZUe" id="2KWY$Um7zSx" role="2OqNvi">
-              <node concept="2ShNRf" id="2KWY$Um7zZU" role="25WWJ7">
-                <node concept="1pGfFk" id="2KWY$UonwPu" role="2ShVmc">
-                  <ref role="37wK5l" node="2KWY$UontvY" resolve="MyVertexHandler.FitSizeButton" />
-                  <node concept="37vLTw" id="2KWY$UonzZ4" role="37wK5m">
-                    <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
+        <node concept="3clFbJ" id="5emhLECI291" role="3cqZAp">
+          <node concept="3clFbS" id="5emhLECI293" role="3clFbx">
+            <node concept="3clFbF" id="2KWY$Um7vxr" role="3cqZAp">
+              <node concept="2OqwBi" id="2KWY$Um7vN7" role="3clFbG">
+                <node concept="37vLTw" id="2KWY$Um7vxp" role="2Oq$k0">
+                  <ref role="3cqZAo" node="2KWY$Um6$R3" resolve="myButtons" />
+                </node>
+                <node concept="TSZUe" id="2KWY$Um7zSx" role="2OqNvi">
+                  <node concept="2ShNRf" id="2KWY$Um7zZU" role="25WWJ7">
+                    <node concept="1pGfFk" id="2KWY$UonwPu" role="2ShVmc">
+                      <ref role="37wK5l" node="2KWY$UontvY" resolve="MyVertexHandler.FitSizeButton" />
+                      <node concept="37vLTw" id="2KWY$UonzZ4" role="37wK5m">
+                        <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
+                      </node>
+                    </node>
                   </node>
                 </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="5emhLECI3eo" role="3clFbw">
+            <node concept="3uibUv" id="5emhLECI3qR" role="2ZW6by">
+              <ref role="3uigEE" node="f4v_NgJPyX" resolve="BoxDCell" />
+            </node>
+            <node concept="2OqwBi" id="5emhLECI2jC" role="2ZW6bz">
+              <node concept="37vLTw" id="5emhLECI2eM" role="2Oq$k0">
+                <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+              </node>
+              <node concept="liA8E" id="5emhLECI3da" role="2OqNvi">
+                <ref role="37wK5l" to="fkey:~mxCellState.getCell():java.lang.Object" resolve="getCell" />
               </node>
             </node>
           </node>
