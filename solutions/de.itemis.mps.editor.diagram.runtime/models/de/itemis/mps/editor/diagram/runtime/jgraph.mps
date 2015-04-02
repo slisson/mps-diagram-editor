@@ -84,6 +84,7 @@
     <import index="5usg" ref="r:3838bb8b-fecd-4f7c-841e-325717a43980(de.itemis.mps.tooltips.runtime)" />
     <import index="xqpa" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang.reflect(JDK/java.lang.reflect@java_stub)" />
     <import index="oobn" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.navigation(MPS.Editor/jetbrains.mps.openapi.navigation@java_stub)" />
+    <import index="tpcu" ref="r:00000000-0000-4000-0000-011c89590282(jetbrains.mps.lang.core.behavior)" />
   </imports>
   <registry>
     <language id="a247e09e-2435-45ba-b8d2-07e93feba96a" name="jetbrains.mps.baseLanguage.tuples">
@@ -439,6 +440,7 @@
       <concept id="8974276187400348170" name="jetbrains.mps.lang.access.structure.BaseExecuteCommandStatement" flags="nn" index="1QHqEJ">
         <child id="8974276187400348171" name="commandClosureLiteral" index="1QHqEI" />
       </concept>
+      <concept id="8974276187400348181" name="jetbrains.mps.lang.access.structure.ExecuteLightweightCommandStatement" flags="nn" index="1QHqEK" />
       <concept id="8974276187400348183" name="jetbrains.mps.lang.access.structure.ExecuteWriteActionStatement" flags="nn" index="1QHqEM" />
     </language>
     <language id="774bf8a0-62e5-41e1-af63-f4812e60e48b" name="jetbrains.mps.baseLanguage.checkedDots">
@@ -471,6 +473,7 @@
       </concept>
     </language>
     <language id="7866978e-a0f0-4cc7-81bc-4d213d9375e1" name="jetbrains.mps.lang.smodel">
+      <concept id="1179409122411" name="jetbrains.mps.lang.smodel.structure.Node_ConceptMethodCall" flags="nn" index="2qgKlT" />
       <concept id="4357968816427488499" name="jetbrains.mps.lang.smodel.structure.CheckedModuleReference" flags="nn" index="2L6k_Z">
         <property id="4357968816427488500" name="moduleId" index="2L6k_S" />
       </concept>
@@ -19958,7 +19961,7 @@
           <node concept="1rXfSq" id="6zxgcXkRCsK" role="3clFbG">
             <ref role="37wK5l" to="w5rd:~mxGraphComponent.setToolTips(boolean):void" resolve="setToolTips" />
             <node concept="3clFbT" id="6zxgcXkRCvy" role="37wK5m">
-              <property role="3clFbU" value="false" />
+              <property role="3clFbU" value="true" />
             </node>
           </node>
         </node>
@@ -23526,8 +23529,13 @@
           </node>
         </node>
         <node concept="3clFbS" id="6zxgcXkSKVi" role="3clF47">
-          <node concept="3clFbF" id="6zxgcXkSLWM" role="3cqZAp">
-            <node concept="10Nm6u" id="6zxgcXkSLWL" role="3clFbG" />
+          <node concept="3clFbF" id="5pbnVm4wvQD" role="3cqZAp">
+            <node concept="3nyPlj" id="5pbnVm4wvQC" role="3clFbG">
+              <ref role="37wK5l" to="w5rd:~mxGraphComponent$mxGraphControl.getToolTipText(java.awt.event.MouseEvent):java.lang.String" resolve="getToolTipText" />
+              <node concept="37vLTw" id="5pbnVm4wwbq" role="37wK5m">
+                <ref role="3cqZAo" node="6zxgcXkSKVg" resolve="event" />
+              </node>
+            </node>
           </node>
         </node>
         <node concept="2AHcQZ" id="6zxgcXkSKVj" role="2AJF6D">
@@ -58583,6 +58591,92 @@
         </node>
       </node>
     </node>
+    <node concept="2tJIrI" id="5pbnVm4qPJ6" role="jymVt" />
+    <node concept="3clFb_" id="5pbnVm4qQ$H" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getToolTipText" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="5pbnVm4qQ$I" role="1B3o_S" />
+      <node concept="17QB3L" id="5pbnVm4qSaD" role="3clF45" />
+      <node concept="37vLTG" id="5pbnVm4qQ$L" role="3clF46">
+        <property role="TrG5h" value="event" />
+        <node concept="3uibUv" id="5pbnVm4qQ$M" role="1tU5fm">
+          <ref role="3uigEE" to="8q6x:~MouseEvent" resolve="MouseEvent" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5pbnVm4qQ$O" role="3clF47">
+        <node concept="2Gpval" id="5pbnVm4qSQW" role="3cqZAp">
+          <node concept="2GrKxI" id="5pbnVm4qSQY" role="2Gsz3X">
+            <property role="TrG5h" value="button" />
+          </node>
+          <node concept="3clFbS" id="5pbnVm4qSR0" role="2LFqv$">
+            <node concept="3clFbJ" id="5pbnVm4qT3E" role="3cqZAp">
+              <node concept="3clFbS" id="5pbnVm4qT3F" role="3clFbx">
+                <node concept="3cpWs6" id="5pbnVm4rhdl" role="3cqZAp">
+                  <node concept="2OqwBi" id="5pbnVm4risa" role="3cqZAk">
+                    <node concept="2GrUjf" id="5pbnVm4rhP4" role="2Oq$k0">
+                      <ref role="2Gs0qQ" node="5pbnVm4qSQY" resolve="button" />
+                    </node>
+                    <node concept="liA8E" id="5pbnVm4rjOI" role="2OqNvi">
+                      <ref role="37wK5l" node="6Fu8whCtFzN" resolve="getTooltip" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2OqwBi" id="5pbnVm4qTWt" role="3clFbw">
+                <node concept="2OqwBi" id="5pbnVm4qT5x" role="2Oq$k0">
+                  <node concept="2GrUjf" id="5pbnVm4qT4r" role="2Oq$k0">
+                    <ref role="2Gs0qQ" node="5pbnVm4qSQY" resolve="button" />
+                  </node>
+                  <node concept="liA8E" id="5pbnVm4qTUm" role="2OqNvi">
+                    <ref role="37wK5l" node="2KWY$Um8EIm" resolve="getBounds" />
+                  </node>
+                </node>
+                <node concept="liA8E" id="5pbnVm4qUJ0" role="2OqNvi">
+                  <ref role="37wK5l" to="nkm5:5emhLEC1NcP" resolve="contains" />
+                  <node concept="2ShNRf" id="5pbnVm4qUOR" role="37wK5m">
+                    <node concept="1pGfFk" id="5pbnVm4rfU1" role="2ShVmc">
+                      <ref role="37wK5l" to="nkm5:20KyIMr12mx" resolve="Point" />
+                      <node concept="2OqwBi" id="5pbnVm4rfYf" role="37wK5m">
+                        <node concept="37vLTw" id="5pbnVm4rfVQ" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5pbnVm4qQ$L" resolve="event" />
+                        </node>
+                        <node concept="liA8E" id="5pbnVm4rgtF" role="2OqNvi">
+                          <ref role="37wK5l" to="8q6x:~MouseEvent.getX():int" resolve="getX" />
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="5pbnVm4rgAz" role="37wK5m">
+                        <node concept="37vLTw" id="5pbnVm4rgyK" role="2Oq$k0">
+                          <ref role="3cqZAo" node="5pbnVm4qQ$L" resolve="event" />
+                        </node>
+                        <node concept="liA8E" id="5pbnVm4rh7m" role="2OqNvi">
+                          <ref role="37wK5l" to="8q6x:~MouseEvent.getY():int" resolve="getY" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="5pbnVm4qSUU" role="2GsD0m">
+            <ref role="3cqZAo" node="2KWY$Um6$R3" resolve="myButtons" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="5pbnVm4qQ$S" role="3cqZAp">
+          <node concept="3nyPlj" id="5pbnVm4qQ$R" role="3clFbG">
+            <ref role="37wK5l" to="g1vp:~mxCellHandler.getToolTipText(java.awt.event.MouseEvent):java.lang.String" resolve="getToolTipText" />
+            <node concept="37vLTw" id="5pbnVm4qQ$Q" role="37wK5m">
+              <ref role="3cqZAo" node="5pbnVm4qQ$L" resolve="event" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5pbnVm4qQ$P" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="4LQPEPGjdQz" role="1B3o_S" />
     <node concept="3uibUv" id="4LQPEPGjIXF" role="1zkMxy">
       <ref role="3uigEE" to="g1vp:~mxVertexHandler" resolve="mxVertexHandler" />
@@ -61127,9 +61221,42 @@
       <node concept="17QB3L" id="S$ha3G9gJy" role="3clF45" />
       <node concept="3Tm1VV" id="S$ha3G9gJz" role="1B3o_S" />
       <node concept="3clFbS" id="S$ha3G9gJ$" role="3clF47">
-        <node concept="3clFbF" id="S$ha3G9gJ_" role="3cqZAp">
-          <node concept="Xl_RD" id="S$ha3G9gJA" role="3clFbG">
-            <property role="Xl_RC" value="Open Link" />
+        <node concept="3cpWs8" id="5pbnVm4_BR7" role="3cqZAp">
+          <node concept="3cpWsn" id="5pbnVm4_BR8" role="3cpWs9">
+            <property role="TrG5h" value="presentation" />
+            <node concept="17QB3L" id="5pbnVm4_BR5" role="1tU5fm" />
+            <node concept="10Nm6u" id="5pbnVm4_C3p" role="33vP2m" />
+          </node>
+        </node>
+        <node concept="1QHqEK" id="5pbnVm4_Bo7" role="3cqZAp">
+          <node concept="1QHqEC" id="5pbnVm4_Bo9" role="1QHqEI">
+            <node concept="3clFbS" id="5pbnVm4_Bob" role="1bW5cS">
+              <node concept="3clFbF" id="5pbnVm4_BVz" role="3cqZAp">
+                <node concept="37vLTI" id="5pbnVm4_BV_" role="3clFbG">
+                  <node concept="2OqwBi" id="5pbnVm4_BR9" role="37vLTx">
+                    <node concept="37vLTw" id="5pbnVm4_BRa" role="2Oq$k0">
+                      <ref role="3cqZAo" node="S$ha3H7l9W" resolve="myTarget" />
+                    </node>
+                    <node concept="2qgKlT" id="5pbnVm4_BRb" role="2OqNvi">
+                      <ref role="37wK5l" to="tpcu:hEwIMiw" resolve="getPresentation" />
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="5pbnVm4_BVD" role="37vLTJ">
+                    <ref role="3cqZAo" node="5pbnVm4_BR8" resolve="presentation" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5pbnVm4_B47" role="3cqZAp">
+          <node concept="3cpWs3" id="5pbnVm4_Cgm" role="3clFbG">
+            <node concept="37vLTw" id="5pbnVm4_CgS" role="3uHU7w">
+              <ref role="3cqZAo" node="5pbnVm4_BR8" resolve="presentation" />
+            </node>
+            <node concept="Xl_RD" id="5pbnVm4_B46" role="3uHU7B">
+              <property role="Xl_RC" value="Jump to node: " />
+            </node>
           </node>
         </node>
       </node>
