@@ -183,6 +183,12 @@
       <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="S$ha3H7zfs" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="navigationTargets" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="1TJgyj" id="4KKQOHJ7LVv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="getLabel" />
@@ -788,6 +794,12 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="allowConnections" />
       <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
+    <node concept="1TJgyj" id="iP2DEOXhNi" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="navigationTargets" />
+      <property role="20lbJX" value="0..n" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
     <node concept="PrWs8" id="7L$rKAV50Iu" role="PzmwI">
@@ -1558,6 +1570,9 @@
     <property role="TrG5h" value="SNodeConnectionType_toPort" />
     <property role="34LRSv" value="toPort" />
     <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="PlHQZ" id="S$ha3H7Eqt">
+    <property role="TrG5h" value="IBoxEditor" />
   </node>
 </model>
 

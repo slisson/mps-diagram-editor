@@ -291,6 +291,7 @@
         <child id="7464726264117682823" name="shape" index="2xQQDV" />
         <child id="5725606875425244480" name="deleteHandler" index="1idfhu" />
         <child id="1315262826372527521" name="editor" index="1ytjkN" />
+        <child id="1019014873656210396" name="navigationTargets" index="3zeBtW" />
         <child id="1566844231766602492" name="ports2" index="3DrZTU" />
       </concept>
       <concept id="6237710625713831199" name="de.itemis.mps.editor.diagram.structure.CellModel_DiagramConnector" flags="ng" index="2ZMJ7s">
@@ -1736,6 +1737,12 @@
       </node>
       <node concept="2xQOud" id="5WYUu8HgVzw" role="2xQQDV">
         <ref role="2xQOue" to="wo6c:5WYUu8HgM6S" resolve="ThinBorder" />
+      </node>
+      <node concept="2OqwBi" id="5pbnVm3cJm8" role="3zeBtW">
+        <node concept="1Pxb5l" id="5pbnVm3cI_e" role="2Oq$k0" />
+        <node concept="3TrEf2" id="5pbnVm3cK7I" role="2OqNvi">
+          <ref role="3Tt5mk" to="7fae:4KKQOHJ85K6" />
+        </node>
       </node>
     </node>
   </node>
