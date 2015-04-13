@@ -35428,6 +35428,20 @@
       <node concept="3cqZAl" id="4fHmSna9aNz" role="3clF45" />
       <node concept="3Tm1VV" id="4fHmSna9aN$" role="1B3o_S" />
       <node concept="3clFbS" id="4fHmSna9aNE" role="3clF47">
+        <node concept="3cpWs8" id="6ybQevaUvAh" role="3cqZAp">
+          <node concept="3cpWsn" id="6ybQevaUvAi" role="3cpWs9">
+            <property role="TrG5h" value="scale" />
+            <node concept="10P55v" id="6ybQevaUvAe" role="1tU5fm" />
+            <node concept="2OqwBi" id="6ybQevaUvAj" role="33vP2m">
+              <node concept="37vLTw" id="6ybQevaUvAk" role="2Oq$k0">
+                <ref role="3cqZAo" node="4fHmSna9aNv" resolve="view" />
+              </node>
+              <node concept="liA8E" id="6ybQevaUvAl" role="2OqNvi">
+                <ref role="37wK5l" to="fkey:~mxGraphView.getScale():double" resolve="getScale" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="2Gpval" id="63AkbuP8gnW" role="3cqZAp">
           <node concept="2GrKxI" id="63AkbuP8gnY" role="2Gsz3X">
             <property role="TrG5h" value="mpsCell" />
@@ -35443,42 +35457,56 @@
                 </node>
                 <node concept="liA8E" id="TBoO2mLX7g" role="2OqNvi">
                   <ref role="37wK5l" node="TBoO2mJcpm" resolve="trySetSize" />
-                  <node concept="3cpWsd" id="TBoO2mSoRc" role="37wK5m">
-                    <node concept="3cmrfG" id="TBoO2mSoTb" role="3uHU7w">
-                      <property role="3cmrfH" value="2" />
+                  <node concept="FJ1c_" id="6ybQevaZ_fk" role="37wK5m">
+                    <node concept="1eOMI4" id="6ybQevaUxM3" role="3uHU7B">
+                      <node concept="3cpWsd" id="TBoO2mSoRc" role="1eOMHV">
+                        <node concept="3cmrfG" id="TBoO2mSoTb" role="3uHU7w">
+                          <property role="3cmrfH" value="2" />
+                        </node>
+                        <node concept="3cpWsd" id="TBoO2mLYYO" role="3uHU7B">
+                          <node concept="2OqwBi" id="TBoO2mLXwH" role="3uHU7B">
+                            <node concept="37vLTw" id="6ybQevaPoax" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4fHmSna9aNx" resolve="state" />
+                            </node>
+                            <node concept="liA8E" id="TBoO2mLYDk" role="2OqNvi">
+                              <ref role="37wK5l" to="f5o7:~mxRectangle.getWidth():double" resolve="getWidth" />
+                            </node>
+                          </node>
+                          <node concept="10M0yZ" id="TBoO2mLZje" role="3uHU7w">
+                            <ref role="1PxDUh" to="nkm5:27djZ8_YaUo" resolve="Box" />
+                            <ref role="3cqZAo" to="nkm5:TBoO2mIKvo" resolve="PADDING" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
-                    <node concept="3cpWsd" id="TBoO2mLYYO" role="3uHU7B">
-                      <node concept="2OqwBi" id="TBoO2mLXwH" role="3uHU7B">
-                        <node concept="37vLTw" id="6ybQevaPoax" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4fHmSna9aNx" resolve="state" />
-                        </node>
-                        <node concept="liA8E" id="TBoO2mLYDk" role="2OqNvi">
-                          <ref role="37wK5l" to="f5o7:~mxRectangle.getWidth():double" resolve="getWidth" />
-                        </node>
-                      </node>
-                      <node concept="10M0yZ" id="TBoO2mLZje" role="3uHU7w">
-                        <ref role="1PxDUh" to="nkm5:27djZ8_YaUo" resolve="Box" />
-                        <ref role="3cqZAo" to="nkm5:TBoO2mIKvo" resolve="PADDING" />
-                      </node>
+                    <node concept="37vLTw" id="6ybQevaUyqT" role="3uHU7w">
+                      <ref role="3cqZAo" node="6ybQevaUvAi" resolve="scale" />
                     </node>
                   </node>
-                  <node concept="3cpWsd" id="TBoO2mSpuO" role="37wK5m">
-                    <node concept="3cmrfG" id="TBoO2nkAiE" role="3uHU7w">
-                      <property role="3cmrfH" value="2" />
+                  <node concept="FJ1c_" id="6ybQevaZ_ut" role="37wK5m">
+                    <node concept="1eOMI4" id="6ybQevaUyWr" role="3uHU7B">
+                      <node concept="3cpWsd" id="TBoO2mSpuO" role="1eOMHV">
+                        <node concept="3cmrfG" id="TBoO2nkAiE" role="3uHU7w">
+                          <property role="3cmrfH" value="2" />
+                        </node>
+                        <node concept="3cpWsd" id="TBoO2mM1_l" role="3uHU7B">
+                          <node concept="2OqwBi" id="TBoO2mLZT4" role="3uHU7B">
+                            <node concept="37vLTw" id="6ybQevaPotJ" role="2Oq$k0">
+                              <ref role="3cqZAo" node="4fHmSna9aNx" resolve="state" />
+                            </node>
+                            <node concept="liA8E" id="TBoO2mM157" role="2OqNvi">
+                              <ref role="37wK5l" to="f5o7:~mxRectangle.getHeight():double" resolve="getHeight" />
+                            </node>
+                          </node>
+                          <node concept="10M0yZ" id="TBoO2mM1X1" role="3uHU7w">
+                            <ref role="1PxDUh" to="nkm5:27djZ8_YaUo" resolve="Box" />
+                            <ref role="3cqZAo" to="nkm5:TBoO2mIKvo" resolve="PADDING" />
+                          </node>
+                        </node>
+                      </node>
                     </node>
-                    <node concept="3cpWsd" id="TBoO2mM1_l" role="3uHU7B">
-                      <node concept="2OqwBi" id="TBoO2mLZT4" role="3uHU7B">
-                        <node concept="37vLTw" id="6ybQevaPotJ" role="2Oq$k0">
-                          <ref role="3cqZAo" node="4fHmSna9aNx" resolve="state" />
-                        </node>
-                        <node concept="liA8E" id="TBoO2mM157" role="2OqNvi">
-                          <ref role="37wK5l" to="f5o7:~mxRectangle.getHeight():double" resolve="getHeight" />
-                        </node>
-                      </node>
-                      <node concept="10M0yZ" id="TBoO2mM1X1" role="3uHU7w">
-                        <ref role="1PxDUh" to="nkm5:27djZ8_YaUo" resolve="Box" />
-                        <ref role="3cqZAo" to="nkm5:TBoO2mIKvo" resolve="PADDING" />
-                      </node>
+                    <node concept="37vLTw" id="6ybQevaUzrO" role="3uHU7w">
+                      <ref role="3cqZAo" node="6ybQevaUvAi" resolve="scale" />
                     </node>
                   </node>
                 </node>
