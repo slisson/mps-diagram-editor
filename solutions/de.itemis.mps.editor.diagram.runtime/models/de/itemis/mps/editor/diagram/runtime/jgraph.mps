@@ -63518,6 +63518,15 @@
         <property role="3cmrfH" value="100000" />
       </node>
     </node>
+    <node concept="Wx3nA" id="3uxs2v7uRas" role="jymVt">
+      <property role="3TUv4t" value="true" />
+      <property role="TrG5h" value="DISTANCE_FROM_TERMINAL" />
+      <node concept="3Tm6S6" id="3uxs2v7uRap" role="1B3o_S" />
+      <node concept="10P55v" id="3uxs2v7uRaq" role="1tU5fm" />
+      <node concept="3b6qkQ" id="3uxs2v7uRar" role="33vP2m">
+        <property role="$nhwW" value="10.0" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="BPxMhJTT7Y" role="jymVt" />
     <node concept="312cEg" id="BPxMhJU4Hs" role="jymVt">
       <property role="TrG5h" value="myEdgeHandler" />
@@ -64203,6 +64212,50 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="3uxs2v7ue7c" role="3cqZAp">
+              <node concept="3cpWsn" id="3uxs2v7ue7d" role="3cpWs9">
+                <property role="TrG5h" value="nextPoint" />
+                <node concept="3uibUv" id="3uxs2v7ue7e" role="1tU5fm">
+                  <ref role="3uigEE" to="2y1d:~Vector2D" resolve="Vector2D" />
+                </node>
+                <node concept="2OqwBi" id="3uxs2v7utEf" role="33vP2m">
+                  <node concept="1eOMI4" id="3uxs2v7utxG" role="2Oq$k0">
+                    <node concept="3K4zz7" id="3uxs2v7uqmt" role="1eOMHV">
+                      <node concept="37vLTw" id="3uxs2v7utru" role="3K4GZi">
+                        <ref role="3cqZAo" node="BPxMhMbHIH" resolve="endTerminal" />
+                      </node>
+                      <node concept="2OqwBi" id="3uxs2v7uqCn" role="3K4E3e">
+                        <node concept="37vLTw" id="3uxs2v7uqr$" role="2Oq$k0">
+                          <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                        </node>
+                        <node concept="liA8E" id="3uxs2v7utl1" role="2OqNvi">
+                          <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
+                          <node concept="3cmrfG" id="3uxs2v7utoF" role="37wK5m">
+                            <property role="3cmrfH" value="0" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3eOSWO" id="3uxs2v7uq0h" role="3K4Cdx">
+                        <node concept="3cmrfG" id="3uxs2v7uq0u" role="3uHU7w">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                        <node concept="2OqwBi" id="3uxs2v7ulG2" role="3uHU7B">
+                          <node concept="37vLTw" id="3uxs2v7ukME" role="2Oq$k0">
+                            <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                          </node>
+                          <node concept="liA8E" id="3uxs2v7upCM" role="2OqNvi">
+                            <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="AQDAd" id="3uxs2v7uwak" role="2OqNvi">
+                    <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="BPxMhMncDN" role="3cqZAp">
               <node concept="37vLTI" id="BPxMhMncM2" role="3clFbG">
                 <node concept="2OqwBi" id="BPxMhMncPd" role="37vLTx">
@@ -64214,21 +64267,8 @@
                     <node concept="2OqwBi" id="BPxMhMnk2J" role="37wK5m">
                       <node concept="2OqwBi" id="BPxMhMniyy" role="2Oq$k0">
                         <node concept="2OqwBi" id="BPxMhMnhkA" role="2Oq$k0">
-                          <node concept="2OqwBi" id="BPxMhMng_u" role="2Oq$k0">
-                            <node concept="2OqwBi" id="BPxMhMndLs" role="2Oq$k0">
-                              <node concept="37vLTw" id="BPxMhMnd_H" role="2Oq$k0">
-                                <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
-                              </node>
-                              <node concept="liA8E" id="BPxMhMngrY" role="2OqNvi">
-                                <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
-                                <node concept="3cmrfG" id="BPxMhMngwK" role="37wK5m">
-                                  <property role="3cmrfH" value="0" />
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="AQDAd" id="BPxMhMnheE" role="2OqNvi">
-                              <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
-                            </node>
+                          <node concept="37vLTw" id="3uxs2v7uwX7" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3uxs2v7ue7d" resolve="nextPoint" />
                           </node>
                           <node concept="liA8E" id="BPxMhMninp" role="2OqNvi">
                             <ref role="37wK5l" to="2y1d:~Vector2D.subtract(org.apache.commons.math3.geometry.Vector):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="subtract" />
@@ -64243,8 +64283,8 @@
                       </node>
                       <node concept="liA8E" id="BPxMhMnlyE" role="2OqNvi">
                         <ref role="37wK5l" to="2y1d:~Vector2D.scalarMultiply(double):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="scalarMultiply" />
-                        <node concept="3b6qkQ" id="BPxMhMnlIz" role="37wK5m">
-                          <property role="$nhwW" value="10.0" />
+                        <node concept="37vLTw" id="3uxs2v7uRav" role="37wK5m">
+                          <ref role="3cqZAo" node="3uxs2v7uRas" resolve="DISTANCE_FROM_TERMINAL" />
                         </node>
                       </node>
                     </node>
@@ -64335,6 +64375,60 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="3uxs2v7uyRF" role="3cqZAp">
+              <node concept="3cpWsn" id="3uxs2v7uyRG" role="3cpWs9">
+                <property role="TrG5h" value="nextPoint" />
+                <node concept="3uibUv" id="3uxs2v7uyRH" role="1tU5fm">
+                  <ref role="3uigEE" to="2y1d:~Vector2D" resolve="Vector2D" />
+                </node>
+                <node concept="2OqwBi" id="3uxs2v7uyRI" role="33vP2m">
+                  <node concept="1eOMI4" id="3uxs2v7uyRJ" role="2Oq$k0">
+                    <node concept="3K4zz7" id="3uxs2v7uyRK" role="1eOMHV">
+                      <node concept="37vLTw" id="3uxs2v7uzw7" role="3K4GZi">
+                        <ref role="3cqZAo" node="BPxMhMbGu7" resolve="startTerminal" />
+                      </node>
+                      <node concept="3eOSWO" id="3uxs2v7uyRQ" role="3K4Cdx">
+                        <node concept="3cmrfG" id="3uxs2v7uyRR" role="3uHU7w">
+                          <property role="3cmrfH" value="0" />
+                        </node>
+                        <node concept="2OqwBi" id="3uxs2v7uyRS" role="3uHU7B">
+                          <node concept="37vLTw" id="3uxs2v7uyRT" role="2Oq$k0">
+                            <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                          </node>
+                          <node concept="liA8E" id="3uxs2v7uyRU" role="2OqNvi">
+                            <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="2OqwBi" id="3uxs2v7uNBI" role="3K4E3e">
+                        <node concept="37vLTw" id="3uxs2v7uNfG" role="2Oq$k0">
+                          <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                        </node>
+                        <node concept="liA8E" id="3uxs2v7uQkH" role="2OqNvi">
+                          <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
+                          <node concept="3cpWsd" id="3uxs2v7uzcy" role="37wK5m">
+                            <node concept="3cmrfG" id="3uxs2v7uzcz" role="3uHU7w">
+                              <property role="3cmrfH" value="1" />
+                            </node>
+                            <node concept="2OqwBi" id="3uxs2v7uzc$" role="3uHU7B">
+                              <node concept="37vLTw" id="3uxs2v7uzc_" role="2Oq$k0">
+                                <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                              </node>
+                              <node concept="liA8E" id="3uxs2v7uzcA" role="2OqNvi">
+                                <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="AQDAd" id="3uxs2v7uyRV" role="2OqNvi">
+                    <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="BPxMhMGzEc" role="3cqZAp">
               <node concept="37vLTI" id="BPxMhMGzEd" role="3clFbG">
                 <node concept="2OqwBi" id="BPxMhMGzEe" role="37vLTx">
@@ -64346,31 +64440,8 @@
                     <node concept="2OqwBi" id="BPxMhMGzEh" role="37wK5m">
                       <node concept="2OqwBi" id="BPxMhMGzEi" role="2Oq$k0">
                         <node concept="2OqwBi" id="BPxMhMGzEj" role="2Oq$k0">
-                          <node concept="2OqwBi" id="BPxMhMGzEk" role="2Oq$k0">
-                            <node concept="2OqwBi" id="BPxMhMGzEl" role="2Oq$k0">
-                              <node concept="37vLTw" id="BPxMhMGzEm" role="2Oq$k0">
-                                <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
-                              </node>
-                              <node concept="liA8E" id="BPxMhMGzEn" role="2OqNvi">
-                                <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
-                                <node concept="3cpWsd" id="BPxMhMGCLg" role="37wK5m">
-                                  <node concept="3cmrfG" id="BPxMhMGCLt" role="3uHU7w">
-                                    <property role="3cmrfH" value="1" />
-                                  </node>
-                                  <node concept="2OqwBi" id="BPxMhMG$h3" role="3uHU7B">
-                                    <node concept="37vLTw" id="BPxMhMGzWO" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
-                                    </node>
-                                    <node concept="liA8E" id="BPxMhMGCs5" role="2OqNvi">
-                                      <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
-                                    </node>
-                                  </node>
-                                </node>
-                              </node>
-                            </node>
-                            <node concept="AQDAd" id="BPxMhMGzEp" role="2OqNvi">
-                              <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
-                            </node>
+                          <node concept="37vLTw" id="3uxs2v7uzVa" role="2Oq$k0">
+                            <ref role="3cqZAo" node="3uxs2v7uyRG" resolve="nextPoint" />
                           </node>
                           <node concept="liA8E" id="BPxMhMGzEq" role="2OqNvi">
                             <ref role="37wK5l" to="2y1d:~Vector2D.subtract(org.apache.commons.math3.geometry.Vector):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="subtract" />
@@ -64385,8 +64456,8 @@
                       </node>
                       <node concept="liA8E" id="BPxMhMGzEt" role="2OqNvi">
                         <ref role="37wK5l" to="2y1d:~Vector2D.scalarMultiply(double):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="scalarMultiply" />
-                        <node concept="3b6qkQ" id="BPxMhMGzEu" role="37wK5m">
-                          <property role="$nhwW" value="10.0" />
+                        <node concept="37vLTw" id="3uxs2v7uSG5" role="37wK5m">
+                          <ref role="3cqZAo" node="3uxs2v7uRas" resolve="DISTANCE_FROM_TERMINAL" />
                         </node>
                       </node>
                     </node>
