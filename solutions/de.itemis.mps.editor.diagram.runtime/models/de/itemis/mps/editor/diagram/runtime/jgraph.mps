@@ -24986,6 +24986,66 @@
       <node concept="3clFbS" id="BPxMhJFJ9A" role="3clF47">
         <node concept="3clFbJ" id="BPxMhJV1_d" role="3cqZAp">
           <node concept="3clFbS" id="BPxMhJV1_f" role="3clFbx">
+            <node concept="3cpWs8" id="BPxMhMc7hf" role="3cqZAp">
+              <node concept="3cpWsn" id="BPxMhMc7hg" role="3cpWs9">
+                <property role="TrG5h" value="startTerminalPoint" />
+                <node concept="3uibUv" id="BPxMhMc7hh" role="1tU5fm">
+                  <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
+                </node>
+                <node concept="1rXfSq" id="BPxMhMc7hi" role="33vP2m">
+                  <ref role="37wK5l" to="g1vp:~mxEdgeHandler.convertPoint(com.mxgraph.util.mxPoint,boolean):com.mxgraph.util.mxPoint" resolve="convertPoint" />
+                  <node concept="2OqwBi" id="BPxMhMc7hj" role="37wK5m">
+                    <node concept="37vLTw" id="BPxMhMc7hk" role="2Oq$k0">
+                      <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+                    </node>
+                    <node concept="liA8E" id="BPxMhMc7hl" role="2OqNvi">
+                      <ref role="37wK5l" to="fkey:~mxCellState.getAbsolutePoint(int):com.mxgraph.util.mxPoint" resolve="getAbsolutePoint" />
+                      <node concept="3cmrfG" id="BPxMhMc7hm" role="37wK5m">
+                        <property role="3cmrfH" value="0" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="BPxMhMc7hn" role="37wK5m">
+                    <ref role="3cqZAo" to="g1vp:~mxEdgeHandler.gridEnabledEvent" resolve="gridEnabledEvent" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3cpWs8" id="BPxMhMc7ho" role="3cqZAp">
+              <node concept="3cpWsn" id="BPxMhMc7hp" role="3cpWs9">
+                <property role="TrG5h" value="endTerminalPoint" />
+                <node concept="3uibUv" id="BPxMhMc7hq" role="1tU5fm">
+                  <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
+                </node>
+                <node concept="1rXfSq" id="BPxMhMc7hr" role="33vP2m">
+                  <ref role="37wK5l" to="g1vp:~mxEdgeHandler.convertPoint(com.mxgraph.util.mxPoint,boolean):com.mxgraph.util.mxPoint" resolve="convertPoint" />
+                  <node concept="2OqwBi" id="BPxMhMc7hs" role="37wK5m">
+                    <node concept="37vLTw" id="BPxMhMc7ht" role="2Oq$k0">
+                      <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+                    </node>
+                    <node concept="liA8E" id="BPxMhMc7hu" role="2OqNvi">
+                      <ref role="37wK5l" to="fkey:~mxCellState.getAbsolutePoint(int):com.mxgraph.util.mxPoint" resolve="getAbsolutePoint" />
+                      <node concept="3cpWsd" id="BPxMhMc7hv" role="37wK5m">
+                        <node concept="3cmrfG" id="BPxMhMc7hw" role="3uHU7w">
+                          <property role="3cmrfH" value="1" />
+                        </node>
+                        <node concept="2OqwBi" id="BPxMhMc7hx" role="3uHU7B">
+                          <node concept="37vLTw" id="BPxMhMc7hy" role="2Oq$k0">
+                            <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+                          </node>
+                          <node concept="liA8E" id="BPxMhMc7hz" role="2OqNvi">
+                            <ref role="37wK5l" to="fkey:~mxCellState.getAbsolutePointCount():int" resolve="getAbsolutePointCount" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="BPxMhMc7h$" role="37wK5m">
+                    <ref role="3cqZAo" to="g1vp:~mxEdgeHandler.gridEnabledEvent" resolve="gridEnabledEvent" />
+                  </node>
+                </node>
+              </node>
+            </node>
             <node concept="3clFbF" id="BPxMhJV1XJ" role="3cqZAp">
               <node concept="2OqwBi" id="BPxMhJV20s" role="3clFbG">
                 <node concept="37vLTw" id="BPxMhJV1XH" role="2Oq$k0">
@@ -24995,6 +25055,12 @@
                   <ref role="37wK5l" node="BPxMhJV2It" resolve="move" />
                   <node concept="37vLTw" id="BPxMhJVb$j" role="37wK5m">
                     <ref role="3cqZAo" node="BPxMhJFJ9w" resolve="edge" />
+                  </node>
+                  <node concept="37vLTw" id="BPxMhMc0SZ" role="37wK5m">
+                    <ref role="3cqZAo" node="BPxMhMc7hg" resolve="startTerminalPoint" />
+                  </node>
+                  <node concept="37vLTw" id="BPxMhMc17G" role="37wK5m">
+                    <ref role="3cqZAo" node="BPxMhMc7hp" resolve="endTerminalPoint" />
                   </node>
                   <node concept="2OqwBi" id="BPxMhJVbFw" role="37wK5m">
                     <node concept="37vLTw" id="BPxMhJVbCb" role="2Oq$k0">
@@ -26490,15 +26556,81 @@
                             <node concept="3clFbS" id="3P47XPYamsc" role="9aQI4">
                               <node concept="3clFbJ" id="BPxMhLPOrp" role="3cqZAp">
                                 <node concept="3clFbS" id="BPxMhLPOrr" role="3clFbx">
+                                  <node concept="3cpWs8" id="BPxMhMbYUy" role="3cqZAp">
+                                    <node concept="3cpWsn" id="BPxMhMbYUz" role="3cpWs9">
+                                      <property role="TrG5h" value="startTerminalPoint" />
+                                      <node concept="3uibUv" id="BPxMhMbYUw" role="1tU5fm">
+                                        <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
+                                      </node>
+                                      <node concept="1rXfSq" id="BPxMhMc6iR" role="33vP2m">
+                                        <ref role="37wK5l" to="g1vp:~mxEdgeHandler.convertPoint(com.mxgraph.util.mxPoint,boolean):com.mxgraph.util.mxPoint" resolve="convertPoint" />
+                                        <node concept="2OqwBi" id="BPxMhMbYU$" role="37wK5m">
+                                          <node concept="37vLTw" id="BPxMhMbYU_" role="2Oq$k0">
+                                            <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+                                          </node>
+                                          <node concept="liA8E" id="BPxMhMbYUA" role="2OqNvi">
+                                            <ref role="37wK5l" to="fkey:~mxCellState.getAbsolutePoint(int):com.mxgraph.util.mxPoint" resolve="getAbsolutePoint" />
+                                            <node concept="3cmrfG" id="BPxMhMbYUB" role="37wK5m">
+                                              <property role="3cmrfH" value="0" />
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="BPxMhMc6zF" role="37wK5m">
+                                          <ref role="3cqZAo" to="g1vp:~mxEdgeHandler.gridEnabledEvent" resolve="gridEnabledEvent" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
+                                  <node concept="3cpWs8" id="BPxMhMbZVL" role="3cqZAp">
+                                    <node concept="3cpWsn" id="BPxMhMbZVM" role="3cpWs9">
+                                      <property role="TrG5h" value="endTerminalPoint" />
+                                      <node concept="3uibUv" id="BPxMhMbZVG" role="1tU5fm">
+                                        <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
+                                      </node>
+                                      <node concept="1rXfSq" id="BPxMhMc6ND" role="33vP2m">
+                                        <ref role="37wK5l" to="g1vp:~mxEdgeHandler.convertPoint(com.mxgraph.util.mxPoint,boolean):com.mxgraph.util.mxPoint" resolve="convertPoint" />
+                                        <node concept="2OqwBi" id="BPxMhMbZVN" role="37wK5m">
+                                          <node concept="37vLTw" id="BPxMhMbZVO" role="2Oq$k0">
+                                            <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+                                          </node>
+                                          <node concept="liA8E" id="BPxMhMbZVP" role="2OqNvi">
+                                            <ref role="37wK5l" to="fkey:~mxCellState.getAbsolutePoint(int):com.mxgraph.util.mxPoint" resolve="getAbsolutePoint" />
+                                            <node concept="3cpWsd" id="BPxMhMbZVQ" role="37wK5m">
+                                              <node concept="3cmrfG" id="BPxMhMbZVR" role="3uHU7w">
+                                                <property role="3cmrfH" value="1" />
+                                              </node>
+                                              <node concept="2OqwBi" id="BPxMhMbZVS" role="3uHU7B">
+                                                <node concept="37vLTw" id="BPxMhMbZVT" role="2Oq$k0">
+                                                  <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+                                                </node>
+                                                <node concept="liA8E" id="BPxMhMbZVU" role="2OqNvi">
+                                                  <ref role="37wK5l" to="fkey:~mxCellState.getAbsolutePointCount():int" resolve="getAbsolutePointCount" />
+                                                </node>
+                                              </node>
+                                            </node>
+                                          </node>
+                                        </node>
+                                        <node concept="37vLTw" id="BPxMhMc76U" role="37wK5m">
+                                          <ref role="3cqZAo" to="g1vp:~mxEdgeHandler.gridEnabledEvent" resolve="gridEnabledEvent" />
+                                        </node>
+                                      </node>
+                                    </node>
+                                  </node>
                                   <node concept="3clFbF" id="BPxMhLPQ4q" role="3cqZAp">
                                     <node concept="2OqwBi" id="BPxMhLPQ4r" role="3clFbG">
                                       <node concept="37vLTw" id="BPxMhLPQ4s" role="2Oq$k0">
                                         <ref role="3cqZAo" node="BPxMhJUhJK" resolve="myEdgeLineMoveHandler" />
                                       </node>
                                       <node concept="liA8E" id="BPxMhLPQ4t" role="2OqNvi">
-                                        <ref role="37wK5l" node="BPxMhJVEdg" resolve="move" />
+                                        <ref role="37wK5l" node="BPxMhJVEdg" resolve="movePoints" />
                                         <node concept="37vLTw" id="BPxMhLPQiA" role="37wK5m">
                                           <ref role="3cqZAo" node="3P47XPY9246" resolve="points" />
+                                        </node>
+                                        <node concept="37vLTw" id="BPxMhMbYUC" role="37wK5m">
+                                          <ref role="3cqZAo" node="BPxMhMbYUz" resolve="startTerminalPoint" />
+                                        </node>
+                                        <node concept="37vLTw" id="BPxMhMbZVV" role="37wK5m">
+                                          <ref role="3cqZAo" node="BPxMhMbZVM" resolve="endTerminalPoint" />
                                         </node>
                                         <node concept="2OqwBi" id="BPxMhLPQ4v" role="37wK5m">
                                           <node concept="37vLTw" id="BPxMhLPQ4w" role="2Oq$k0">
@@ -63775,6 +63907,18 @@
           <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
         </node>
       </node>
+      <node concept="37vLTG" id="BPxMhMbQXH" role="3clF46">
+        <property role="TrG5h" value="startTerminal" />
+        <node concept="3uibUv" id="BPxMhMbQXI" role="1tU5fm">
+          <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="BPxMhMbQXJ" role="3clF46">
+        <property role="TrG5h" value="endTerminal" />
+        <node concept="3uibUv" id="BPxMhMbQXK" role="1tU5fm">
+          <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
+        </node>
+      </node>
       <node concept="37vLTG" id="BPxMhJV6sD" role="3clF46">
         <property role="TrG5h" value="lineIndex" />
         <node concept="10Oyi0" id="BPxMhJV6sE" role="1tU5fm" />
@@ -63932,26 +64076,19 @@
                         </node>
                       </node>
                     </node>
-                    <node concept="3clFbF" id="BPxMhJVpuo" role="3cqZAp">
-                      <node concept="2OqwBi" id="BPxMhJVpup" role="3clFbG">
-                        <node concept="37vLTw" id="BPxMhJVpuq" role="2Oq$k0">
-                          <ref role="3cqZAo" node="BPxMhJVptw" resolve="geometry" />
-                        </node>
-                        <node concept="liA8E" id="BPxMhJVpur" role="2OqNvi">
-                          <ref role="37wK5l" to="g6dw:~mxGeometry.setPoints(java.util.List):void" resolve="setPoints" />
-                          <node concept="37vLTw" id="BPxMhJVpus" role="37wK5m">
-                            <ref role="3cqZAo" node="BPxMhJVpu7" resolve="points" />
-                          </node>
-                        </node>
-                      </node>
-                    </node>
                   </node>
                 </node>
                 <node concept="3clFbF" id="BPxMhJVGCa" role="3cqZAp">
                   <node concept="1rXfSq" id="BPxMhJVGC8" role="3clFbG">
-                    <ref role="37wK5l" node="BPxMhJVEdg" resolve="move" />
+                    <ref role="37wK5l" node="BPxMhJVEdg" resolve="movePoints" />
                     <node concept="37vLTw" id="BPxMhJVGJi" role="37wK5m">
                       <ref role="3cqZAo" node="BPxMhJVpu7" resolve="points" />
+                    </node>
+                    <node concept="37vLTw" id="BPxMhMbREm" role="37wK5m">
+                      <ref role="3cqZAo" node="BPxMhMbQXH" resolve="startTerminal" />
+                    </node>
+                    <node concept="37vLTw" id="BPxMhMbRO8" role="37wK5m">
+                      <ref role="3cqZAo" node="BPxMhMbQXJ" resolve="endTerminal" />
                     </node>
                     <node concept="37vLTw" id="BPxMhJVGMY" role="37wK5m">
                       <ref role="3cqZAo" node="BPxMhJV6sD" resolve="lineIndex" />
@@ -63961,6 +64098,19 @@
                     </node>
                     <node concept="37vLTw" id="BPxMhJVH1S" role="37wK5m">
                       <ref role="3cqZAo" node="BPxMhJViNR" resolve="deltaY" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="BPxMhJVpuo" role="3cqZAp">
+                  <node concept="2OqwBi" id="BPxMhJVpup" role="3clFbG">
+                    <node concept="37vLTw" id="BPxMhJVpuq" role="2Oq$k0">
+                      <ref role="3cqZAo" node="BPxMhJVptw" resolve="geometry" />
+                    </node>
+                    <node concept="liA8E" id="BPxMhJVpur" role="2OqNvi">
+                      <ref role="37wK5l" to="g6dw:~mxGeometry.setPoints(java.util.List):void" resolve="setPoints" />
+                      <node concept="37vLTw" id="BPxMhJVpus" role="37wK5m">
+                        <ref role="3cqZAo" node="BPxMhJVpu7" resolve="points" />
+                      </node>
                     </node>
                   </node>
                 </node>
@@ -63988,7 +64138,7 @@
     </node>
     <node concept="2tJIrI" id="BPxMhJVDwC" role="jymVt" />
     <node concept="3clFb_" id="BPxMhJVEdg" role="jymVt">
-      <property role="TrG5h" value="move" />
+      <property role="TrG5h" value="movePoints" />
       <node concept="37vLTG" id="BPxMhJVFzE" role="3clF46">
         <property role="TrG5h" value="points" />
         <node concept="3uibUv" id="BPxMhJVFQi" role="1tU5fm">
@@ -63996,6 +64146,18 @@
           <node concept="3uibUv" id="BPxMhJVFQj" role="11_B2D">
             <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
           </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="BPxMhMbGu7" role="3clF46">
+        <property role="TrG5h" value="startTerminal" />
+        <node concept="3uibUv" id="BPxMhMbHwn" role="1tU5fm">
+          <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="BPxMhMbHIH" role="3clF46">
+        <property role="TrG5h" value="endTerminal" />
+        <node concept="3uibUv" id="BPxMhMbIGZ" role="1tU5fm">
+          <ref role="3uigEE" to="f5o7:~mxPoint" resolve="mxPoint" />
         </node>
       </node>
       <node concept="37vLTG" id="BPxMhJVFRY" role="3clF46">
@@ -64013,40 +64175,280 @@
       <node concept="3cqZAl" id="BPxMhJVEdi" role="3clF45" />
       <node concept="3Tm1VV" id="BPxMhKwmhj" role="1B3o_S" />
       <node concept="3clFbS" id="BPxMhJVEdk" role="3clF47">
-        <node concept="3clFbJ" id="BPxMhL_Xh0" role="3cqZAp">
-          <node concept="3clFbS" id="BPxMhL_Xh2" role="3clFbx">
-            <node concept="3cpWs6" id="BPxMhLA3WJ" role="3cqZAp" />
+        <node concept="3SKdUt" id="BPxMhMLVfz" role="3cqZAp">
+          <node concept="3SKdUq" id="BPxMhMLWkD" role="3SKWNk">
+            <property role="3SKdUp" value="We cannot move the terminal points. Therefore, we have to insert additional points to make the first/last" />
           </node>
-          <node concept="22lmx$" id="BPxMhLA00P" role="3clFbw">
-            <node concept="2d3UOw" id="BPxMhLA0Hj" role="3uHU7w">
-              <node concept="2OqwBi" id="BPxMhLA1au" role="3uHU7w">
-                <node concept="37vLTw" id="BPxMhLA0JO" role="2Oq$k0">
-                  <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+        </node>
+        <node concept="3SKdUt" id="BPxMhMLXVN" role="3cqZAp">
+          <node concept="3SKdUq" id="BPxMhMLZ1y" role="3SKWNk">
+            <property role="3SKdUp" value="line segment moveable" />
+          </node>
+        </node>
+        <node concept="3clFbJ" id="BPxMhMhzp0" role="3cqZAp">
+          <node concept="3clFbS" id="BPxMhMhzp2" role="3clFbx">
+            <node concept="3cpWs8" id="BPxMhMn9bw" role="3cqZAp">
+              <node concept="3cpWsn" id="BPxMhMn9bx" role="3cpWs9">
+                <property role="TrG5h" value="newPoint" />
+                <node concept="3uibUv" id="BPxMhMn9by" role="1tU5fm">
+                  <ref role="3uigEE" to="2y1d:~Vector2D" resolve="Vector2D" />
                 </node>
-                <node concept="liA8E" id="BPxMhLA3OU" role="2OqNvi">
-                  <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                <node concept="2OqwBi" id="BPxMhMnc8Q" role="33vP2m">
+                  <node concept="37vLTw" id="BPxMhMnc7B" role="2Oq$k0">
+                    <ref role="3cqZAo" node="BPxMhMbGu7" resolve="startTerminal" />
+                  </node>
+                  <node concept="AQDAd" id="BPxMhMncvH" role="2OqNvi">
+                    <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
+                  </node>
                 </node>
-              </node>
-              <node concept="37vLTw" id="BPxMhLA0n7" role="3uHU7B">
-                <ref role="3cqZAo" node="BPxMhJVFRY" resolve="lineIndex" />
               </node>
             </node>
-            <node concept="3eOVzh" id="BPxMhL_ZcD" role="3uHU7B">
-              <node concept="3cpWsd" id="BPxMhL_Yzc" role="3uHU7B">
-                <node concept="37vLTw" id="BPxMhL_XUf" role="3uHU7B">
+            <node concept="3clFbF" id="BPxMhMncDN" role="3cqZAp">
+              <node concept="37vLTI" id="BPxMhMncM2" role="3clFbG">
+                <node concept="2OqwBi" id="BPxMhMncPd" role="37vLTx">
+                  <node concept="37vLTw" id="BPxMhMncML" role="2Oq$k0">
+                    <ref role="3cqZAo" node="BPxMhMn9bx" resolve="newPoint" />
+                  </node>
+                  <node concept="liA8E" id="BPxMhMnd$h" role="2OqNvi">
+                    <ref role="37wK5l" to="2y1d:~Vector2D.add(org.apache.commons.math3.geometry.Vector):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="add" />
+                    <node concept="2OqwBi" id="BPxMhMnk2J" role="37wK5m">
+                      <node concept="2OqwBi" id="BPxMhMniyy" role="2Oq$k0">
+                        <node concept="2OqwBi" id="BPxMhMnhkA" role="2Oq$k0">
+                          <node concept="2OqwBi" id="BPxMhMng_u" role="2Oq$k0">
+                            <node concept="2OqwBi" id="BPxMhMndLs" role="2Oq$k0">
+                              <node concept="37vLTw" id="BPxMhMnd_H" role="2Oq$k0">
+                                <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                              </node>
+                              <node concept="liA8E" id="BPxMhMngrY" role="2OqNvi">
+                                <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
+                                <node concept="3cmrfG" id="BPxMhMngwK" role="37wK5m">
+                                  <property role="3cmrfH" value="0" />
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="AQDAd" id="BPxMhMnheE" role="2OqNvi">
+                              <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="BPxMhMninp" role="2OqNvi">
+                            <ref role="37wK5l" to="2y1d:~Vector2D.subtract(org.apache.commons.math3.geometry.Vector):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="subtract" />
+                            <node concept="37vLTw" id="BPxMhMnisv" role="37wK5m">
+                              <ref role="3cqZAo" node="BPxMhMn9bx" resolve="newPoint" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="BPxMhMnjTX" role="2OqNvi">
+                          <ref role="37wK5l" to="2y1d:~Vector2D.normalize():org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="normalize" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="BPxMhMnlyE" role="2OqNvi">
+                        <ref role="37wK5l" to="2y1d:~Vector2D.scalarMultiply(double):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="scalarMultiply" />
+                        <node concept="3b6qkQ" id="BPxMhMnlIz" role="37wK5m">
+                          <property role="$nhwW" value="10.0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="BPxMhMncDL" role="37vLTJ">
+                  <ref role="3cqZAo" node="BPxMhMn9bx" resolve="newPoint" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="BPxMhMh_Z_" role="3cqZAp">
+              <node concept="2OqwBi" id="BPxMhMh_ZA" role="3clFbG">
+                <node concept="37vLTw" id="BPxMhMh_ZB" role="2Oq$k0">
+                  <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                </node>
+                <node concept="liA8E" id="BPxMhMh_ZC" role="2OqNvi">
+                  <ref role="37wK5l" to="k7g3:~List.add(int,java.lang.Object):void" resolve="add" />
+                  <node concept="3cmrfG" id="BPxMhMhCxy" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="BPxMhMnlUw" role="37wK5m">
+                    <node concept="37vLTw" id="BPxMhMnlOV" role="2Oq$k0">
+                      <ref role="3cqZAo" node="BPxMhMn9bx" resolve="newPoint" />
+                    </node>
+                    <node concept="AQDAd" id="BPxMhMnmFV" role="2OqNvi">
+                      <ref role="37wK5l" node="4I87$bvNRIc" resolve="toMxPoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="BPxMhMs_Db" role="3cqZAp">
+              <node concept="2OqwBi" id="BPxMhMs_Dc" role="3clFbG">
+                <node concept="37vLTw" id="BPxMhMs_Dd" role="2Oq$k0">
+                  <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                </node>
+                <node concept="liA8E" id="BPxMhMs_De" role="2OqNvi">
+                  <ref role="37wK5l" to="k7g3:~List.add(int,java.lang.Object):void" resolve="add" />
+                  <node concept="3cmrfG" id="BPxMhMs_Df" role="37wK5m">
+                    <property role="3cmrfH" value="0" />
+                  </node>
+                  <node concept="2OqwBi" id="BPxMhMs_Dg" role="37wK5m">
+                    <node concept="37vLTw" id="BPxMhMs_Dh" role="2Oq$k0">
+                      <ref role="3cqZAo" node="BPxMhMn9bx" resolve="newPoint" />
+                    </node>
+                    <node concept="AQDAd" id="BPxMhMs_Di" role="2OqNvi">
+                      <ref role="37wK5l" node="4I87$bvNRIc" resolve="toMxPoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="BPxMhMhAFL" role="3cqZAp">
+              <node concept="d57v9" id="BPxMhMsAfG" role="3clFbG">
+                <node concept="3cmrfG" id="BPxMhMsAg5" role="37vLTx">
+                  <property role="3cmrfH" value="2" />
+                </node>
+                <node concept="37vLTw" id="BPxMhMhB46" role="37vLTJ">
                   <ref role="3cqZAo" node="BPxMhJVFRY" resolve="lineIndex" />
                 </node>
-                <node concept="3cmrfG" id="BPxMhL_Yzp" role="3uHU7w">
-                  <property role="3cmrfH" value="1" />
-                </node>
               </node>
-              <node concept="3cmrfG" id="BPxMhL_ZcQ" role="3uHU7w">
-                <property role="3cmrfH" value="0" />
-              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="BPxMhMhC4t" role="3clFbw">
+            <node concept="3cmrfG" id="BPxMhMhCtR" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="BPxMhMh$9r" role="3uHU7B">
+              <ref role="3cqZAo" node="BPxMhJVFRY" resolve="lineIndex" />
             </node>
           </node>
         </node>
-        <node concept="3clFbH" id="BPxMhLA3WQ" role="3cqZAp" />
+        <node concept="3clFbJ" id="BPxMhMhDv2" role="3cqZAp">
+          <node concept="3clFbS" id="BPxMhMhDv4" role="3clFbx">
+            <node concept="3cpWs8" id="BPxMhMGzE6" role="3cqZAp">
+              <node concept="3cpWsn" id="BPxMhMGzE7" role="3cpWs9">
+                <property role="TrG5h" value="newPoint" />
+                <node concept="3uibUv" id="BPxMhMGzE8" role="1tU5fm">
+                  <ref role="3uigEE" to="2y1d:~Vector2D" resolve="Vector2D" />
+                </node>
+                <node concept="2OqwBi" id="BPxMhMGzE9" role="33vP2m">
+                  <node concept="37vLTw" id="BPxMhMGCVC" role="2Oq$k0">
+                    <ref role="3cqZAo" node="BPxMhMbHIH" resolve="endTerminal" />
+                  </node>
+                  <node concept="AQDAd" id="BPxMhMGzEb" role="2OqNvi">
+                    <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="BPxMhMGzEc" role="3cqZAp">
+              <node concept="37vLTI" id="BPxMhMGzEd" role="3clFbG">
+                <node concept="2OqwBi" id="BPxMhMGzEe" role="37vLTx">
+                  <node concept="37vLTw" id="BPxMhMGzEf" role="2Oq$k0">
+                    <ref role="3cqZAo" node="BPxMhMGzE7" resolve="newPoint" />
+                  </node>
+                  <node concept="liA8E" id="BPxMhMGzEg" role="2OqNvi">
+                    <ref role="37wK5l" to="2y1d:~Vector2D.add(org.apache.commons.math3.geometry.Vector):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="add" />
+                    <node concept="2OqwBi" id="BPxMhMGzEh" role="37wK5m">
+                      <node concept="2OqwBi" id="BPxMhMGzEi" role="2Oq$k0">
+                        <node concept="2OqwBi" id="BPxMhMGzEj" role="2Oq$k0">
+                          <node concept="2OqwBi" id="BPxMhMGzEk" role="2Oq$k0">
+                            <node concept="2OqwBi" id="BPxMhMGzEl" role="2Oq$k0">
+                              <node concept="37vLTw" id="BPxMhMGzEm" role="2Oq$k0">
+                                <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                              </node>
+                              <node concept="liA8E" id="BPxMhMGzEn" role="2OqNvi">
+                                <ref role="37wK5l" to="k7g3:~List.get(int):java.lang.Object" resolve="get" />
+                                <node concept="3cpWsd" id="BPxMhMGCLg" role="37wK5m">
+                                  <node concept="3cmrfG" id="BPxMhMGCLt" role="3uHU7w">
+                                    <property role="3cmrfH" value="1" />
+                                  </node>
+                                  <node concept="2OqwBi" id="BPxMhMG$h3" role="3uHU7B">
+                                    <node concept="37vLTw" id="BPxMhMGzWO" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                                    </node>
+                                    <node concept="liA8E" id="BPxMhMGCs5" role="2OqNvi">
+                                      <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="AQDAd" id="BPxMhMGzEp" role="2OqNvi">
+                              <ref role="37wK5l" node="4I87$bvNVX9" resolve="toVector2D" />
+                            </node>
+                          </node>
+                          <node concept="liA8E" id="BPxMhMGzEq" role="2OqNvi">
+                            <ref role="37wK5l" to="2y1d:~Vector2D.subtract(org.apache.commons.math3.geometry.Vector):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="subtract" />
+                            <node concept="37vLTw" id="BPxMhMGzEr" role="37wK5m">
+                              <ref role="3cqZAo" node="BPxMhMGzE7" resolve="newPoint" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="BPxMhMGzEs" role="2OqNvi">
+                          <ref role="37wK5l" to="2y1d:~Vector2D.normalize():org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="normalize" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="BPxMhMGzEt" role="2OqNvi">
+                        <ref role="37wK5l" to="2y1d:~Vector2D.scalarMultiply(double):org.apache.commons.math3.geometry.euclidean.twod.Vector2D" resolve="scalarMultiply" />
+                        <node concept="3b6qkQ" id="BPxMhMGzEu" role="37wK5m">
+                          <property role="$nhwW" value="10.0" />
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="37vLTw" id="BPxMhMGzEv" role="37vLTJ">
+                  <ref role="3cqZAo" node="BPxMhMGzE7" resolve="newPoint" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="BPxMhMGzEw" role="3cqZAp">
+              <node concept="2OqwBi" id="BPxMhMGzEx" role="3clFbG">
+                <node concept="37vLTw" id="BPxMhMGzEy" role="2Oq$k0">
+                  <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                </node>
+                <node concept="liA8E" id="BPxMhMGzEz" role="2OqNvi">
+                  <ref role="37wK5l" to="k7g3:~List.add(java.lang.Object):boolean" resolve="add" />
+                  <node concept="2OqwBi" id="BPxMhMGzE_" role="37wK5m">
+                    <node concept="37vLTw" id="BPxMhMGzEA" role="2Oq$k0">
+                      <ref role="3cqZAo" node="BPxMhMGzE7" resolve="newPoint" />
+                    </node>
+                    <node concept="AQDAd" id="BPxMhMGzEB" role="2OqNvi">
+                      <ref role="37wK5l" node="4I87$bvNRIc" resolve="toMxPoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="BPxMhMGzEC" role="3cqZAp">
+              <node concept="2OqwBi" id="BPxMhMGzED" role="3clFbG">
+                <node concept="37vLTw" id="BPxMhMGzEE" role="2Oq$k0">
+                  <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+                </node>
+                <node concept="liA8E" id="BPxMhMGzEF" role="2OqNvi">
+                  <ref role="37wK5l" to="k7g3:~List.add(java.lang.Object):boolean" resolve="add" />
+                  <node concept="2OqwBi" id="BPxMhMGzEH" role="37wK5m">
+                    <node concept="37vLTw" id="BPxMhMGzEI" role="2Oq$k0">
+                      <ref role="3cqZAo" node="BPxMhMGzE7" resolve="newPoint" />
+                    </node>
+                    <node concept="AQDAd" id="BPxMhMGzEJ" role="2OqNvi">
+                      <ref role="37wK5l" node="4I87$bvNRIc" resolve="toMxPoint" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="BPxMhMhEYk" role="3clFbw">
+            <node concept="2OqwBi" id="BPxMhMhFFb" role="3uHU7w">
+              <node concept="37vLTw" id="BPxMhMhFmT" role="2Oq$k0">
+                <ref role="3cqZAo" node="BPxMhJVFzE" resolve="points" />
+              </node>
+              <node concept="liA8E" id="BPxMhMhIjM" role="2OqNvi">
+                <ref role="37wK5l" to="k7g3:~List.size():int" resolve="size" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="BPxMhMhEi4" role="3uHU7B">
+              <ref role="3cqZAo" node="BPxMhJVFRY" resolve="lineIndex" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="BPxMhMhy_Z" role="3cqZAp" />
         <node concept="3SKdUt" id="BPxMhM6fIn" role="3cqZAp">
           <node concept="3SKdUq" id="BPxMhM6gu8" role="3SKWNk">
             <property role="3SKdUp" value="we are not allowed to change the points but only the list: create a copy of all points" />
@@ -64645,6 +65047,38 @@
       <property role="DiZV1" value="false" />
       <property role="od$2w" value="false" />
       <node concept="3clFbS" id="BPxMhKNjxn" role="3clF47">
+        <node concept="3clFbJ" id="BPxMhMxTwk" role="3cqZAp">
+          <node concept="3clFbS" id="BPxMhMxTwm" role="3clFbx">
+            <node concept="3cpWs6" id="BPxMhMxUN3" role="3cqZAp">
+              <node concept="3clFbT" id="BPxMhMxUS_" role="3cqZAk">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbC" id="BPxMhMBmDS" role="3clFbw">
+            <node concept="3cmrfG" id="BPxMhMBmKr" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="17qRlL" id="BPxMhMBf88" role="3uHU7B">
+              <node concept="2OqwBi" id="BPxMhMBeay" role="3uHU7B">
+                <node concept="37vLTw" id="BPxMhMBe3T" role="2Oq$k0">
+                  <ref role="3cqZAo" node="BPxMhKNoAa" resolve="v1" />
+                </node>
+                <node concept="liA8E" id="BPxMhMBeWB" role="2OqNvi">
+                  <ref role="37wK5l" to="2y1d:~Vector2D.getNorm():double" resolve="getNorm" />
+                </node>
+              </node>
+              <node concept="2OqwBi" id="BPxMhMBfh5" role="3uHU7w">
+                <node concept="37vLTw" id="BPxMhMBfdz" role="2Oq$k0">
+                  <ref role="3cqZAo" node="BPxMhKNpf6" resolve="v2" />
+                </node>
+                <node concept="liA8E" id="BPxMhMBfZD" role="2OqNvi">
+                  <ref role="37wK5l" to="2y1d:~Vector2D.getNorm():double" resolve="getNorm" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="BPxMhKNr$I" role="3cqZAp">
           <node concept="1rXfSq" id="BPxMhKNr$H" role="3clFbG">
             <ref role="37wK5l" node="BPxMhKN3tD" resolve="isSquareAngle" />
