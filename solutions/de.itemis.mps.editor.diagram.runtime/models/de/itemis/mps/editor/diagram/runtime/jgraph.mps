@@ -7639,8 +7639,13 @@
                             <node concept="37vLTw" id="YkIL1kI93k" role="37wK5m">
                               <ref role="3cqZAo" node="YkIL1kpQzC" resolve="labelJGraphCell" />
                             </node>
-                            <node concept="37vLTw" id="YkIL1kI9jM" role="37wK5m">
-                              <ref role="3cqZAo" node="YkIL1ko8RJ" resolve="parentCell" />
+                            <node concept="2OqwBi" id="7_cmQ58b6Uf" role="37wK5m">
+                              <node concept="37vLTw" id="7_cmQ58aZuy" role="2Oq$k0">
+                                <ref role="3cqZAo" node="YkIL1koqgQ" resolve="edgeCell" />
+                              </node>
+                              <node concept="liA8E" id="7_cmQ58b9na" role="2OqNvi">
+                                <ref role="37wK5l" to="g6dw:~mxCell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
+                              </node>
                             </node>
                           </node>
                         </node>
