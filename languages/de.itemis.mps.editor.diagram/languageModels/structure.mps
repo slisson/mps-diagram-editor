@@ -1458,7 +1458,7 @@
     <node concept="1TJgyj" id="2uX18svsmd_" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="canCreate" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="2uX18svsm3n" resolve="SimpleConnectionType_CanCreate" />
     </node>
     <node concept="1TJgyj" id="2uX18svsmdE" role="1TKVEi">
@@ -1466,6 +1466,16 @@
       <property role="20kJfa" value="create" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="2uX18svsm3y" resolve="SimpleConnectionType_Create" />
+    </node>
+    <node concept="1TJgyj" id="45TnPEuGKH8" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="validStart" />
+      <ref role="20lvS9" node="45TnPEuGu3n" resolve="SimpleConnectionType_ValidStart" />
+    </node>
+    <node concept="1TJgyj" id="45TnPEuGKHl" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="validEnd" />
+      <ref role="20lvS9" node="45TnPEuGKio" resolve="SimpleConnectionType_ValidEnd" />
     </node>
     <node concept="PrWs8" id="2uX18svx0Gx" role="PzmwI">
       <ref role="PrY4T" node="2uX18sve1VE" resolve="IConnectionType" />
@@ -1508,7 +1518,7 @@
     <node concept="1TJgyj" id="3HrJbrHN9aS" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="canCreate" />
-      <property role="20lbJX" value="1" />
+      <property role="20lbJX" value="0..1" />
       <ref role="20lvS9" node="3HrJbrHKgly" resolve="SNodeConnectionType_CanCreate" />
     </node>
     <node concept="1TJgyj" id="3HrJbrHN9aZ" role="1TKVEi">
@@ -1516,6 +1526,16 @@
       <property role="20kJfa" value="create" />
       <property role="20lbJX" value="1" />
       <ref role="20lvS9" node="3HrJbrHKgmH" resolve="SNodeConnectionType_Create" />
+    </node>
+    <node concept="1TJgyj" id="45TnPEuHvAy" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="validStart" />
+      <ref role="20lvS9" node="45TnPEuHpWt" resolve="SNodeConnectionType_ValidStart" />
+    </node>
+    <node concept="1TJgyj" id="45TnPEuHvAM" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="validEnd" />
+      <ref role="20lvS9" node="45TnPEuHq4D" resolve="SNodeConnectionType_ValidEnd" />
     </node>
     <node concept="1TJgyj" id="3HrJbrHN7d4" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -1573,6 +1593,26 @@
   </node>
   <node concept="PlHQZ" id="S$ha3H7Eqt">
     <property role="TrG5h" value="IBoxEditor" />
+  </node>
+  <node concept="1TIwiD" id="45TnPEuGu3n">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SimpleConnectionType_ValidStart" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="45TnPEuGKio">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SimpleConnectionType_ValidEnd" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="45TnPEuHpWt">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConnectionType_ValidStart" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="45TnPEuHq4D">
+    <property role="3GE5qa" value="connectionType" />
+    <property role="TrG5h" value="SNodeConnectionType_ValidEnd" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
   </node>
 </model>
 

@@ -22,6 +22,7 @@
     <import index="ec5l" ref="f:java_stub#8865b7a8-5271-43d3-884c-6fd1d9cfdd34#org.jetbrains.mps.openapi.model(MPS.OpenAPI/org.jetbrains.mps.openapi.model@java_stub)" />
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
+    <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -2707,6 +2708,220 @@
     <ref role="13h7C2" to="2qld:5FQFTBpWGgz" resolve="Port" />
     <node concept="13hLZK" id="6PI4N6JqV5m" role="13h7CW">
       <node concept="3clFbS" id="6PI4N6JqV5n" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="45TnPEuG$kj">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:45TnPEuGu3n" resolve="SimpleConnectionType_ValidStart" />
+    <node concept="13hLZK" id="45TnPEuG$kk" role="13h7CW">
+      <node concept="3clFbS" id="45TnPEuG$kl" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="45TnPEuG_3V" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="45TnPEuG_3Z" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuG_41" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuGB5Y" role="3cqZAp">
+          <node concept="2c44tf" id="45TnPEuGB5W" role="3clFbG">
+            <node concept="10P_77" id="45TnPEuGB6p" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="45TnPEuG_42" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="45TnPEuGB6S" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="45TnPEuGB7p" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuGB7q" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuGC2g" role="3cqZAp">
+          <node concept="2ShNRf" id="45TnPEuGC2e" role="3clFbG">
+            <node concept="Tc6Ow" id="45TnPEuGIfN" role="2ShVmc">
+              <node concept="3THzug" id="45TnPEuGIxA" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="45TnPEuGJNe" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:2uX18svDhUZ" resolve="Parameter_EndpointFrom" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="45TnPEuGB7r" role="3clF45">
+        <node concept="3THzug" id="45TnPEuGB7s" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="13h7C7" id="45TnPEuGKD2">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:45TnPEuGKio" resolve="SimpleConnectionType_ValidEnd" />
+    <node concept="13i0hz" id="45TnPEuGKDS" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="45TnPEuGKDT" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuGKDU" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuGKDV" role="3cqZAp">
+          <node concept="2c44tf" id="45TnPEuGKDW" role="3clFbG">
+            <node concept="10P_77" id="45TnPEuGKDX" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="45TnPEuGKDY" role="3clF45" />
+    </node>
+    <node concept="13i0hz" id="45TnPEuGKDZ" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="45TnPEuGKE0" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuGKE1" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuGKE2" role="3cqZAp">
+          <node concept="2ShNRf" id="45TnPEuGKE3" role="3clFbG">
+            <node concept="Tc6Ow" id="45TnPEuGKE4" role="2ShVmc">
+              <node concept="3THzug" id="45TnPEuGKE5" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="45TnPEuGKE6" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:2uX18svDia4" resolve="Parameter_EndpointTo" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="45TnPEuGKE7" role="3clF45">
+        <node concept="3THzug" id="45TnPEuGKE8" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13hLZK" id="45TnPEuGKD3" role="13h7CW">
+      <node concept="3clFbS" id="45TnPEuGKD4" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="45TnPEuHpYi">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:45TnPEuHpWt" resolve="SNodeConnectionType_ValidStart" />
+    <node concept="13i0hz" id="45TnPEuHpZk" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="45TnPEuHpZl" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuHpZm" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuHpZn" role="3cqZAp">
+          <node concept="2ShNRf" id="45TnPEuHpZo" role="3clFbG">
+            <node concept="Tc6Ow" id="45TnPEuHpZp" role="2ShVmc">
+              <node concept="3THzug" id="45TnPEuHpZq" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="45TnPEuHpZr" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:3HrJbrHNcg6" resolve="SNodeConncetionType_fromNode" />
+              </node>
+              <node concept="3TUQnm" id="45TnPEuHpZt" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:1VJN2HU5AzU" resolve="SNodeConnectionType_fromPort" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="45TnPEuHpZv" role="3clF45">
+        <node concept="3THzug" id="45TnPEuHpZw" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="45TnPEuHpZx" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="45TnPEuHpZy" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuHpZz" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuHpZ$" role="3cqZAp">
+          <node concept="2ShNRf" id="45TnPEuHpZ_" role="3clFbG">
+            <node concept="3zrR0B" id="45TnPEuHpZA" role="2ShVmc">
+              <node concept="3Tqbb2" id="45TnPEuHpZB" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="45TnPEuHpZC" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="45TnPEuHpYj" role="13h7CW">
+      <node concept="3clFbS" id="45TnPEuHpYk" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="45TnPEuHq4E">
+    <property role="3GE5qa" value="connectionType" />
+    <ref role="13h7C2" to="2qld:45TnPEuHq4D" resolve="SNodeConnectionType_ValidEnd" />
+    <node concept="13i0hz" id="45TnPEuHq5G" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getParameters" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRM" resolve="getParameters" />
+      <node concept="3Tm1VV" id="45TnPEuHq5H" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuHq5I" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuHq5J" role="3cqZAp">
+          <node concept="2ShNRf" id="45TnPEuHq5K" role="3clFbG">
+            <node concept="Tc6Ow" id="45TnPEuHq5L" role="2ShVmc">
+              <node concept="3THzug" id="45TnPEuHq5M" role="HW$YZ">
+                <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+              </node>
+              <node concept="3TUQnm" id="45TnPEuHq5O" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:3HrJbrHNcgK" resolve="SNodeConncetionType_toNode" />
+              </node>
+              <node concept="3TUQnm" id="45TnPEuHq5Q" role="HW$Y0">
+                <ref role="3TV0OU" to="2qld:1VJN2HU5BwS" resolve="SNodeConnectionType_toPort" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="_YKpA" id="45TnPEuHq5R" role="3clF45">
+        <node concept="3THzug" id="45TnPEuHq5S" role="_ZDj9">
+          <ref role="3qa414" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+        </node>
+      </node>
+    </node>
+    <node concept="13i0hz" id="45TnPEuHq5T" role="13h7CS">
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <property role="13i0iv" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="45TnPEuHq5U" role="1B3o_S" />
+      <node concept="3clFbS" id="45TnPEuHq5V" role="3clF47">
+        <node concept="3clFbF" id="45TnPEuHq5W" role="3cqZAp">
+          <node concept="2ShNRf" id="45TnPEuHq5X" role="3clFbG">
+            <node concept="3zrR0B" id="45TnPEuHq5Y" role="2ShVmc">
+              <node concept="3Tqbb2" id="45TnPEuHq5Z" role="3zrR0E">
+                <ref role="ehGHo" to="tpee:f_0P_4Y" resolve="BooleanType" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="45TnPEuHq60" role="3clF45" />
+    </node>
+    <node concept="13hLZK" id="45TnPEuHq4F" role="13h7CW">
+      <node concept="3clFbS" id="45TnPEuHq4G" role="2VODD2" />
     </node>
   </node>
 </model>
