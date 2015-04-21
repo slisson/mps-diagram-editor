@@ -289,6 +289,7 @@
       </concept>
       <concept id="6237710625713195816" name="de.itemis.mps.editor.diagram.structure.CellModel_DiagramNode" flags="ng" index="2ZK4vF">
         <child id="7464726264117682823" name="shape" index="2xQQDV" />
+        <child id="2863449916463668101" name="allowConnections" index="TjlW2" />
         <child id="5725606875425244480" name="deleteHandler" index="1idfhu" />
         <child id="1315262826372527521" name="editor" index="1ytjkN" />
         <child id="1019014873656210396" name="navigationTargets" index="3zeBtW" />
@@ -773,6 +774,9 @@
             </node>
           </node>
         </node>
+      </node>
+      <node concept="3clFbT" id="2QokVxCV_Ow" role="TjlW2">
+        <property role="3clFbU" value="true" />
       </node>
     </node>
   </node>
@@ -1484,7 +1488,7 @@
                           </node>
                         </node>
                       </node>
-                      <node concept="3y3z36" id="3HrJbrHDQWj" role="3uHU7w">
+                      <node concept="3clFbC" id="2QokVxCHFwL" role="3uHU7w">
                         <node concept="2OqwBi" id="3HrJbrHE$b3" role="3uHU7B">
                           <node concept="S61CS" id="3HrJbrHE$6f" role="2Oq$k0" />
                           <node concept="liA8E" id="3HrJbrHE$wg" role="2OqNvi">
@@ -1508,7 +1512,7 @@
                       </node>
                     </node>
                   </node>
-                  <node concept="3y3z36" id="3HrJbrHDQWq" role="3uHU7w">
+                  <node concept="3clFbC" id="2QokVxCHFRF" role="3uHU7w">
                     <node concept="2OqwBi" id="3HrJbrHE_Pa" role="3uHU7B">
                       <node concept="S62o3" id="3HrJbrHE_F$" role="2Oq$k0" />
                       <node concept="liA8E" id="3HrJbrHEAgu" role="2OqNvi">
