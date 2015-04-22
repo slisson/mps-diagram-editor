@@ -1477,6 +1477,11 @@
       <property role="20kJfa" value="validEnd" />
       <ref role="20lvS9" node="45TnPEuGKio" resolve="SimpleConnectionType_ValidEnd" />
     </node>
+    <node concept="1TJgyj" id="6gM9UMJpbnv" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="icon" />
+      <ref role="20lvS9" node="6uo2fN6gOXK" resolve="IShape" />
+    </node>
     <node concept="PrWs8" id="2uX18svx0Gx" role="PzmwI">
       <ref role="PrY4T" node="2uX18sve1VE" resolve="IConnectionType" />
     </node>
@@ -1536,6 +1541,11 @@
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="validEnd" />
       <ref role="20lvS9" node="45TnPEuHq4D" resolve="SNodeConnectionType_ValidEnd" />
+    </node>
+    <node concept="1TJgyj" id="6gM9UMJHtbx" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="icon" />
+      <ref role="20lvS9" node="6uo2fN6gOXK" resolve="IShape" />
     </node>
     <node concept="1TJgyj" id="3HrJbrHN7d4" role="1TKVEi">
       <property role="20lmBu" value="reference" />
@@ -1613,6 +1623,27 @@
     <property role="3GE5qa" value="connectionType" />
     <property role="TrG5h" value="SNodeConnectionType_ValidEnd" />
     <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6gM9UMJsW1E">
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="EdgeIcon" />
+    <property role="34LRSv" value="edge" />
+    <ref role="1TJDcQ" to="tpck:gw2VY9q" resolve="BaseConcept" />
+    <node concept="1TJgyj" id="6gM9UMJsW1J" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="endShape" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="6uo2fN6gOXK" resolve="IShape" />
+    </node>
+    <node concept="1TJgyj" id="6gM9UMJzwc9" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="startShape" />
+      <property role="20lbJX" value="0..1" />
+      <ref role="20lvS9" node="6uo2fN6gOXK" resolve="IShape" />
+    </node>
+    <node concept="PrWs8" id="6gM9UMJsW1F" role="PzmwI">
+      <ref role="PrY4T" node="6uo2fN6gOXK" resolve="IShape" />
+    </node>
   </node>
 </model>
 

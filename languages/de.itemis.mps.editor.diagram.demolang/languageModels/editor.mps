@@ -286,6 +286,7 @@
         <property id="2863449916472067839" name="label" index="SNo9S" />
         <child id="2863449916472124261" name="canCreate" index="SN6vy" />
         <child id="2863449916472124266" name="create" index="SN6vH" />
+        <child id="7219876775258797535" name="icon" index="3blD9N" />
         <child id="4717906927461534549" name="validEnd" index="3vM_gf" />
         <child id="4717906927461534536" name="validStart" index="3vM_gi" />
       </concept>
@@ -303,6 +304,10 @@
       <concept id="6237710625713942002" name="de.itemis.mps.editor.diagram.structure.Content_BLQuery" flags="ig" index="2ZMM4L" />
       <concept id="6237710625713964946" name="de.itemis.mps.editor.diagram.structure.Parameter_Node" flags="ng" index="2ZN8Hh" />
       <concept id="5468226901223973329" name="de.itemis.mps.editor.diagram.structure.PortObject" flags="ng" index="15kUEO" />
+      <concept id="7219876775259783274" name="de.itemis.mps.editor.diagram.structure.EdgeIcon" flags="ng" index="3bguv6">
+        <child id="7219876775259783279" name="endShape" index="3bguv3" />
+        <child id="7219876775261504265" name="startShape" index="3bJ2i_" />
+      </concept>
       <concept id="4277219764978107440" name="de.itemis.mps.editor.diagram.structure.SNodeConncetionType_toNode" flags="ng" index="3m_Ry6" />
       <concept id="4277219764978107398" name="de.itemis.mps.editor.diagram.structure.SNodeConncetionType_fromNode" flags="ng" index="3m_RyK" />
       <concept id="4277219764977337773" name="de.itemis.mps.editor.diagram.structure.SNodeConnectionType_Create" flags="ig" index="3mAF$r" />
@@ -310,6 +315,7 @@
         <property id="4277219764978104391" name="label" index="3m_KjL" />
         <reference id="4277219764978094454" name="toConcept" index="3m_MR0" />
         <reference id="4277219764978086724" name="fromConcept" index="3m_WZM" />
+        <child id="7219876775264113377" name="icon" index="3bxZld" />
         <child id="4277219764978094783" name="create" index="3m_MS9" />
         <child id="4717906927461726642" name="validEnd" index="3vNarC" />
         <child id="4717906927461726626" name="validStart" index="3vNarS" />
@@ -1667,6 +1673,24 @@
               </node>
             </node>
           </node>
+          <node concept="3bguv6" id="6gM9UMJEE9u" role="3blD9N">
+            <node concept="2xQOud" id="6gM9UMJVvbA" role="3bJ2i_">
+              <ref role="2xQOue" node="7z30MUmeewT" resolve="ArrowHead" />
+              <node concept="3b6qkQ" id="6gM9UMJVvbF" role="1xbcaF">
+                <property role="$nhwW" value="0.5" />
+              </node>
+              <node concept="3clFbT" id="6gM9UMJVvca" role="1xbcaF" />
+            </node>
+            <node concept="2xQOud" id="6gM9UMJUpqa" role="3bguv3">
+              <ref role="2xQOue" node="7z30MUmeewT" resolve="ArrowHead" />
+              <node concept="3b6qkQ" id="6gM9UMJUpqb" role="1xbcaF">
+                <property role="$nhwW" value="0.5" />
+              </node>
+              <node concept="3clFbT" id="6gM9UMJUpqc" role="1xbcaF">
+                <property role="3clFbU" value="true" />
+              </node>
+            </node>
+          </node>
         </node>
         <node concept="3mAFYk" id="45TnPEuOfmH" role="1xLlFP">
           <property role="3m_KjL" value="Component to Component 2" />
@@ -1737,6 +1761,15 @@
                   <node concept="1$Yrgj" id="45TnPEuQ3bH" role="3uHU7B" />
                 </node>
               </node>
+            </node>
+          </node>
+          <node concept="3bguv6" id="6gM9UMJNxXg" role="3bxZld">
+            <node concept="2xQOud" id="6gM9UMJNxXh" role="3bguv3">
+              <ref role="2xQOue" node="7z30MUmeewT" resolve="ArrowHead" />
+              <node concept="3b6qkQ" id="6gM9UMJNxXi" role="1xbcaF">
+                <property role="$nhwW" value="0.5" />
+              </node>
+              <node concept="3clFbT" id="6gM9UMJNxXj" role="1xbcaF" />
             </node>
           </node>
         </node>
