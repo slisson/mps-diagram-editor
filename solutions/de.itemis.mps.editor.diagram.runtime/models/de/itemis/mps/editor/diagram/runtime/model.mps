@@ -12379,8 +12379,11 @@
     <node concept="312cEg" id="6PI4N6JwWm8" role="jymVt">
       <property role="TrG5h" value="myTooltipCell" />
       <node concept="3Tm6S6" id="6PI4N6JwWm9" role="1B3o_S" />
-      <node concept="3uibUv" id="6PI4N6JwYHr" role="1tU5fm">
-        <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+      <node concept="3uibUv" id="7MH10IUGtWP" role="1tU5fm">
+        <ref role="3uigEE" node="3FRjz$v9HRX" resolve="SerializableObjectHolder" />
+        <node concept="3uibUv" id="7MH10IUGu0l" role="11_B2D">
+          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+        </node>
       </node>
       <node concept="2AHcQZ" id="6PI4N6JxjCp" role="2AJF6D">
         <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
@@ -13584,8 +13587,13 @@
       <node concept="3Tm1VV" id="6PI4N6Jx3gG" role="1B3o_S" />
       <node concept="3clFbS" id="6PI4N6Jx3gH" role="3clF47">
         <node concept="3clFbF" id="6PI4N6Jx3gI" role="3cqZAp">
-          <node concept="37vLTw" id="6PI4N6Jx3gD" role="3clFbG">
-            <ref role="3cqZAo" node="6PI4N6JwWm8" resolve="myTooltipCell" />
+          <node concept="2EnYce" id="7MH10IUGu_o" role="3clFbG">
+            <node concept="37vLTw" id="6PI4N6Jx3gD" role="2Oq$k0">
+              <ref role="3cqZAo" node="6PI4N6JwWm8" resolve="myTooltipCell" />
+            </node>
+            <node concept="liA8E" id="7MH10IUGuyg" role="2OqNvi">
+              <ref role="37wK5l" node="3FRjz$v9I0d" resolve="get" />
+            </node>
           </node>
         </node>
       </node>
@@ -13601,8 +13609,16 @@
       <node concept="3clFbS" id="6PI4N6Jx3gN" role="3clF47">
         <node concept="3clFbF" id="6PI4N6Jx3gO" role="3cqZAp">
           <node concept="37vLTI" id="6PI4N6Jx3gP" role="3clFbG">
-            <node concept="37vLTw" id="6PI4N6Jx3gQ" role="37vLTx">
-              <ref role="3cqZAo" node="6PI4N6Jx3gR" resolve="myTooltipCell1" />
+            <node concept="2ShNRf" id="7MH10IUGuCM" role="37vLTx">
+              <node concept="1pGfFk" id="7MH10IUGuCK" role="2ShVmc">
+                <ref role="37wK5l" node="3FRjz$v9HV5" resolve="SerializableObjectHolder" />
+                <node concept="3uibUv" id="7MH10IUGuCL" role="1pMfVU">
+                  <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+                </node>
+                <node concept="37vLTw" id="7MH10IUGuEI" role="37wK5m">
+                  <ref role="3cqZAo" node="6PI4N6Jx3gR" resolve="tooltipCell" />
+                </node>
+              </node>
             </node>
             <node concept="37vLTw" id="6PI4N6Jx3gJ" role="37vLTJ">
               <ref role="3cqZAo" node="6PI4N6JwWm8" resolve="myTooltipCell" />
@@ -13611,7 +13627,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="6PI4N6Jx3gR" role="3clF46">
-        <property role="TrG5h" value="myTooltipCell1" />
+        <property role="TrG5h" value="tooltipCell" />
         <node concept="3uibUv" id="6PI4N6Jx3gS" role="1tU5fm">
           <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
         </node>
