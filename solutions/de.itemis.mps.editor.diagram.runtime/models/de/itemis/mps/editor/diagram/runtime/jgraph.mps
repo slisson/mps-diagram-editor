@@ -66909,6 +66909,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbF" id="782VjTlFskH" role="3cqZAp">
+          <node concept="2OqwBi" id="782VjTlFsqK" role="3clFbG">
+            <node concept="1rXfSq" id="782VjTlFskF" role="2Oq$k0">
+              <ref role="37wK5l" node="1JWQbhaZPxN" resolve="getContextButtonContainer" />
+            </node>
+            <node concept="liA8E" id="782VjTlFtbQ" role="2OqNvi">
+              <ref role="37wK5l" node="782VjTlFcAx" resolve="setScale" />
+              <node concept="1rXfSq" id="782VjTlFuSu" role="37wK5m">
+                <ref role="37wK5l" node="782VjTl$11U" resolve="getButtonScale" />
+              </node>
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="1JWQbhb8ED4" role="3cqZAp">
           <node concept="2OqwBi" id="1JWQbhb8EJX" role="3clFbG">
             <node concept="1rXfSq" id="1JWQbhbsGUQ" role="2Oq$k0">
@@ -66919,64 +66932,14 @@
             </node>
           </node>
         </node>
-        <node concept="3cpWs8" id="1JWQbhb8JsG" role="3cqZAp">
-          <node concept="3cpWsn" id="1JWQbhb8JsH" role="3cpWs9">
-            <property role="TrG5h" value="spacing" />
-            <node concept="10P55v" id="1JWQbhb8JsC" role="1tU5fm" />
-            <node concept="17qRlL" id="1JWQbhb8JHr" role="33vP2m">
-              <node concept="2OqwBi" id="1JWQbhb8JsI" role="3uHU7B">
-                <node concept="2OqwBi" id="1JWQbhb8JsJ" role="2Oq$k0">
-                  <node concept="37vLTw" id="1JWQbhb8JsK" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1JWQbhb8Ehv" resolve="state" />
-                  </node>
-                  <node concept="liA8E" id="1JWQbhb8JsL" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxCellState.getView():com.mxgraph.view.mxGraphView" resolve="getView" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="1JWQbhb8JsM" role="2OqNvi">
-                  <ref role="37wK5l" to="fkey:~mxGraphView.getScale():double" resolve="getScale" />
-                </node>
-              </node>
-              <node concept="10M0yZ" id="3SIh5TSHNJS" role="3uHU7w">
-                <ref role="1PxDUh" node="1yAlWL_OQfO" resolve="ContextButtonContainer" />
-                <ref role="3cqZAo" node="2KWY$Um7JLx" resolve="BUTTON_SPACING" />
-              </node>
+        <node concept="3clFbF" id="782VjTl_crI" role="3cqZAp">
+          <node concept="1rXfSq" id="782VjTl_crG" role="3clFbG">
+            <ref role="37wK5l" node="782VjTl$rvz" resolve="moveButtonsContainer" />
+            <node concept="37vLTw" id="782VjTl_dqY" role="37wK5m">
+              <ref role="3cqZAo" node="1JWQbhb8Ehv" resolve="state" />
             </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="1JWQbhb8Fki" role="3cqZAp">
-          <node concept="2OqwBi" id="1JWQbhb8FtU" role="3clFbG">
-            <node concept="1rXfSq" id="1JWQbhbsHjg" role="2Oq$k0">
+            <node concept="1rXfSq" id="782VjTl_gv6" role="37wK5m">
               <ref role="37wK5l" node="1JWQbhaZPxN" resolve="getContextButtonContainer" />
-            </node>
-            <node concept="liA8E" id="1JWQbhb8FPC" role="2OqNvi">
-              <ref role="37wK5l" node="1JWQbhb2vI2" resolve="moveTo" />
-              <node concept="3cpWs3" id="1JWQbhb8K8q" role="37wK5m">
-                <node concept="37vLTw" id="1JWQbhb8Kew" role="3uHU7w">
-                  <ref role="3cqZAo" node="1JWQbhb8JsH" resolve="spacing" />
-                </node>
-                <node concept="2OqwBi" id="1JWQbhb8FWa" role="3uHU7B">
-                  <node concept="37vLTw" id="1JWQbhb8FSw" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1JWQbhb8Ehv" resolve="state" />
-                  </node>
-                  <node concept="liA8E" id="1JWQbhb8Gv9" role="2OqNvi">
-                    <ref role="37wK5l" to="f5o7:~mxPoint.getX():double" resolve="getX" />
-                  </node>
-                </node>
-              </node>
-              <node concept="3cpWs3" id="1JWQbhb8KpA" role="37wK5m">
-                <node concept="37vLTw" id="1JWQbhb8KBH" role="3uHU7w">
-                  <ref role="3cqZAo" node="1JWQbhb8JsH" resolve="spacing" />
-                </node>
-                <node concept="2OqwBi" id="1JWQbhb8GCy" role="3uHU7B">
-                  <node concept="37vLTw" id="1JWQbhb8GzR" role="2Oq$k0">
-                    <ref role="3cqZAo" node="1JWQbhb8Ehv" resolve="state" />
-                  </node>
-                  <node concept="liA8E" id="1JWQbhb8Hcx" role="2OqNvi">
-                    <ref role="37wK5l" to="f5o7:~mxPoint.getY():double" resolve="getY" />
-                  </node>
-                </node>
-              </node>
             </node>
           </node>
         </node>
@@ -66992,6 +66955,15 @@
       </node>
       <node concept="3Tmbuc" id="1JWQbhb8nUx" role="1B3o_S" />
       <node concept="3clFbS" id="1JWQbhb8nfQ" role="3clF47">
+        <node concept="3cpWs8" id="782VjTlt4mS" role="3cqZAp">
+          <node concept="3cpWsn" id="782VjTlt4mT" role="3cpWs9">
+            <property role="TrG5h" value="scale" />
+            <node concept="10P55v" id="782VjTlt4mQ" role="1tU5fm" />
+            <node concept="1rXfSq" id="782VjTl$pGc" role="33vP2m">
+              <ref role="37wK5l" node="782VjTl$11U" resolve="getButtonScale" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs8" id="1JWQbhb8xVi" role="3cqZAp">
           <node concept="3cpWsn" id="1JWQbhb8xVj" role="3cpWs9">
             <property role="TrG5h" value="buttons" />
@@ -67018,8 +66990,13 @@
               <node concept="2ShNRf" id="1JWQbhb8AuA" role="25WWJ7">
                 <node concept="1pGfFk" id="1JWQbhb8BFD" role="2ShVmc">
                   <ref role="37wK5l" node="1JWQbhb8esr" resolve="LayoutDiagramButton" />
-                  <node concept="3cmrfG" id="1JWQbhb8BIL" role="37wK5m">
-                    <property role="3cmrfH" value="10" />
+                  <node concept="17qRlL" id="782VjTltfrt" role="37wK5m">
+                    <node concept="37vLTw" id="782VjTltfuH" role="3uHU7w">
+                      <ref role="3cqZAo" node="782VjTlt4mT" resolve="scale" />
+                    </node>
+                    <node concept="3b6qkQ" id="782VjTlteyU" role="3uHU7B">
+                      <property role="$nhwW" value="10.0" />
+                    </node>
                   </node>
                   <node concept="37vLTw" id="1JWQbhb8E7V" role="37wK5m">
                     <ref role="3cqZAo" node="1JWQbhb8DVt" resolve="state" />
@@ -67038,8 +67015,13 @@
             <node concept="2ShNRf" id="K9V0C6MHYV" role="33vP2m">
               <node concept="1pGfFk" id="K9V0C6MHYW" role="2ShVmc">
                 <ref role="37wK5l" node="1YMg$ehHEl9" resolve="RelayoutAllEdgesButton" />
-                <node concept="3cmrfG" id="K9V0C6MHYX" role="37wK5m">
-                  <property role="3cmrfH" value="10" />
+                <node concept="17qRlL" id="782VjTltfwz" role="37wK5m">
+                  <node concept="37vLTw" id="782VjTltfw$" role="3uHU7w">
+                    <ref role="3cqZAo" node="782VjTlt4mT" resolve="scale" />
+                  </node>
+                  <node concept="3b6qkQ" id="782VjTltfw_" role="3uHU7B">
+                    <property role="$nhwW" value="10.0" />
+                  </node>
                 </node>
                 <node concept="37vLTw" id="K9V0C6MHYY" role="37wK5m">
                   <ref role="3cqZAo" node="1JWQbhb8DVt" resolve="state" />
@@ -67074,8 +67056,13 @@
                     <ref role="1Y3XeK" node="1Pjj0VVutwL" resolve="AutomaticEdgeRelayoutButton" />
                     <ref role="37wK5l" node="1Pjj0VVutxx" resolve="AutomaticEdgeRelayoutButton" />
                     <node concept="3Tm1VV" id="K9V0C6N91P" role="1B3o_S" />
-                    <node concept="3cmrfG" id="K9V0C6N5aE" role="37wK5m">
-                      <property role="3cmrfH" value="10" />
+                    <node concept="17qRlL" id="782VjTltfBb" role="37wK5m">
+                      <node concept="37vLTw" id="782VjTltfBc" role="3uHU7w">
+                        <ref role="3cqZAo" node="782VjTlt4mT" resolve="scale" />
+                      </node>
+                      <node concept="3b6qkQ" id="782VjTltfBd" role="3uHU7B">
+                        <property role="$nhwW" value="10.0" />
+                      </node>
                     </node>
                     <node concept="37vLTw" id="K9V0C6N5eX" role="37wK5m">
                       <ref role="3cqZAo" node="1JWQbhb8DVt" resolve="state" />
@@ -67119,6 +67106,101 @@
         <property role="TrG5h" value="state" />
         <node concept="3uibUv" id="1JWQbhb8DVs" role="1tU5fm">
           <ref role="3uigEE" to="fkey:~mxCellState" resolve="mxCellState" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="782VjTlzYQr" role="jymVt" />
+    <node concept="3clFb_" id="782VjTl$11U" role="jymVt">
+      <property role="TrG5h" value="getButtonScale" />
+      <node concept="10P55v" id="782VjTl$i6C" role="3clF45" />
+      <node concept="3Tmbuc" id="782VjTl$7Sa" role="1B3o_S" />
+      <node concept="3clFbS" id="782VjTl$11Y" role="3clF47">
+        <node concept="3clFbF" id="782VjTl$jTO" role="3cqZAp">
+          <node concept="2OqwBi" id="782VjTl$ork" role="3clFbG">
+            <node concept="2OqwBi" id="782VjTl$jYf" role="2Oq$k0">
+              <node concept="1rXfSq" id="782VjTl$jTM" role="2Oq$k0">
+                <ref role="37wK5l" node="6Fu8whCD5VQ" resolve="getGraph" />
+              </node>
+              <node concept="liA8E" id="782VjTl$onf" role="2OqNvi">
+                <ref role="37wK5l" node="5YRJpe$ygQu" resolve="getView" />
+              </node>
+            </node>
+            <node concept="liA8E" id="782VjTl$ptI" role="2OqNvi">
+              <ref role="37wK5l" to="fkey:~mxGraphView.getScale():double" resolve="getScale" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="782VjTl$pNR" role="jymVt" />
+    <node concept="3clFb_" id="782VjTl$rvz" role="jymVt">
+      <property role="TrG5h" value="moveButtonsContainer" />
+      <node concept="3cqZAl" id="782VjTl_2Q0" role="3clF45" />
+      <node concept="3Tmbuc" id="782VjTl_c_W" role="1B3o_S" />
+      <node concept="3clFbS" id="782VjTl$rvB" role="3clF47">
+        <node concept="3cpWs8" id="782VjTl_8Q6" role="3cqZAp">
+          <node concept="3cpWsn" id="782VjTl_8Q7" role="3cpWs9">
+            <property role="TrG5h" value="spacing" />
+            <node concept="10P55v" id="782VjTl_8Q8" role="1tU5fm" />
+            <node concept="17qRlL" id="782VjTl_8Q9" role="33vP2m">
+              <node concept="1rXfSq" id="782VjTl_8Qa" role="3uHU7B">
+                <ref role="37wK5l" node="782VjTl$11U" resolve="getButtonScale" />
+              </node>
+              <node concept="10M0yZ" id="782VjTl_8Qb" role="3uHU7w">
+                <ref role="1PxDUh" node="1yAlWL_OQfO" resolve="ContextButtonContainer" />
+                <ref role="3cqZAo" node="2KWY$Um7JLx" resolve="BUTTON_SPACING" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="782VjTl_8_G" role="3cqZAp">
+          <node concept="2OqwBi" id="782VjTl_8_H" role="3clFbG">
+            <node concept="37vLTw" id="782VjTl_fdO" role="2Oq$k0">
+              <ref role="3cqZAo" node="782VjTl_fos" resolve="container" />
+            </node>
+            <node concept="liA8E" id="782VjTl_8_J" role="2OqNvi">
+              <ref role="37wK5l" node="1JWQbhb2vI2" resolve="moveTo" />
+              <node concept="3cpWs3" id="782VjTl_8_K" role="37wK5m">
+                <node concept="37vLTw" id="782VjTl_8_L" role="3uHU7w">
+                  <ref role="3cqZAo" node="782VjTl_8Q7" resolve="spacing" />
+                </node>
+                <node concept="2OqwBi" id="782VjTl_8_M" role="3uHU7B">
+                  <node concept="37vLTw" id="782VjTl_8_N" role="2Oq$k0">
+                    <ref role="3cqZAo" node="782VjTl$D2U" resolve="state" />
+                  </node>
+                  <node concept="liA8E" id="782VjTl_8_O" role="2OqNvi">
+                    <ref role="37wK5l" to="f5o7:~mxPoint.getX():double" resolve="getX" />
+                  </node>
+                </node>
+              </node>
+              <node concept="3cpWs3" id="782VjTl_8_P" role="37wK5m">
+                <node concept="37vLTw" id="782VjTl_8_Q" role="3uHU7w">
+                  <ref role="3cqZAo" node="782VjTl_8Q7" resolve="spacing" />
+                </node>
+                <node concept="2OqwBi" id="782VjTl_8_R" role="3uHU7B">
+                  <node concept="37vLTw" id="782VjTl_8_S" role="2Oq$k0">
+                    <ref role="3cqZAo" node="782VjTl$D2U" resolve="state" />
+                  </node>
+                  <node concept="liA8E" id="782VjTl_8_T" role="2OqNvi">
+                    <ref role="37wK5l" to="f5o7:~mxPoint.getY():double" resolve="getY" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="782VjTl$D2U" role="3clF46">
+        <property role="TrG5h" value="state" />
+        <node concept="3uibUv" id="782VjTl$D2T" role="1tU5fm">
+          <ref role="3uigEE" to="fkey:~mxCellState" resolve="mxCellState" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="782VjTl_fos" role="3clF46">
+        <property role="TrG5h" value="container" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="782VjTl_fou" role="1tU5fm">
+          <ref role="3uigEE" node="1yAlWL_OQfO" resolve="ContextButtonContainer" />
         </node>
       </node>
     </node>
@@ -67679,6 +67761,67 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="782VjTl_dHQ" role="jymVt" />
+    <node concept="2tJIrI" id="782VjTl_dKp" role="jymVt" />
+    <node concept="3clFb_" id="782VjTl_dX1" role="jymVt">
+      <property role="TrG5h" value="getButtonScale" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="10P55v" id="782VjTl_dX2" role="3clF45" />
+      <node concept="3Tmbuc" id="782VjTl_dX3" role="1B3o_S" />
+      <node concept="3clFbS" id="782VjTl_dXb" role="3clF47">
+        <node concept="3clFbF" id="782VjTl_kcG" role="3cqZAp">
+          <node concept="3b6qkQ" id="782VjTl_kes" role="3clFbG">
+            <property role="$nhwW" value="1.0" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="782VjTl_dXc" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="782VjTl_exe" role="jymVt" />
+    <node concept="3clFb_" id="782VjTl_edl" role="jymVt">
+      <property role="TrG5h" value="moveButtonsContainer" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="3cqZAl" id="782VjTl_edm" role="3clF45" />
+      <node concept="3Tmbuc" id="782VjTl_edn" role="1B3o_S" />
+      <node concept="37vLTG" id="782VjTl_edH" role="3clF46">
+        <property role="TrG5h" value="state" />
+        <node concept="3uibUv" id="782VjTl_edI" role="1tU5fm">
+          <ref role="3uigEE" to="fkey:~mxCellState" resolve="mxCellState" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="782VjTl_ijT" role="3clF46">
+        <property role="TrG5h" value="container" />
+        <property role="3TUv4t" value="false" />
+        <node concept="3uibUv" id="782VjTl_ijU" role="1tU5fm">
+          <ref role="3uigEE" node="1yAlWL_OQfO" resolve="ContextButtonContainer" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="782VjTl_edJ" role="3clF47">
+        <node concept="3clFbF" id="782VjTl_iIZ" role="3cqZAp">
+          <node concept="2OqwBi" id="782VjTl_iL6" role="3clFbG">
+            <node concept="37vLTw" id="782VjTl_iIY" role="2Oq$k0">
+              <ref role="3cqZAo" node="782VjTl_ijT" resolve="container" />
+            </node>
+            <node concept="liA8E" id="782VjTl_jaY" role="2OqNvi">
+              <ref role="37wK5l" node="1JWQbhb2vI2" resolve="moveTo" />
+              <node concept="10M0yZ" id="782VjTl_jRr" role="37wK5m">
+                <ref role="1PxDUh" node="1yAlWL_OQfO" resolve="ContextButtonContainer" />
+                <ref role="3cqZAo" node="2KWY$Um7JLx" resolve="BUTTON_SPACING" />
+              </node>
+              <node concept="10M0yZ" id="782VjTl_k05" role="37wK5m">
+                <ref role="1PxDUh" node="1yAlWL_OQfO" resolve="ContextButtonContainer" />
+                <ref role="3cqZAo" node="2KWY$Um7JLx" resolve="BUTTON_SPACING" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="782VjTl_edK" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="312cEu" id="1yAlWL_OQfO">
     <property role="3GE5qa" value="contextButtons" />
@@ -67765,6 +67908,14 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="782VjTlF9BZ" role="jymVt">
+      <property role="TrG5h" value="myScale" />
+      <node concept="3Tm6S6" id="782VjTlF9C0" role="1B3o_S" />
+      <node concept="10P55v" id="782VjTlFaT7" role="1tU5fm" />
+      <node concept="3b6qkQ" id="782VjTlFpwd" role="33vP2m">
+        <property role="$nhwW" value="0.0" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="1yAlWL_OShi" role="jymVt" />
     <node concept="3clFbW" id="1yAlWL_P5xb" role="jymVt">
       <node concept="3cqZAl" id="1yAlWL_P5xc" role="3clF45" />
@@ -67789,6 +67940,76 @@
       </node>
     </node>
     <node concept="2tJIrI" id="1yAlWL_P58J" role="jymVt" />
+    <node concept="3clFb_" id="782VjTlFcAx" role="jymVt">
+      <property role="TrG5h" value="setScale" />
+      <node concept="37vLTG" id="782VjTlFdKa" role="3clF46">
+        <property role="TrG5h" value="scale" />
+        <node concept="10P55v" id="782VjTlFdNm" role="1tU5fm" />
+      </node>
+      <node concept="3cqZAl" id="782VjTlFcAz" role="3clF45" />
+      <node concept="3Tm1VV" id="782VjTlFcA$" role="1B3o_S" />
+      <node concept="3clFbS" id="782VjTlFcA_" role="3clF47">
+        <node concept="3clFbJ" id="782VjTlFvpv" role="3cqZAp">
+          <node concept="3clFbS" id="782VjTlFvpx" role="3clFbx">
+            <node concept="3clFbF" id="782VjTlFdV0" role="3cqZAp">
+              <node concept="37vLTI" id="782VjTlFe3y" role="3clFbG">
+                <node concept="37vLTw" id="782VjTlFe51" role="37vLTx">
+                  <ref role="3cqZAo" node="782VjTlFdKa" resolve="scale" />
+                </node>
+                <node concept="37vLTw" id="782VjTlFdUZ" role="37vLTJ">
+                  <ref role="3cqZAo" node="782VjTlF9BZ" resolve="myScale" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="782VjTlFvOi" role="3cqZAp">
+              <node concept="1rXfSq" id="782VjTlFvOg" role="3clFbG">
+                <ref role="37wK5l" node="1JWQbhb20hC" resolve="relayout" />
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="782VjTlFvAR" role="3clFbw">
+            <node concept="37vLTw" id="782VjTlFvC$" role="3uHU7w">
+              <ref role="3cqZAo" node="782VjTlFdKa" resolve="scale" />
+            </node>
+            <node concept="37vLTw" id="782VjTlFvrY" role="3uHU7B">
+              <ref role="3cqZAo" node="782VjTlF9BZ" resolve="myScale" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="782VjTlFblp" role="jymVt" />
+    <node concept="3clFb_" id="782VjTlFkba" role="jymVt">
+      <property role="TrG5h" value="getScale" />
+      <node concept="10P55v" id="782VjTlFoAx" role="3clF45" />
+      <node concept="3Tm1VV" id="782VjTlFkbd" role="1B3o_S" />
+      <node concept="3clFbS" id="782VjTlFkbe" role="3clF47">
+        <node concept="3clFbF" id="782VjTlFpmD" role="3cqZAp">
+          <node concept="3K4zz7" id="782VjTlFpWK" role="3clFbG">
+            <node concept="2OqwBi" id="782VjTlFqa9" role="3K4GZi">
+              <node concept="37vLTw" id="782VjTlFq1T" role="2Oq$k0">
+                <ref role="3cqZAo" node="1yAlWL_P4b3" resolve="myView" />
+              </node>
+              <node concept="liA8E" id="782VjTlFqCC" role="2OqNvi">
+                <ref role="37wK5l" to="fkey:~mxGraphView.getScale():double" resolve="getScale" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="782VjTlFpZv" role="3K4E3e">
+              <ref role="3cqZAo" node="782VjTlF9BZ" resolve="myScale" />
+            </node>
+            <node concept="3y3z36" id="782VjTlFpES" role="3K4Cdx">
+              <node concept="3b6qkQ" id="782VjTlFpIT" role="3uHU7w">
+                <property role="$nhwW" value="0.0" />
+              </node>
+              <node concept="37vLTw" id="782VjTlFpmC" role="3uHU7B">
+                <ref role="3cqZAo" node="782VjTlF9BZ" resolve="myScale" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="782VjTlFiUP" role="jymVt" />
     <node concept="3clFb_" id="1yAlWL_XZAZ" role="jymVt">
       <property role="TrG5h" value="setButtons" />
       <node concept="37vLTG" id="1yAlWL_Y0Sl" role="3clF46">
@@ -67925,32 +68146,14 @@
             <node concept="37vLTw" id="1yAlWL_OYfr" role="3uHU7B">
               <ref role="3cqZAo" node="2KWY$Um7JLx" resolve="BUTTON_SPACING" />
             </node>
-            <node concept="1rXfSq" id="2KWY$UnsdOj" role="3uHU7w">
-              <ref role="37wK5l" node="2KWY$UnnsXm" resolve="getScale" />
+            <node concept="1rXfSq" id="782VjTlFpp2" role="3uHU7w">
+              <ref role="37wK5l" node="782VjTlFkba" resolve="getScale" />
             </node>
           </node>
         </node>
       </node>
     </node>
     <node concept="2tJIrI" id="1yAlWL_P3nU" role="jymVt" />
-    <node concept="3clFb_" id="2KWY$UnnsXm" role="jymVt">
-      <property role="TrG5h" value="getScale" />
-      <node concept="10P55v" id="2KWY$Unnyew" role="3clF45" />
-      <node concept="3Tm1VV" id="2KWY$UnnsXp" role="1B3o_S" />
-      <node concept="3clFbS" id="2KWY$UnnsXq" role="3clF47">
-        <node concept="3clFbF" id="2KWY$UnnyUU" role="3cqZAp">
-          <node concept="2OqwBi" id="2KWY$UnnyUW" role="3clFbG">
-            <node concept="37vLTw" id="1yAlWL_P8qF" role="2Oq$k0">
-              <ref role="3cqZAo" node="1yAlWL_P4b3" resolve="myView" />
-            </node>
-            <node concept="liA8E" id="2KWY$UnnyV0" role="2OqNvi">
-              <ref role="37wK5l" to="fkey:~mxGraphView.getScale():double" resolve="getScale" />
-            </node>
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="1yAlWL_PaNh" role="jymVt" />
     <node concept="3clFb_" id="1yAlWL_Pa95" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="mouseMoved" />
