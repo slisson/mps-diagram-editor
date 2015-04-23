@@ -18022,8 +18022,8 @@
           </node>
           <node concept="3fqX7Q" id="5P3ZJ9d07UD" role="3clFbw">
             <node concept="2OqwBi" id="5P3ZJ9d082A" role="3fr31v">
-              <node concept="37vLTw" id="5P3ZJ9d07X5" role="2Oq$k0">
-                <ref role="3cqZAo" node="5P3ZJ9cZlyo" resolve="myDiagramModel" />
+              <node concept="1rXfSq" id="7MH10IU_CiG" role="2Oq$k0">
+                <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
               </node>
               <node concept="liA8E" id="5P3ZJ9d08m3" role="2OqNvi">
                 <ref role="37wK5l" to="nkm5:5P3ZJ9cO5oF" resolve="validateConnection" />
@@ -59534,73 +59534,79 @@
                 </node>
               </node>
             </node>
-            <node concept="2Gpval" id="45TnPEvGxmq" role="3cqZAp">
-              <node concept="2GrKxI" id="45TnPEvGxms" role="2Gsz3X">
-                <property role="TrG5h" value="connectionType" />
-              </node>
-              <node concept="3clFbS" id="45TnPEvGxmu" role="2LFqv$">
-                <node concept="3clFbJ" id="45TnPEvGQK2" role="3cqZAp">
-                  <node concept="3clFbS" id="45TnPEvGQK3" role="3clFbx">
-                    <node concept="3clFbF" id="45TnPEvGUM9" role="3cqZAp">
-                      <node concept="2OqwBi" id="45TnPEvGUMQ" role="3clFbG">
-                        <node concept="37vLTw" id="45TnPEvGUM8" role="2Oq$k0">
-                          <ref role="3cqZAo" node="45TnPEvGU8y" resolve="newEdgeButton" />
-                        </node>
-                        <node concept="liA8E" id="45TnPEvGV3Q" role="2OqNvi">
-                          <ref role="37wK5l" node="5pbnVm4L0Wh" resolve="addChildButton" />
-                          <node concept="2ShNRf" id="45TnPEvGWYh" role="37wK5m">
-                            <node concept="1pGfFk" id="45TnPEvGYck" role="2ShVmc">
-                              <ref role="37wK5l" node="K9V0C7I0qR" resolve="NewEdgeButton" />
-                              <node concept="37vLTw" id="45TnPEvGYcZ" role="37wK5m">
-                                <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
+            <node concept="1QHqEK" id="7MH10IULubc" role="3cqZAp">
+              <node concept="1QHqEC" id="7MH10IULube" role="1QHqEI">
+                <node concept="3clFbS" id="7MH10IULubg" role="1bW5cS">
+                  <node concept="2Gpval" id="45TnPEvGxmq" role="3cqZAp">
+                    <node concept="2GrKxI" id="45TnPEvGxms" role="2Gsz3X">
+                      <property role="TrG5h" value="connectionType" />
+                    </node>
+                    <node concept="3clFbS" id="45TnPEvGxmu" role="2LFqv$">
+                      <node concept="3clFbJ" id="45TnPEvGQK2" role="3cqZAp">
+                        <node concept="3clFbS" id="45TnPEvGQK3" role="3clFbx">
+                          <node concept="3clFbF" id="45TnPEvGUM9" role="3cqZAp">
+                            <node concept="2OqwBi" id="45TnPEvGUMQ" role="3clFbG">
+                              <node concept="37vLTw" id="45TnPEvGUM8" role="2Oq$k0">
+                                <ref role="3cqZAo" node="45TnPEvGU8y" resolve="newEdgeButton" />
                               </node>
-                              <node concept="37vLTw" id="45TnPEvGYem" role="37wK5m">
-                                <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
-                              </node>
-                              <node concept="2GrUjf" id="45TnPEvGYjQ" role="37wK5m">
-                                <ref role="2Gs0qQ" node="45TnPEvGxms" resolve="connectionType" />
+                              <node concept="liA8E" id="45TnPEvGV3Q" role="2OqNvi">
+                                <ref role="37wK5l" node="5pbnVm4L0Wh" resolve="addChildButton" />
+                                <node concept="2ShNRf" id="45TnPEvGWYh" role="37wK5m">
+                                  <node concept="1pGfFk" id="45TnPEvGYck" role="2ShVmc">
+                                    <ref role="37wK5l" node="K9V0C7I0qR" resolve="NewEdgeButton" />
+                                    <node concept="37vLTw" id="45TnPEvGYcZ" role="37wK5m">
+                                      <ref role="3cqZAo" node="2KWY$UonzZ0" resolve="size" />
+                                    </node>
+                                    <node concept="37vLTw" id="45TnPEvGYem" role="37wK5m">
+                                      <ref role="3cqZAo" to="g1vp:~mxCellHandler.state" resolve="state" />
+                                    </node>
+                                    <node concept="2GrUjf" id="45TnPEvGYjQ" role="37wK5m">
+                                      <ref role="2Gs0qQ" node="45TnPEvGxms" resolve="connectionType" />
+                                    </node>
+                                  </node>
+                                </node>
                               </node>
                             </node>
                           </node>
                         </node>
+                        <node concept="2OqwBi" id="45TnPEvGQL3" role="3clFbw">
+                          <node concept="2GrUjf" id="45TnPEvGQKs" role="2Oq$k0">
+                            <ref role="2Gs0qQ" node="45TnPEvGxms" resolve="connectionType" />
+                          </node>
+                          <node concept="liA8E" id="45TnPEvGSAQ" role="2OqNvi">
+                            <ref role="37wK5l" to="nkm5:45TnPEuxiIe" resolve="isValidStart" />
+                            <node concept="2OqwBi" id="45TnPEvGSK7" role="37wK5m">
+                              <node concept="37vLTw" id="45TnPEvGSFA" role="2Oq$k0">
+                                <ref role="3cqZAo" node="S$ha3H7hEv" resolve="boxCell" />
+                              </node>
+                              <node concept="liA8E" id="45TnPEvGTW$" role="2OqNvi">
+                                <ref role="37wK5l" node="5K7KC_qAcJd" resolve="getBox" />
+                              </node>
+                            </node>
+                            <node concept="10Nm6u" id="45TnPEvGU2A" role="37wK5m" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="45TnPEvGHz1" role="2GsD0m">
+                      <node concept="2OqwBi" id="1axCqqCgr9S" role="2Oq$k0">
+                        <node concept="2OqwBi" id="45TnPEvGFU9" role="2Oq$k0">
+                          <node concept="37vLTw" id="45TnPEvGFtk" role="2Oq$k0">
+                            <ref role="3cqZAo" node="45TnPEvGFtg" resolve="graph" />
+                          </node>
+                          <node concept="liA8E" id="45TnPEvGHxR" role="2OqNvi">
+                            <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1axCqqCgrS4" role="2OqNvi">
+                          <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="45TnPEvGIjG" role="2OqNvi">
+                        <ref role="37wK5l" to="nkm5:1axCqqCcjx6" resolve="getConnectionTypes" />
                       </node>
                     </node>
                   </node>
-                  <node concept="2OqwBi" id="45TnPEvGQL3" role="3clFbw">
-                    <node concept="2GrUjf" id="45TnPEvGQKs" role="2Oq$k0">
-                      <ref role="2Gs0qQ" node="45TnPEvGxms" resolve="connectionType" />
-                    </node>
-                    <node concept="liA8E" id="45TnPEvGSAQ" role="2OqNvi">
-                      <ref role="37wK5l" to="nkm5:45TnPEuxiIe" resolve="isValidStart" />
-                      <node concept="2OqwBi" id="45TnPEvGSK7" role="37wK5m">
-                        <node concept="37vLTw" id="45TnPEvGSFA" role="2Oq$k0">
-                          <ref role="3cqZAo" node="S$ha3H7hEv" resolve="boxCell" />
-                        </node>
-                        <node concept="liA8E" id="45TnPEvGTW$" role="2OqNvi">
-                          <ref role="37wK5l" node="5K7KC_qAcJd" resolve="getBox" />
-                        </node>
-                      </node>
-                      <node concept="10Nm6u" id="45TnPEvGU2A" role="37wK5m" />
-                    </node>
-                  </node>
-                </node>
-              </node>
-              <node concept="2OqwBi" id="45TnPEvGHz1" role="2GsD0m">
-                <node concept="2OqwBi" id="1axCqqCgr9S" role="2Oq$k0">
-                  <node concept="2OqwBi" id="45TnPEvGFU9" role="2Oq$k0">
-                    <node concept="37vLTw" id="45TnPEvGFtk" role="2Oq$k0">
-                      <ref role="3cqZAo" node="45TnPEvGFtg" resolve="graph" />
-                    </node>
-                    <node concept="liA8E" id="45TnPEvGHxR" role="2OqNvi">
-                      <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="1axCqqCgrS4" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="45TnPEvGIjG" role="2OqNvi">
-                  <ref role="37wK5l" to="nkm5:1axCqqCcjx6" resolve="getConnectionTypes" />
                 </node>
               </node>
             </node>
