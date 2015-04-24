@@ -22,6 +22,7 @@
         <reference id="6054523464627965081" name="concept" index="trN6q" />
       </concept>
       <concept id="1082978164219" name="jetbrains.mps.lang.structure.structure.EnumerationDataTypeDeclaration" flags="ng" index="AxPO7">
+        <property id="1197591154882" name="memberIdentifierPolicy" index="3lZH7k" />
         <reference id="1083171729157" name="memberDataType" index="M4eZT" />
         <child id="1083172003582" name="member" index="M5hS2" />
       </concept>
@@ -706,6 +707,11 @@
     <property role="34LRSv" value="line-style" />
     <property role="3GE5qa" value="style" />
     <ref role="1TJDcQ" to="tpc2:hgV6hR6" resolve="StyleClassItem" />
+    <node concept="1TJgyj" id="6QwB8wTHwf7" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="query" />
+      <ref role="20lvS9" node="6QwB8wTHvaE" resolve="QueryFunction_LineStyle" />
+    </node>
     <node concept="1TJgyi" id="63Tq0M90n0T" role="1TKVEl">
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" node="63Tq0M90n0O" resolve="LineStyleValues" />
@@ -720,6 +726,11 @@
       <property role="TrG5h" value="value" />
       <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
     </node>
+    <node concept="1TJgyj" id="6QwB8wTDqjh" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="query" />
+      <ref role="20lvS9" node="6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    </node>
   </node>
   <node concept="1TIwiD" id="63Tq0M8Y_QW">
     <property role="3GE5qa" value="style" />
@@ -730,6 +741,7 @@
   <node concept="AxPO7" id="63Tq0M90n0O">
     <property role="3GE5qa" value="style" />
     <property role="TrG5h" value="LineStyleValues" />
+    <property role="3lZH7k" value="derive_from_internal_value" />
     <ref role="M4eZT" to="tpck:fKAOsGN" resolve="string" />
     <node concept="M4N5e" id="63Tq0M90n0P" role="M5hS2">
       <property role="1uS6qo" value="SOLID" />
@@ -1644,6 +1656,16 @@
     <node concept="PrWs8" id="6gM9UMJsW1F" role="PzmwI">
       <ref role="PrY4T" node="6uo2fN6gOXK" resolve="IShape" />
     </node>
+  </node>
+  <node concept="1TIwiD" id="6QwB8wTDoHC">
+    <property role="3GE5qa" value="style" />
+    <property role="TrG5h" value="QueryFunction_Float" />
+    <ref role="1TJDcQ" to="tpc2:hLcOssU" resolve="QueryFunction_StyleParameter" />
+  </node>
+  <node concept="1TIwiD" id="6QwB8wTHvaE">
+    <property role="3GE5qa" value="style" />
+    <property role="TrG5h" value="QueryFunction_LineStyle" />
+    <ref role="1TJDcQ" to="tpc2:hLcOssU" resolve="QueryFunction_StyleParameter" />
   </node>
 </model>
 

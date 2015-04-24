@@ -23,6 +23,7 @@
     <import index="tp25" ref="r:00000000-0000-4000-0000-011c89590301(jetbrains.mps.lang.smodel.structure)" />
     <import index="tp2q" ref="r:00000000-0000-4000-0000-011c8959032e(jetbrains.mps.baseLanguage.collections.structure)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" />
+    <import index="swi3" ref="r:5eabed4f-92f5-4459-b9b3-e2faa24f3467(de.itemis.mps.editor.diagram.styles.editor)" />
     <import index="e2lb" ref="f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tpck" ref="r:00000000-0000-4000-0000-011c89590288(jetbrains.mps.lang.core.structure)" implicit="true" />
   </imports>
@@ -60,6 +61,7 @@
         <property id="1070475926801" name="value" index="Xl_RC" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
+      <concept id="1070534436861" name="jetbrains.mps.baseLanguage.structure.FloatType" flags="in" index="10OMs4" />
       <concept id="1070534644030" name="jetbrains.mps.baseLanguage.structure.BooleanType" flags="in" index="10P_77" />
       <concept id="1068431474542" name="jetbrains.mps.baseLanguage.structure.VariableDeclaration" flags="ng" index="33uBYm">
         <child id="1068431790190" name="initializer" index="33vP2m" />
@@ -2922,6 +2924,54 @@
     </node>
     <node concept="13hLZK" id="45TnPEuHq4F" role="13h7CW">
       <node concept="3clFbS" id="45TnPEuHq4G" role="2VODD2" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6QwB8wTDoHD">
+    <property role="3GE5qa" value="style" />
+    <ref role="13h7C2" to="2qld:6QwB8wTDoHC" resolve="QueryFunction_Float" />
+    <node concept="13hLZK" id="6QwB8wTDoHE" role="13h7CW">
+      <node concept="3clFbS" id="6QwB8wTDoHF" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6QwB8wTDpJv" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="6QwB8wTDpJw" role="1B3o_S" />
+      <node concept="3clFbS" id="6QwB8wTDpJA" role="3clF47">
+        <node concept="3clFbF" id="6QwB8wTDq2R" role="3cqZAp">
+          <node concept="2c44tf" id="6QwB8wTDq3l" role="3clFbG">
+            <node concept="10OMs4" id="6QwB8wTR1kW" role="2c44tc" />
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6QwB8wTDpJB" role="3clF45" />
+    </node>
+  </node>
+  <node concept="13h7C7" id="6QwB8wTHvaF">
+    <property role="3GE5qa" value="style" />
+    <ref role="13h7C2" to="2qld:6QwB8wTHvaE" resolve="QueryFunction_LineStyle" />
+    <node concept="13hLZK" id="6QwB8wTHvaG" role="13h7CW">
+      <node concept="3clFbS" id="6QwB8wTHvaH" role="2VODD2" />
+    </node>
+    <node concept="13i0hz" id="6QwB8wTHvaI" role="13h7CS">
+      <property role="13i0iv" value="false" />
+      <property role="13i0is" value="false" />
+      <property role="TrG5h" value="getExpectedReturnType" />
+      <property role="13i0it" value="false" />
+      <ref role="13i0hy" to="tpek:hEwIGRD" resolve="getExpectedReturnType" />
+      <node concept="3Tm1VV" id="6QwB8wTHvaJ" role="1B3o_S" />
+      <node concept="3clFbS" id="6QwB8wTHvaP" role="3clF47">
+        <node concept="3clFbF" id="6QwB8wTHvdT" role="3cqZAp">
+          <node concept="2c44tf" id="6QwB8wTHvdR" role="3clFbG">
+            <node concept="3uibUv" id="6QwB8wTHwej" role="2c44tc">
+              <ref role="3uigEE" to="swi3:4mmPun57bLu" resolve="LineStyle" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3Tqbb2" id="6QwB8wTHvaQ" role="3clF45" />
     </node>
   </node>
 </model>
