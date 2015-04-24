@@ -5639,16 +5639,16 @@
                           <ref role="3uigEE" to="nkm5:7vufT$m8LbU" resolve="IConnectionType_Internal" />
                         </node>
                         <node concept="2OqwBi" id="3mPIQFdDzk_" role="33vP2m">
-                          <node concept="2OqwBi" id="1axCqqCfWFF" role="2Oq$k0">
-                            <node concept="37vLTw" id="3mPIQFdDzkA" role="2Oq$k0">
-                              <ref role="3cqZAo" node="6rrvvVeeWHa" resolve="dmodel" />
+                          <node concept="2OqwBi" id="3w6aby55$Q7" role="2Oq$k0">
+                            <node concept="1rXfSq" id="3w6aby55$N7" role="2Oq$k0">
+                              <ref role="37wK5l" node="6zxgcXld1zt" resolve="getGraph" />
                             </node>
-                            <node concept="liA8E" id="1axCqqCfX6i" role="2OqNvi">
-                              <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                            <node concept="liA8E" id="3w6aby55Cux" role="2OqNvi">
+                              <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                             </node>
                           </node>
                           <node concept="liA8E" id="3mPIQFdDzkB" role="2OqNvi">
-                            <ref role="37wK5l" to="nkm5:1axCqqCcANu" resolve="getApplicable" />
+                            <ref role="37wK5l" to="nkm5:7MH10IUREOI" resolve="getApplicable" />
                             <node concept="37vLTw" id="3mPIQFdDzkC" role="37wK5m">
                               <ref role="3cqZAo" node="3mPIQFdDzk7" resolve="sourceNode" />
                             </node>
@@ -11503,26 +11503,31 @@
         </node>
         <node concept="3clFbJ" id="ir4ILb_iYF" role="3cqZAp">
           <node concept="3clFbS" id="ir4ILb_iYG" role="3clFbx">
-            <node concept="3clFbF" id="ir4ILb_lhU" role="3cqZAp">
-              <node concept="37vLTI" id="ir4ILb_lnP" role="3clFbG">
-                <node concept="37vLTw" id="ir4ILb_lhT" role="37vLTJ">
+            <node concept="3clFbF" id="ir4ILb_lKk" role="3cqZAp">
+              <node concept="37vLTI" id="ir4ILb_lS4" role="3clFbG">
+                <node concept="37vLTw" id="ir4ILb_lKj" role="37vLTJ">
                   <ref role="3cqZAo" node="ir4ILb_kyX" resolve="node" />
                 </node>
-                <node concept="10QFUN" id="ir4ILb_lqA" role="37vLTx">
-                  <node concept="3uibUv" id="ir4ILb_lqB" role="10QFUM">
+                <node concept="10QFUN" id="ir4ILb_lU$" role="37vLTx">
+                  <node concept="3uibUv" id="ir4ILb_lU_" role="10QFUM">
                     <ref role="3uigEE" to="nkm5:27djZ8_YaUo" resolve="Box" />
                   </node>
-                  <node concept="2OqwBi" id="ir4ILb_lqC" role="10QFUP">
-                    <node concept="37vLTw" id="ir4ILb_lqD" role="2Oq$k0">
+                  <node concept="2OqwBi" id="ir4ILb_lUA" role="10QFUP">
+                    <node concept="37vLTw" id="ir4ILb_lUB" role="2Oq$k0">
                       <ref role="3cqZAo" node="190K99KjKsU" resolve="myElementMapper" />
                     </node>
-                    <node concept="liA8E" id="ir4ILb_lqE" role="2OqNvi">
+                    <node concept="liA8E" id="ir4ILb_lUC" role="2OqNvi">
                       <ref role="37wK5l" node="190K99KjF3V" resolve="getDiagramElement" />
-                      <node concept="2EnYce" id="ir4ILb_lqF" role="37wK5m">
-                        <node concept="37vLTw" id="ir4ILb_lqG" role="2Oq$k0">
-                          <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
+                      <node concept="2EnYce" id="ir4ILb_lUD" role="37wK5m">
+                        <node concept="2EnYce" id="ir4ILb_lUE" role="2Oq$k0">
+                          <node concept="37vLTw" id="ir4ILb_lUF" role="2Oq$k0">
+                            <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
+                          </node>
+                          <node concept="liA8E" id="ir4ILb_lUG" role="2OqNvi">
+                            <ref role="37wK5l" to="g6dw:~mxICell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
+                          </node>
                         </node>
-                        <node concept="liA8E" id="ir4ILb_lqH" role="2OqNvi">
+                        <node concept="liA8E" id="ir4ILb_lUH" role="2OqNvi">
                           <ref role="37wK5l" to="g6dw:~mxICell.getId():java.lang.String" resolve="getId" />
                         </node>
                       </node>
@@ -11531,55 +11536,55 @@
                 </node>
               </node>
             </node>
-            <node concept="3clFbF" id="ir4ILb_n1I" role="3cqZAp">
-              <node concept="37vLTI" id="ir4ILb_nba" role="3clFbG">
-                <node concept="10Nm6u" id="ir4ILb_nc5" role="37vLTx" />
-                <node concept="37vLTw" id="ir4ILb_n1H" role="37vLTJ">
+            <node concept="3clFbF" id="ir4ILb_mfn" role="3cqZAp">
+              <node concept="37vLTI" id="ir4ILb_mwT" role="3clFbG">
+                <node concept="37vLTw" id="ir4ILb_mfm" role="37vLTJ">
                   <ref role="3cqZAo" node="ir4ILb_kYs" resolve="port" />
+                </node>
+                <node concept="1rXfSq" id="ir4ILb_mAZ" role="37vLTx">
+                  <ref role="37wK5l" node="61$jGLXNxur" resolve="objectToString" />
+                  <node concept="2EnYce" id="ir4ILb_mB0" role="37wK5m">
+                    <node concept="37vLTw" id="ir4ILb_mB1" role="2Oq$k0">
+                      <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
+                    </node>
+                    <node concept="liA8E" id="ir4ILb_mB2" role="2OqNvi">
+                      <ref role="37wK5l" to="g6dw:~mxICell.getValue():java.lang.Object" resolve="getValue" />
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
           </node>
-          <node concept="3clFbC" id="ir4ILb_iYT" role="3clFbw">
-            <node concept="2EnYce" id="ir4ILb_iYU" role="3uHU7B">
-              <node concept="37vLTw" id="ir4ILb_iYV" role="2Oq$k0">
-                <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
-              </node>
-              <node concept="liA8E" id="ir4ILb_iYW" role="2OqNvi">
-                <ref role="37wK5l" to="g6dw:~mxICell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
-              </node>
+          <node concept="2ZW3vV" id="3w6aby5kK2X" role="3clFbw">
+            <node concept="3uibUv" id="3w6aby5kKrF" role="2ZW6by">
+              <ref role="3uigEE" node="5P3ZJ9cEQHK" resolve="PortDCell" />
             </node>
-            <node concept="37vLTw" id="5S8_I2GOGL_" role="3uHU7w">
-              <ref role="3cqZAo" node="5S8_I2GOAwy" resolve="rootCell" />
+            <node concept="37vLTw" id="ir4ILb_iYV" role="2ZW6bz">
+              <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
             </node>
           </node>
           <node concept="9aQIb" id="ir4ILb_iZ0" role="9aQIa">
             <node concept="3clFbS" id="ir4ILb_iZ1" role="9aQI4">
-              <node concept="3clFbF" id="ir4ILb_lKk" role="3cqZAp">
-                <node concept="37vLTI" id="ir4ILb_lS4" role="3clFbG">
-                  <node concept="37vLTw" id="ir4ILb_lKj" role="37vLTJ">
+              <node concept="3clFbF" id="ir4ILb_lhU" role="3cqZAp">
+                <node concept="37vLTI" id="ir4ILb_lnP" role="3clFbG">
+                  <node concept="37vLTw" id="ir4ILb_lhT" role="37vLTJ">
                     <ref role="3cqZAo" node="ir4ILb_kyX" resolve="node" />
                   </node>
-                  <node concept="10QFUN" id="ir4ILb_lU$" role="37vLTx">
-                    <node concept="3uibUv" id="ir4ILb_lU_" role="10QFUM">
+                  <node concept="10QFUN" id="ir4ILb_lqA" role="37vLTx">
+                    <node concept="3uibUv" id="ir4ILb_lqB" role="10QFUM">
                       <ref role="3uigEE" to="nkm5:27djZ8_YaUo" resolve="Box" />
                     </node>
-                    <node concept="2OqwBi" id="ir4ILb_lUA" role="10QFUP">
-                      <node concept="37vLTw" id="ir4ILb_lUB" role="2Oq$k0">
+                    <node concept="2OqwBi" id="ir4ILb_lqC" role="10QFUP">
+                      <node concept="37vLTw" id="ir4ILb_lqD" role="2Oq$k0">
                         <ref role="3cqZAo" node="190K99KjKsU" resolve="myElementMapper" />
                       </node>
-                      <node concept="liA8E" id="ir4ILb_lUC" role="2OqNvi">
+                      <node concept="liA8E" id="ir4ILb_lqE" role="2OqNvi">
                         <ref role="37wK5l" node="190K99KjF3V" resolve="getDiagramElement" />
-                        <node concept="2EnYce" id="ir4ILb_lUD" role="37wK5m">
-                          <node concept="2EnYce" id="ir4ILb_lUE" role="2Oq$k0">
-                            <node concept="37vLTw" id="ir4ILb_lUF" role="2Oq$k0">
-                              <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
-                            </node>
-                            <node concept="liA8E" id="ir4ILb_lUG" role="2OqNvi">
-                              <ref role="37wK5l" to="g6dw:~mxICell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
-                            </node>
+                        <node concept="2EnYce" id="ir4ILb_lqF" role="37wK5m">
+                          <node concept="37vLTw" id="ir4ILb_lqG" role="2Oq$k0">
+                            <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
                           </node>
-                          <node concept="liA8E" id="ir4ILb_lUH" role="2OqNvi">
+                          <node concept="liA8E" id="ir4ILb_lqH" role="2OqNvi">
                             <ref role="37wK5l" to="g6dw:~mxICell.getId():java.lang.String" resolve="getId" />
                           </node>
                         </node>
@@ -11588,21 +11593,11 @@
                   </node>
                 </node>
               </node>
-              <node concept="3clFbF" id="ir4ILb_mfn" role="3cqZAp">
-                <node concept="37vLTI" id="ir4ILb_mwT" role="3clFbG">
-                  <node concept="37vLTw" id="ir4ILb_mfm" role="37vLTJ">
+              <node concept="3clFbF" id="ir4ILb_n1I" role="3cqZAp">
+                <node concept="37vLTI" id="ir4ILb_nba" role="3clFbG">
+                  <node concept="10Nm6u" id="ir4ILb_nc5" role="37vLTx" />
+                  <node concept="37vLTw" id="ir4ILb_n1H" role="37vLTJ">
                     <ref role="3cqZAo" node="ir4ILb_kYs" resolve="port" />
-                  </node>
-                  <node concept="1rXfSq" id="ir4ILb_mAZ" role="37vLTx">
-                    <ref role="37wK5l" node="61$jGLXNxur" resolve="objectToString" />
-                    <node concept="2EnYce" id="ir4ILb_mB0" role="37wK5m">
-                      <node concept="37vLTw" id="ir4ILb_mB1" role="2Oq$k0">
-                        <ref role="3cqZAo" node="ir4ILb_iYA" resolve="sourceTarget" />
-                      </node>
-                      <node concept="liA8E" id="ir4ILb_mB2" role="2OqNvi">
-                        <ref role="37wK5l" to="g6dw:~mxICell.getValue():java.lang.Object" resolve="getValue" />
-                      </node>
-                    </node>
                   </node>
                 </node>
               </node>
@@ -12661,17 +12656,17 @@
                         <node concept="2GrKxI" id="12$80X50EV_" role="2Gsz3X">
                           <property role="TrG5h" value="connection" />
                         </node>
-                        <node concept="2OqwBi" id="12$80X50GJX" role="2GsD0m">
-                          <node concept="2OqwBi" id="1axCqqCgl_l" role="2Oq$k0">
-                            <node concept="37vLTw" id="12$80X50GpX" role="2Oq$k0">
-                              <ref role="3cqZAo" node="7vufT$lnebv" resolve="myModel" />
+                        <node concept="2EnYce" id="3w6aby5664T" role="2GsD0m">
+                          <node concept="2EnYce" id="3w6aby565VJ" role="2Oq$k0">
+                            <node concept="1rXfSq" id="3w6aby560Uq" role="2Oq$k0">
+                              <ref role="37wK5l" node="3w6aby55VL4" resolve="getGraph" />
                             </node>
                             <node concept="liA8E" id="1axCqqCgm5N" role="2OqNvi">
-                              <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                              <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                             </node>
                           </node>
                           <node concept="liA8E" id="12$80X50HkK" role="2OqNvi">
-                            <ref role="37wK5l" to="nkm5:1axCqqCcjx6" resolve="getConnectionTypes" />
+                            <ref role="37wK5l" to="nkm5:7MH10IUREMC" resolve="getConnectionTypes" />
                           </node>
                         </node>
                         <node concept="3clFbS" id="12$80X50EVD" role="2LFqv$">
@@ -12753,7 +12748,25 @@
         </node>
       </node>
     </node>
-    <node concept="2tJIrI" id="4KKQOHIVFBz" role="jymVt" />
+    <node concept="3clFb_" id="3w6aby55VL4" role="jymVt">
+      <property role="TrG5h" value="getGraph" />
+      <node concept="3uibUv" id="3w6aby55Ywk" role="3clF45">
+        <ref role="3uigEE" node="190K99KhFiz" resolve="MyGraph" />
+      </node>
+      <node concept="3Tm1VV" id="3w6aby55VL7" role="1B3o_S" />
+      <node concept="3clFbS" id="3w6aby55VL8" role="3clF47">
+        <node concept="3clFbF" id="3w6aby55YXL" role="3cqZAp">
+          <node concept="2EnYce" id="3w6aby560NN" role="3clFbG">
+            <node concept="37vLTw" id="3w6aby55YXK" role="2Oq$k0">
+              <ref role="3cqZAo" node="2545YAXjKJb" resolve="myActiveDiagramCell" />
+            </node>
+            <node concept="liA8E" id="3w6aby560H3" role="2OqNvi">
+              <ref role="37wK5l" node="4HMzb$XPdI$" resolve="getContextGraph" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="3clFb_" id="12$80X50KGk" role="jymVt">
       <property role="TrG5h" value="createConnectionItem" />
       <node concept="3uibUv" id="12$80X513vu" role="3clF45">
@@ -12792,15 +12805,15 @@
                         <node concept="17R0WA" id="2eQzkDL7aQb" role="3clFbG">
                           <node concept="2OqwBi" id="2eQzkDL7aQe" role="3uHU7B">
                             <node concept="2OqwBi" id="1axCqqCewvZ" role="2Oq$k0">
-                              <node concept="37vLTw" id="2eQzkDL7aQf" role="2Oq$k0">
-                                <ref role="3cqZAo" node="7vufT$lnebv" resolve="myModel" />
+                              <node concept="1rXfSq" id="3w6aby566Gl" role="2Oq$k0">
+                                <ref role="37wK5l" node="3w6aby55VL4" resolve="getGraph" />
                               </node>
                               <node concept="liA8E" id="1axCqqCeye1" role="2OqNvi">
-                                <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                                <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                               </node>
                             </node>
                             <node concept="liA8E" id="2eQzkDL7aQg" role="2OqNvi">
-                              <ref role="37wK5l" to="nkm5:1axCqqCcAOE" resolve="getPreferred" />
+                              <ref role="37wK5l" to="nkm5:7MH10IUREPm" resolve="getPreferred" />
                             </node>
                           </node>
                           <node concept="37vLTw" id="2eQzkDL7aQd" role="3uHU7w">
@@ -12851,15 +12864,15 @@
                             <node concept="3clFbF" id="2eQzkDLaYDc" role="3cqZAp">
                               <node concept="2OqwBi" id="2eQzkDLaYEI" role="3clFbG">
                                 <node concept="2OqwBi" id="1axCqqCf5Vc" role="2Oq$k0">
-                                  <node concept="37vLTw" id="2eQzkDLaYDb" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="7vufT$lnebv" resolve="myModel" />
+                                  <node concept="1rXfSq" id="3w6aby56gbZ" role="2Oq$k0">
+                                    <ref role="37wK5l" node="3w6aby55VL4" resolve="getGraph" />
                                   </node>
                                   <node concept="liA8E" id="1axCqqCf6pZ" role="2OqNvi">
-                                    <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                                    <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="2eQzkDLaYOz" role="2OqNvi">
-                                  <ref role="37wK5l" to="nkm5:1axCqqCcAOv" resolve="setPreferred" />
+                                  <ref role="37wK5l" to="nkm5:7MH10IUREPb" resolve="setPreferred" />
                                   <node concept="10Nm6u" id="2eQzkDLaYQw" role="37wK5m" />
                                 </node>
                               </node>
@@ -12871,15 +12884,15 @@
                             </node>
                             <node concept="2OqwBi" id="2eQzkDLaY7m" role="3uHU7B">
                               <node concept="2OqwBi" id="1axCqqCeAKz" role="2Oq$k0">
-                                <node concept="37vLTw" id="2eQzkDLaXZn" role="2Oq$k0">
-                                  <ref role="3cqZAo" node="7vufT$lnebv" resolve="myModel" />
+                                <node concept="1rXfSq" id="3w6aby56byb" role="2Oq$k0">
+                                  <ref role="37wK5l" node="3w6aby55VL4" resolve="getGraph" />
                                 </node>
                                 <node concept="liA8E" id="1axCqqCeBfr" role="2OqNvi">
-                                  <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                                  <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="2eQzkDLaYnv" role="2OqNvi">
-                                <ref role="37wK5l" to="nkm5:1axCqqCcAOE" resolve="getPreferred" />
+                                <ref role="37wK5l" to="nkm5:7MH10IUREPm" resolve="getPreferred" />
                               </node>
                             </node>
                           </node>
@@ -12888,15 +12901,15 @@
                               <node concept="3clFbF" id="12$80X51QEb" role="3cqZAp">
                                 <node concept="2OqwBi" id="12$80X51IfR" role="3clFbG">
                                   <node concept="2OqwBi" id="1axCqqCfaVN" role="2Oq$k0">
-                                    <node concept="37vLTw" id="12$80X51HW1" role="2Oq$k0">
-                                      <ref role="3cqZAo" node="7vufT$lnebv" resolve="myModel" />
+                                    <node concept="1rXfSq" id="3w6aby56gvZ" role="2Oq$k0">
+                                      <ref role="37wK5l" node="3w6aby55VL4" resolve="getGraph" />
                                     </node>
                                     <node concept="liA8E" id="1axCqqCfbqJ" role="2OqNvi">
-                                      <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                                      <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="12$80X51Iqm" role="2OqNvi">
-                                    <ref role="37wK5l" to="nkm5:1axCqqCcAOv" resolve="setPreferred" />
+                                    <ref role="37wK5l" to="nkm5:7MH10IUREPb" resolve="setPreferred" />
                                     <node concept="37vLTw" id="12$80X51IvE" role="37wK5m">
                                       <ref role="3cqZAo" node="12$80X51bXa" resolve="connectionType" />
                                     </node>
@@ -16941,46 +16954,14 @@
         </node>
       </node>
     </node>
+    <node concept="312cEg" id="3w6aby53weK" role="jymVt">
+      <property role="TrG5h" value="myConnectionTypeChooser" />
+      <node concept="3Tm6S6" id="3w6aby53weL" role="1B3o_S" />
+      <node concept="3uibUv" id="3w6aby53CmS" role="1tU5fm">
+        <ref role="3uigEE" to="nkm5:7MH10IUREMm" resolve="ConnectionTypeChooser" />
+      </node>
+    </node>
     <node concept="2tJIrI" id="190K99KyFXz" role="jymVt" />
-    <node concept="3clFb_" id="190K99KyEYw" role="jymVt">
-      <property role="TrG5h" value="setGraphComponent" />
-      <node concept="3cqZAl" id="190K99KyEYy" role="3clF45" />
-      <node concept="3Tm1VV" id="190K99KyEYz" role="1B3o_S" />
-      <node concept="3clFbS" id="190K99KyEY$" role="3clF47">
-        <node concept="3clFbF" id="190K99KyRL1" role="3cqZAp">
-          <node concept="37vLTI" id="190K99KyS3G" role="3clFbG">
-            <node concept="37vLTw" id="190K99KyS5d" role="37vLTx">
-              <ref role="3cqZAo" node="190K99KyHwy" resolve="component" />
-            </node>
-            <node concept="37vLTw" id="190K99KyRL0" role="37vLTJ">
-              <ref role="3cqZAo" node="190K99KyPJp" resolve="myComponent" />
-            </node>
-          </node>
-        </node>
-      </node>
-      <node concept="37vLTG" id="190K99KyHwy" role="3clF46">
-        <property role="TrG5h" value="component" />
-        <node concept="3uibUv" id="190K99KyRzs" role="1tU5fm">
-          <ref role="3uigEE" node="190K99KyNov" resolve="MyGraphComponent" />
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="eyrvBdlLyS" role="jymVt" />
-    <node concept="3clFb_" id="eyrvBdlDbJ" role="jymVt">
-      <property role="TrG5h" value="getGraphComponent" />
-      <node concept="3uibUv" id="eyrvBdlDbK" role="3clF45">
-        <ref role="3uigEE" node="190K99KyNov" resolve="MyGraphComponent" />
-      </node>
-      <node concept="3Tm1VV" id="eyrvBdlDbL" role="1B3o_S" />
-      <node concept="3clFbS" id="eyrvBdlDbM" role="3clF47">
-        <node concept="3clFbF" id="eyrvBdlDbN" role="3cqZAp">
-          <node concept="37vLTw" id="eyrvBdlDbI" role="3clFbG">
-            <ref role="3cqZAo" node="190K99KyPJp" resolve="myComponent" />
-          </node>
-        </node>
-      </node>
-    </node>
-    <node concept="2tJIrI" id="190K99KyEK6" role="jymVt" />
     <node concept="3clFbW" id="190K99Kl267" role="jymVt">
       <node concept="3cqZAl" id="190K99Kl269" role="3clF45" />
       <node concept="3Tm1VV" id="190K99Kl26a" role="1B3o_S" />
@@ -17020,6 +17001,19 @@
             </node>
             <node concept="37vLTw" id="5P3ZJ9cZmRo" role="37vLTJ">
               <ref role="3cqZAo" node="5P3ZJ9cZlyo" resolve="myDiagramModel" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="3w6aby53HUp" role="3cqZAp">
+          <node concept="37vLTI" id="3w6aby53IIV" role="3clFbG">
+            <node concept="2ShNRf" id="3w6aby53IMj" role="37vLTx">
+              <node concept="1pGfFk" id="3w6aby53IMb" role="2ShVmc">
+                <ref role="37wK5l" to="nkm5:7MH10IURISs" resolve="ConnectionTypeChooser" />
+                <node concept="Xjq3P" id="3w6aby53IMS" role="37wK5m" />
+              </node>
+            </node>
+            <node concept="37vLTw" id="3w6aby53HUn" role="37vLTJ">
+              <ref role="3cqZAo" node="3w6aby53weK" resolve="myConnectionTypeChooser" />
             </node>
           </node>
         </node>
@@ -17147,6 +17141,60 @@
       </node>
     </node>
     <node concept="2tJIrI" id="6yUTIuncpfO" role="jymVt" />
+    <node concept="3clFb_" id="3w6aby53KWE" role="jymVt">
+      <property role="TrG5h" value="getConnectionTypeChooser" />
+      <node concept="3uibUv" id="3w6aby53N3i" role="3clF45">
+        <ref role="3uigEE" to="nkm5:7MH10IUREMm" resolve="ConnectionTypeChooser" />
+      </node>
+      <node concept="3Tm1VV" id="3w6aby53KWH" role="1B3o_S" />
+      <node concept="3clFbS" id="3w6aby53KWI" role="3clF47">
+        <node concept="3clFbF" id="3w6aby53Ouc" role="3cqZAp">
+          <node concept="37vLTw" id="3w6aby53Oub" role="3clFbG">
+            <ref role="3cqZAo" node="3w6aby53weK" resolve="myConnectionTypeChooser" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3w6aby53KaT" role="jymVt" />
+    <node concept="3clFb_" id="190K99KyEYw" role="jymVt">
+      <property role="TrG5h" value="setGraphComponent" />
+      <node concept="3cqZAl" id="190K99KyEYy" role="3clF45" />
+      <node concept="3Tm1VV" id="190K99KyEYz" role="1B3o_S" />
+      <node concept="3clFbS" id="190K99KyEY$" role="3clF47">
+        <node concept="3clFbF" id="190K99KyRL1" role="3cqZAp">
+          <node concept="37vLTI" id="190K99KyS3G" role="3clFbG">
+            <node concept="37vLTw" id="190K99KyS5d" role="37vLTx">
+              <ref role="3cqZAo" node="190K99KyHwy" resolve="component" />
+            </node>
+            <node concept="37vLTw" id="190K99KyRL0" role="37vLTJ">
+              <ref role="3cqZAo" node="190K99KyPJp" resolve="myComponent" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="190K99KyHwy" role="3clF46">
+        <property role="TrG5h" value="component" />
+        <node concept="3uibUv" id="190K99KyRzs" role="1tU5fm">
+          <ref role="3uigEE" node="190K99KyNov" resolve="MyGraphComponent" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="eyrvBdlLyS" role="jymVt" />
+    <node concept="3clFb_" id="eyrvBdlDbJ" role="jymVt">
+      <property role="TrG5h" value="getGraphComponent" />
+      <node concept="3uibUv" id="eyrvBdlDbK" role="3clF45">
+        <ref role="3uigEE" node="190K99KyNov" resolve="MyGraphComponent" />
+      </node>
+      <node concept="3Tm1VV" id="eyrvBdlDbL" role="1B3o_S" />
+      <node concept="3clFbS" id="eyrvBdlDbM" role="3clF47">
+        <node concept="3clFbF" id="eyrvBdlDbN" role="3cqZAp">
+          <node concept="37vLTw" id="eyrvBdlDbI" role="3clFbG">
+            <ref role="3cqZAo" node="190K99KyPJp" resolve="myComponent" />
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3w6aby53FW3" role="jymVt" />
     <node concept="3clFb_" id="7FG9wZ1ApRH" role="jymVt">
       <property role="TrG5h" value="getMPSCellRegistry" />
       <node concept="3uibUv" id="7FG9wZ1AzwZ" role="3clF45">
@@ -18022,8 +18070,8 @@
           </node>
           <node concept="3fqX7Q" id="5P3ZJ9d07UD" role="3clFbw">
             <node concept="2OqwBi" id="5P3ZJ9d082A" role="3fr31v">
-              <node concept="1rXfSq" id="7MH10IU_CiG" role="2Oq$k0">
-                <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
+              <node concept="37vLTw" id="3w6aby53IZ2" role="2Oq$k0">
+                <ref role="3cqZAo" node="3w6aby53weK" resolve="myConnectionTypeChooser" />
               </node>
               <node concept="liA8E" id="5P3ZJ9d08m3" role="2OqNvi">
                 <ref role="37wK5l" to="nkm5:5P3ZJ9cO5oF" resolve="validateConnection" />
@@ -18439,7 +18487,7 @@
     </node>
     <node concept="2tJIrI" id="45TnPEtYAro" role="jymVt" />
     <node concept="3clFb_" id="zdi$i4F31o" role="jymVt">
-      <property role="TrG5h" value="getDiagramModel" />
+      <property role="TrG5h" value="getRootDiagramModel" />
       <node concept="3uibUv" id="zdi$i4F3Ww" role="3clF45">
         <ref role="3uigEE" to="nkm5:27djZ8_ZBps" resolve="DiagramModel" />
       </node>
@@ -18465,7 +18513,7 @@
             <ref role="37wK5l" node="4KKQOHIOeaG" resolve="getPrimarySynchronizer" />
             <ref role="1Pybhc" node="4KKQOHIOeae" resolve="JGraphModelSynchronizer" />
             <node concept="1rXfSq" id="zdi$i4F8va" role="37wK5m">
-              <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
+              <ref role="37wK5l" node="zdi$i4F31o" resolve="getRootDiagramModel" />
             </node>
           </node>
         </node>
@@ -59589,21 +59637,21 @@
                       </node>
                     </node>
                     <node concept="2OqwBi" id="45TnPEvGHz1" role="2GsD0m">
-                      <node concept="2OqwBi" id="1axCqqCgr9S" role="2Oq$k0">
-                        <node concept="2OqwBi" id="45TnPEvGFU9" role="2Oq$k0">
-                          <node concept="37vLTw" id="45TnPEvGFtk" role="2Oq$k0">
-                            <ref role="3cqZAo" node="45TnPEvGFtg" resolve="graph" />
-                          </node>
-                          <node concept="liA8E" id="45TnPEvGHxR" role="2OqNvi">
-                            <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
-                          </node>
-                        </node>
-                        <node concept="liA8E" id="1axCqqCgrS4" role="2OqNvi">
-                          <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
-                        </node>
-                      </node>
                       <node concept="liA8E" id="45TnPEvGIjG" role="2OqNvi">
-                        <ref role="37wK5l" to="nkm5:1axCqqCcjx6" resolve="getConnectionTypes" />
+                        <ref role="37wK5l" to="nkm5:7MH10IUSbju" resolve="getConnectionTypes" />
+                      </node>
+                      <node concept="2OqwBi" id="1spXWKqsusC" role="2Oq$k0">
+                        <node concept="2OqwBi" id="1spXWKqseUT" role="2Oq$k0">
+                          <node concept="37vLTw" id="1spXWKqseUU" role="2Oq$k0">
+                            <ref role="3cqZAo" node="S$ha3H7hEv" resolve="boxCell" />
+                          </node>
+                          <node concept="liA8E" id="1spXWKqseUV" role="2OqNvi">
+                            <ref role="37wK5l" node="5K7KC_qAcJd" resolve="getBox" />
+                          </node>
+                        </node>
+                        <node concept="liA8E" id="1spXWKqs$4s" role="2OqNvi">
+                          <ref role="37wK5l" to="nkm5:27djZ8A0aKg" resolve="getModel" />
+                        </node>
                       </node>
                     </node>
                   </node>
@@ -67711,7 +67759,7 @@
               <ref role="37wK5l" node="6Fu8whCD5VQ" resolve="getGraph" />
             </node>
             <node concept="liA8E" id="1YMg$ehItPQ" role="2OqNvi">
-              <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
+              <ref role="37wK5l" node="zdi$i4F31o" resolve="getRootDiagramModel" />
             </node>
           </node>
         </node>
@@ -70616,20 +70664,15 @@
             <node concept="3clFbF" id="45TnPEw520I" role="3cqZAp">
               <node concept="2OqwBi" id="45TnPEw55SK" role="3clFbG">
                 <node concept="2OqwBi" id="1axCqqCf2Hb" role="2Oq$k0">
-                  <node concept="2OqwBi" id="45TnPEw545h" role="2Oq$k0">
-                    <node concept="37vLTw" id="45TnPEw53Mk" role="2Oq$k0">
-                      <ref role="3cqZAo" node="45TnPEw53Me" resolve="graph" />
-                    </node>
-                    <node concept="liA8E" id="45TnPEw55RR" role="2OqNvi">
-                      <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
-                    </node>
+                  <node concept="37vLTw" id="45TnPEw53Mk" role="2Oq$k0">
+                    <ref role="3cqZAo" node="45TnPEw53Me" resolve="graph" />
                   </node>
                   <node concept="liA8E" id="1axCqqCf3uB" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                    <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                   </node>
                 </node>
                 <node concept="liA8E" id="45TnPEw56Gd" role="2OqNvi">
-                  <ref role="37wK5l" to="nkm5:1axCqqCh7pJ" resolve="setForced" />
+                  <ref role="37wK5l" to="nkm5:7MH10IUREQE" resolve="setForced" />
                   <node concept="37vLTw" id="45TnPEw56Kj" role="37wK5m">
                     <ref role="3cqZAo" node="45TnPEvTLWJ" resolve="myConnectionType" />
                   </node>
@@ -70880,21 +70923,16 @@
         </node>
         <node concept="3clFbF" id="1axCqqChPLC" role="3cqZAp">
           <node concept="2OqwBi" id="1axCqqCi1DA" role="3clFbG">
-            <node concept="2OqwBi" id="1axCqqCi0WL" role="2Oq$k0">
-              <node concept="2OqwBi" id="1axCqqChYXp" role="2Oq$k0">
-                <node concept="37vLTw" id="1axCqqChYE3" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1axCqqChYDZ" resolve="graph" />
-                </node>
-                <node concept="liA8E" id="1axCqqCi0VZ" role="2OqNvi">
-                  <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
-                </node>
+            <node concept="2OqwBi" id="3w6aby55M5J" role="2Oq$k0">
+              <node concept="37vLTw" id="3w6aby55M56" role="2Oq$k0">
+                <ref role="3cqZAo" node="1axCqqChYDZ" resolve="graph" />
               </node>
-              <node concept="liA8E" id="1axCqqCi1BH" role="2OqNvi">
-                <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+              <node concept="liA8E" id="3w6aby55O3C" role="2OqNvi">
+                <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
               </node>
             </node>
             <node concept="liA8E" id="1axCqqCi2fZ" role="2OqNvi">
-              <ref role="37wK5l" to="nkm5:1axCqqCh7pJ" resolve="setForced" />
+              <ref role="37wK5l" to="nkm5:7MH10IUREQE" resolve="setForced" />
               <node concept="10Nm6u" id="1axCqqCi2oi" role="37wK5m" />
             </node>
           </node>
@@ -71310,22 +71348,17 @@
             </node>
             <node concept="3cpWs8" id="6gM9UMK1wg6" role="3cqZAp">
               <node concept="3cpWsn" id="6gM9UMK1wg7" role="3cpWs9">
-                <property role="TrG5h" value="connectionTypeSet" />
+                <property role="TrG5h" value="connectionTypeChooser" />
                 <property role="3TUv4t" value="true" />
-                <node concept="3uibUv" id="6gM9UMK1wg3" role="1tU5fm">
-                  <ref role="3uigEE" to="nkm5:1axCqqCbpln" resolve="ConnectionTypeSet" />
+                <node concept="3uibUv" id="3w6aby55JDp" role="1tU5fm">
+                  <ref role="3uigEE" to="nkm5:7MH10IUREMm" resolve="ConnectionTypeChooser" />
                 </node>
-                <node concept="2OqwBi" id="6gM9UMK1wg8" role="33vP2m">
-                  <node concept="2OqwBi" id="6gM9UMK1wg9" role="2Oq$k0">
-                    <node concept="37vLTw" id="6gM9UMK1wga" role="2Oq$k0">
-                      <ref role="3cqZAo" node="6gM9UMK1ukv" resolve="graph" />
-                    </node>
-                    <node concept="liA8E" id="6gM9UMK1wgb" role="2OqNvi">
-                      <ref role="37wK5l" node="zdi$i4F31o" resolve="getDiagramModel" />
-                    </node>
+                <node concept="2OqwBi" id="6gM9UMK1wg9" role="33vP2m">
+                  <node concept="37vLTw" id="6gM9UMK1wga" role="2Oq$k0">
+                    <ref role="3cqZAo" node="6gM9UMK1ukv" resolve="graph" />
                   </node>
-                  <node concept="liA8E" id="6gM9UMK1wgc" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:1axCqqCcYT5" resolve="getConnectionTypeSet" />
+                  <node concept="liA8E" id="6gM9UMK1wgb" role="2OqNvi">
+                    <ref role="37wK5l" node="3w6aby53KWE" resolve="getConnectionTypeChooser" />
                   </node>
                 </node>
               </node>
@@ -71452,10 +71485,10 @@
                 </node>
                 <node concept="2OqwBi" id="6gM9UMK2bKA" role="33vP2m">
                   <node concept="37vLTw" id="6gM9UMK2bKB" role="2Oq$k0">
-                    <ref role="3cqZAo" node="6gM9UMK1wg7" resolve="connectionTypeSet" />
+                    <ref role="3cqZAo" node="6gM9UMK1wg7" resolve="connectionTypeChooser" />
                   </node>
                   <node concept="liA8E" id="6gM9UMK2bKC" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:6gM9UMJY61Q" resolve="getAllApplicable" />
+                    <ref role="37wK5l" to="nkm5:7MH10IUREN1" resolve="getAllApplicable" />
                     <node concept="1LFfDK" id="6gM9UMK2bKD" role="37wK5m">
                       <node concept="3cmrfG" id="6gM9UMK2bKE" role="1LF_Uc">
                         <property role="3cmrfH" value="0" />
@@ -71632,10 +71665,10 @@
                               <node concept="3clFbF" id="5FAfkXhZfHv" role="3cqZAp">
                                 <node concept="2OqwBi" id="5FAfkXhZfHw" role="3clFbG">
                                   <node concept="37vLTw" id="5FAfkXhZfHx" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="6gM9UMK1wg7" resolve="connectionTypeSet" />
+                                    <ref role="3cqZAo" node="6gM9UMK1wg7" resolve="connectionTypeChooser" />
                                   </node>
                                   <node concept="liA8E" id="5FAfkXhZfHy" role="2OqNvi">
-                                    <ref role="37wK5l" to="nkm5:1axCqqCcAOv" resolve="setPreferred" />
+                                    <ref role="37wK5l" to="nkm5:7MH10IUREPb" resolve="setPreferred" />
                                     <node concept="37vLTw" id="5FAfkXhZg9L" role="37wK5m">
                                       <ref role="3cqZAo" node="5FAfkXhZfmt" resolve="selected" />
                                     </node>
