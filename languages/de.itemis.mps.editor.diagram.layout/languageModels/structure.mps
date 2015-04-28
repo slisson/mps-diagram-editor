@@ -197,13 +197,9 @@
       <property role="TrG5h" value="portName" />
       <ref role="AX2Wp" to="tpck:fKAOsGN" resolve="string" />
     </node>
-    <node concept="1TJgyi" id="D0N6Djqfz6" role="1TKVEl">
-      <property role="TrG5h" value="relativeX" />
-      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
-    </node>
-    <node concept="1TJgyi" id="D0N6DjqhRS" role="1TKVEl">
-      <property role="TrG5h" value="relativeY" />
-      <ref role="AX2Wp" to="tpc2:i2E8K1n" resolve="_FloatOrInteger_String" />
+    <node concept="1TJgyi" id="6U8jGBYlk7H" role="1TKVEl">
+      <property role="TrG5h" value="ordinal" />
+      <ref role="AX2Wp" to="tpck:fKAQMTA" resolve="integer" />
     </node>
   </node>
 </model>
