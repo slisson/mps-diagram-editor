@@ -13,6 +13,7 @@
     <use id="ed6d7656-532c-4bc2-81d1-af945aeb8280" name="jetbrains.mps.baseLanguage.blTypes" version="0" />
     <use id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" name="jetbrains.mps.lang.traceable" version="0" />
     <use id="f2801650-65d5-424e-bb1b-463a8781b786" name="jetbrains.mps.baseLanguage.javadoc" version="1" />
+    <use id="c0080a47-7e37-4558-bee9-9ae18e690549" name="jetbrains.mps.lang.extension" version="0" />
   </languages>
   <imports>
     <import index="as9o" ref="3f233e7f-b8a6-46d2-a57f-795d56775243/f:java_stub#3f233e7f-b8a6-46d2-a57f-795d56775243#org.jetbrains.annotations(Annotations/org.jetbrains.annotations@java_stub)" />
@@ -1287,7 +1288,7 @@
     </node>
   </node>
   <node concept="2uRRBy" id="2vJRo8g$$xf">
-    <property role="TrG5h" value="HyperlinkPlugin" />
+    <property role="TrG5h" value="MouseListenerPlugin" />
     <node concept="2BZ0e9" id="2vJRo8g$$xg" role="2uRRBA">
       <property role="TrG5h" value="myConnection" />
       <node concept="3Tm6S6" id="2vJRo8g$$xh" role="1B3o_S" />
