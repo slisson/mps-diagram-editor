@@ -7919,27 +7919,12 @@
             </node>
             <node concept="liA8E" id="fQhyIMoaUz" role="2OqNvi">
               <ref role="37wK5l" to="f5o7:~mxPoint.setX(double):void" resolve="setX" />
-              <node concept="FJ1c_" id="fQhyIMoaU$" role="37wK5m">
-                <node concept="2OqwBi" id="fQhyIMoaU_" role="3uHU7w">
-                  <node concept="2OqwBi" id="fQhyIMoaUA" role="2Oq$k0">
-                    <node concept="37vLTw" id="fQhyIMoaUB" role="2Oq$k0">
-                      <ref role="3cqZAo" node="fQhyIMogvc" resolve="parentCell" />
-                    </node>
-                    <node concept="liA8E" id="fQhyIMoaUC" role="2OqNvi">
-                      <ref role="37wK5l" to="g6dw:~mxCell.getGeometry():com.mxgraph.model.mxGeometry" resolve="getGeometry" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="fQhyIMoaUD" role="2OqNvi">
-                    <ref role="37wK5l" to="f5o7:~mxRectangle.getWidth():double" resolve="getWidth" />
-                  </node>
+              <node concept="2OqwBi" id="fQhyIMoaUE" role="37wK5m">
+                <node concept="37vLTw" id="fQhyIMow3G" role="2Oq$k0">
+                  <ref role="3cqZAo" node="fQhyIMo0ad" resolve="port" />
                 </node>
-                <node concept="2OqwBi" id="fQhyIMoaUE" role="3uHU7B">
-                  <node concept="37vLTw" id="fQhyIMow3G" role="2Oq$k0">
-                    <ref role="3cqZAo" node="fQhyIMo0ad" resolve="port" />
-                  </node>
-                  <node concept="liA8E" id="fQhyIMoaUG" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:2BjZSlQCNQj" resolve="getLayoutedX" />
-                  </node>
+                <node concept="liA8E" id="fQhyIMoaUG" role="2OqNvi">
+                  <ref role="37wK5l" to="nkm5:2BjZSlQCNQj" resolve="getLayoutedX" />
                 </node>
               </node>
             </node>
@@ -7952,27 +7937,12 @@
             </node>
             <node concept="liA8E" id="fQhyIMoaUK" role="2OqNvi">
               <ref role="37wK5l" to="f5o7:~mxPoint.setY(double):void" resolve="setY" />
-              <node concept="FJ1c_" id="fQhyIMoaUL" role="37wK5m">
-                <node concept="2OqwBi" id="fQhyIMoaUM" role="3uHU7w">
-                  <node concept="2OqwBi" id="fQhyIMoaUN" role="2Oq$k0">
-                    <node concept="37vLTw" id="fQhyIMoaUO" role="2Oq$k0">
-                      <ref role="3cqZAo" node="fQhyIMogvc" resolve="parentCell" />
-                    </node>
-                    <node concept="liA8E" id="fQhyIMoaUP" role="2OqNvi">
-                      <ref role="37wK5l" to="g6dw:~mxCell.getGeometry():com.mxgraph.model.mxGeometry" resolve="getGeometry" />
-                    </node>
-                  </node>
-                  <node concept="liA8E" id="fQhyIMoaUQ" role="2OqNvi">
-                    <ref role="37wK5l" to="f5o7:~mxRectangle.getHeight():double" resolve="getHeight" />
-                  </node>
+              <node concept="2OqwBi" id="fQhyIMoaUR" role="37wK5m">
+                <node concept="37vLTw" id="fQhyIMoxte" role="2Oq$k0">
+                  <ref role="3cqZAo" node="fQhyIMo0ad" resolve="port" />
                 </node>
-                <node concept="2OqwBi" id="fQhyIMoaUR" role="3uHU7B">
-                  <node concept="37vLTw" id="fQhyIMoxte" role="2Oq$k0">
-                    <ref role="3cqZAo" node="fQhyIMo0ad" resolve="port" />
-                  </node>
-                  <node concept="liA8E" id="fQhyIMoaUT" role="2OqNvi">
-                    <ref role="37wK5l" to="nkm5:2BjZSlQCSoU" resolve="getLayoutedY" />
-                  </node>
+                <node concept="liA8E" id="fQhyIMoaUT" role="2OqNvi">
+                  <ref role="37wK5l" to="nkm5:2BjZSlQCSoU" resolve="getLayoutedY" />
                 </node>
               </node>
             </node>
@@ -9151,9 +9121,7 @@
             </node>
             <node concept="liA8E" id="1FlH1cKk6Pe" role="2OqNvi">
               <ref role="37wK5l" to="g6dw:~mxGeometry.setRelative(boolean):void" resolve="setRelative" />
-              <node concept="3clFbT" id="1FlH1cKk6Qb" role="37wK5m">
-                <property role="3clFbU" value="true" />
-              </node>
+              <node concept="3clFbT" id="1FlH1cKk6Qb" role="37wK5m" />
             </node>
           </node>
         </node>
