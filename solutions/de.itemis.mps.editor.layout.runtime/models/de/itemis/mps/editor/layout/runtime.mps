@@ -700,6 +700,37 @@
       </node>
     </node>
     <node concept="2tJIrI" id="rKHxOE6t2T" role="jymVt" />
+    <node concept="3clFb_" id="3zMER65XXlO" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="doLayoutTopDown" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="3zMER65XXlP" role="1B3o_S" />
+      <node concept="3cqZAl" id="3zMER65XXlQ" role="3clF45" />
+      <node concept="37vLTG" id="3zMER65XXlR" role="3clF46">
+        <property role="TrG5h" value="collection" />
+        <node concept="3uibUv" id="3zMER65XXlS" role="1tU5fm">
+          <ref role="3uigEE" to="nu8v:~EditorCell_Collection" resolve="EditorCell_Collection" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="3zMER65XXlX" role="3clF47">
+        <node concept="3clFbF" id="3zMER65XYLw" role="3cqZAp">
+          <node concept="1rXfSq" id="3zMER65XYLv" role="3clFbG">
+            <ref role="37wK5l" node="rKHxOE6oCK" resolve="doLayout" />
+            <node concept="37vLTw" id="3zMER65XYPS" role="37wK5m">
+              <ref role="3cqZAo" node="3zMER65XXlR" resolve="collection" />
+            </node>
+            <node concept="3clFbT" id="3zMER65XYXu" role="37wK5m">
+              <property role="3clFbU" value="true" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="3zMER65XYly" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="3zMER65XZtw" role="jymVt" />
     <node concept="3clFb_" id="rKHxOE6oCK" role="jymVt">
       <property role="1EzhhJ" value="false" />
       <property role="TrG5h" value="doLayout" />
@@ -1022,7 +1053,7 @@
                   <ref role="3cqZAo" node="rKHxOE70WY" resolve="chilLayout" />
                 </node>
                 <node concept="liA8E" id="rKHxOE77DH" role="2OqNvi">
-                  <ref role="37wK5l" node="rKHxOEaRrl" resolve="doLayout" />
+                  <ref role="37wK5l" node="rKHxOEaRrl" resolve="doLayoutTopDown" />
                   <node concept="10QFUN" id="rKHxOE78Zp" role="37wK5m">
                     <node concept="3uibUv" id="rKHxOE79oL" role="10QFUM">
                       <ref role="3uigEE" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
@@ -1031,17 +1062,11 @@
                       <ref role="2Gs0qQ" node="rKHxOE6N2v" resolve="childCell" />
                     </node>
                   </node>
-                  <node concept="3clFbT" id="rKHxOE78_u" role="37wK5m">
-                    <property role="3clFbU" value="true" />
-                  </node>
                 </node>
               </node>
             </node>
           </node>
         </node>
-      </node>
-      <node concept="2AHcQZ" id="rKHxOEaZbC" role="2AJF6D">
-        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
     <node concept="2tJIrI" id="rKHxOE6jg4" role="jymVt" />
@@ -3620,7 +3645,7 @@
     <property role="TrG5h" value="ITopDownLayout" />
     <node concept="3clFb_" id="rKHxOEaRrl" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="doLayout" />
+      <property role="TrG5h" value="doLayoutTopDown" />
       <property role="DiZV1" value="false" />
       <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="rKHxOEaRrm" role="1B3o_S" />
@@ -3630,10 +3655,6 @@
         <node concept="3uibUv" id="rKHxOEaRrp" role="1tU5fm">
           <ref role="3uigEE" to="nu8v:~EditorCell_Collection" resolve="EditorCell_Collection" />
         </node>
-      </node>
-      <node concept="37vLTG" id="rKHxOEaRrq" role="3clF46">
-        <property role="TrG5h" value="childsOnly" />
-        <node concept="10P_77" id="rKHxOEaRrr" role="1tU5fm" />
       </node>
       <node concept="3clFbS" id="rKHxOEaRrs" role="3clF47" />
     </node>
@@ -3688,15 +3709,11 @@
     <property role="TrG5h" value="ITopDownLayoutCell" />
     <node concept="3clFb_" id="rKHxOE_4Ys" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="doLayout" />
+      <property role="TrG5h" value="doLayoutTopDown" />
       <property role="DiZV1" value="false" />
       <property role="IEkAT" value="false" />
       <node concept="3Tm1VV" id="rKHxOE_4Yt" role="1B3o_S" />
       <node concept="3cqZAl" id="rKHxOE_4Yu" role="3clF45" />
-      <node concept="37vLTG" id="rKHxOE_4Yx" role="3clF46">
-        <property role="TrG5h" value="childsOnly" />
-        <node concept="10P_77" id="rKHxOE_4Yy" role="1tU5fm" />
-      </node>
       <node concept="3clFbS" id="rKHxOE_4Yz" role="3clF47" />
     </node>
     <node concept="2tJIrI" id="58xH_U7uswt" role="jymVt" />
