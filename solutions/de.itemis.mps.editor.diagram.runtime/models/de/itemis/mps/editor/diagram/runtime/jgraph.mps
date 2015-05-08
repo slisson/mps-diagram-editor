@@ -4883,6 +4883,15 @@
                       <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
                     </node>
                   </node>
+                  <node concept="3cpWs8" id="4E9wbMRP_xo" role="3cqZAp">
+                    <node concept="3cpWsn" id="4E9wbMRP_xp" role="3cpWs9">
+                      <property role="TrG5h" value="wasSynchronizing" />
+                      <node concept="10P_77" id="4E9wbMRP_xn" role="1tU5fm" />
+                      <node concept="37vLTw" id="4E9wbMRP_xq" role="33vP2m">
+                        <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="2GUZhq" id="3mPIQFdE3cc" role="3cqZAp">
                     <node concept="3clFbS" id="3mPIQFdE3ce" role="2GV8ay">
                       <node concept="3clFbF" id="3mPIQFdE3lT" role="3cqZAp">
@@ -5012,8 +5021,8 @@
                     <node concept="3clFbS" id="3mPIQFdE3cf" role="2GVbov">
                       <node concept="3clFbF" id="3mPIQFdE432" role="3cqZAp">
                         <node concept="37vLTI" id="3mPIQFdE4hY" role="3clFbG">
-                          <node concept="3clFbT" id="3mPIQFdE4nt" role="37vLTx">
-                            <property role="3clFbU" value="false" />
+                          <node concept="37vLTw" id="4E9wbMRPClc" role="37vLTx">
+                            <ref role="3cqZAo" node="4E9wbMRP_xp" resolve="wasSynchronizing" />
                           </node>
                           <node concept="37vLTw" id="3mPIQFdE431" role="37vLTJ">
                             <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
@@ -5987,6 +5996,26 @@
             <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
           </node>
         </node>
+        <node concept="3cpWs8" id="4E9wbMRPCQF" role="3cqZAp">
+          <node concept="3cpWsn" id="4E9wbMRPCQI" role="3cpWs9">
+            <property role="TrG5h" value="wasSynchronizing" />
+            <node concept="10P_77" id="4E9wbMRPCQD" role="1tU5fm" />
+            <node concept="37vLTw" id="4E9wbMRPD9E" role="33vP2m">
+              <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4E9wbMRPE1S" role="3cqZAp">
+          <node concept="3cpWsn" id="4E9wbMRPE1T" role="3cpWs9">
+            <property role="TrG5h" value="wasDirection" />
+            <node concept="3uibUv" id="4E9wbMRPDZk" role="1tU5fm">
+              <ref role="3uigEE" node="4KKQOHIOeoe" resolve="JGraphModelSynchronizer.SyncDirection" />
+            </node>
+            <node concept="37vLTw" id="4E9wbMRPE1U" role="33vP2m">
+              <ref role="3cqZAo" node="4KKQOHIOecd" resolve="myCurrentDirection" />
+            </node>
+          </node>
+        </node>
         <node concept="2GUZhq" id="2m42CTLh_p3" role="3cqZAp">
           <node concept="3clFbS" id="2m42CTLh_p5" role="2GV8ay">
             <node concept="3clFbF" id="2m42CTLhC6H" role="3cqZAp">
@@ -6087,9 +6116,8 @@
           <node concept="3clFbS" id="2m42CTLh_p6" role="2GVbov">
             <node concept="3clFbF" id="2m42CTLhBn2" role="3cqZAp">
               <node concept="37vLTI" id="2m42CTLhBn3" role="3clFbG">
-                <node concept="Rm8GO" id="2m42CTLhBn4" role="37vLTx">
-                  <ref role="1Px2BO" node="4KKQOHIOeoe" resolve="JGraphModelSynchronizer.SyncDirection" />
-                  <ref role="Rm8GQ" node="4KKQOHIOeof" resolve="GRAPH2MODEL" />
+                <node concept="37vLTw" id="4E9wbMRPEQZ" role="37vLTx">
+                  <ref role="3cqZAo" node="4E9wbMRPE1T" resolve="wasDirection" />
                 </node>
                 <node concept="37vLTw" id="2m42CTLhBn5" role="37vLTJ">
                   <ref role="3cqZAo" node="4KKQOHIOecd" resolve="myCurrentDirection" />
@@ -6109,8 +6137,8 @@
             </node>
             <node concept="3clFbF" id="2m42CTLhBna" role="3cqZAp">
               <node concept="37vLTI" id="2m42CTLhBnb" role="3clFbG">
-                <node concept="3clFbT" id="2m42CTLhBnc" role="37vLTx">
-                  <property role="3clFbU" value="false" />
+                <node concept="37vLTw" id="4E9wbMRPDiD" role="37vLTx">
+                  <ref role="3cqZAo" node="4E9wbMRPCQI" resolve="wasSynchronizing" />
                 </node>
                 <node concept="37vLTw" id="2m42CTLhBnd" role="37vLTJ">
                   <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
