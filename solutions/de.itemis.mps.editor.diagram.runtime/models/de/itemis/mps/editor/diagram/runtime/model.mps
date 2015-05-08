@@ -1995,6 +1995,47 @@
       <node concept="3cqZAl" id="6I91F6sH3$A" role="3clF45" />
       <node concept="3Tm1VV" id="6I91F6sH3$B" role="1B3o_S" />
       <node concept="3clFbS" id="6I91F6sH3$C" role="3clF47">
+        <node concept="2Gpval" id="7mN48Yp5TCJ" role="3cqZAp">
+          <node concept="2GrKxI" id="7mN48Yp5TCL" role="2Gsz3X">
+            <property role="TrG5h" value="cell" />
+          </node>
+          <node concept="3clFbS" id="7mN48Yp5TCN" role="2LFqv$">
+            <node concept="3clFbJ" id="7mN48Yp5ZxV" role="3cqZAp">
+              <node concept="3clFbS" id="7mN48Yp5ZxW" role="3clFbx">
+                <node concept="YS8fn" id="7mN48Yp5ZLK" role="3cqZAp">
+                  <node concept="2ShNRf" id="7mN48Yp5ZPH" role="YScLw">
+                    <node concept="1pGfFk" id="7mN48Yp6ojL" role="2ShVmc">
+                      <ref role="37wK5l" to="e2lb:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+                      <node concept="Xl_RD" id="7mN48Yp6olC" role="37wK5m">
+                        <property role="Xl_RC" value="Cell contains a root diagram cell. It should contain only subdiagram cells." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="7mN48Yp5ZAf" role="3clFbw">
+                <node concept="2OqwBi" id="7mN48Yp5UkS" role="3fr31v">
+                  <node concept="2YIFZM" id="7mN48Yp5TOA" role="2Oq$k0">
+                    <ref role="37wK5l" to="2o4v:1sJnak6wM46" resolve="descendants" />
+                    <ref role="1Pybhc" to="2o4v:1sJnak6wM3n" resolve="EditorUtil" />
+                    <node concept="2GrUjf" id="7mN48Yp5TQN" role="37wK5m">
+                      <ref role="2Gs0qQ" node="7mN48Yp5TCL" resolve="cell" />
+                    </node>
+                    <node concept="3VsKOn" id="7mN48Yp5U7t" role="37wK5m">
+                      <ref role="3VsUkX" to="r3rm:4KKQOHIOe6F" resolve="RootDiagramECell" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7mN48Yp5XvX" role="2OqNvi">
+                    <ref role="37wK5l" to="k7g3:~List.isEmpty():boolean" resolve="isEmpty" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="37vLTw" id="7mN48Yp5TK4" role="2GsD0m">
+            <ref role="3cqZAo" node="6I91F6sH4hL" resolve="cells" />
+          </node>
+        </node>
         <node concept="3clFbF" id="6I91F6sH4jz" role="3cqZAp">
           <node concept="37vLTI" id="6I91F6sH4zm" role="3clFbG">
             <node concept="2ShNRf" id="63AkbuOYo3$" role="37vLTx">
@@ -17787,11 +17828,60 @@
         <node concept="3clFbH" id="ywgKCS6_CK" role="3cqZAp" />
         <node concept="3clFbJ" id="ywgKCS6GDT" role="3cqZAp">
           <node concept="3clFbS" id="ywgKCS6GDW" role="3clFbx">
-            <node concept="3clFbF" id="ywgKCS6Nvx" role="3cqZAp">
-              <node concept="1rXfSq" id="ywgKCS6Nvv" role="3clFbG">
-                <ref role="37wK5l" node="4teJTSByqx4" resolve="fromSModel_" />
-                <node concept="37vLTw" id="iiBXaOLhZA" role="37wK5m">
-                  <ref role="3cqZAo" node="iiBXaOL53v" resolve="diagramECell" />
+            <node concept="3clFbJ" id="7mN48YphdIq" role="3cqZAp">
+              <node concept="3clFbS" id="7mN48YphdIs" role="3clFbx">
+                <node concept="3clFbF" id="ywgKCS6Nvx" role="3cqZAp">
+                  <node concept="1rXfSq" id="ywgKCS6Nvv" role="3clFbG">
+                    <ref role="37wK5l" node="4teJTSByqx4" resolve="fromSModel_" />
+                    <node concept="37vLTw" id="iiBXaOLhZA" role="37wK5m">
+                      <ref role="3cqZAo" node="iiBXaOL53v" resolve="diagramECell" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="2YIFZM" id="7mN48Yphgex" role="3clFbw">
+                <ref role="37wK5l" to="r3rm:7mN48YpheyK" resolve="isCreatingDiagram" />
+                <ref role="1Pybhc" to="r3rm:5S8_I2FYVEf" resolve="DiagramCreationContext" />
+              </node>
+              <node concept="9aQIb" id="7mN48Yphgo1" role="9aQIa">
+                <node concept="3clFbS" id="7mN48Yphgo2" role="9aQI4">
+                  <node concept="3clFbF" id="7mN48YphgoW" role="3cqZAp">
+                    <node concept="2YIFZM" id="7mN48YphgpF" role="3clFbG">
+                      <ref role="37wK5l" to="r3rm:5S8_I2FYW$n" resolve="createDiagram" />
+                      <ref role="1Pybhc" to="r3rm:5S8_I2FYVEf" resolve="DiagramCreationContext" />
+                      <node concept="1bVj0M" id="7mN48Yphgqi" role="37wK5m">
+                        <node concept="3clFbS" id="7mN48Yphgqj" role="1bW5cS">
+                          <node concept="3clFbF" id="7mN48YphgvC" role="3cqZAp">
+                            <node concept="2YIFZM" id="7mN48Yphgx6" role="3clFbG">
+                              <ref role="37wK5l" to="r3rm:5S8_I2GPoJp" resolve="setRootGraph" />
+                              <ref role="1Pybhc" to="r3rm:5S8_I2FYVEf" resolve="DiagramCreationContext" />
+                              <node concept="2EnYce" id="7mN48YphlyW" role="37wK5m">
+                                <node concept="0kSF2" id="7mN48YphiRj" role="2Oq$k0">
+                                  <node concept="3uibUv" id="7mN48Yphksr" role="0kSFW">
+                                    <ref role="3uigEE" to="r3rm:5S8_I2FY6vo" resolve="BaseDiagramECell" />
+                                  </node>
+                                  <node concept="37vLTw" id="7mN48Yphgyx" role="0kSFX">
+                                    <ref role="3cqZAo" node="iiBXaOL53v" resolve="diagramECell" />
+                                  </node>
+                                </node>
+                                <node concept="liA8E" id="7mN48YphluS" role="2OqNvi">
+                                  <ref role="37wK5l" to="r3rm:4HMzb$XPdI$" resolve="getContextGraph" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                          <node concept="3clFbF" id="7mN48Yphgrw" role="3cqZAp">
+                            <node concept="1rXfSq" id="7mN48Yphgrv" role="3clFbG">
+                              <ref role="37wK5l" node="4teJTSBx7Rz" resolve="fromSModel" />
+                              <node concept="37vLTw" id="7mN48YphgsX" role="37wK5m">
+                                <ref role="3cqZAo" node="iiBXaOL53v" resolve="diagramECell" />
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
                 </node>
               </node>
             </node>
@@ -25856,6 +25946,49 @@
       <node concept="3cqZAl" id="63AkbuPirIp" role="3clF45" />
       <node concept="3Tm1VV" id="63AkbuPirIq" role="1B3o_S" />
       <node concept="3clFbS" id="63AkbuPirIr" role="3clF47">
+        <node concept="3clFbJ" id="7mN48YpeFL6" role="3cqZAp">
+          <node concept="3clFbS" id="7mN48YpeFL8" role="3clFbx">
+            <node concept="3clFbJ" id="7mN48YpeIEu" role="3cqZAp">
+              <property role="TyiWK" value="true" />
+              <property role="TyiWL" value="false" />
+              <node concept="3clFbS" id="7mN48YpeIEv" role="3clFbx">
+                <node concept="YS8fn" id="7mN48YpeJMt" role="3cqZAp">
+                  <node concept="2ShNRf" id="7mN48YpeJMu" role="YScLw">
+                    <node concept="1pGfFk" id="7mN48YpeJMv" role="2ShVmc">
+                      <ref role="37wK5l" to="e2lb:~IllegalArgumentException.&lt;init&gt;(java.lang.String)" resolve="IllegalArgumentException" />
+                      <node concept="Xl_RD" id="7mN48YpeJMw" role="37wK5m">
+                        <property role="Xl_RC" value="Cell contains a root diagram cell. It should contain only subdiagram cells." />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3fqX7Q" id="7mN48YpeIP4" role="3clFbw">
+                <node concept="2OqwBi" id="7mN48YpeIP6" role="3fr31v">
+                  <node concept="2YIFZM" id="7mN48YpeIP7" role="2Oq$k0">
+                    <ref role="37wK5l" to="2o4v:1sJnak6wM46" resolve="descendants" />
+                    <ref role="1Pybhc" to="2o4v:1sJnak6wM3n" resolve="EditorUtil" />
+                    <node concept="37vLTw" id="7mN48YpeIP8" role="37wK5m">
+                      <ref role="3cqZAo" node="63AkbuPiszi" resolve="cell" />
+                    </node>
+                    <node concept="3VsKOn" id="7mN48YpeIP9" role="37wK5m">
+                      <ref role="3VsUkX" to="r3rm:4KKQOHIOe6F" resolve="RootDiagramECell" />
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="7mN48YpeIPa" role="2OqNvi">
+                    <ref role="37wK5l" to="k7g3:~List.isEmpty():boolean" resolve="isEmpty" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3y3z36" id="7mN48YpeFSJ" role="3clFbw">
+            <node concept="10Nm6u" id="7mN48YpeFUB" role="3uHU7w" />
+            <node concept="37vLTw" id="7mN48YpeFQE" role="3uHU7B">
+              <ref role="3cqZAo" node="63AkbuPiszi" resolve="cell" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbJ" id="4EOrrTBBPK2" role="3cqZAp">
           <node concept="3clFbS" id="4EOrrTBBPK5" role="3clFbx">
             <node concept="3clFbF" id="4EOrrTBBPZu" role="3cqZAp">
