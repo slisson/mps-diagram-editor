@@ -861,7 +861,7 @@
                                 <ref role="3cqZAo" node="4KKQOHIOe6L" resolve="myGraph" />
                               </node>
                               <node concept="liA8E" id="7YAWia_nZa9" role="2OqNvi">
-                                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="7YAWia_nZjT" role="37wK5m">
@@ -2535,11 +2535,11 @@
                 <ref role="3cqZAo" node="4KKQOHIOe6L" resolve="myGraph" />
               </node>
               <node concept="liA8E" id="2VzZEAmlaUE" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="liA8E" id="2VzZEAmkJpL" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.addListener(java.lang.String,com.mxgraph.util.mxEventSource$mxIEventListener):void" resolve="addListener" />
+              <ref role="37wK5l" to="f5o7:~mxEventSource.addListener(java.lang.String,com.mxgraph.util.mxEventSource$mxIEventListener):void" resolve="addListener" />
               <node concept="10M0yZ" id="2VzZEAmkJpM" role="37wK5m">
                 <ref role="1PxDUh" to="f5o7:~mxEvent" resolve="mxEvent" />
                 <ref role="3cqZAo" to="f5o7:~mxEvent.END_UPDATE" resolve="END_UPDATE" />
@@ -2760,11 +2760,11 @@
                 <ref role="3cqZAo" node="4KKQOHIOe6L" resolve="myGraph" />
               </node>
               <node concept="liA8E" id="2VzZEAmlb2k" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="liA8E" id="2VzZEAmlb2l" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.removeListener(com.mxgraph.util.mxEventSource$mxIEventListener,java.lang.String):void" resolve="removeListener" />
+              <ref role="37wK5l" to="f5o7:~mxEventSource.removeListener(com.mxgraph.util.mxEventSource$mxIEventListener,java.lang.String):void" resolve="removeListener" />
               <node concept="37vLTw" id="2VzZEAmluTK" role="37wK5m">
                 <ref role="3cqZAo" node="2VzZEAmkYVo" resolve="myGraphModelChangeListener" />
               </node>
@@ -4014,6 +4014,100 @@
             </node>
             <node concept="3clFbJ" id="5S8_I2GUPT$" role="3cqZAp">
               <node concept="3clFbS" id="5S8_I2GUPTB" role="3clFbx">
+                <node concept="3clFbH" id="4E9wbMRWsR3" role="3cqZAp" />
+                <node concept="3cpWs8" id="4E9wbMRWs55" role="3cqZAp">
+                  <node concept="3cpWsn" id="4E9wbMRWs56" role="3cpWs9">
+                    <property role="TrG5h" value="existingListeners" />
+                    <node concept="_YKpA" id="4E9wbMRWspM" role="1tU5fm">
+                      <node concept="3uibUv" id="4E9wbMRWspO" role="_ZDj9">
+                        <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="4E9wbMRWs57" role="33vP2m">
+                      <node concept="2OqwBi" id="4E9wbMRWs58" role="2Oq$k0">
+                        <node concept="37vLTw" id="4E9wbMRWs59" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4KKQOHIOeaR" resolve="graph" />
+                        </node>
+                        <node concept="liA8E" id="4E9wbMRWs5a" role="2OqNvi">
+                          <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
+                        </node>
+                      </node>
+                      <node concept="1PnCL0" id="4E9wbMRWs5b" role="2OqNvi">
+                        <ref role="2Oxat5" to="f5o7:~mxEventSource.eventListeners" resolve="eventListeners" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3cpWs8" id="4E9wbMRWSci" role="3cqZAp">
+                  <node concept="3cpWsn" id="4E9wbMRWScj" role="3cpWs9">
+                    <property role="TrG5h" value="alreadyListening" />
+                    <node concept="10P_77" id="4E9wbMRWSbO" role="1tU5fm" />
+                    <node concept="3y3z36" id="4E9wbMRWSck" role="33vP2m">
+                      <node concept="10Nm6u" id="4E9wbMRWScl" role="3uHU7w" />
+                      <node concept="2OqwBi" id="4E9wbMRWScm" role="3uHU7B">
+                        <node concept="37vLTw" id="4E9wbMRWScn" role="2Oq$k0">
+                          <ref role="3cqZAo" node="4E9wbMRWs56" resolve="existingListeners" />
+                        </node>
+                        <node concept="1z4cxt" id="4E9wbMRWSco" role="2OqNvi">
+                          <node concept="1bVj0M" id="4E9wbMRWScp" role="23t8la">
+                            <node concept="3clFbS" id="4E9wbMRWScq" role="1bW5cS">
+                              <node concept="3clFbF" id="4E9wbMRWScr" role="3cqZAp">
+                                <node concept="2OqwBi" id="4E9wbMRWScs" role="3clFbG">
+                                  <node concept="2OqwBi" id="4E9wbMRWSct" role="2Oq$k0">
+                                    <node concept="2OqwBi" id="4E9wbMRWScu" role="2Oq$k0">
+                                      <node concept="37vLTw" id="4E9wbMRWScv" role="2Oq$k0">
+                                        <ref role="3cqZAo" node="4E9wbMRWScA" resolve="it" />
+                                      </node>
+                                      <node concept="liA8E" id="4E9wbMRWScw" role="2OqNvi">
+                                        <ref role="37wK5l" to="e2lb:~Object.getClass():java.lang.Class" resolve="getClass" />
+                                      </node>
+                                    </node>
+                                    <node concept="liA8E" id="4E9wbMRWScx" role="2OqNvi">
+                                      <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
+                                    </node>
+                                  </node>
+                                  <node concept="liA8E" id="4E9wbMRWScy" role="2OqNvi">
+                                    <ref role="37wK5l" to="e2lb:~String.startsWith(java.lang.String):boolean" resolve="startsWith" />
+                                    <node concept="2OqwBi" id="4E9wbMRWScz" role="37wK5m">
+                                      <node concept="3VsKOn" id="4E9wbMRWSc$" role="2Oq$k0">
+                                        <ref role="3VsUkX" node="4KKQOHIOeae" resolve="JGraphModelSynchronizer" />
+                                      </node>
+                                      <node concept="liA8E" id="4E9wbMRWSc_" role="2OqNvi">
+                                        <ref role="37wK5l" to="e2lb:~Class.getName():java.lang.String" resolve="getName" />
+                                      </node>
+                                    </node>
+                                  </node>
+                                </node>
+                              </node>
+                            </node>
+                            <node concept="Rh6nW" id="4E9wbMRWScA" role="1bW2Oz">
+                              <property role="TrG5h" value="it" />
+                              <node concept="2jxLKc" id="4E9wbMRWScB" role="1tU5fm" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbJ" id="4E9wbMRWToK" role="3cqZAp">
+                  <node concept="3clFbS" id="4E9wbMRWToM" role="3clFbx">
+                    <node concept="YS8fn" id="4E9wbMRWTNL" role="3cqZAp">
+                      <node concept="2ShNRf" id="4E9wbMRWTQL" role="YScLw">
+                        <node concept="1pGfFk" id="4E9wbMRXil1" role="2ShVmc">
+                          <ref role="37wK5l" to="e2lb:~RuntimeException.&lt;init&gt;(java.lang.String)" resolve="RuntimeException" />
+                          <node concept="Xl_RD" id="4E9wbMRXinL" role="37wK5m">
+                            <property role="Xl_RC" value="There is already a synchronizer listening for model changes" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="4E9wbMRWTGZ" role="3clFbw">
+                    <ref role="3cqZAo" node="4E9wbMRWScj" resolve="alreadyListening" />
+                  </node>
+                </node>
+                <node concept="3clFbH" id="4E9wbMRWT3W" role="3cqZAp" />
                 <node concept="3clFbF" id="4KKQOHIOebc" role="3cqZAp">
                   <node concept="2OqwBi" id="4KKQOHIOebd" role="3clFbG">
                     <node concept="2OqwBi" id="4KKQOHIOebe" role="2Oq$k0">
@@ -4021,11 +4115,11 @@
                         <ref role="3cqZAo" node="4KKQOHIOeaR" resolve="graph" />
                       </node>
                       <node concept="liA8E" id="4KKQOHIOebg" role="2OqNvi">
-                        <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                        <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                       </node>
                     </node>
                     <node concept="liA8E" id="4KKQOHIOebh" role="2OqNvi">
-                      <ref role="37wK5l" to="g6dw:~mxIGraphModel.addListener(java.lang.String,com.mxgraph.util.mxEventSource$mxIEventListener):void" resolve="addListener" />
+                      <ref role="37wK5l" to="f5o7:~mxEventSource.addListener(java.lang.String,com.mxgraph.util.mxEventSource$mxIEventListener):void" resolve="addListener" />
                       <node concept="10M0yZ" id="4KKQOHIOebi" role="37wK5m">
                         <ref role="1PxDUh" to="f5o7:~mxEvent" resolve="mxEvent" />
                         <ref role="3cqZAo" to="f5o7:~mxEvent.END_UPDATE" resolve="END_UPDATE" />
@@ -4260,10 +4354,10 @@
             </node>
           </node>
           <node concept="3clFbC" id="4KKQOHIOebT" role="3clFbw">
-            <node concept="10Nm6u" id="4KKQOHIOebU" role="3uHU7w" />
             <node concept="37vLTw" id="4KKQOHIOebV" role="3uHU7B">
               <ref role="3cqZAo" node="4KKQOHIOeaJ" resolve="synchronizer" />
             </node>
+            <node concept="10Nm6u" id="4KKQOHIOebU" role="3uHU7w" />
           </node>
         </node>
         <node concept="3cpWs6" id="4KKQOHIOec0" role="3cqZAp">
@@ -4843,6 +4937,15 @@
                       <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
                     </node>
                   </node>
+                  <node concept="3cpWs8" id="4E9wbMRP_xo" role="3cqZAp">
+                    <node concept="3cpWsn" id="4E9wbMRP_xp" role="3cpWs9">
+                      <property role="TrG5h" value="wasSynchronizing" />
+                      <node concept="10P_77" id="4E9wbMRP_xn" role="1tU5fm" />
+                      <node concept="37vLTw" id="4E9wbMRP_xq" role="33vP2m">
+                        <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
+                      </node>
+                    </node>
+                  </node>
                   <node concept="2GUZhq" id="3mPIQFdE3cc" role="3cqZAp">
                     <node concept="3clFbS" id="3mPIQFdE3ce" role="2GV8ay">
                       <node concept="3clFbF" id="3mPIQFdE3lT" role="3cqZAp">
@@ -4972,8 +5075,8 @@
                     <node concept="3clFbS" id="3mPIQFdE3cf" role="2GVbov">
                       <node concept="3clFbF" id="3mPIQFdE432" role="3cqZAp">
                         <node concept="37vLTI" id="3mPIQFdE4hY" role="3clFbG">
-                          <node concept="3clFbT" id="3mPIQFdE4nt" role="37vLTx">
-                            <property role="3clFbU" value="false" />
+                          <node concept="37vLTw" id="4E9wbMRPClc" role="37vLTx">
+                            <ref role="3cqZAo" node="4E9wbMRP_xp" resolve="wasSynchronizing" />
                           </node>
                           <node concept="37vLTw" id="3mPIQFdE431" role="37vLTJ">
                             <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
@@ -5299,62 +5402,26 @@
                                         <ref role="3uigEE" to="nkm5:27djZ8A3OX5" resolve="PendingBox" />
                                       </node>
                                     </node>
-                                    <node concept="3uibUv" id="3mPIQFdDziK" role="3clF45">
-                                      <ref role="3uigEE" to="nkm5:4teJTSBwM8R" resolve="IBoxAccessor" />
-                                    </node>
+                                    <node concept="3cqZAl" id="1wCaMth4riW" role="3clF45" />
                                     <node concept="3Tm1VV" id="3mPIQFdDziL" role="1B3o_S" />
                                     <node concept="3clFbS" id="3mPIQFdDziM" role="3clF47">
-                                      <node concept="3cpWs8" id="3mPIQFdDziN" role="3cqZAp">
-                                        <node concept="3cpWsn" id="3mPIQFdDziO" role="3cpWs9">
-                                          <property role="TrG5h" value="node" />
-                                          <node concept="3Tqbb2" id="3mPIQFdDziP" role="1tU5fm" />
-                                          <node concept="2OqwBi" id="3mPIQFdDziQ" role="33vP2m">
-                                            <node concept="1eOMI4" id="3mPIQFdDziR" role="2Oq$k0">
-                                              <node concept="10QFUN" id="3mPIQFdDziS" role="1eOMHV">
-                                                <node concept="3uibUv" id="3mPIQFdDziT" role="10QFUM">
-                                                  <ref role="3uigEE" node="4KKQOHJd0xM" resolve="ISelfCreatingCell" />
-                                                </node>
-                                                <node concept="37vLTw" id="3mPIQFdDziU" role="10QFUP">
-                                                  <ref role="3cqZAo" node="3mPIQFdDzhU" resolve="cell" />
-                                                </node>
+                                      <node concept="3clFbF" id="1wCaMth4s9d" role="3cqZAp">
+                                        <node concept="2OqwBi" id="1wCaMth4rYv" role="3clFbG">
+                                          <node concept="1eOMI4" id="1wCaMth4rYw" role="2Oq$k0">
+                                            <node concept="10QFUN" id="1wCaMth4rYx" role="1eOMHV">
+                                              <node concept="3uibUv" id="1wCaMth4rYy" role="10QFUM">
+                                                <ref role="3uigEE" node="4KKQOHJd0xM" resolve="ISelfCreatingCell" />
                                               </node>
-                                            </node>
-                                            <node concept="liA8E" id="3mPIQFdDziV" role="2OqNvi">
-                                              <ref role="37wK5l" node="4KKQOHJd0ye" resolve="createModelNode" />
-                                            </node>
-                                          </node>
-                                        </node>
-                                      </node>
-                                      <node concept="3cpWs8" id="3mPIQFdDziW" role="3cqZAp">
-                                        <node concept="3cpWsn" id="3mPIQFdDziX" role="3cpWs9">
-                                          <property role="TrG5h" value="accessor" />
-                                          <node concept="2OqwBi" id="3mPIQFdDziZ" role="33vP2m">
-                                            <node concept="1rXfSq" id="3mPIQFdDzj0" role="2Oq$k0">
-                                              <ref role="37wK5l" node="3$o23TSHiPd" resolve="getAccessorFactory" />
-                                              <node concept="37vLTw" id="6rrvvVefQV5" role="37wK5m">
-                                                <ref role="3cqZAo" node="6rrvvVeeWHa" resolve="dmodel" />
-                                              </node>
-                                            </node>
-                                            <node concept="liA8E" id="3mPIQFdDzj1" role="2OqNvi">
-                                              <ref role="37wK5l" to="nkm5:4rVJEOkoTL9" resolve="nodeFromSNode" />
-                                              <node concept="37vLTw" id="1sJnak6vsxH" role="37wK5m">
-                                                <ref role="3cqZAo" node="3mPIQFdDziO" resolve="node" />
+                                              <node concept="37vLTw" id="1wCaMth4rYz" role="10QFUP">
+                                                <ref role="3cqZAo" node="3mPIQFdDzhU" resolve="cell" />
                                               </node>
                                             </node>
                                           </node>
-                                          <node concept="3uibUv" id="3mPIQFdDziY" role="1tU5fm">
-                                            <ref role="3uigEE" to="nkm5:4teJTSBwM8R" resolve="IBoxAccessor" />
+                                          <node concept="liA8E" id="1wCaMth4rY$" role="2OqNvi">
+                                            <ref role="37wK5l" node="4KKQOHJd0ye" resolve="createModelNode" />
                                           </node>
                                         </node>
                                       </node>
-                                      <node concept="3cpWs6" id="3mPIQFdDzju" role="3cqZAp">
-                                        <node concept="37vLTw" id="3mPIQFdDzjv" role="3cqZAk">
-                                          <ref role="3cqZAo" node="3mPIQFdDziX" resolve="accessor" />
-                                        </node>
-                                      </node>
-                                    </node>
-                                    <node concept="2AHcQZ" id="3mPIQFdDzjw" role="2AJF6D">
-                                      <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
                                     </node>
                                   </node>
                                 </node>
@@ -5947,6 +6014,26 @@
             <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
           </node>
         </node>
+        <node concept="3cpWs8" id="4E9wbMRPCQF" role="3cqZAp">
+          <node concept="3cpWsn" id="4E9wbMRPCQI" role="3cpWs9">
+            <property role="TrG5h" value="wasSynchronizing" />
+            <node concept="10P_77" id="4E9wbMRPCQD" role="1tU5fm" />
+            <node concept="37vLTw" id="4E9wbMRPD9E" role="33vP2m">
+              <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="4E9wbMRPE1S" role="3cqZAp">
+          <node concept="3cpWsn" id="4E9wbMRPE1T" role="3cpWs9">
+            <property role="TrG5h" value="wasDirection" />
+            <node concept="3uibUv" id="4E9wbMRPDZk" role="1tU5fm">
+              <ref role="3uigEE" node="4KKQOHIOeoe" resolve="JGraphModelSynchronizer.SyncDirection" />
+            </node>
+            <node concept="37vLTw" id="4E9wbMRPE1U" role="33vP2m">
+              <ref role="3cqZAo" node="4KKQOHIOecd" resolve="myCurrentDirection" />
+            </node>
+          </node>
+        </node>
         <node concept="2GUZhq" id="2m42CTLh_p3" role="3cqZAp">
           <node concept="3clFbS" id="2m42CTLh_p5" role="2GV8ay">
             <node concept="3clFbF" id="2m42CTLhC6H" role="3cqZAp">
@@ -5978,11 +6065,11 @@
                     <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                   </node>
                   <node concept="liA8E" id="6rrvvVeDTVe" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                    <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="6rrvvVeDTVf" role="2OqNvi">
-                  <ref role="37wK5l" to="g6dw:~mxIGraphModel.beginUpdate():void" resolve="beginUpdate" />
+                  <ref role="37wK5l" to="g6dw:~mxGraphModel.beginUpdate():void" resolve="beginUpdate" />
                 </node>
               </node>
             </node>
@@ -6033,11 +6120,11 @@
                         <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                       </node>
                       <node concept="liA8E" id="6rrvvVeDTVy" role="2OqNvi">
-                        <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                        <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                       </node>
                     </node>
                     <node concept="liA8E" id="6rrvvVeDTVz" role="2OqNvi">
-                      <ref role="37wK5l" to="g6dw:~mxIGraphModel.endUpdate():void" resolve="endUpdate" />
+                      <ref role="37wK5l" to="g6dw:~mxGraphModel.endUpdate():void" resolve="endUpdate" />
                     </node>
                   </node>
                 </node>
@@ -6047,9 +6134,8 @@
           <node concept="3clFbS" id="2m42CTLh_p6" role="2GVbov">
             <node concept="3clFbF" id="2m42CTLhBn2" role="3cqZAp">
               <node concept="37vLTI" id="2m42CTLhBn3" role="3clFbG">
-                <node concept="Rm8GO" id="2m42CTLhBn4" role="37vLTx">
-                  <ref role="1Px2BO" node="4KKQOHIOeoe" resolve="JGraphModelSynchronizer.SyncDirection" />
-                  <ref role="Rm8GQ" node="4KKQOHIOeof" resolve="GRAPH2MODEL" />
+                <node concept="37vLTw" id="4E9wbMRPEQZ" role="37vLTx">
+                  <ref role="3cqZAo" node="4E9wbMRPE1T" resolve="wasDirection" />
                 </node>
                 <node concept="37vLTw" id="2m42CTLhBn5" role="37vLTJ">
                   <ref role="3cqZAo" node="4KKQOHIOecd" resolve="myCurrentDirection" />
@@ -6058,8 +6144,8 @@
             </node>
             <node concept="3clFbF" id="2m42CTLhBna" role="3cqZAp">
               <node concept="37vLTI" id="2m42CTLhBnb" role="3clFbG">
-                <node concept="3clFbT" id="2m42CTLhBnc" role="37vLTx">
-                  <property role="3clFbU" value="false" />
+                <node concept="37vLTw" id="4E9wbMRPDiD" role="37vLTx">
+                  <ref role="3cqZAo" node="4E9wbMRPCQI" resolve="wasSynchronizing" />
                 </node>
                 <node concept="37vLTw" id="2m42CTLhBnd" role="37vLTJ">
                   <ref role="3cqZAo" node="3mPIQFdDqlQ" resolve="isSynchronizing" />
@@ -6101,11 +6187,11 @@
                 <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
               </node>
               <node concept="liA8E" id="4KKQOHIOegz" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="liA8E" id="4KKQOHIOeg$" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.beginUpdate():void" resolve="beginUpdate" />
+              <ref role="37wK5l" to="g6dw:~mxGraphModel.beginUpdate():void" resolve="beginUpdate" />
             </node>
           </node>
         </node>
@@ -6177,7 +6263,7 @@
                                             <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                                           </node>
                                           <node concept="liA8E" id="66TkMRlf5gZ" role="2OqNvi">
-                                            <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                                            <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                                           </node>
                                         </node>
                                         <node concept="3uibUv" id="66TkMRlf5Fh" role="10QFUM">
@@ -6356,11 +6442,11 @@
                     <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                   </node>
                   <node concept="liA8E" id="4KKQOHIOegI" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                    <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="4KKQOHIOegJ" role="2OqNvi">
-                  <ref role="37wK5l" to="g6dw:~mxIGraphModel.endUpdate():void" resolve="endUpdate" />
+                  <ref role="37wK5l" to="g6dw:~mxGraphModel.endUpdate():void" resolve="endUpdate" />
                 </node>
               </node>
             </node>
@@ -7270,11 +7356,11 @@
                             <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                           </node>
                           <node concept="liA8E" id="fQhyIMqbwi" role="2OqNvi">
-                            <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                            <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                           </node>
                         </node>
                         <node concept="liA8E" id="fQhyIMqbwj" role="2OqNvi">
-                          <ref role="37wK5l" to="g6dw:~mxIGraphModel.setValue(java.lang.Object,java.lang.Object):java.lang.Object" resolve="setValue" />
+                          <ref role="37wK5l" to="g6dw:~mxGraphModel.setValue(java.lang.Object,java.lang.Object):java.lang.Object" resolve="setValue" />
                           <node concept="37vLTw" id="fQhyIMqbwk" role="37wK5m">
                             <ref role="3cqZAo" node="fQhyIMqa4F" resolve="portCell" />
                           </node>
@@ -7428,11 +7514,11 @@
                     <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                   </node>
                   <node concept="liA8E" id="1FlH1cKfoll" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                    <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="1FlH1cKfsw9" role="2OqNvi">
-                  <ref role="37wK5l" to="g6dw:~mxIGraphModel.remove(java.lang.Object):java.lang.Object" resolve="remove" />
+                  <ref role="37wK5l" to="g6dw:~mxGraphModel.remove(java.lang.Object):java.lang.Object" resolve="remove" />
                   <node concept="2GrUjf" id="1FlH1cKfsyN" role="37wK5m">
                     <ref role="2Gs0qQ" node="1FlH1cKfnt4" resolve="p" />
                   </node>
@@ -7774,11 +7860,11 @@
                           <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                         </node>
                         <node concept="liA8E" id="6L8UwG9uWug" role="2OqNvi">
-                          <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                          <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                         </node>
                       </node>
                       <node concept="liA8E" id="6L8UwG9uWIf" role="2OqNvi">
-                        <ref role="37wK5l" to="g6dw:~mxIGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
+                        <ref role="37wK5l" to="g6dw:~mxGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
                         <node concept="37vLTw" id="6L8UwG9uX0A" role="37wK5m">
                           <ref role="3cqZAo" node="YkIL1kpQzC" resolve="labelJGraphCell" />
                         </node>
@@ -7940,11 +8026,11 @@
                 <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
               </node>
               <node concept="liA8E" id="fQhyIMoaVc" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="liA8E" id="fQhyIMoaVd" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
+              <ref role="37wK5l" to="g6dw:~mxGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
               <node concept="37vLTw" id="fQhyIMoaVe" role="37wK5m">
                 <ref role="3cqZAo" node="fQhyIMo4BK" resolve="portCell" />
               </node>
@@ -7987,7 +8073,7 @@
                       <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                     </node>
                     <node concept="liA8E" id="fQhyIMpcni" role="2OqNvi">
-                      <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                      <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                     </node>
                   </node>
                   <node concept="3uibUv" id="fQhyIMpcFc" role="10QFUM">
@@ -8100,7 +8186,7 @@
                   <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                 </node>
                 <node concept="liA8E" id="fQhyIMpIQo" role="2OqNvi">
-                  <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                  <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                 </node>
               </node>
               <node concept="3uibUv" id="fQhyIMpIQp" role="10QFUM">
@@ -8531,7 +8617,7 @@
                     <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                   </node>
                   <node concept="liA8E" id="4KKQOHIOekz" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                    <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                   </node>
                 </node>
                 <node concept="3uibUv" id="4KKQOHIOek$" role="10QFUM">
@@ -8574,7 +8660,7 @@
                         <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
                       </node>
                       <node concept="liA8E" id="190K99KwJYG" role="2OqNvi">
-                        <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                        <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                       </node>
                     </node>
                     <node concept="3uibUv" id="190K99KwJYH" role="10QFUM">
@@ -9449,11 +9535,11 @@
                 <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
               </node>
               <node concept="liA8E" id="7vufT$lXTxu" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="liA8E" id="7vufT$lXUaw" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
+              <ref role="37wK5l" to="g6dw:~mxGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
               <node concept="37vLTw" id="7vufT$lXUdr" role="37wK5m">
                 <ref role="3cqZAo" node="1O5GA4gqRtN" resolve="dcell" />
               </node>
@@ -10869,11 +10955,11 @@
                 <ref role="3cqZAo" node="4KKQOHIOec7" resolve="myGraph" />
               </node>
               <node concept="liA8E" id="20KyIMr7ywV" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="liA8E" id="20KyIMr7$ha" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
+              <ref role="37wK5l" to="g6dw:~mxGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
               <node concept="37vLTw" id="20KyIMr7$lV" role="37wK5m">
                 <ref role="3cqZAo" node="1O5GA4goWF8" resolve="cell" />
               </node>
@@ -16284,10 +16370,10 @@
         <node concept="3clFbF" id="1JWQbhaU7iT" role="3cqZAp">
           <node concept="2OqwBi" id="1JWQbhaU8rh" role="3clFbG">
             <node concept="1rXfSq" id="1JWQbhaU7iR" role="2Oq$k0">
-              <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+              <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
             </node>
             <node concept="liA8E" id="1JWQbhaU8JM" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.setRoot(java.lang.Object):java.lang.Object" resolve="setRoot" />
+              <ref role="37wK5l" to="g6dw:~mxGraphModel.setRoot(java.lang.Object):java.lang.Object" resolve="setRoot" />
               <node concept="37vLTw" id="1JWQbhaU8Rm" role="37wK5m">
                 <ref role="3cqZAo" node="1JWQbhaU7LV" resolve="root" />
               </node>
@@ -16933,7 +17019,7 @@
               <ref role="3uigEE" to="g6dw:~mxIGraphModel" resolve="mxIGraphModel" />
             </node>
             <node concept="1rXfSq" id="5P3ZJ9d0iow" role="33vP2m">
-              <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+              <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
             </node>
           </node>
         </node>
@@ -18085,6 +18171,31 @@
       </node>
     </node>
     <node concept="2tJIrI" id="K9V0C6TYrn" role="jymVt" />
+    <node concept="3clFb_" id="4E9wbMRWh_b" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getModel" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="4E9wbMRWh_c" role="1B3o_S" />
+      <node concept="3uibUv" id="4E9wbMRWiNa" role="3clF45">
+        <ref role="3uigEE" node="1JWQbhaGymU" resolve="MyGraphModel" />
+      </node>
+      <node concept="3clFbS" id="4E9wbMRWh_f" role="3clF47">
+        <node concept="3clFbF" id="4E9wbMRWh_i" role="3cqZAp">
+          <node concept="10QFUN" id="4E9wbMRWjzu" role="3clFbG">
+            <node concept="3uibUv" id="4E9wbMRWjHC" role="10QFUM">
+              <ref role="3uigEE" node="1JWQbhaGymU" resolve="MyGraphModel" />
+            </node>
+            <node concept="3nyPlj" id="4E9wbMRWh_h" role="10QFUP">
+              <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="4E9wbMRWh_g" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="190K99KhFi$" role="1B3o_S" />
     <node concept="3uibUv" id="190K99KhFk$" role="1zkMxy">
       <ref role="3uigEE" to="fkey:~mxGraph" resolve="mxGraph" />
@@ -19472,11 +19583,11 @@
                                   <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
                                 </node>
                                 <node concept="liA8E" id="2CfAyFC9ly5" role="2OqNvi">
-                                  <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                                  <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                                 </node>
                               </node>
                               <node concept="liA8E" id="2CfAyFC9m34" role="2OqNvi">
-                                <ref role="37wK5l" to="g6dw:~mxIGraphModel.beginUpdate():void" resolve="beginUpdate" />
+                                <ref role="37wK5l" to="g6dw:~mxGraphModel.beginUpdate():void" resolve="beginUpdate" />
                               </node>
                             </node>
                           </node>
@@ -19519,11 +19630,11 @@
                                       <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
                                     </node>
                                     <node concept="liA8E" id="2CfAyFC9m7U" role="2OqNvi">
-                                      <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                                      <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                                     </node>
                                   </node>
                                   <node concept="liA8E" id="2CfAyFC9m7V" role="2OqNvi">
-                                    <ref role="37wK5l" to="g6dw:~mxIGraphModel.endUpdate():void" resolve="endUpdate" />
+                                    <ref role="37wK5l" to="g6dw:~mxGraphModel.endUpdate():void" resolve="endUpdate" />
                                   </node>
                                 </node>
                               </node>
@@ -20308,7 +20419,7 @@
                 <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
               </node>
               <node concept="liA8E" id="7OJGOqxwq4R" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="1bVj0M" id="7OJGOqxwq4S" role="37wK5m">
@@ -22665,11 +22776,11 @@
                     <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
                   </node>
                   <node concept="liA8E" id="22WARIqzZa$" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                    <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="22WARIq$0gV" role="2OqNvi">
-                  <ref role="37wK5l" to="g6dw:~mxIGraphModel.getRoot():java.lang.Object" resolve="getRoot" />
+                  <ref role="37wK5l" to="g6dw:~mxGraphModel.getRoot():java.lang.Object" resolve="getRoot" />
                 </node>
               </node>
             </node>
@@ -23148,11 +23259,11 @@
                     <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
                   </node>
                   <node concept="liA8E" id="1C_14CRn$Cv" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                    <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                   </node>
                 </node>
                 <node concept="liA8E" id="1C_14CRn_ED" role="2OqNvi">
-                  <ref role="37wK5l" to="g6dw:~mxIGraphModel.getRoot():java.lang.Object" resolve="getRoot" />
+                  <ref role="37wK5l" to="g6dw:~mxGraphModel.getRoot():java.lang.Object" resolve="getRoot" />
                 </node>
               </node>
             </node>
@@ -23246,7 +23357,7 @@
                   <ref role="37wK5l" node="5YRJpe$xLEy" resolve="getGraph" />
                 </node>
                 <node concept="liA8E" id="1C_14CRkWqj" role="2OqNvi">
-                  <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                  <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                 </node>
               </node>
             </node>
@@ -23626,6 +23737,7 @@
                     </node>
                   </node>
                 </node>
+                <node concept="3zACq4" id="1wCaMthBdov" role="3cqZAp" />
               </node>
               <node concept="2ZW3vV" id="2l7cIJdlHMf" role="3clFbw">
                 <node concept="3uibUv" id="1M7dGa3269E" role="2ZW6by">
@@ -37860,6 +37972,19 @@
             </node>
           </node>
         </node>
+        <node concept="3clFbJ" id="4E9wbMS2Zst" role="3cqZAp">
+          <node concept="3clFbS" id="4E9wbMS2Zsv" role="3clFbx">
+            <node concept="3cpWs6" id="4E9wbMS30Ep" role="3cqZAp">
+              <node concept="10Nm6u" id="4E9wbMS31oF" role="3cqZAk" />
+            </node>
+          </node>
+          <node concept="3clFbC" id="4E9wbMS30ya" role="3clFbw">
+            <node concept="10Nm6u" id="4E9wbMS30$J" role="3uHU7w" />
+            <node concept="37vLTw" id="4E9wbMS30aO" role="3uHU7B">
+              <ref role="3cqZAo" node="5emhLEC$map" resolve="size" />
+            </node>
+          </node>
+        </node>
         <node concept="3cpWs6" id="5emhLEC$mDQ" role="3cqZAp">
           <node concept="1Ls8ON" id="5emhLEC$nx1" role="3cqZAk">
             <node concept="3cpWs3" id="5emhLEC$rNn" role="1Lso8e">
@@ -40513,7 +40638,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="4dus55SIkyW" role="2OqNvi">
-                  <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                  <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                 </node>
               </node>
               <node concept="3uibUv" id="4dus55SImBg" role="10QFUM">
@@ -44331,7 +44456,7 @@
                     </node>
                   </node>
                   <node concept="liA8E" id="3cdtJnPjeBT" role="2OqNvi">
-                    <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                    <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                   </node>
                 </node>
               </node>
@@ -44741,7 +44866,7 @@
                   </node>
                 </node>
                 <node concept="liA8E" id="3cdtJnPiJdT" role="2OqNvi">
-                  <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                  <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                 </node>
               </node>
             </node>
@@ -46067,7 +46192,7 @@
                 <ref role="3cqZAo" node="4HMzb$WALXe" resolve="graph" />
               </node>
               <node concept="liA8E" id="6OP6SOHIPhK" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
           </node>
@@ -47365,6 +47490,24 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="3clFb_" id="1wCaMthvUVe" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getDCell" />
+      <node concept="3uibUv" id="1wCaMthvUVh" role="3clF45">
+        <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+      </node>
+      <node concept="3Tm1VV" id="1wCaMthvUVi" role="1B3o_S" />
+      <node concept="3clFbS" id="1wCaMthvUVj" role="3clF47">
+        <node concept="3clFbF" id="1wCaMthvX1g" role="3cqZAp">
+          <node concept="1rXfSq" id="1wCaMthvX1f" role="3clFbG">
+            <ref role="37wK5l" node="1M7dGa3$2qX" resolve="getDCell" />
+            <node concept="1rXfSq" id="1wCaMthvX7e" role="37wK5m">
+              <ref role="37wK5l" node="4HMzb$XPdI$" resolve="getContextGraph" />
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
     <node concept="2tJIrI" id="3jNLn4osMF" role="jymVt" />
     <node concept="3clFb_" id="3jNLn4jKP8" role="jymVt">
       <property role="1EzhhJ" value="false" />
@@ -48004,6 +48147,27 @@
         <ref role="3uigEE" node="190K99KhFiz" resolve="MyGraph" />
       </node>
       <node concept="3Tm1VV" id="5S8_I2GPoQa" role="1B3o_S" />
+    </node>
+    <node concept="2tJIrI" id="7mN48YphdZn" role="jymVt" />
+    <node concept="2YIFZL" id="7mN48YpheyK" role="jymVt">
+      <property role="TrG5h" value="isCreatingDiagram" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="7mN48Yphed_" role="3clF47">
+        <node concept="3clFbF" id="7mN48YpheKZ" role="3cqZAp">
+          <node concept="3eOSWO" id="7mN48Yphf5V" role="3clFbG">
+            <node concept="3cmrfG" id="7mN48Yphf6n" role="3uHU7w">
+              <property role="3cmrfH" value="0" />
+            </node>
+            <node concept="37vLTw" id="7mN48YpheKY" role="3uHU7B">
+              <ref role="3cqZAo" node="5S8_I2FYWD7" resolve="diagramLevel" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="10P_77" id="7mN48Ypheyi" role="3clF45" />
+      <node concept="3Tm1VV" id="7mN48Yphed$" role="1B3o_S" />
     </node>
     <node concept="3Tm1VV" id="5S8_I2FYVEg" role="1B3o_S" />
   </node>
@@ -52926,7 +53090,7 @@
                           <ref role="3cqZAo" node="3BCB3j4ErZ2" resolve="graph" />
                         </node>
                         <node concept="liA8E" id="3BCB3j4ErZd" role="2OqNvi">
-                          <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                          <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                         </node>
                       </node>
                       <node concept="3uibUv" id="3BCB3j4ErZe" role="10QFUM">
@@ -59320,11 +59484,11 @@
                 </node>
               </node>
               <node concept="liA8E" id="5emhLECqZSO" role="2OqNvi">
-                <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
               </node>
             </node>
             <node concept="liA8E" id="5emhLECqZSP" role="2OqNvi">
-              <ref role="37wK5l" to="g6dw:~mxIGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
+              <ref role="37wK5l" to="g6dw:~mxGraphModel.setGeometry(java.lang.Object,com.mxgraph.model.mxGeometry):com.mxgraph.model.mxGeometry" resolve="setGeometry" />
               <node concept="Xjq3P" id="5emhLECra8o" role="37wK5m" />
               <node concept="37vLTw" id="5emhLECra24" role="37wK5m">
                 <ref role="3cqZAo" node="5emhLECr9Da" resolve="geometry" />
@@ -68110,7 +68274,7 @@
                         <ref role="3cqZAo" node="1YMg$ehIGAR" resolve="graph" />
                       </node>
                       <node concept="liA8E" id="1YMg$ehIGBi" role="2OqNvi">
-                        <ref role="37wK5l" to="fkey:~mxGraph.getModel():com.mxgraph.model.mxIGraphModel" resolve="getModel" />
+                        <ref role="37wK5l" node="4E9wbMRWh_b" resolve="getModel" />
                       </node>
                     </node>
                   </node>

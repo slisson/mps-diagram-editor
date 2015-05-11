@@ -147,7 +147,7 @@
         <child id="1068580123156" name="expression" index="3clFbG" />
       </concept>
       <concept id="1068580123157" name="jetbrains.mps.baseLanguage.structure.Statement" flags="nn" index="3clFbH" />
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580320020" name="jetbrains.mps.baseLanguage.structure.IntegerConstant" flags="nn" index="3cmrfG">
@@ -435,7 +435,7 @@
                   <ref role="3cqZAo" node="5kFTseQT1px" resolve="diagramECell" />
                 </node>
                 <node concept="liA8E" id="5kFTseQT4l_" role="2OqNvi">
-                  <ref role="37wK5l" to="r3rm:1M7dGa3$9rX" resolve="getDCell" />
+                  <ref role="37wK5l" to="r3rm:1wCaMthvUVe" resolve="getDCell" />
                   <node concept="2OqwBi" id="3zMER65IanQ" role="37wK5m">
                     <node concept="37vLTw" id="3zMER65Ia7c" role="2Oq$k0">
                       <ref role="3cqZAo" node="5kFTseQT1px" resolve="diagramECell" />
@@ -694,7 +694,7 @@
                   <ref role="3cqZAo" node="l6SLw3aprm" resolve="diagramECell" />
                 </node>
                 <node concept="liA8E" id="l6SLw3aprw" role="2OqNvi">
-                  <ref role="37wK5l" to="r3rm:1M7dGa3$9rX" resolve="getDCell" />
+                  <ref role="37wK5l" to="r3rm:1wCaMthvUVe" resolve="getDCell" />
                   <node concept="2OqwBi" id="3zMER65HU9v" role="37wK5m">
                     <node concept="37vLTw" id="3zMER65HSQk" role="2Oq$k0">
                       <ref role="3cqZAo" node="l6SLw3aprm" resolve="diagramECell" />
@@ -2231,7 +2231,7 @@
                   <ref role="3cqZAo" node="l6SLw4he_v" resolve="diagramECell" />
                 </node>
                 <node concept="liA8E" id="l6SLw4he_D" role="2OqNvi">
-                  <ref role="37wK5l" to="r3rm:1M7dGa3$9rX" resolve="getDCell" />
+                  <ref role="37wK5l" to="r3rm:1wCaMthvUVe" resolve="getDCell" />
                   <node concept="2OqwBi" id="3zMER65Ih8g" role="37wK5m">
                     <node concept="37vLTw" id="3zMER65IgRG" role="2Oq$k0">
                       <ref role="3cqZAo" node="l6SLw4he_v" resolve="diagramECell" />
@@ -2560,7 +2560,7 @@
                   <ref role="3cqZAo" node="l6SLw4heBh" resolve="diagramECell" />
                 </node>
                 <node concept="liA8E" id="l6SLw4heBr" role="2OqNvi">
-                  <ref role="37wK5l" to="r3rm:1M7dGa3$9rX" resolve="getDCell" />
+                  <ref role="37wK5l" to="r3rm:1wCaMthvUVe" resolve="getDCell" />
                   <node concept="2OqwBi" id="3zMER65IebH" role="37wK5m">
                     <node concept="37vLTw" id="3zMER65IdSc" role="2Oq$k0">
                       <ref role="3cqZAo" node="l6SLw4heBh" resolve="diagramECell" />
