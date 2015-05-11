@@ -10082,9 +10082,7 @@
     <node concept="2tJIrI" id="4KKQOHJehoQ" role="jymVt" />
     <node concept="3clFb_" id="4KKQOHJehxk" role="jymVt">
       <property role="TrG5h" value="create" />
-      <node concept="3uibUv" id="7jhYr4hzyQb" role="3clF45">
-        <ref role="3uigEE" node="4teJTSBwM8R" resolve="IBoxAccessor" />
-      </node>
+      <node concept="3cqZAl" id="1wCaMthei5r" role="3clF45" />
       <node concept="3Tm1VV" id="4KKQOHJehxn" role="1B3o_S" />
       <node concept="3clFbS" id="4KKQOHJehxo" role="3clF47">
         <node concept="3clFbF" id="4KKQOHJei1R" role="3cqZAp">
@@ -10098,9 +10096,6 @@
             </node>
           </node>
         </node>
-      </node>
-      <node concept="2AHcQZ" id="4rVJEOkqoue" role="2AJF6D">
-        <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
       </node>
     </node>
     <node concept="2tJIrI" id="ywgKCSrZbQ" role="jymVt" />
@@ -10426,14 +10421,9 @@
           <ref role="3uigEE" node="27djZ8A3OX5" resolve="PendingBox" />
         </node>
       </node>
-      <node concept="3uibUv" id="7jhYr4hzAzD" role="3clF45">
-        <ref role="3uigEE" node="4teJTSBwM8R" resolve="IBoxAccessor" />
-      </node>
+      <node concept="3cqZAl" id="1wCaMth4p8U" role="3clF45" />
       <node concept="3Tm1VV" id="4KKQOHJegct" role="1B3o_S" />
       <node concept="3clFbS" id="4KKQOHJegcu" role="3clF47" />
-      <node concept="2AHcQZ" id="4rVJEOkqo_E" role="2AJF6D">
-        <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
-      </node>
     </node>
     <node concept="3Tm1VV" id="4KKQOHJegc3" role="1B3o_S" />
   </node>
@@ -21881,6 +21871,26 @@
           </node>
         </node>
         <node concept="3clFbH" id="4rVJEOkqZLX" role="3cqZAp" />
+        <node concept="3clFbJ" id="1wCaMtgUopd" role="3cqZAp">
+          <node concept="3clFbS" id="1wCaMtgUopf" role="3clFbx">
+            <node concept="YS8fn" id="1wCaMtgUp6Q" role="3cqZAp">
+              <node concept="2ShNRf" id="1wCaMtgUp7J" role="YScLw">
+                <node concept="1pGfFk" id="1wCaMtgU$VH" role="2ShVmc">
+                  <ref role="37wK5l" to="e2lb:~IllegalStateException.&lt;init&gt;(java.lang.String)" resolve="IllegalStateException" />
+                  <node concept="Xl_RD" id="1wCaMtgU$WD" role="37wK5m">
+                    <property role="Xl_RC" value="Not in diagram creation context" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3fqX7Q" id="1wCaMtgUp0I" role="3clFbw">
+            <node concept="2YIFZM" id="1wCaMtgUp0K" role="3fr31v">
+              <ref role="37wK5l" to="r3rm:7mN48YpheyK" resolve="isCreatingDiagram" />
+              <ref role="1Pybhc" to="r3rm:5S8_I2FYVEf" resolve="DiagramCreationContext" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="Pf_OwiguHM" role="3cqZAp">
           <node concept="2YIFZM" id="Pf_OwigvAO" role="3clFbG">
             <ref role="1Pybhc" to="kvq8:4x2vTLY_ylp" resolve="EditorCellCreator" />
@@ -22060,7 +22070,7 @@
     </node>
     <node concept="3clFb_" id="4rVJEOkoUEr" role="jymVt">
       <property role="1EzhhJ" value="false" />
-      <property role="TrG5h" value="nodeFromSNode" />
+      <property role="TrG5h" value="boxFromSNode" />
       <node concept="3uibUv" id="4rVJEOkoV4F" role="3clF45">
         <ref role="3uigEE" node="4teJTSBwM8R" resolve="IBoxAccessor" />
       </node>
@@ -22526,7 +22536,7 @@
     </node>
     <node concept="3clFb_" id="4rVJEOkoTL9" role="jymVt">
       <property role="1EzhhJ" value="true" />
-      <property role="TrG5h" value="nodeFromSNode" />
+      <property role="TrG5h" value="boxFromSNode" />
       <node concept="3uibUv" id="4rVJEOkoTOG" role="3clF45">
         <ref role="3uigEE" node="4teJTSBwM8R" resolve="IBoxAccessor" />
       </node>
