@@ -18368,6 +18368,63 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5lWUryyvDMb" role="jymVt" />
+    <node concept="3clFb_" id="5lWUryyvGCh" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="getToolTipForCell" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tm1VV" id="5lWUryyvGCi" role="1B3o_S" />
+      <node concept="17QB3L" id="5lWUryyvKpP" role="3clF45" />
+      <node concept="37vLTG" id="5lWUryyvGCl" role="3clF46">
+        <property role="TrG5h" value="cell" />
+        <node concept="3uibUv" id="5lWUryyvGCm" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Object" resolve="Object" />
+        </node>
+      </node>
+      <node concept="3clFbS" id="5lWUryyvGCn" role="3clF47">
+        <node concept="3clFbJ" id="5lWUryyvL8N" role="3cqZAp">
+          <node concept="3clFbS" id="5lWUryyvL8P" role="3clFbx">
+            <node concept="3cpWs6" id="5lWUryyvLKp" role="3cqZAp">
+              <node concept="2OqwBi" id="5lWUryyvN61" role="3cqZAk">
+                <node concept="1eOMI4" id="5lWUryyvMqN" role="2Oq$k0">
+                  <node concept="10QFUN" id="5lWUryyvMqK" role="1eOMHV">
+                    <node concept="3uibUv" id="5lWUryyvMqP" role="10QFUM">
+                      <ref role="3uigEE" node="6mIiWXPO0l0" resolve="BaseDCell" />
+                    </node>
+                    <node concept="37vLTw" id="5lWUryyvMqQ" role="10QFUP">
+                      <ref role="3cqZAo" node="5lWUryyvGCl" resolve="cell" />
+                    </node>
+                  </node>
+                </node>
+                <node concept="liA8E" id="5lWUryyvWMj" role="2OqNvi">
+                  <ref role="37wK5l" node="5lWUryyvPIC" resolve="getTooltipText" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="2ZW3vV" id="5lWUryyvLtt" role="3clFbw">
+            <node concept="3uibUv" id="5lWUryyvLGu" role="2ZW6by">
+              <ref role="3uigEE" node="6mIiWXPO0l0" resolve="BaseDCell" />
+            </node>
+            <node concept="37vLTw" id="5lWUryyvLkc" role="2ZW6bz">
+              <ref role="3cqZAo" node="5lWUryyvGCl" resolve="cell" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbF" id="5lWUryyvGCr" role="3cqZAp">
+          <node concept="3nyPlj" id="5lWUryyvGCq" role="3clFbG">
+            <ref role="37wK5l" to="fkey:~mxGraph.getToolTipForCell(java.lang.Object):java.lang.String" resolve="getToolTipForCell" />
+            <node concept="37vLTw" id="5lWUryyvGCp" role="37wK5m">
+              <ref role="3cqZAo" node="5lWUryyvGCl" resolve="cell" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5lWUryyvGCo" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
     <node concept="3Tm1VV" id="190K99KhFi$" role="1B3o_S" />
     <node concept="3uibUv" id="190K99KhFk$" role="1zkMxy">
       <ref role="3uigEE" to="fkey:~mxGraph" resolve="mxGraph" />
@@ -38510,6 +38567,77 @@
         <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
+    <node concept="2tJIrI" id="5lWUryyvZHP" role="jymVt" />
+    <node concept="3clFb_" id="5lWUryyvYsE" role="jymVt">
+      <property role="TrG5h" value="getTooltipText" />
+      <property role="1EzhhJ" value="false" />
+      <node concept="17QB3L" id="5lWUryyvYsF" role="3clF45" />
+      <node concept="3Tm1VV" id="5lWUryyvYsG" role="1B3o_S" />
+      <node concept="3clFbS" id="5lWUryyvYsK" role="3clF47">
+        <node concept="3cpWs8" id="5lWUryywbGU" role="3cqZAp">
+          <node concept="3cpWsn" id="5lWUryywbGV" role="3cpWs9">
+            <property role="TrG5h" value="ecell" />
+            <node concept="3uibUv" id="5lWUryywbGS" role="1tU5fm">
+              <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+            </node>
+            <node concept="2OqwBi" id="5lWUryywbGW" role="33vP2m">
+              <node concept="1rXfSq" id="5lWUryywbGX" role="2Oq$k0">
+                <ref role="37wK5l" node="6aY42aV_PS_" resolve="getEdge" />
+              </node>
+              <node concept="liA8E" id="5lWUryywbGY" role="2OqNvi">
+                <ref role="37wK5l" to="nkm5:1Lwguv8cvZM" resolve="getRootCell" />
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5lWUryywcMl" role="3cqZAp">
+          <node concept="3cpWsn" id="5lWUryywcMm" role="3cpWs9">
+            <property role="TrG5h" value="editorComponent" />
+            <node concept="3uibUv" id="5lWUryywcS3" role="1tU5fm">
+              <ref role="3uigEE" to="9a8:~EditorComponent" resolve="EditorComponent" />
+            </node>
+            <node concept="10QFUN" id="5lWUryywcXd" role="33vP2m">
+              <node concept="3uibUv" id="5lWUryywd4I" role="10QFUM">
+                <ref role="3uigEE" to="9a8:~EditorComponent" resolve="EditorComponent" />
+              </node>
+              <node concept="2OqwBi" id="5lWUryywcMn" role="10QFUP">
+                <node concept="37vLTw" id="5lWUryywcMo" role="2Oq$k0">
+                  <ref role="3cqZAo" node="5lWUryywbGV" resolve="ecell" />
+                </node>
+                <node concept="liA8E" id="5lWUryywcMp" role="2OqNvi">
+                  <ref role="37wK5l" to="nu8v:~EditorCell.getEditorComponent():jetbrains.mps.openapi.editor.EditorComponent" resolve="getEditorComponent" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs8" id="5lWUryywoX2" role="3cqZAp">
+          <node concept="3cpWsn" id="5lWUryywoX3" role="3cpWs9">
+            <property role="TrG5h" value="text" />
+            <node concept="17QB3L" id="5lWUryywpiL" role="1tU5fm" />
+            <node concept="2OqwBi" id="5lWUryywoX4" role="33vP2m">
+              <node concept="37vLTw" id="5lWUryywoX5" role="2Oq$k0">
+                <ref role="3cqZAo" node="5lWUryywcMm" resolve="editorComponent" />
+              </node>
+              <node concept="1PvZjq" id="5lWUryywoX6" role="2OqNvi">
+                <ref role="37wK5l" to="9a8:~EditorComponent.getMessagesTextFor(jetbrains.mps.openapi.editor.cells.EditorCell):java.lang.String" resolve="getMessagesTextFor" />
+                <node concept="37vLTw" id="5lWUryywoX7" role="37wK5m">
+                  <ref role="3cqZAo" node="5lWUryywbGV" resolve="ecell" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+        <node concept="3cpWs6" id="5lWUryywpbu" role="3cqZAp">
+          <node concept="37vLTw" id="5lWUryywpbw" role="3cqZAk">
+            <ref role="3cqZAo" node="5lWUryywoX3" resolve="text" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="5lWUryyvYsL" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
+      </node>
+    </node>
   </node>
   <node concept="3HP615" id="f4v_NgOwfo">
     <property role="TrG5h" value="ISelfPaintingCell" />
@@ -58025,6 +58153,17 @@
               <ref role="37wK5l" to="fkey:~mxGraphView.getScale():double" resolve="getScale" />
             </node>
           </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="5lWUryyvOKz" role="jymVt" />
+    <node concept="3clFb_" id="5lWUryyvPIC" role="jymVt">
+      <property role="TrG5h" value="getTooltipText" />
+      <node concept="17QB3L" id="5lWUryyvU6W" role="3clF45" />
+      <node concept="3Tm1VV" id="5lWUryyvPIF" role="1B3o_S" />
+      <node concept="3clFbS" id="5lWUryyvPIG" role="3clF47">
+        <node concept="3clFbF" id="5lWUryyvUst" role="3cqZAp">
+          <node concept="10Nm6u" id="5lWUryyvUss" role="3clFbG" />
         </node>
       </node>
     </node>
