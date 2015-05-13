@@ -44,6 +44,7 @@
     <import index="kvq8" ref="r:2e938759-cfd0-47cd-9046-896d85204f59(de.slisson.mps.hacks.editor)" />
     <import index="ar19" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.geom(JDK/java.awt.geom@java_stub)" />
     <import index="r3rm" ref="r:7fc96130-6279-4a55-aeeb-422a6879539d(de.itemis.mps.editor.diagram.runtime.jgraph)" />
+    <import index="8q6x" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.awt.event(JDK/java.awt.event@java_stub)" />
     <import index="tpce" ref="r:00000000-0000-4000-0000-011c89590292(jetbrains.mps.lang.structure.structure)" implicit="true" />
     <import index="z8iw" ref="r:dfdf3542-dbcf-43df-870a-3c3504b3c840(jetbrains.mps.baseLanguage.collections.custom)" implicit="true" />
   </imports>
@@ -16330,6 +16331,40 @@
         <node concept="3clFbF" id="4EOrrTB33qJ" role="3cqZAp">
           <node concept="10Nm6u" id="4EOrrTB33qI" role="3clFbG" />
         </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1okDUAdSvWg" role="jymVt" />
+    <node concept="3clFb_" id="1okDUAdSrrw" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="doProcessKeyTyped" />
+      <property role="DiZV1" value="false" />
+      <property role="IEkAT" value="false" />
+      <node concept="3Tmbuc" id="1okDUAdSrrx" role="1B3o_S" />
+      <node concept="10P_77" id="1okDUAdSrrz" role="3clF45" />
+      <node concept="37vLTG" id="1okDUAdSrr$" role="3clF46">
+        <property role="TrG5h" value="event" />
+        <node concept="3uibUv" id="1okDUAdSrr_" role="1tU5fm">
+          <ref role="3uigEE" to="8q6x:~KeyEvent" resolve="KeyEvent" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="1okDUAdSrrA" role="3clF46">
+        <property role="TrG5h" value="b" />
+        <node concept="10P_77" id="1okDUAdSrrB" role="1tU5fm" />
+      </node>
+      <node concept="3clFbS" id="1okDUAdSrrG" role="3clF47">
+        <node concept="3SKdUt" id="1okDUAdSPN2" role="3cqZAp">
+          <node concept="3SKdUq" id="1okDUAdSPNo" role="3SKWNk">
+            <property role="3SKdUp" value="prevent node substitution" />
+          </node>
+        </node>
+        <node concept="3clFbF" id="1okDUAdSP1e" role="3cqZAp">
+          <node concept="3clFbT" id="1okDUAdSP1d" role="3clFbG">
+            <property role="3clFbU" value="false" />
+          </node>
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="1okDUAdSrrH" role="2AJF6D">
+        <ref role="2AI5Lk" to="e2lb:~Override" resolve="Override" />
       </node>
     </node>
   </node>
