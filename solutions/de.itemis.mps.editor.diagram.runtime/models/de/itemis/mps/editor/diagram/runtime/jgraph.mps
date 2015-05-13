@@ -72899,87 +72899,86 @@
                 </node>
               </node>
             </node>
+            <node concept="3cpWs8" id="5lWUryycGog" role="3cqZAp">
+              <node concept="3cpWsn" id="5lWUryycGoh" role="3cpWs9">
+                <property role="TrG5h" value="messageType" />
+                <node concept="3uibUv" id="5lWUryycGoc" role="1tU5fm">
+                  <ref role="3uigEE" to="nax5:~MessageStatus" resolve="MessageStatus" />
+                </node>
+                <node concept="1rXfSq" id="5lWUryycGoi" role="33vP2m">
+                  <ref role="37wK5l" node="5lWUryycoIU" resolve="getMostImportantMessageType" />
+                  <node concept="2OqwBi" id="5lWUryycGoj" role="37wK5m">
+                    <node concept="37vLTw" id="5lWUryycGok" role="2Oq$k0">
+                      <ref role="3cqZAo" node="1SrfPdD9hc1" resolve="edge" />
+                    </node>
+                    <node concept="liA8E" id="5lWUryycGol" role="2OqNvi">
+                      <ref role="37wK5l" to="nkm5:1Lwguv8cvZM" resolve="getRootCell" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="5lWUryyiFkB" role="3cqZAp">
+              <node concept="37vLTI" id="5lWUryyiG5u" role="3clFbG">
+                <node concept="3y3z36" id="5lWUryyiGqg" role="37vLTx">
+                  <node concept="10Nm6u" id="5lWUryyiGrg" role="3uHU7w" />
+                  <node concept="37vLTw" id="5lWUryyiGdx" role="3uHU7B">
+                    <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
+                  </node>
+                </node>
+                <node concept="37vLTw" id="5lWUryyiFk_" role="37vLTJ">
+                  <ref role="3cqZAo" node="5lWUryybEhB" resolve="myIsWaveLine" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbJ" id="5lWUryycQyv" role="3cqZAp">
+              <node concept="3clFbS" id="5lWUryycQyx" role="3clFbx">
+                <node concept="3cpWs8" id="5lWUryycP$Q" role="3cqZAp">
+                  <node concept="3cpWsn" id="5lWUryycP$R" role="3cpWs9">
+                    <property role="TrG5h" value="messageColor" />
+                    <node concept="3uibUv" id="5lWUryycP$A" role="1tU5fm">
+                      <ref role="3uigEE" to="1t7x:~Color" resolve="Color" />
+                    </node>
+                    <node concept="2YIFZM" id="5lWUryyoDHu" role="33vP2m">
+                      <ref role="37wK5l" to="qstq:~HighlightUtil.getMessageColor(jetbrains.mps.errors.MessageStatus):java.awt.Color" resolve="getMessageColor" />
+                      <ref role="1Pybhc" to="qstq:~HighlightUtil" resolve="HighlightUtil" />
+                      <node concept="37vLTw" id="5lWUryyoDIN" role="37wK5m">
+                        <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="3clFbF" id="5lWUryycRfl" role="3cqZAp">
+                  <node concept="2OqwBi" id="5lWUryycRS1" role="3clFbG">
+                    <node concept="2OqwBi" id="5lWUryycRgm" role="2Oq$k0">
+                      <node concept="37vLTw" id="5lWUryycRfj" role="2Oq$k0">
+                        <ref role="3cqZAo" node="2vKS1aimOjd" resolve="canvas" />
+                      </node>
+                      <node concept="liA8E" id="5lWUryycRPq" role="2OqNvi">
+                        <ref role="37wK5l" to="jnnx:~mxGraphics2DCanvas.getGraphics():java.awt.Graphics2D" resolve="getGraphics" />
+                      </node>
+                    </node>
+                    <node concept="liA8E" id="5lWUryycSh2" role="2OqNvi">
+                      <ref role="37wK5l" to="1t7x:~Graphics.setColor(java.awt.Color):void" resolve="setColor" />
+                      <node concept="37vLTw" id="5lWUryycSil" role="37wK5m">
+                        <ref role="3cqZAo" node="5lWUryycP$R" resolve="messageColor" />
+                      </node>
+                    </node>
+                  </node>
+                </node>
+              </node>
+              <node concept="3y3z36" id="5lWUryycR5e" role="3clFbw">
+                <node concept="10Nm6u" id="5lWUryycR8z" role="3uHU7w" />
+                <node concept="37vLTw" id="5lWUryyoC$d" role="3uHU7B">
+                  <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
+                </node>
+              </node>
+            </node>
           </node>
           <node concept="3y3z36" id="1SrfPdD9kvm" role="3clFbw">
             <node concept="10Nm6u" id="1SrfPdD9kxv" role="3uHU7w" />
             <node concept="37vLTw" id="1SrfPdD9ksy" role="3uHU7B">
               <ref role="3cqZAo" node="1SrfPdD9hc1" resolve="edge" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbH" id="5lWUryyc5Bu" role="3cqZAp" />
-        <node concept="3cpWs8" id="5lWUryycGog" role="3cqZAp">
-          <node concept="3cpWsn" id="5lWUryycGoh" role="3cpWs9">
-            <property role="TrG5h" value="messageType" />
-            <node concept="3uibUv" id="5lWUryycGoc" role="1tU5fm">
-              <ref role="3uigEE" to="nax5:~MessageStatus" resolve="MessageStatus" />
-            </node>
-            <node concept="1rXfSq" id="5lWUryycGoi" role="33vP2m">
-              <ref role="37wK5l" node="5lWUryycoIU" resolve="getMostImportantMessageType" />
-              <node concept="2OqwBi" id="5lWUryycGoj" role="37wK5m">
-                <node concept="37vLTw" id="5lWUryycGok" role="2Oq$k0">
-                  <ref role="3cqZAo" node="1SrfPdD9hc1" resolve="edge" />
-                </node>
-                <node concept="liA8E" id="5lWUryycGol" role="2OqNvi">
-                  <ref role="37wK5l" to="nkm5:1Lwguv8cvZM" resolve="getRootCell" />
-                </node>
-              </node>
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbF" id="5lWUryyiFkB" role="3cqZAp">
-          <node concept="37vLTI" id="5lWUryyiG5u" role="3clFbG">
-            <node concept="3y3z36" id="5lWUryyiGqg" role="37vLTx">
-              <node concept="10Nm6u" id="5lWUryyiGrg" role="3uHU7w" />
-              <node concept="37vLTw" id="5lWUryyiGdx" role="3uHU7B">
-                <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
-              </node>
-            </node>
-            <node concept="37vLTw" id="5lWUryyiFk_" role="37vLTJ">
-              <ref role="3cqZAo" node="5lWUryybEhB" resolve="myIsWaveLine" />
-            </node>
-          </node>
-        </node>
-        <node concept="3clFbJ" id="5lWUryycQyv" role="3cqZAp">
-          <node concept="3clFbS" id="5lWUryycQyx" role="3clFbx">
-            <node concept="3cpWs8" id="5lWUryycP$Q" role="3cqZAp">
-              <node concept="3cpWsn" id="5lWUryycP$R" role="3cpWs9">
-                <property role="TrG5h" value="messageColor" />
-                <node concept="3uibUv" id="5lWUryycP$A" role="1tU5fm">
-                  <ref role="3uigEE" to="1t7x:~Color" resolve="Color" />
-                </node>
-                <node concept="2YIFZM" id="5lWUryyoDHu" role="33vP2m">
-                  <ref role="37wK5l" to="qstq:~HighlightUtil.getMessageColor(jetbrains.mps.errors.MessageStatus):java.awt.Color" resolve="getMessageColor" />
-                  <ref role="1Pybhc" to="qstq:~HighlightUtil" resolve="HighlightUtil" />
-                  <node concept="37vLTw" id="5lWUryyoDIN" role="37wK5m">
-                    <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
-                  </node>
-                </node>
-              </node>
-            </node>
-            <node concept="3clFbF" id="5lWUryycRfl" role="3cqZAp">
-              <node concept="2OqwBi" id="5lWUryycRS1" role="3clFbG">
-                <node concept="2OqwBi" id="5lWUryycRgm" role="2Oq$k0">
-                  <node concept="37vLTw" id="5lWUryycRfj" role="2Oq$k0">
-                    <ref role="3cqZAo" node="2vKS1aimOjd" resolve="canvas" />
-                  </node>
-                  <node concept="liA8E" id="5lWUryycRPq" role="2OqNvi">
-                    <ref role="37wK5l" to="jnnx:~mxGraphics2DCanvas.getGraphics():java.awt.Graphics2D" resolve="getGraphics" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="5lWUryycSh2" role="2OqNvi">
-                  <ref role="37wK5l" to="1t7x:~Graphics.setColor(java.awt.Color):void" resolve="setColor" />
-                  <node concept="37vLTw" id="5lWUryycSil" role="37wK5m">
-                    <ref role="3cqZAo" node="5lWUryycP$R" resolve="messageColor" />
-                  </node>
-                </node>
-              </node>
-            </node>
-          </node>
-          <node concept="3y3z36" id="5lWUryycR5e" role="3clFbw">
-            <node concept="10Nm6u" id="5lWUryycR8z" role="3uHU7w" />
-            <node concept="37vLTw" id="5lWUryyoC$d" role="3uHU7B">
-              <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
             </node>
           </node>
         </node>
