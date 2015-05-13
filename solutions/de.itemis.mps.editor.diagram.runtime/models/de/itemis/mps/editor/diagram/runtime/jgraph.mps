@@ -37383,16 +37383,31 @@
       <node concept="3Tm1VV" id="ok2lnUJBjK" role="1B3o_S" />
       <node concept="3clFbS" id="ok2lnUJBjO" role="3clF47">
         <node concept="3clFbF" id="ok2lnUJDDf" role="3cqZAp">
-          <node concept="2OqwBi" id="ok2lnUJEzY" role="3clFbG">
-            <node concept="2OqwBi" id="ok2lnUJDJp" role="2Oq$k0">
-              <node concept="1rXfSq" id="ok2lnUJDDe" role="2Oq$k0">
-                <ref role="37wK5l" node="5K7KC_qAcJd" resolve="getBox" />
+          <node concept="1Wc70l" id="5lWUryyC879" role="3clFbG">
+            <node concept="2OqwBi" id="5lWUryyC9az" role="3uHU7B">
+              <node concept="2OqwBi" id="5lWUryyC8$g" role="2Oq$k0">
+                <node concept="37vLTw" id="5lWUryyC8mX" role="2Oq$k0">
+                  <ref role="3cqZAo" node="f4v_NgLsq3" resolve="myBox" />
+                </node>
+                <node concept="liA8E" id="5lWUryyC97r" role="2OqNvi">
+                  <ref role="37wK5l" to="nkm5:3FRjz$v9I0d" resolve="get" />
+                </node>
               </node>
-              <node concept="liA8E" id="ok2lnUJEgx" role="2OqNvi">
-                <ref role="37wK5l" to="nkm5:6xtM0K7qHP" resolve="getSubdiagramCells" />
+              <node concept="liA8E" id="5lWUryyCx7f" role="2OqNvi">
+                <ref role="37wK5l" to="nkm5:5lWUryyCe2n" resolve="isScalingAllowed" />
               </node>
             </node>
-            <node concept="1v1jN8" id="ok2lnUJIG0" role="2OqNvi" />
+            <node concept="2OqwBi" id="ok2lnUJEzY" role="3uHU7w">
+              <node concept="2OqwBi" id="ok2lnUJDJp" role="2Oq$k0">
+                <node concept="1rXfSq" id="ok2lnUJDDe" role="2Oq$k0">
+                  <ref role="37wK5l" node="5K7KC_qAcJd" resolve="getBox" />
+                </node>
+                <node concept="liA8E" id="ok2lnUJEgx" role="2OqNvi">
+                  <ref role="37wK5l" to="nkm5:6xtM0K7qHP" resolve="getSubdiagramCells" />
+                </node>
+              </node>
+              <node concept="1v1jN8" id="ok2lnUJIG0" role="2OqNvi" />
+            </node>
           </node>
         </node>
       </node>
