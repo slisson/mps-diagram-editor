@@ -34,6 +34,12 @@
       </concept>
     </language>
     <language id="7a5dda62-9140-4668-ab76-d5ed1746f2b2" name="jetbrains.mps.lang.typesystem">
+      <concept id="1207055528241" name="jetbrains.mps.lang.typesystem.structure.WarningStatement" flags="nn" index="a7r0C">
+        <child id="1207055552304" name="warningText" index="a7wSD" />
+      </concept>
+      <concept id="1224760201579" name="jetbrains.mps.lang.typesystem.structure.InfoStatement" flags="nn" index="Dpp1Q">
+        <child id="1224760230762" name="infoText" index="Dpw9R" />
+      </concept>
       <concept id="1175517767210" name="jetbrains.mps.lang.typesystem.structure.ReportErrorStatement" flags="nn" index="2MkqsV">
         <child id="1175517851849" name="errorString" index="2MkJ7o" />
       </concept>
@@ -47,6 +53,7 @@
       <concept id="1174642788531" name="jetbrains.mps.lang.typesystem.structure.ConceptReference" flags="ig" index="1YaCAy">
         <reference id="1174642800329" name="concept" index="1YaFvo" />
       </concept>
+      <concept id="1174643105530" name="jetbrains.mps.lang.typesystem.structure.InferenceRule" flags="ig" index="1YbPZF" />
       <concept id="1174648085619" name="jetbrains.mps.lang.typesystem.structure.AbstractRule" flags="ng" index="1YuPPy">
         <child id="1174648101952" name="applicableNode" index="1YuTPh" />
       </concept>
@@ -94,6 +101,51 @@
     <node concept="1YaCAy" id="6zxgcXkK1ca" role="1YuTPh">
       <property role="TrG5h" value="node" />
       <ref role="1YaFvo" to="7fae:5qgNcfDjUdu" resolve="Component" />
+    </node>
+  </node>
+  <node concept="1YbPZF" id="5lWUryxdkCV">
+    <property role="TrG5h" value="typeof_Connection" />
+    <node concept="3clFbS" id="5lWUryxdkCW" role="18ibNy" />
+    <node concept="1YaCAy" id="5lWUryxdkCY" role="1YuTPh">
+      <property role="TrG5h" value="connection" />
+      <ref role="1YaFvo" to="7fae:5qgNcfDm_E4" resolve="Connection" />
+    </node>
+  </node>
+  <node concept="18kY7G" id="5lWUryxdkD_">
+    <property role="TrG5h" value="check_Connection" />
+    <node concept="3clFbS" id="5lWUryxdkDA" role="18ibNy">
+      <node concept="2MkqsV" id="5lWUryxdmBM" role="3cqZAp">
+        <node concept="1YBJjd" id="5lWUryxdmCP" role="2OEOjV">
+          <ref role="1YBMHb" node="5lWUryxdkDC" resolve="connection" />
+        </node>
+        <node concept="Xl_RD" id="5lWUryxdmCa" role="2MkJ7o">
+          <property role="Xl_RC" value="Test Error" />
+        </node>
+      </node>
+      <node concept="3SKdUt" id="5lWUryyutZN" role="3cqZAp">
+        <node concept="3SKWN0" id="5lWUryyutZO" role="3SKWNk">
+          <node concept="a7r0C" id="5lWUryyou1c" role="3SKWNf">
+            <node concept="Xl_RD" id="5lWUryyou1W" role="a7wSD">
+              <property role="Xl_RC" value="Test Warning" />
+            </node>
+            <node concept="1YBJjd" id="5lWUryyou4T" role="2OEOjV">
+              <ref role="1YBMHb" node="5lWUryxdkDC" resolve="connection" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="Dpp1Q" id="5lWUryyutWY" role="3cqZAp">
+        <node concept="Xl_RD" id="5lWUryyutY7" role="Dpw9R">
+          <property role="Xl_RC" value="Test Info" />
+        </node>
+        <node concept="1YBJjd" id="5lWUryyutZo" role="2OEOjV">
+          <ref role="1YBMHb" node="5lWUryxdkDC" resolve="connection" />
+        </node>
+      </node>
+    </node>
+    <node concept="1YaCAy" id="5lWUryxdkDC" role="1YuTPh">
+      <property role="TrG5h" value="connection" />
+      <ref role="1YaFvo" to="7fae:5qgNcfDm_E4" resolve="Connection" />
     </node>
   </node>
 </model>
