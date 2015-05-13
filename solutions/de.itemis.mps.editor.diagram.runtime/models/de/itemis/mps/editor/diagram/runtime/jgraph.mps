@@ -71952,42 +71952,23 @@
         </node>
         <node concept="3clFbJ" id="4MPZfBDP$VP" role="3cqZAp">
           <node concept="3clFbS" id="4MPZfBDP$VQ" role="3clFbx">
-            <node concept="3cpWs8" id="4MPZfBDPT7F" role="3cqZAp">
-              <node concept="3cpWsn" id="4MPZfBDPT7G" role="3cpWs9">
-                <property role="TrG5h" value="scale" />
-                <node concept="10P55v" id="4MPZfBDPT5K" role="1tU5fm" />
-                <node concept="1rXfSq" id="4MPZfBDPT7H" role="33vP2m">
-                  <ref role="37wK5l" node="4MPZfBDPPbn" resolve="getScale" />
-                </node>
-              </node>
-            </node>
             <node concept="3clFbF" id="4MPZfBDP$VR" role="3cqZAp">
               <node concept="37vLTI" id="4MPZfBDP$VS" role="3clFbG">
                 <node concept="1Ls8ON" id="4MPZfBDP$VT" role="37vLTx">
-                  <node concept="17qRlL" id="4MPZfBDP$VU" role="1Lso8e">
-                    <node concept="1LFfDK" id="4MPZfBDP$VV" role="3uHU7B">
-                      <node concept="3cmrfG" id="4MPZfBDP$VW" role="1LF_Uc">
-                        <property role="3cmrfH" value="0" />
-                      </node>
-                      <node concept="37vLTw" id="4MPZfBDP$VX" role="1LFl5Q">
-                        <ref role="3cqZAo" node="4MPZfBDP$VI" resolve="requiredSize" />
-                      </node>
+                  <node concept="1LFfDK" id="4MPZfBDP$VV" role="1Lso8e">
+                    <node concept="3cmrfG" id="4MPZfBDP$VW" role="1LF_Uc">
+                      <property role="3cmrfH" value="0" />
                     </node>
-                    <node concept="37vLTw" id="4MPZfBDPT7I" role="3uHU7w">
-                      <ref role="3cqZAo" node="4MPZfBDPT7G" resolve="scale" />
+                    <node concept="37vLTw" id="4MPZfBDP$VX" role="1LFl5Q">
+                      <ref role="3cqZAo" node="4MPZfBDP$VI" resolve="requiredSize" />
                     </node>
                   </node>
-                  <node concept="17qRlL" id="4MPZfBDP$VZ" role="1Lso8e">
-                    <node concept="1LFfDK" id="4MPZfBDP$W0" role="3uHU7B">
-                      <node concept="3cmrfG" id="4MPZfBDP$W1" role="1LF_Uc">
-                        <property role="3cmrfH" value="1" />
-                      </node>
-                      <node concept="37vLTw" id="4MPZfBDP$W2" role="1LFl5Q">
-                        <ref role="3cqZAo" node="4MPZfBDP$VI" resolve="requiredSize" />
-                      </node>
+                  <node concept="1LFfDK" id="4MPZfBDP$W0" role="1Lso8e">
+                    <node concept="3cmrfG" id="4MPZfBDP$W1" role="1LF_Uc">
+                      <property role="3cmrfH" value="1" />
                     </node>
-                    <node concept="37vLTw" id="4MPZfBDPT7J" role="3uHU7w">
-                      <ref role="3cqZAo" node="4MPZfBDPT7G" resolve="scale" />
+                    <node concept="37vLTw" id="4MPZfBDP$W2" role="1LFl5Q">
+                      <ref role="3cqZAo" node="4MPZfBDP$VI" resolve="requiredSize" />
                     </node>
                   </node>
                 </node>
@@ -72027,14 +72008,9 @@
                   <node concept="3cpWsn" id="4MPZfBDP$Wc" role="3cpWs9">
                     <property role="TrG5h" value="scaledPadding" />
                     <node concept="10P55v" id="4MPZfBDP$Wd" role="1tU5fm" />
-                    <node concept="17qRlL" id="4MPZfBDP$We" role="33vP2m">
-                      <node concept="37vLTw" id="4MPZfBDPT7K" role="3uHU7w">
-                        <ref role="3cqZAo" node="4MPZfBDPT7G" resolve="scale" />
-                      </node>
-                      <node concept="10M0yZ" id="4MPZfBDP$Wg" role="3uHU7B">
-                        <ref role="1PxDUh" to="nkm5:27djZ8_YaUo" resolve="Box" />
-                        <ref role="3cqZAo" to="nkm5:TBoO2mIKvo" resolve="PADDING" />
-                      </node>
+                    <node concept="10M0yZ" id="4MPZfBDP$Wg" role="33vP2m">
+                      <ref role="1PxDUh" to="nkm5:27djZ8_YaUo" resolve="Box" />
+                      <ref role="3cqZAo" to="nkm5:TBoO2mIKvo" resolve="PADDING" />
                     </node>
                   </node>
                 </node>
