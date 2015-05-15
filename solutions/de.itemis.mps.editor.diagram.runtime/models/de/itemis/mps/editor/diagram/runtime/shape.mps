@@ -4182,21 +4182,21 @@
     </node>
   </node>
   <node concept="312cEu" id="4opyGmeg0f7">
-    <property role="TrG5h" value="BoxStyleFromEditorCell" />
+    <property role="TrG5h" value="BoxStyleFromMPSStyle" />
     <node concept="2tJIrI" id="4opyGmeg0f_" role="jymVt" />
     <node concept="312cEg" id="4opyGmeg1mZ" role="jymVt">
-      <property role="TrG5h" value="myEditorCell" />
+      <property role="TrG5h" value="myStyle" />
       <node concept="3Tm6S6" id="4opyGmeg1n0" role="1B3o_S" />
-      <node concept="3uibUv" id="4opyGmeg1Z2" role="1tU5fm">
-        <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+      <node concept="3uibUv" id="1EuDuIKD66f" role="1tU5fm">
+        <ref role="3uigEE" to="qe67:~Style" resolve="Style" />
       </node>
     </node>
     <node concept="2tJIrI" id="4opyGmeg1is" role="jymVt" />
     <node concept="3clFbW" id="4opyGmeg0hj" role="jymVt">
       <node concept="37vLTG" id="4opyGmeg23u" role="3clF46">
-        <property role="TrG5h" value="cell" />
-        <node concept="3uibUv" id="4opyGmeg25a" role="1tU5fm">
-          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+        <property role="TrG5h" value="style" />
+        <node concept="3uibUv" id="1EuDuIKD63O" role="1tU5fm">
+          <ref role="3uigEE" to="qe67:~Style" resolve="Style" />
         </node>
       </node>
       <node concept="37vLTG" id="4opyGmegkO0" role="3clF46">
@@ -4215,10 +4215,10 @@
         <node concept="3clFbF" id="4opyGmeg26h" role="3cqZAp">
           <node concept="37vLTI" id="4opyGmeg2cf" role="3clFbG">
             <node concept="37vLTw" id="4opyGmeg2d6" role="37vLTx">
-              <ref role="3cqZAo" node="4opyGmeg23u" resolve="cell" />
+              <ref role="3cqZAo" node="4opyGmeg23u" resolve="style" />
             </node>
             <node concept="37vLTw" id="4opyGmeg26g" role="37vLTJ">
-              <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myEditorCell" />
+              <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myStyle" />
             </node>
           </node>
         </node>
@@ -4265,13 +4265,8 @@
               <ref role="3uigEE" to="1t7x:~Color" resolve="Color" />
             </node>
             <node concept="2OqwBi" id="4opyGmeg3Xy" role="33vP2m">
-              <node concept="2OqwBi" id="4opyGmeg3Xz" role="2Oq$k0">
-                <node concept="37vLTw" id="4opyGmeg3X$" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myEditorCell" />
-                </node>
-                <node concept="liA8E" id="4opyGmeg3X_" role="2OqNvi">
-                  <ref role="37wK5l" to="nu8v:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
-                </node>
+              <node concept="37vLTw" id="4opyGmeg3X$" role="2Oq$k0">
+                <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myStyle" />
               </node>
               <node concept="liA8E" id="4opyGmeg3XA" role="2OqNvi">
                 <ref role="37wK5l" to="qe67:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
@@ -4355,13 +4350,8 @@
               <ref role="3uigEE" to="swi3:4mmPun57bLu" resolve="LineStyle" />
             </node>
             <node concept="2OqwBi" id="4opyGmeg6vc" role="33vP2m">
-              <node concept="2OqwBi" id="4opyGmeg6vd" role="2Oq$k0">
-                <node concept="37vLTw" id="4opyGmeg6ve" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myEditorCell" />
-                </node>
-                <node concept="liA8E" id="4opyGmeg6vf" role="2OqNvi">
-                  <ref role="37wK5l" to="nu8v:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
-                </node>
+              <node concept="37vLTw" id="4opyGmeg6ve" role="2Oq$k0">
+                <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myStyle" />
               </node>
               <node concept="liA8E" id="4opyGmeg6vg" role="2OqNvi">
                 <ref role="37wK5l" to="qe67:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
@@ -4377,13 +4367,8 @@
             <property role="TrG5h" value="lineWidth" />
             <node concept="10OMs4" id="4opyGmegh_2" role="1tU5fm" />
             <node concept="2OqwBi" id="4opyGmeghlU" role="33vP2m">
-              <node concept="2OqwBi" id="4opyGmeghlV" role="2Oq$k0">
-                <node concept="37vLTw" id="4opyGmeghlW" role="2Oq$k0">
-                  <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myEditorCell" />
-                </node>
-                <node concept="liA8E" id="4opyGmeghlX" role="2OqNvi">
-                  <ref role="37wK5l" to="nu8v:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
-                </node>
+              <node concept="37vLTw" id="4opyGmeghlW" role="2Oq$k0">
+                <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myStyle" />
               </node>
               <node concept="liA8E" id="4opyGmeghlY" role="2OqNvi">
                 <ref role="37wK5l" to="qe67:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />
@@ -4422,13 +4407,8 @@
             <node concept="liA8E" id="4opyGmegiP3" role="2OqNvi">
               <ref role="37wK5l" to="1t7x:~Graphics.setColor(java.awt.Color):void" resolve="setColor" />
               <node concept="2OqwBi" id="4opyGmegiSY" role="37wK5m">
-                <node concept="2OqwBi" id="4opyGmegiSZ" role="2Oq$k0">
-                  <node concept="37vLTw" id="4opyGmegiT0" role="2Oq$k0">
-                    <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myEditorCell" />
-                  </node>
-                  <node concept="liA8E" id="4opyGmegiT1" role="2OqNvi">
-                    <ref role="37wK5l" to="nu8v:~EditorCell.getStyle():jetbrains.mps.openapi.editor.style.Style" resolve="getStyle" />
-                  </node>
+                <node concept="37vLTw" id="4opyGmegiT0" role="2Oq$k0">
+                  <ref role="3cqZAo" node="4opyGmeg1mZ" resolve="myStyle" />
                 </node>
                 <node concept="liA8E" id="4opyGmegiT2" role="2OqNvi">
                   <ref role="37wK5l" to="qe67:~Style.get(jetbrains.mps.openapi.editor.style.StyleAttribute):java.lang.Object" resolve="get" />

@@ -4462,8 +4462,8 @@
                             <ref role="3uigEE" to="nkm5:27djZ8_ZBps" resolve="DiagramModel" />
                           </node>
                           <node concept="2YIFZM" id="27djZ8AsGD8" role="33vP2m">
-                            <ref role="37wK5l" to="nkm5:27djZ8AsCRe" resolve="getModel" />
                             <ref role="1Pybhc" to="nkm5:27djZ8_ZBps" resolve="DiagramModel" />
+                            <ref role="37wK5l" to="nkm5:7GZDrCwG7$l" resolve="getModel" />
                             <node concept="37vLTw" id="6uYu7mz0Prn" role="37wK5m">
                               <ref role="3cqZAo" node="fXNkb_a" resolve="editorContext" />
                             </node>

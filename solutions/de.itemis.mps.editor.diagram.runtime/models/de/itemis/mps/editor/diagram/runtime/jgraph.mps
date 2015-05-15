@@ -9670,6 +9670,9 @@
                   <node concept="37vLTw" id="6rrvvVedcnF" role="37wK5m">
                     <ref role="3cqZAo" node="6rrvvVe2vQL" resolve="subModel" />
                   </node>
+                  <node concept="2GrUjf" id="4opyGmeVVqo" role="37wK5m">
+                    <ref role="2Gs0qQ" node="6OP6SOH_zdQ" resolve="subdiagram" />
+                  </node>
                 </node>
                 <node concept="2OqwBi" id="6rrvvVexOK5" role="2Oq$k0">
                   <node concept="37vLTw" id="6rrvvVexOK6" role="2Oq$k0">
@@ -23238,11 +23241,11 @@
                     <ref role="3cqZAo" node="7Hx1wY1VTGw" resolve="cell" />
                   </node>
                   <node concept="liA8E" id="7Hx1wY1VWI8" role="2OqNvi">
-                    <ref role="37wK5l" to="g6dw:~mxCell.getParent():com.mxgraph.model.mxICell" resolve="getParent" />
+                    <ref role="37wK5l" node="4opyGmeovUm" resolve="getParent" />
                   </node>
                 </node>
                 <node concept="liA8E" id="7Hx1wY1VWI9" role="2OqNvi">
-                  <ref role="37wK5l" to="g6dw:~mxICell.getGeometry():com.mxgraph.model.mxGeometry" resolve="getGeometry" />
+                  <ref role="37wK5l" to="g6dw:~mxCell.getGeometry():com.mxgraph.model.mxGeometry" resolve="getGeometry" />
                 </node>
               </node>
             </node>
@@ -24832,13 +24835,18 @@
                       <node concept="37vLTI" id="4opyGmeg$oU" role="3clFbG">
                         <node concept="2ShNRf" id="4opyGmeg$un" role="37vLTx">
                           <node concept="1pGfFk" id="4opyGmegN5_" role="2ShVmc">
-                            <ref role="37wK5l" to="7ou7:4opyGmeg0hj" resolve="BoxStyleFromEditorCell" />
+                            <ref role="37wK5l" to="7ou7:4opyGmeg0hj" resolve="BoxStyleFromMPSStyle" />
                             <node concept="2OqwBi" id="4opyGmegNfv" role="37wK5m">
-                              <node concept="37vLTw" id="4opyGmegONg" role="2Oq$k0">
-                                <ref role="3cqZAo" node="4opyGmeoCFV" resolve="boxDCell" />
+                              <node concept="2OqwBi" id="1EuDuIKD$br" role="2Oq$k0">
+                                <node concept="37vLTw" id="4opyGmegONg" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="4opyGmeoCFV" resolve="boxDCell" />
+                                </node>
+                                <node concept="liA8E" id="1EuDuIKD_$l" role="2OqNvi">
+                                  <ref role="37wK5l" node="5K7KC_qAcJd" resolve="getBox" />
+                                </node>
                               </node>
-                              <node concept="liA8E" id="4opyGmegR5Q" role="2OqNvi">
-                                <ref role="37wK5l" node="4dus55SF8VP" resolve="getBigCell" />
+                              <node concept="liA8E" id="1EuDuIKDzgW" role="2OqNvi">
+                                <ref role="37wK5l" to="nkm5:4EOrrTBGXX1" resolve="getStyle" />
                               </node>
                             </node>
                             <node concept="37vLTw" id="4opyGmegRho" role="37wK5m">
