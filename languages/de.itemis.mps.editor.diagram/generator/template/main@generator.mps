@@ -7094,6 +7094,12 @@
           <ref role="3uigEE" to="ar19:~Rectangle2D" resolve="Rectangle2D" />
         </node>
       </node>
+      <node concept="37vLTG" id="4opyGmdE5bl" role="3clF46">
+        <property role="TrG5h" value="style" />
+        <node concept="3uibUv" id="4opyGmdE5bm" role="1tU5fm">
+          <ref role="3uigEE" to="7ou7:4opyGmdDEfh" resolve="IShapeStyle" />
+        </node>
+      </node>
       <node concept="3cqZAl" id="6uo2fN6$ONA" role="3clF45" />
       <node concept="3Tmbuc" id="6uo2fN6$ONB" role="1B3o_S" />
       <node concept="3clFbS" id="6uo2fN6$OND" role="3clF47">
@@ -7163,6 +7169,12 @@
         <property role="3TUv4t" value="true" />
         <node concept="3uibUv" id="6uo2fN6$ONQ" role="1tU5fm">
           <ref role="3uigEE" to="ar19:~Rectangle2D" resolve="Rectangle2D" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="4opyGmdE1Or" role="3clF46">
+        <property role="TrG5h" value="style" />
+        <node concept="3uibUv" id="4opyGmdE4En" role="1tU5fm">
+          <ref role="3uigEE" to="7ou7:4opyGmdDEfh" resolve="IShapeStyle" />
         </node>
       </node>
       <node concept="3clFbS" id="6uo2fN6$ONR" role="3clF47">
@@ -7608,6 +7620,14 @@
       <node concept="gft3U" id="5hGzT1$6Rfy" role="1lVwrX">
         <node concept="1Z6Ecs" id="7WiZGibeG_g" role="gfFT$">
           <ref role="1Z6EpT" to="swi3:4mmPun56RuH" resolve="__line-color" />
+        </node>
+      </node>
+    </node>
+    <node concept="3aamgX" id="4opyGmeaulN" role="3aUrZf">
+      <ref role="30HIoZ" to="2qld:4opyGmeaulF" resolve="ShadeColor" />
+      <node concept="gft3U" id="4opyGmeaulO" role="1lVwrX">
+        <node concept="1Z6Ecs" id="4opyGmeaulP" role="gfFT$">
+          <ref role="1Z6EpT" to="swi3:4opyGmearNg" resolve="__shade-color" />
         </node>
       </node>
     </node>

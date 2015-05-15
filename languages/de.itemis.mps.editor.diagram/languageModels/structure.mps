@@ -1677,5 +1677,17 @@
     <property role="TrG5h" value="QueryFunction_LineStyle" />
     <ref role="1TJDcQ" to="tpc2:hLcOssU" resolve="QueryFunction_StyleParameter" />
   </node>
+  <node concept="1TIwiD" id="4opyGmdDLDu">
+    <property role="3GE5qa" value="shape" />
+    <property role="TrG5h" value="Parameter_Style" />
+    <property role="34LRSv" value="style" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
+  </node>
+  <node concept="1TIwiD" id="4opyGmeaulF">
+    <property role="3GE5qa" value="style" />
+    <property role="TrG5h" value="ShadeColor" />
+    <property role="34LRSv" value="shade-color" />
+    <ref role="1TJDcQ" to="tpc2:hgVaVz4" resolve="ColorStyleClassItem" />
+  </node>
 </model>
 
