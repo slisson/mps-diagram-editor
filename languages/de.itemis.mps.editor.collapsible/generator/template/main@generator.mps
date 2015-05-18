@@ -33,11 +33,11 @@
         <child id="1197027771414" name="operand" index="2Oq$k0" />
         <child id="1197027833540" name="operation" index="2OqNvi" />
       </concept>
-      <concept id="1145552977093" name="jetbrains.mps.baseLanguage.structure.GenericNewExpression" flags="nn" index="2ShNRf">
-        <child id="1145553007750" name="creator" index="2ShVmc" />
-      </concept>
       <concept id="1137021947720" name="jetbrains.mps.baseLanguage.structure.ConceptFunction" flags="in" index="2VMwT0">
         <child id="1137022507850" name="body" index="2VODD2" />
+      </concept>
+      <concept id="1081236700937" name="jetbrains.mps.baseLanguage.structure.StaticMethodCall" flags="nn" index="2YIFZM">
+        <reference id="1144433194310" name="classConcept" index="1Pybhc" />
       </concept>
       <concept id="1070534058343" name="jetbrains.mps.baseLanguage.structure.NullLiteral" flags="nn" index="10Nm6u" />
       <concept id="1070534370425" name="jetbrains.mps.baseLanguage.structure.IntegerType" flags="in" index="10Oyi0" />
@@ -82,7 +82,6 @@
         <reference id="1068499141037" name="baseMethodDeclaration" index="37wK5l" />
         <child id="1068499141038" name="actualArgument" index="37wK5m" />
       </concept>
-      <concept id="1212685548494" name="jetbrains.mps.baseLanguage.structure.ClassCreator" flags="nn" index="1pGfFk" />
       <concept id="1107461130800" name="jetbrains.mps.baseLanguage.structure.Classifier" flags="ng" index="3pOWGL">
         <child id="5375687026011219971" name="member" index="jymVt" unordered="true" />
       </concept>
@@ -311,9 +310,13 @@
           <node concept="3cpWs8" id="hdJTozE" role="3cqZAp">
             <node concept="3cpWsn" id="hdJTozF" role="3cpWs9">
               <property role="TrG5h" value="editorCell" />
-              <node concept="2ShNRf" id="hDIBphp" role="33vP2m">
-                <node concept="1pGfFk" id="hDIBphr" role="2ShVmc">
-                  <ref role="37wK5l" to="s6s:48DYfEt2u6Z" resolve="CollapsibleCell" />
+              <node concept="2OqwBi" id="7SfNo0yyyQ$" role="33vP2m">
+                <node concept="2YIFZM" id="7SfNo0yyywI" role="2Oq$k0">
+                  <ref role="37wK5l" to="s6s:7SfNo0yyvNP" resolve="getFactory" />
+                  <ref role="1Pybhc" to="s6s:7SfNo0yyvB8" resolve="CollapsibleContext" />
+                </node>
+                <node concept="liA8E" id="7SfNo0yy$9w" role="2OqNvi">
+                  <ref role="37wK5l" to="s6s:7SfNo0yygue" resolve="create" />
                   <node concept="37vLTw" id="2BHiRxgm72F" role="37wK5m">
                     <ref role="3cqZAo" node="fXNkb_a" resolve="editorContext" />
                   </node>
@@ -385,8 +388,8 @@
                   </node>
                 </node>
               </node>
-              <node concept="3uibUv" id="48DYfEt4Bg2" role="1tU5fm">
-                <ref role="3uigEE" to="s6s:48DYfEt2p$b" resolve="CollapsibleCell" />
+              <node concept="3uibUv" id="7SfNo0yy$Uv" role="1tU5fm">
+                <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
               </node>
             </node>
           </node>
@@ -405,7 +408,7 @@
             </node>
             <node concept="2OqwBi" id="13c7lpEz_Ae" role="3clFbG">
               <node concept="liA8E" id="13c7lpEz_Ag" role="2OqNvi">
-                <ref role="37wK5l" to="jsgz:~EditorCell_Collection.setSubstituteInfo(jetbrains.mps.openapi.editor.cells.SubstituteInfo):void" resolve="setSubstituteInfo" />
+                <ref role="37wK5l" to="nu8v:~EditorCell.setSubstituteInfo(jetbrains.mps.openapi.editor.cells.SubstituteInfo):void" resolve="setSubstituteInfo" />
                 <node concept="10Nm6u" id="13c7lpEz_Ah" role="37wK5m" />
               </node>
               <node concept="37vLTw" id="3GM_nagTysZ" role="2Oq$k0">

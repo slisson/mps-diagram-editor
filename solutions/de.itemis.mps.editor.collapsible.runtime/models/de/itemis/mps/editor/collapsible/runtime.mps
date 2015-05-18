@@ -62,6 +62,9 @@
         <child id="1153952416686" name="body" index="2GV8ay" />
         <child id="1153952429843" name="finallyBody" index="2GVbov" />
       </concept>
+      <concept id="2820489544401957797" name="jetbrains.mps.baseLanguage.structure.DefaultClassCreator" flags="nn" index="HV5vD">
+        <reference id="2820489544401957798" name="classifier" index="HV5vE" />
+      </concept>
       <concept id="1224848483129" name="jetbrains.mps.baseLanguage.structure.IBLDeprecatable" flags="ng" index="IEa8$">
         <property id="1224848525476" name="isDeprecated" index="IEkAT" />
       </concept>
@@ -196,10 +199,20 @@
         <child id="1144231399730" name="condition" index="1Dwp0S" />
         <child id="1144231408325" name="iteration" index="1Dwrff" />
       </concept>
+      <concept id="1107796713796" name="jetbrains.mps.baseLanguage.structure.Interface" flags="ig" index="3HP615" />
       <concept id="1163668896201" name="jetbrains.mps.baseLanguage.structure.TernaryOperatorExpression" flags="nn" index="3K4zz7">
         <child id="1163668914799" name="condition" index="3K4Cdx" />
         <child id="1163668922816" name="ifTrue" index="3K4E3e" />
         <child id="1163668934364" name="ifFalse" index="3K4GZi" />
+      </concept>
+      <concept id="6329021646629104957" name="jetbrains.mps.baseLanguage.structure.TextCommentPart" flags="nn" index="3SKdUq">
+        <property id="6329021646629104958" name="text" index="3SKdUp" />
+      </concept>
+      <concept id="6329021646629104954" name="jetbrains.mps.baseLanguage.structure.SingleLineComment" flags="nn" index="3SKdUt">
+        <child id="6329021646629175155" name="commentPart" index="3SKWNk" />
+      </concept>
+      <concept id="6329021646629175143" name="jetbrains.mps.baseLanguage.structure.StatementCommentPart" flags="nn" index="3SKWN0">
+        <child id="6329021646629175144" name="commentedStatement" index="3SKWNf" />
       </concept>
       <concept id="1146644602865" name="jetbrains.mps.baseLanguage.structure.PublicVisibility" flags="nn" index="3Tm1VV" />
       <concept id="1146644623116" name="jetbrains.mps.baseLanguage.structure.PrivateVisibility" flags="nn" index="3Tm6S6" />
@@ -2497,15 +2510,27 @@
         <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
       </node>
       <node concept="3clFbS" id="6PI4N6Joice" role="3clF47">
-        <node concept="3clFbF" id="6PI4N6JoUgX" role="3cqZAp">
-          <node concept="2OqwBi" id="6PI4N6JoV5r" role="3clFbG">
-            <node concept="37vLTw" id="6PI4N6JoUgW" role="2Oq$k0">
-              <ref role="3cqZAo" node="48DYfEt2U3g" resolve="myCollapsibleCell" />
-            </node>
-            <node concept="liA8E" id="6PI4N6Jpkcz" role="2OqNvi">
-              <ref role="37wK5l" node="6PI4N6Jp0kn" resolve="getExpandedCell" />
+        <node concept="3SKdUt" id="7SfNo0yWg1I" role="3cqZAp">
+          <node concept="3SKdUq" id="7SfNo0yWg2T" role="3SKWNk">
+            <property role="3SKdUp" value="disabled because useless" />
+          </node>
+        </node>
+        <node concept="3SKdUt" id="7SfNo0yWg3H" role="3cqZAp">
+          <node concept="3SKWN0" id="7SfNo0yWg3I" role="3SKWNk">
+            <node concept="3clFbF" id="6PI4N6JoUgX" role="3SKWNf">
+              <node concept="2OqwBi" id="6PI4N6JoV5r" role="3clFbG">
+                <node concept="37vLTw" id="6PI4N6JoUgW" role="2Oq$k0">
+                  <ref role="3cqZAo" node="48DYfEt2U3g" resolve="myCollapsibleCell" />
+                </node>
+                <node concept="liA8E" id="6PI4N6Jpkcz" role="2OqNvi">
+                  <ref role="37wK5l" node="6PI4N6Jp0kn" resolve="getExpandedCell" />
+                </node>
+              </node>
             </node>
           </node>
+        </node>
+        <node concept="3clFbF" id="7SfNo0yWgcd" role="3cqZAp">
+          <node concept="10Nm6u" id="7SfNo0yWgcb" role="3clFbG" />
         </node>
       </node>
     </node>
@@ -2521,6 +2546,263 @@
       <node concept="3Tm1VV" id="6PI4N6Joicl" role="1B3o_S" />
       <node concept="3clFbS" id="6PI4N6Joicp" role="3clF47" />
     </node>
+  </node>
+  <node concept="3HP615" id="7SfNo0yyeON">
+    <property role="TrG5h" value="ICollapsibleFactory" />
+    <node concept="2tJIrI" id="7SfNo0yygyE" role="jymVt" />
+    <node concept="2tJIrI" id="7SfNo0yyg$D" role="jymVt" />
+    <node concept="2tJIrI" id="7SfNo0yygAI" role="jymVt" />
+    <node concept="3clFb_" id="7SfNo0yygue" role="jymVt">
+      <property role="1EzhhJ" value="true" />
+      <property role="TrG5h" value="create" />
+      <node concept="37vLTG" id="7SfNo0yygvA" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="7SfNo0yygvB" role="1tU5fm">
+          <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygvC" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="7SfNo0yygvD" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygvE" role="3clF46">
+        <property role="TrG5h" value="expandedCell" />
+        <node concept="3uibUv" id="7SfNo0yygvF" role="1tU5fm">
+          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+        </node>
+        <node concept="2AHcQZ" id="7SfNo0yygvG" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygvH" role="3clF46">
+        <property role="TrG5h" value="collapsedCell" />
+        <node concept="3uibUv" id="7SfNo0yygvI" role="1tU5fm">
+          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+        </node>
+        <node concept="2AHcQZ" id="7SfNo0yygvJ" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygvK" role="3clF46">
+        <property role="TrG5h" value="showCollapsedAlways" />
+        <node concept="10P_77" id="7SfNo0yygvL" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygvM" role="3clF46">
+        <property role="TrG5h" value="collapsedByDefault" />
+        <node concept="10P_77" id="7SfNo0yygvN" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygvO" role="3clF46">
+        <property role="TrG5h" value="drawBracketLine" />
+        <node concept="10P_77" id="7SfNo0yygvP" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="7SfNo0yygy6" role="3clF45">
+        <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+      </node>
+      <node concept="3Tm1VV" id="7SfNo0yyguh" role="1B3o_S" />
+      <node concept="3clFbS" id="7SfNo0yygui" role="3clF47" />
+    </node>
+    <node concept="3Tm1VV" id="7SfNo0yyeOO" role="1B3o_S" />
+  </node>
+  <node concept="312cEu" id="7SfNo0yygF5">
+    <property role="TrG5h" value="DefaultCollapsibleFactory" />
+    <node concept="3Tm1VV" id="7SfNo0yygF6" role="1B3o_S" />
+    <node concept="3uibUv" id="7SfNo0yygFE" role="EKbjA">
+      <ref role="3uigEE" node="7SfNo0yyeON" resolve="ICollapsibleFactory" />
+    </node>
+    <node concept="3clFb_" id="7SfNo0yygFT" role="jymVt">
+      <property role="1EzhhJ" value="false" />
+      <property role="TrG5h" value="create" />
+      <node concept="37vLTG" id="7SfNo0yygFU" role="3clF46">
+        <property role="TrG5h" value="context" />
+        <node concept="3uibUv" id="7SfNo0yygFV" role="1tU5fm">
+          <ref role="3uigEE" to="srng:~EditorContext" resolve="EditorContext" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygFW" role="3clF46">
+        <property role="TrG5h" value="node" />
+        <node concept="3Tqbb2" id="7SfNo0yygFX" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygFY" role="3clF46">
+        <property role="TrG5h" value="expandedCell" />
+        <node concept="3uibUv" id="7SfNo0yygFZ" role="1tU5fm">
+          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+        </node>
+        <node concept="2AHcQZ" id="7SfNo0yygG0" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygG1" role="3clF46">
+        <property role="TrG5h" value="collapsedCell" />
+        <node concept="3uibUv" id="7SfNo0yygG2" role="1tU5fm">
+          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+        </node>
+        <node concept="2AHcQZ" id="7SfNo0yygG3" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~Nullable" resolve="Nullable" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygG4" role="3clF46">
+        <property role="TrG5h" value="showCollapsedAlways" />
+        <node concept="10P_77" id="7SfNo0yygG5" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygG6" role="3clF46">
+        <property role="TrG5h" value="collapsedByDefault" />
+        <node concept="10P_77" id="7SfNo0yygG7" role="1tU5fm" />
+      </node>
+      <node concept="37vLTG" id="7SfNo0yygG8" role="3clF46">
+        <property role="TrG5h" value="drawBracketLine" />
+        <node concept="10P_77" id="7SfNo0yygG9" role="1tU5fm" />
+      </node>
+      <node concept="3uibUv" id="7SfNo0yygGa" role="3clF45">
+        <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+      </node>
+      <node concept="3Tm1VV" id="7SfNo0yygGb" role="1B3o_S" />
+      <node concept="3clFbS" id="7SfNo0yygGd" role="3clF47">
+        <node concept="3cpWs6" id="7SfNo0yyv2V" role="3cqZAp">
+          <node concept="2ShNRf" id="7SfNo0yyv2X" role="3cqZAk">
+            <node concept="1pGfFk" id="7SfNo0yyv2Y" role="2ShVmc">
+              <ref role="37wK5l" node="48DYfEt2u6Z" resolve="CollapsibleCell" />
+              <node concept="37vLTw" id="7SfNo0yyv2Z" role="37wK5m">
+                <ref role="3cqZAo" node="7SfNo0yygFU" resolve="context" />
+              </node>
+              <node concept="37vLTw" id="7SfNo0yyv30" role="37wK5m">
+                <ref role="3cqZAo" node="7SfNo0yygFW" resolve="node" />
+              </node>
+              <node concept="37vLTw" id="7SfNo0yyv31" role="37wK5m">
+                <ref role="3cqZAo" node="7SfNo0yygFY" resolve="expandedCell" />
+              </node>
+              <node concept="37vLTw" id="7SfNo0yyv32" role="37wK5m">
+                <ref role="3cqZAo" node="7SfNo0yygG1" resolve="collapsedCell" />
+              </node>
+              <node concept="37vLTw" id="7SfNo0yyv33" role="37wK5m">
+                <ref role="3cqZAo" node="7SfNo0yygG4" resolve="showCollapsedAlways" />
+              </node>
+              <node concept="37vLTw" id="7SfNo0yyv34" role="37wK5m">
+                <ref role="3cqZAo" node="7SfNo0yygG6" resolve="collapsedByDefault" />
+              </node>
+              <node concept="37vLTw" id="7SfNo0yyv35" role="37wK5m">
+                <ref role="3cqZAo" node="7SfNo0yygG8" resolve="drawBracketLine" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+  </node>
+  <node concept="312cEu" id="7SfNo0yyvB8">
+    <property role="TrG5h" value="CollapsibleContext" />
+    <node concept="Wx3nA" id="7SfNo0yyvSZ" role="jymVt">
+      <property role="IEkAT" value="false" />
+      <property role="TrG5h" value="currentFactory" />
+      <property role="3TUv4t" value="false" />
+      <node concept="3uibUv" id="7SfNo0yyvNz" role="1tU5fm">
+        <ref role="3uigEE" node="7SfNo0yyeON" resolve="ICollapsibleFactory" />
+      </node>
+      <node concept="3Tm6S6" id="7SfNo0yyvLl" role="1B3o_S" />
+      <node concept="2ShNRf" id="7SfNo0yyvVU" role="33vP2m">
+        <node concept="HV5vD" id="7SfNo0yywff" role="2ShVmc">
+          <ref role="HV5vE" node="7SfNo0yygF5" resolve="DefaultCollapsibleFactory" />
+        </node>
+      </node>
+      <node concept="2AHcQZ" id="7SfNo0yywIb" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7SfNo0yyvHi" role="jymVt" />
+    <node concept="2tJIrI" id="7SfNo0yyvIH" role="jymVt" />
+    <node concept="2YIFZL" id="7SfNo0yyvNP" role="jymVt">
+      <property role="TrG5h" value="getFactory" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="7SfNo0yyvBx" role="3clF47">
+        <node concept="3clFbF" id="7SfNo0yywfN" role="3cqZAp">
+          <node concept="37vLTw" id="7SfNo0yywfM" role="3clFbG">
+            <ref role="3cqZAo" node="7SfNo0yyvSZ" resolve="currentFactory" />
+          </node>
+        </node>
+      </node>
+      <node concept="3uibUv" id="7SfNo0yyvFH" role="3clF45">
+        <ref role="3uigEE" node="7SfNo0yyeON" resolve="ICollapsibleFactory" />
+      </node>
+      <node concept="3Tm1VV" id="7SfNo0yyvBw" role="1B3o_S" />
+      <node concept="2AHcQZ" id="7SfNo0yywIP" role="2AJF6D">
+        <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+      </node>
+    </node>
+    <node concept="2tJIrI" id="7SfNo0yyvC3" role="jymVt" />
+    <node concept="2YIFZL" id="7SfNo0yyvQ4" role="jymVt">
+      <property role="TrG5h" value="withFactory" />
+      <property role="IEkAT" value="false" />
+      <property role="DiZV1" value="false" />
+      <property role="od$2w" value="false" />
+      <node concept="3clFbS" id="7SfNo0yyvDb" role="3clF47">
+        <node concept="3cpWs8" id="7SfNo0yywKB" role="3cqZAp">
+          <node concept="3cpWsn" id="7SfNo0yywKC" role="3cpWs9">
+            <property role="TrG5h" value="previous" />
+            <node concept="3uibUv" id="7SfNo0yywKD" role="1tU5fm">
+              <ref role="3uigEE" node="7SfNo0yyeON" resolve="ICollapsibleFactory" />
+            </node>
+            <node concept="37vLTw" id="7SfNo0yywLX" role="33vP2m">
+              <ref role="3cqZAo" node="7SfNo0yyvSZ" resolve="currentFactory" />
+            </node>
+          </node>
+        </node>
+        <node concept="2GUZhq" id="7SfNo0yyvKA" role="3cqZAp">
+          <node concept="3clFbS" id="7SfNo0yyvKB" role="2GVbov">
+            <node concept="3clFbF" id="7SfNo0yywMK" role="3cqZAp">
+              <node concept="37vLTI" id="7SfNo0yywUm" role="3clFbG">
+                <node concept="37vLTw" id="7SfNo0yywYM" role="37vLTx">
+                  <ref role="3cqZAo" node="7SfNo0yywKC" resolve="previous" />
+                </node>
+                <node concept="37vLTw" id="7SfNo0yywMJ" role="37vLTJ">
+                  <ref role="3cqZAo" node="7SfNo0yyvSZ" resolve="currentFactory" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbS" id="7SfNo0yyvKC" role="2GV8ay">
+            <node concept="3clFbF" id="7SfNo0yyxcl" role="3cqZAp">
+              <node concept="37vLTI" id="7SfNo0yyxnW" role="3clFbG">
+                <node concept="37vLTw" id="7SfNo0yyxzX" role="37vLTx">
+                  <ref role="3cqZAo" node="7SfNo0yyvEf" resolve="factory" />
+                </node>
+                <node concept="37vLTw" id="7SfNo0yyxcj" role="37vLTJ">
+                  <ref role="3cqZAo" node="7SfNo0yyvSZ" resolve="currentFactory" />
+                </node>
+              </node>
+            </node>
+            <node concept="3clFbF" id="7SfNo0yyx2T" role="3cqZAp">
+              <node concept="2OqwBi" id="7SfNo0yyx3W" role="3clFbG">
+                <node concept="37vLTw" id="7SfNo0yyx2S" role="2Oq$k0">
+                  <ref role="3cqZAo" node="7SfNo0yyvER" resolve="runnable" />
+                </node>
+                <node concept="liA8E" id="7SfNo0yyxaD" role="2OqNvi">
+                  <ref role="37wK5l" to="e2lb:~Runnable.run():void" resolve="run" />
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yyvEf" role="3clF46">
+        <property role="TrG5h" value="factory" />
+        <node concept="3uibUv" id="7SfNo0yyvEz" role="1tU5fm">
+          <ref role="3uigEE" node="7SfNo0yyeON" resolve="ICollapsibleFactory" />
+        </node>
+        <node concept="2AHcQZ" id="7SfNo0yywHU" role="2AJF6D">
+          <ref role="2AI5Lk" to="as9o:~NotNull" resolve="NotNull" />
+        </node>
+      </node>
+      <node concept="37vLTG" id="7SfNo0yyvER" role="3clF46">
+        <property role="TrG5h" value="runnable" />
+        <node concept="3uibUv" id="7SfNo0yyvFp" role="1tU5fm">
+          <ref role="3uigEE" to="e2lb:~Runnable" resolve="Runnable" />
+        </node>
+      </node>
+      <node concept="3cqZAl" id="7SfNo0yyvD9" role="3clF45" />
+      <node concept="3Tm1VV" id="7SfNo0yyvDa" role="1B3o_S" />
+    </node>
+    <node concept="3Tm1VV" id="7SfNo0yyvB9" role="1B3o_S" />
   </node>
 </model>
 
