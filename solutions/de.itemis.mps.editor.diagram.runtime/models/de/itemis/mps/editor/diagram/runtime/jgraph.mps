@@ -7244,7 +7244,7 @@
               <node concept="3clFbS" id="4KKQOHIOej2" role="3clFbx">
                 <node concept="3cpWs8" id="2BjZSlQJXbC" role="3cqZAp">
                   <node concept="3cpWsn" id="2BjZSlQJXbD" role="3cpWs9">
-                    <property role="TrG5h" value="node" />
+                    <property role="TrG5h" value="box" />
                     <node concept="3uibUv" id="2BjZSlQJXab" role="1tU5fm">
                       <ref role="3uigEE" to="nkm5:27djZ8_YaUo" resolve="Box" />
                     </node>
@@ -7267,7 +7267,7 @@
                       <ref role="3cqZAo" node="1O5GA4gnG9u" resolve="getOrCreateCell" />
                     </node>
                     <node concept="37vLTw" id="2BjZSlQK1K1" role="37wK5m">
-                      <ref role="3cqZAo" node="2BjZSlQJXbD" resolve="node" />
+                      <ref role="3cqZAo" node="2BjZSlQJXbD" resolve="box" />
                     </node>
                     <node concept="37vLTw" id="1O5GA4gfvIS" role="37wK5m">
                       <ref role="3cqZAo" node="1O5GA4geWwM" resolve="syncContext" />
@@ -7279,7 +7279,7 @@
                     <ref role="37wK5l" node="6uo2fN6oXKi" resolve="assignShape" />
                     <node concept="2OqwBi" id="61ORDkdc0jD" role="37wK5m">
                       <node concept="37vLTw" id="2BjZSlQK7Gl" role="2Oq$k0">
-                        <ref role="3cqZAo" node="2BjZSlQJXbD" resolve="node" />
+                        <ref role="3cqZAo" node="2BjZSlQJXbD" resolve="box" />
                       </node>
                       <node concept="liA8E" id="61ORDkdc2kr" role="2OqNvi">
                         <ref role="37wK5l" to="nkm5:6uo2fN6lxlA" resolve="getShape" />
@@ -7293,21 +7293,6 @@
                     </node>
                   </node>
                 </node>
-                <node concept="3clFbF" id="1FlH1cKdPfY" role="3cqZAp">
-                  <node concept="1rXfSq" id="1FlH1cKdPfX" role="3clFbG">
-                    <ref role="37wK5l" node="1FlH1cKdtR4" resolve="model2graphPorts" />
-                    <node concept="37vLTw" id="1FlH1cKdRdo" role="37wK5m">
-                      <ref role="3cqZAo" node="1O5GA4gnG9$" resolve="cell" />
-                    </node>
-                    <node concept="37vLTw" id="2BjZSlQK4zt" role="37wK5m">
-                      <ref role="3cqZAo" node="2BjZSlQJXbD" resolve="node" />
-                    </node>
-                    <node concept="37vLTw" id="5TlQvVM5EN" role="37wK5m">
-                      <ref role="3cqZAo" node="1O5GA4geWwM" resolve="syncContext" />
-                    </node>
-                  </node>
-                </node>
-                <node concept="3clFbH" id="5S8_I2GdH0f" role="3cqZAp" />
               </node>
               <node concept="2ZW3vV" id="4KKQOHIOej9" role="3clFbw">
                 <node concept="3uibUv" id="4KKQOHIOeja" role="2ZW6by">
@@ -7371,7 +7356,7 @@
         </node>
       </node>
       <node concept="37vLTG" id="1FlH1cKdMOU" role="3clF46">
-        <property role="TrG5h" value="node" />
+        <property role="TrG5h" value="box" />
         <node concept="3uibUv" id="1FlH1cKdP8H" role="1tU5fm">
           <ref role="3uigEE" to="nkm5:27djZ8_YaUo" resolve="Box" />
         </node>
@@ -7426,7 +7411,7 @@
           <node concept="1rXfSq" id="fQhyIMq7Wb" role="3clFbG">
             <ref role="37wK5l" node="fQhyIMprXt" resolve="forEachPort" />
             <node concept="37vLTw" id="fQhyIMqurV" role="37wK5m">
-              <ref role="3cqZAo" node="1FlH1cKdMOU" resolve="node" />
+              <ref role="3cqZAo" node="1FlH1cKdMOU" resolve="box" />
             </node>
             <node concept="1bVj0M" id="fQhyIMq9$S" role="37wK5m">
               <node concept="3clFbS" id="fQhyIMq9$T" role="1bW5cS">
@@ -9684,6 +9669,21 @@
           </node>
         </node>
         <node concept="3clFbH" id="5S8_I2GS8wk" role="3cqZAp" />
+        <node concept="3clFbF" id="2Q7VE3OLTDg" role="3cqZAp">
+          <node concept="1rXfSq" id="2Q7VE3OLTDh" role="3clFbG">
+            <ref role="37wK5l" node="1FlH1cKdtR4" resolve="model2graphPorts" />
+            <node concept="37vLTw" id="2Q7VE3OLVzX" role="37wK5m">
+              <ref role="3cqZAo" node="1O5GA4gqRtN" resolve="dcell" />
+            </node>
+            <node concept="37vLTw" id="2Q7VE3OLVDN" role="37wK5m">
+              <ref role="3cqZAo" node="4KKQOHIOelW" resolve="box" />
+            </node>
+            <node concept="37vLTw" id="2Q7VE3OLTDk" role="37wK5m">
+              <ref role="3cqZAo" node="1O5GA4gfk56" resolve="syncContext" />
+            </node>
+          </node>
+        </node>
+        <node concept="3clFbH" id="2Q7VE3OLSRH" role="3cqZAp" />
         <node concept="2Gpval" id="6OP6SOH_zdO" role="3cqZAp">
           <node concept="2GrKxI" id="6OP6SOH_zdQ" role="2Gsz3X">
             <property role="TrG5h" value="subdiagram" />
@@ -69851,7 +69851,16 @@
     <node concept="3clFbW" id="1JWQbhaGVCs" role="jymVt">
       <node concept="3cqZAl" id="1JWQbhaGVCt" role="3clF45" />
       <node concept="3Tm1VV" id="1JWQbhaGVCu" role="1B3o_S" />
-      <node concept="3clFbS" id="1JWQbhaGVCw" role="3clF47" />
+      <node concept="3clFbS" id="1JWQbhaGVCw" role="3clF47">
+        <node concept="3clFbF" id="2Q7VE3OZ36i" role="3cqZAp">
+          <node concept="1rXfSq" id="2Q7VE3OZ36h" role="3clFbG">
+            <ref role="37wK5l" to="g6dw:~mxGraphModel.setMaintainEdgeParent(boolean):void" resolve="setMaintainEdgeParent" />
+            <node concept="3clFbT" id="2Q7VE3OZ37L" role="37wK5m">
+              <property role="3clFbU" value="false" />
+            </node>
+          </node>
+        </node>
+      </node>
     </node>
     <node concept="2tJIrI" id="1JWQbhaU9r$" role="jymVt" />
     <node concept="2tJIrI" id="1JWQbhaU9sd" role="jymVt" />
