@@ -74427,9 +74427,9 @@
             </node>
             <node concept="3clFbF" id="5lWUryyiFkB" role="3cqZAp">
               <node concept="37vLTI" id="5lWUryyiG5u" role="3clFbG">
-                <node concept="3y3z36" id="5lWUryyiGqg" role="37vLTx">
-                  <node concept="10Nm6u" id="5lWUryyiGrg" role="3uHU7w" />
-                  <node concept="37vLTw" id="5lWUryyiGdx" role="3uHU7B">
+                <node concept="1rXfSq" id="1thAWiRYioU" role="37vLTx">
+                  <ref role="37wK5l" node="1thAWiRY3TS" resolve="useWaveLine" />
+                  <node concept="37vLTw" id="1thAWiRYivV" role="37wK5m">
                     <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
                   </node>
                 </node>
@@ -74474,11 +74474,8 @@
                   </node>
                 </node>
               </node>
-              <node concept="3y3z36" id="5lWUryycR5e" role="3clFbw">
-                <node concept="10Nm6u" id="5lWUryycR8z" role="3uHU7w" />
-                <node concept="37vLTw" id="5lWUryyoC$d" role="3uHU7B">
-                  <ref role="3cqZAo" node="5lWUryycGoh" resolve="messageType" />
-                </node>
+              <node concept="37vLTw" id="1thAWiRYi$y" role="3clFbw">
+                <ref role="3cqZAo" node="5lWUryybEhB" resolve="myIsWaveLine" />
               </node>
             </node>
           </node>
@@ -74785,6 +74782,42 @@
         <property role="TrG5h" value="s2" />
         <node concept="3uibUv" id="5lWUryycrZy" role="1tU5fm">
           <ref role="3uigEE" to="nax5:~MessageStatus" resolve="MessageStatus" />
+        </node>
+      </node>
+    </node>
+    <node concept="2tJIrI" id="1thAWiRXwpW" role="jymVt" />
+    <node concept="3clFb_" id="1thAWiRY3TS" role="jymVt">
+      <property role="TrG5h" value="useWaveLine" />
+      <node concept="37vLTG" id="1thAWiRY6sc" role="3clF46">
+        <property role="TrG5h" value="type" />
+        <node concept="3uibUv" id="1thAWiRY6EM" role="1tU5fm">
+          <ref role="3uigEE" to="nax5:~MessageStatus" resolve="MessageStatus" />
+        </node>
+      </node>
+      <node concept="10P_77" id="1thAWiRY6IJ" role="3clF45" />
+      <node concept="3Tmbuc" id="1thAWiRYi99" role="1B3o_S" />
+      <node concept="3clFbS" id="1thAWiRY3TW" role="3clF47">
+        <node concept="3clFbF" id="1thAWiRY7NA" role="3cqZAp">
+          <node concept="22lmx$" id="1thAWiRYh6D" role="3clFbG">
+            <node concept="3clFbC" id="1thAWiRYhCu" role="3uHU7w">
+              <node concept="Rm8GO" id="1thAWiRYhYt" role="3uHU7w">
+                <ref role="Rm8GQ" to="nax5:~MessageStatus.WARNING" resolve="WARNING" />
+                <ref role="1Px2BO" to="nax5:~MessageStatus" resolve="MessageStatus" />
+              </node>
+              <node concept="37vLTw" id="1thAWiRYhi9" role="3uHU7B">
+                <ref role="3cqZAo" node="1thAWiRY6sc" resolve="type" />
+              </node>
+            </node>
+            <node concept="3clFbC" id="1thAWiRY8I_" role="3uHU7B">
+              <node concept="37vLTw" id="1thAWiRY7N_" role="3uHU7B">
+                <ref role="3cqZAo" node="1thAWiRY6sc" resolve="type" />
+              </node>
+              <node concept="Rm8GO" id="1thAWiRYgXo" role="3uHU7w">
+                <ref role="Rm8GQ" to="nax5:~MessageStatus.ERROR" resolve="ERROR" />
+                <ref role="1Px2BO" to="nax5:~MessageStatus" resolve="MessageStatus" />
+              </node>
+            </node>
+          </node>
         </node>
       </node>
     </node>
