@@ -21554,6 +21554,24 @@
       <node concept="3cqZAl" id="6GddiZHoNWz" role="3clF45" />
       <node concept="3Tm1VV" id="6GddiZHoNW$" role="1B3o_S" />
       <node concept="3clFbS" id="6GddiZHoNW_" role="3clF47">
+        <node concept="3clFbJ" id="1thAWiSriYQ" role="3cqZAp">
+          <node concept="3clFbS" id="1thAWiSriYS" role="3clFbx">
+            <node concept="3cpWs6" id="1thAWiSrvNf" role="3cqZAp" />
+          </node>
+          <node concept="2OqwBi" id="1thAWiSru1S" role="3clFbw">
+            <node concept="2OqwBi" id="1thAWiSrsnw" role="2Oq$k0">
+              <node concept="1rXfSq" id="1thAWiSrs22" role="2Oq$k0">
+                <ref role="37wK5l" to="w5rd:~mxGraphComponent.getConnectionHandler():com.mxgraph.swing.handler.mxConnectionHandler" resolve="getConnectionHandler" />
+              </node>
+              <node concept="liA8E" id="1thAWiSrtNQ" role="2OqNvi">
+                <ref role="37wK5l" to="g1vp:~mxConnectionHandler.getConnectPreview():com.mxgraph.swing.handler.mxConnectPreview" resolve="getConnectPreview" />
+              </node>
+            </node>
+            <node concept="liA8E" id="1thAWiSrvkQ" role="2OqNvi">
+              <ref role="37wK5l" to="g1vp:~mxConnectPreview.isActive():boolean" resolve="isActive" />
+            </node>
+          </node>
+        </node>
         <node concept="3clFbF" id="6GddiZHpq8j" role="3cqZAp">
           <node concept="37vLTI" id="6GddiZHpqm0" role="3clFbG">
             <node concept="37vLTw" id="6GddiZHpq8i" role="37vLTJ">
@@ -21581,11 +21599,16 @@
         </node>
         <node concept="3clFbF" id="6yUTIumGeJ0" role="3cqZAp">
           <node concept="2OqwBi" id="6yUTIumGgll" role="3clFbG">
-            <node concept="37vLTw" id="6yUTIumGeIY" role="2Oq$k0">
-              <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
+            <node concept="2OqwBi" id="1thAWiSkSUh" role="2Oq$k0">
+              <node concept="37vLTw" id="6yUTIumGeIY" role="2Oq$k0">
+                <ref role="3cqZAo" node="6zxgcXlvi3O" resolve="myDiagramCell" />
+              </node>
+              <node concept="liA8E" id="1thAWiSkWpl" role="2OqNvi">
+                <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getParent():jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="getParent" />
+              </node>
             </node>
             <node concept="liA8E" id="6yUTIumG_uH" role="2OqNvi">
-              <ref role="37wK5l" node="7$UfFVVzPtJ" resolve="requestRelayout" />
+              <ref role="37wK5l" to="jsgz:~EditorCell_Collection.requestRelayout():void" resolve="requestRelayout" />
             </node>
           </node>
         </node>
