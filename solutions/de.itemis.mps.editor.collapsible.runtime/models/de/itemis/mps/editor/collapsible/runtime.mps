@@ -397,52 +397,52 @@
     <node concept="2tJIrI" id="48DYfEt3mN9" role="jymVt" />
     <node concept="312cEg" id="48DYfEt2KZ8" role="jymVt">
       <property role="TrG5h" value="myToggleCell" />
-      <node concept="3Tm6S6" id="48DYfEt2KZ9" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IW3O" role="1B3o_S" />
       <node concept="3uibUv" id="48DYfEt2L1B" role="1tU5fm">
         <ref role="3uigEE" node="48DYfEt2uxv" resolve="CollapseExpandToggleCell" />
       </node>
     </node>
     <node concept="312cEg" id="48DYfEthdrE" role="jymVt">
       <property role="TrG5h" value="myContentContainer" />
-      <node concept="3Tm6S6" id="48DYfEthdrF" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IWmu" role="1B3o_S" />
       <node concept="3uibUv" id="48DYfEtijtg" role="1tU5fm">
         <ref role="3uigEE" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
       </node>
     </node>
     <node concept="312cEg" id="48DYfEt7MHf" role="jymVt">
       <property role="TrG5h" value="myExpandedCell" />
-      <node concept="3Tm6S6" id="48DYfEt7MHg" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IVA4" role="1B3o_S" />
       <node concept="3uibUv" id="48DYfEt7NwZ" role="1tU5fm">
         <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
       </node>
     </node>
     <node concept="312cEg" id="48DYfEtc9FG" role="jymVt">
       <property role="TrG5h" value="myCollapsedCell" />
-      <node concept="3Tm6S6" id="48DYfEtc9FH" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IVUx" role="1B3o_S" />
       <node concept="3uibUv" id="48DYfEtc9FI" role="1tU5fm">
         <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
       </node>
     </node>
     <node concept="312cEg" id="48DYfEt6WEa" role="jymVt">
       <property role="TrG5h" value="myNodeId" />
-      <node concept="3Tm6S6" id="48DYfEt6WEb" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IWuF" role="1B3o_S" />
       <node concept="3uibUv" id="48DYfEt6Xhb" role="1tU5fm">
         <ref role="3uigEE" to="ec5l:~SNodeId" resolve="SNodeId" />
       </node>
     </node>
     <node concept="312cEg" id="48DYfEthlDj" role="jymVt">
       <property role="TrG5h" value="myShowCollapsedAlways" />
-      <node concept="3Tm6S6" id="48DYfEthlDk" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IWB5" role="1B3o_S" />
       <node concept="10P_77" id="48DYfEthmT9" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="48DYfEtloEl" role="jymVt">
       <property role="TrG5h" value="myCollapsedByDefault" />
-      <node concept="3Tm6S6" id="48DYfEtloEm" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IWEU" role="1B3o_S" />
       <node concept="10P_77" id="48DYfEtlpQh" role="1tU5fm" />
     </node>
     <node concept="312cEg" id="48DYfEt$iAj" role="jymVt">
       <property role="TrG5h" value="myDrawBracketLine" />
-      <node concept="3Tm6S6" id="48DYfEt$iAk" role="1B3o_S" />
+      <node concept="3Tmbuc" id="2rf$mM9IWHt" role="1B3o_S" />
       <node concept="10P_77" id="48DYfEt$kbr" role="1tU5fm" />
     </node>
     <node concept="2tJIrI" id="48DYfEt2KWW" role="jymVt" />
