@@ -839,7 +839,7 @@
               <property role="3F0ifm" value="shape" />
             </node>
             <node concept="3F1sOY" id="6uo2fN6gTeP" role="3EZMnx">
-              <property role="1$x2rV" value="none" />
+              <property role="1$x2rV" value="rectangle" />
               <ref role="1NtTu8" to="2qld:6uo2fN6gQa7" />
               <node concept="VPXOz" id="6uo2fN6gTeQ" role="3F10Kt">
                 <property role="VOm3f" value="true" />
