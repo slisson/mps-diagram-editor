@@ -22185,7 +22185,215 @@
         </node>
       </node>
       <node concept="2tJIrI" id="6zxgcXkHd2D" role="jymVt" />
-      <node concept="2tJIrI" id="6zxgcXkHd2J" role="jymVt" />
+      <node concept="3clFb_" id="42_DJ9jMvlS" role="jymVt">
+        <property role="TrG5h" value="findLeafAtCursor" />
+        <node concept="37vLTG" id="42_DJ9jMG44" role="3clF46">
+          <property role="TrG5h" value="event" />
+          <node concept="3uibUv" id="42_DJ9jMHli" role="1tU5fm">
+            <ref role="3uigEE" to="8q6x:~MouseEvent" resolve="MouseEvent" />
+          </node>
+        </node>
+        <node concept="3uibUv" id="42_DJ9jMKX2" role="3clF45">
+          <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+        </node>
+        <node concept="3Tm1VV" id="42_DJ9jMvlV" role="1B3o_S" />
+        <node concept="3clFbS" id="42_DJ9jMvlW" role="3clF47">
+          <node concept="3clFbH" id="42_DJ9jMM6Y" role="3cqZAp" />
+          <node concept="3cpWs8" id="42_DJ9jNx_Q" role="3cqZAp">
+            <node concept="3cpWsn" id="42_DJ9jNx_R" role="3cpWs9">
+              <property role="TrG5h" value="dcell" />
+              <node concept="3uibUv" id="42_DJ9jNyHw" role="1tU5fm">
+                <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+              </node>
+              <node concept="10QFUN" id="42_DJ9jO1Xa" role="33vP2m">
+                <node concept="3uibUv" id="42_DJ9jO2b7" role="10QFUM">
+                  <ref role="3uigEE" to="g6dw:~mxCell" resolve="mxCell" />
+                </node>
+                <node concept="1rXfSq" id="42_DJ9jNx_S" role="10QFUP">
+                  <ref role="37wK5l" to="w5rd:~mxGraphComponent.getCellAt(int,int):java.lang.Object" resolve="getCellAt" />
+                  <node concept="2OqwBi" id="42_DJ9jNx_T" role="37wK5m">
+                    <node concept="37vLTw" id="42_DJ9jNx_U" role="2Oq$k0">
+                      <ref role="3cqZAo" node="42_DJ9jMG44" resolve="event" />
+                    </node>
+                    <node concept="liA8E" id="42_DJ9jNx_V" role="2OqNvi">
+                      <ref role="37wK5l" to="8q6x:~MouseEvent.getX():int" resolve="getX" />
+                    </node>
+                  </node>
+                  <node concept="2OqwBi" id="42_DJ9jNx_W" role="37wK5m">
+                    <node concept="37vLTw" id="42_DJ9jNx_X" role="2Oq$k0">
+                      <ref role="3cqZAo" node="42_DJ9jMG44" resolve="event" />
+                    </node>
+                    <node concept="liA8E" id="42_DJ9jNx_Y" role="2OqNvi">
+                      <ref role="37wK5l" to="8q6x:~MouseEvent.getY():int" resolve="getY" />
+                    </node>
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbJ" id="42_DJ9jNylx" role="3cqZAp">
+            <node concept="3clFbS" id="42_DJ9jNylz" role="3clFbx">
+              <node concept="2Gpval" id="42_DJ9jN$lp" role="3cqZAp">
+                <node concept="2GrKxI" id="42_DJ9jN$lq" role="2Gsz3X">
+                  <property role="TrG5h" value="mpsCell" />
+                </node>
+                <node concept="3clFbS" id="42_DJ9jN$lr" role="2LFqv$">
+                  <node concept="3clFbJ" id="42_DJ9jNE1e" role="3cqZAp">
+                    <node concept="3clFbS" id="42_DJ9jNE1f" role="3clFbx">
+                      <node concept="3cpWs8" id="42_DJ9jNHeH" role="3cqZAp">
+                        <node concept="3cpWsn" id="42_DJ9jNHeI" role="3cpWs9">
+                          <property role="TrG5h" value="leaf" />
+                          <node concept="3uibUv" id="42_DJ9jNHe_" role="1tU5fm">
+                            <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
+                          </node>
+                          <node concept="2OqwBi" id="42_DJ9jNHeJ" role="33vP2m">
+                            <node concept="2GrUjf" id="42_DJ9jNHeK" role="2Oq$k0">
+                              <ref role="2Gs0qQ" node="42_DJ9jN$lq" resolve="mpsCell" />
+                            </node>
+                            <node concept="liA8E" id="42_DJ9jNHeL" role="2OqNvi">
+                              <ref role="37wK5l" node="24yF$OnIOce" resolve="findLeaf" />
+                              <node concept="2OqwBi" id="42_DJ9jNHeM" role="37wK5m">
+                                <node concept="37vLTw" id="42_DJ9jNHeN" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="42_DJ9jMG44" resolve="event" />
+                                </node>
+                                <node concept="liA8E" id="42_DJ9jNHeO" role="2OqNvi">
+                                  <ref role="37wK5l" to="8q6x:~MouseEvent.getX():int" resolve="getX" />
+                                </node>
+                              </node>
+                              <node concept="2OqwBi" id="42_DJ9jNHeP" role="37wK5m">
+                                <node concept="37vLTw" id="42_DJ9jNHeQ" role="2Oq$k0">
+                                  <ref role="3cqZAo" node="42_DJ9jMG44" resolve="event" />
+                                </node>
+                                <node concept="liA8E" id="42_DJ9jNHeR" role="2OqNvi">
+                                  <ref role="37wK5l" to="8q6x:~MouseEvent.getY():int" resolve="getY" />
+                                </node>
+                              </node>
+                            </node>
+                          </node>
+                        </node>
+                      </node>
+                      <node concept="3clFbJ" id="42_DJ9jNVKL" role="3cqZAp">
+                        <node concept="3clFbS" id="42_DJ9jNVKN" role="3clFbx">
+                          <node concept="3cpWs6" id="42_DJ9jNHFD" role="3cqZAp">
+                            <node concept="37vLTw" id="42_DJ9jNHFF" role="3cqZAk">
+                              <ref role="3cqZAo" node="42_DJ9jNHeI" resolve="leaf" />
+                            </node>
+                          </node>
+                        </node>
+                        <node concept="3y3z36" id="42_DJ9jNWZX" role="3clFbw">
+                          <node concept="10Nm6u" id="42_DJ9jNX3g" role="3uHU7w" />
+                          <node concept="37vLTw" id="42_DJ9jNWN2" role="3uHU7B">
+                            <ref role="3cqZAo" node="42_DJ9jNHeI" resolve="leaf" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                    <node concept="2OqwBi" id="42_DJ9jNA8I" role="3clFbw">
+                      <node concept="2OqwBi" id="42_DJ9jN$Et" role="2Oq$k0">
+                        <node concept="2GrUjf" id="42_DJ9jN$B0" role="2Oq$k0">
+                          <ref role="2Gs0qQ" node="42_DJ9jN$lq" resolve="mpsCell" />
+                        </node>
+                        <node concept="liA8E" id="42_DJ9jNA2U" role="2OqNvi">
+                          <ref role="37wK5l" node="7OJGOqx$m0z" resolve="getBoundsInDiagram" />
+                        </node>
+                      </node>
+                      <node concept="liA8E" id="42_DJ9jNBOn" role="2OqNvi">
+                        <ref role="37wK5l" to="ar19:~Rectangle2D.contains(double,double):boolean" resolve="contains" />
+                        <node concept="2OqwBi" id="42_DJ9jNBYj" role="37wK5m">
+                          <node concept="37vLTw" id="42_DJ9jNBWO" role="2Oq$k0">
+                            <ref role="3cqZAo" node="42_DJ9jMG44" resolve="event" />
+                          </node>
+                          <node concept="liA8E" id="42_DJ9jNCCB" role="2OqNvi">
+                            <ref role="37wK5l" to="8q6x:~MouseEvent.getX():int" resolve="getX" />
+                          </node>
+                        </node>
+                        <node concept="2OqwBi" id="42_DJ9jNCZm" role="37wK5m">
+                          <node concept="37vLTw" id="42_DJ9jNCWj" role="2Oq$k0">
+                            <ref role="3cqZAo" node="42_DJ9jMG44" resolve="event" />
+                          </node>
+                          <node concept="liA8E" id="42_DJ9jNDFW" role="2OqNvi">
+                            <ref role="37wK5l" to="8q6x:~MouseEvent.getY():int" resolve="getY" />
+                          </node>
+                        </node>
+                      </node>
+                    </node>
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="42_DJ9jNzSs" role="2GsD0m">
+                  <node concept="1eOMI4" id="42_DJ9jNzLw" role="2Oq$k0">
+                    <node concept="10QFUN" id="42_DJ9jNzLt" role="1eOMHV">
+                      <node concept="3uibUv" id="42_DJ9jNzLy" role="10QFUM">
+                        <ref role="3uigEE" node="2kURTb_Imeg" resolve="IMPSCellContainer" />
+                      </node>
+                      <node concept="37vLTw" id="42_DJ9jNzPb" role="10QFUP">
+                        <ref role="3cqZAo" node="42_DJ9jNx_R" resolve="dcell" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="liA8E" id="42_DJ9jN$4v" role="2OqNvi">
+                    <ref role="37wK5l" node="2kURTb_Imeu" resolve="getMPSCells" />
+                  </node>
+                </node>
+              </node>
+            </node>
+            <node concept="2ZW3vV" id="42_DJ9jNzqe" role="3clFbw">
+              <node concept="3uibUv" id="42_DJ9jNz_p" role="2ZW6by">
+                <ref role="3uigEE" node="2kURTb_Imeg" resolve="IMPSCellContainer" />
+              </node>
+              <node concept="37vLTw" id="42_DJ9jNyzy" role="2ZW6bz">
+                <ref role="3cqZAo" node="42_DJ9jNx_R" resolve="dcell" />
+              </node>
+            </node>
+          </node>
+          <node concept="3clFbH" id="42_DJ9jNo6r" role="3cqZAp" />
+          <node concept="3cpWs8" id="42_DJ9jMKex" role="3cqZAp">
+            <node concept="3cpWsn" id="42_DJ9jMKey" role="3cpWs9">
+              <property role="TrG5h" value="convertedEvent" />
+              <node concept="3uibUv" id="42_DJ9jMKez" role="1tU5fm">
+                <ref role="3uigEE" to="8q6x:~MouseEvent" resolve="MouseEvent" />
+              </node>
+              <node concept="1rXfSq" id="42_DJ9jMKe$" role="33vP2m">
+                <ref role="37wK5l" node="5biqYZYa2WF" resolve="convertMouseEvent" />
+                <node concept="37vLTw" id="42_DJ9jMKe_" role="37wK5m">
+                  <ref role="3cqZAo" node="42_DJ9jMG44" resolve="event" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="42_DJ9jO2qh" role="3cqZAp">
+            <node concept="2OqwBi" id="42_DJ9jO2qj" role="3cqZAk">
+              <node concept="2OqwBi" id="42_DJ9jO2qk" role="2Oq$k0">
+                <node concept="1rXfSq" id="42_DJ9jO2ql" role="2Oq$k0">
+                  <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
+                </node>
+                <node concept="liA8E" id="42_DJ9jO2qm" role="2OqNvi">
+                  <ref role="37wK5l" to="9a8:~EditorComponent.getRootCell():jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getRootCell" />
+                </node>
+              </node>
+              <node concept="liA8E" id="42_DJ9jO2qn" role="2OqNvi">
+                <ref role="37wK5l" to="nu8v:~EditorCell.findLeaf(int,int):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="findLeaf" />
+                <node concept="2OqwBi" id="42_DJ9jO2qo" role="37wK5m">
+                  <node concept="37vLTw" id="42_DJ9jO2qp" role="2Oq$k0">
+                    <ref role="3cqZAo" node="42_DJ9jMKey" resolve="convertedEvent" />
+                  </node>
+                  <node concept="liA8E" id="42_DJ9jO2qq" role="2OqNvi">
+                    <ref role="37wK5l" to="8q6x:~MouseEvent.getX():int" resolve="getX" />
+                  </node>
+                </node>
+                <node concept="2OqwBi" id="42_DJ9jO2qr" role="37wK5m">
+                  <node concept="37vLTw" id="42_DJ9jO2qs" role="2Oq$k0">
+                    <ref role="3cqZAo" node="42_DJ9jMKey" resolve="convertedEvent" />
+                  </node>
+                  <node concept="liA8E" id="42_DJ9jO2qt" role="2OqNvi">
+                    <ref role="37wK5l" to="8q6x:~MouseEvent.getY():int" resolve="getY" />
+                  </node>
+                </node>
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="2tJIrI" id="42_DJ9jMsZ5" role="jymVt" />
       <node concept="3clFb_" id="6zxgcXkHd47" role="jymVt">
         <property role="1EzhhJ" value="false" />
         <property role="TrG5h" value="processMouseEvent" />
@@ -22226,33 +22434,10 @@
               <node concept="3uibUv" id="48DYfEtB1Vj" role="1tU5fm">
                 <ref role="3uigEE" to="nu8v:~EditorCell" resolve="EditorCell" />
               </node>
-              <node concept="2OqwBi" id="48DYfEtARlV" role="33vP2m">
-                <node concept="2OqwBi" id="48DYfEtARlW" role="2Oq$k0">
-                  <node concept="1rXfSq" id="48DYfEtARlX" role="2Oq$k0">
-                    <ref role="37wK5l" node="6zxgcXkQTCR" resolve="getEditorComponent" />
-                  </node>
-                  <node concept="liA8E" id="48DYfEtARlY" role="2OqNvi">
-                    <ref role="37wK5l" to="9a8:~EditorComponent.getRootCell():jetbrains.mps.nodeEditor.cells.EditorCell" resolve="getRootCell" />
-                  </node>
-                </node>
-                <node concept="liA8E" id="48DYfEtARlZ" role="2OqNvi">
-                  <ref role="37wK5l" to="nu8v:~EditorCell.findLeaf(int,int):jetbrains.mps.openapi.editor.cells.EditorCell" resolve="findLeaf" />
-                  <node concept="2OqwBi" id="48DYfEtARm0" role="37wK5m">
-                    <node concept="37vLTw" id="48DYfEtARm1" role="2Oq$k0">
-                      <ref role="3cqZAo" node="48DYfEtADl7" resolve="convertedEvent" />
-                    </node>
-                    <node concept="liA8E" id="48DYfEtARm2" role="2OqNvi">
-                      <ref role="37wK5l" to="8q6x:~MouseEvent.getX():int" resolve="getX" />
-                    </node>
-                  </node>
-                  <node concept="2OqwBi" id="48DYfEtARm3" role="37wK5m">
-                    <node concept="37vLTw" id="48DYfEtARm4" role="2Oq$k0">
-                      <ref role="3cqZAo" node="48DYfEtADl7" resolve="convertedEvent" />
-                    </node>
-                    <node concept="liA8E" id="48DYfEtARm5" role="2OqNvi">
-                      <ref role="37wK5l" to="8q6x:~MouseEvent.getY():int" resolve="getY" />
-                    </node>
-                  </node>
+              <node concept="1rXfSq" id="42_DJ9jMKH9" role="33vP2m">
+                <ref role="37wK5l" node="42_DJ9jMvlS" resolve="findLeafAtCursor" />
+                <node concept="37vLTw" id="42_DJ9jMKNj" role="37wK5m">
+                  <ref role="3cqZAo" node="6zxgcXkHd4b" resolve="event" />
                 </node>
               </node>
             </node>
