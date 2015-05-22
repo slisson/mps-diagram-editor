@@ -629,7 +629,7 @@
               <node concept="3uibUv" id="42_DJ9jUPGE" role="0kSFW">
                 <ref role="3uigEE" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
               </node>
-              <node concept="2OqwBi" id="42_DJ9jUCeu" role="0kSFX">
+              <node concept="2EnYce" id="50fzH4x8hAx" role="0kSFX">
                 <node concept="37vLTw" id="42_DJ9jUC39" role="2Oq$k0">
                   <ref role="3cqZAo" node="48DYfEt2KZ8" resolve="myToggleCell" />
                 </node>
@@ -652,7 +652,7 @@
               <node concept="3uibUv" id="42_DJ9jUPZR" role="0kSFW">
                 <ref role="3uigEE" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
               </node>
-              <node concept="2OqwBi" id="42_DJ9jUKRA" role="0kSFX">
+              <node concept="2EnYce" id="50fzH4x8haZ" role="0kSFX">
                 <node concept="37vLTw" id="42_DJ9jULbS" role="2Oq$k0">
                   <ref role="3cqZAo" node="48DYfEtc9FG" resolve="myCollapsedCell" />
                 </node>
@@ -680,7 +680,7 @@
               <node concept="3uibUv" id="42_DJ9jUQ70" role="0kSFW">
                 <ref role="3uigEE" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
               </node>
-              <node concept="2OqwBi" id="42_DJ9jUQ71" role="0kSFX">
+              <node concept="2EnYce" id="50fzH4x8hx2" role="0kSFX">
                 <node concept="37vLTw" id="42_DJ9jUQn6" role="2Oq$k0">
                   <ref role="3cqZAo" node="48DYfEt7MHf" resolve="myExpandedCell" />
                 </node>
