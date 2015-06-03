@@ -4589,6 +4589,19 @@
                           </node>
                         </node>
                       </node>
+                      <node concept="3clFbF" id="48krLOg6fgS" role="3cqZAp">
+                        <node concept="2OqwBi" id="48krLOg6hg1" role="3clFbG">
+                          <node concept="37vLTw" id="48krLOg6fgQ" role="2Oq$k0">
+                            <ref role="3cqZAo" node="27djZ8As0AR" resolve="model" />
+                          </node>
+                          <node concept="liA8E" id="48krLOg6i84" role="2OqNvi">
+                            <ref role="37wK5l" to="nkm5:48krLOg5uVJ" resolve="setPaletteEntryProvider" />
+                            <node concept="37vLTw" id="48krLOg6iIM" role="37wK5m">
+                              <ref role="3cqZAo" node="7h3F9h$EPtU" resolve="paletteEntryProvider" />
+                            </node>
+                          </node>
+                        </node>
+                      </node>
                       <node concept="3clFbH" id="7h3F9h$EMor" role="3cqZAp" />
                       <node concept="3clFbJ" id="5S8_I2GaODj" role="3cqZAp">
                         <node concept="3clFbS" id="5S8_I2GaODm" role="3clFbx">
@@ -4605,9 +4618,6 @@
                                   </node>
                                   <node concept="37vLTw" id="5S8_I2GaGZ4" role="37wK5m">
                                     <ref role="3cqZAo" node="27djZ8As0AR" resolve="model" />
-                                  </node>
-                                  <node concept="37vLTw" id="7h3F9h$F5Aj" role="37wK5m">
-                                    <ref role="3cqZAo" node="7h3F9h$EPtU" resolve="paletteEntryProvider" />
                                   </node>
                                 </node>
                               </node>
@@ -4636,9 +4646,6 @@
                                     </node>
                                     <node concept="37vLTw" id="27djZ8AtiMV" role="37wK5m">
                                       <ref role="3cqZAo" node="27djZ8As0AR" resolve="model" />
-                                    </node>
-                                    <node concept="37vLTw" id="7h3F9h$F7ak" role="37wK5m">
-                                      <ref role="3cqZAo" node="7h3F9h$EPtU" resolve="paletteEntryProvider" />
                                     </node>
                                   </node>
                                 </node>
