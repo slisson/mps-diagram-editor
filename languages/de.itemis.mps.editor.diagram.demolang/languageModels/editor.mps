@@ -249,6 +249,7 @@
       <concept id="9064581101900867235" name="de.itemis.mps.editor.diagram.structure.IEdgeEditor" flags="ng" index="ljJFv">
         <child id="9064581101900865531" name="canCreate" index="ljGe7" />
         <child id="9064581101900865540" name="createHandler" index="ljJLS" />
+        <child id="7188630757225274921" name="navigationTargets" index="1i7NIZ" />
         <child id="5725606875425248008" name="delete" index="1ide8m" />
         <child id="2044706694575458564" name="labelCell" index="3kqczz" />
         <child id="8587703283523592228" name="endpointFrom" index="1PN8q7" />
@@ -1105,6 +1106,12 @@
           <node concept="3cpWs6" id="6clvLV1Y4Fi" role="3cqZAp">
             <node concept="10Nm6u" id="6clvLV1Y4Fj" role="3cqZAk" />
           </node>
+        </node>
+      </node>
+      <node concept="2OqwBi" id="6f39poMdaw1" role="1i7NIZ">
+        <node concept="1Pxb5l" id="6f39poMda7y" role="2Oq$k0" />
+        <node concept="3TrEf2" id="6f39poMdaRv" role="2OqNvi">
+          <ref role="3Tt5mk" to="7fae:5qgNcfDoSh8" />
         </node>
       </node>
     </node>

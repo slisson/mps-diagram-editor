@@ -1356,6 +1356,12 @@
       <property role="20kJfa" value="splitHandler" />
       <ref role="20lvS9" node="ywgKCSgtCP" resolve="EdgeEditor_SplitHandler" />
     </node>
+    <node concept="1TJgyj" id="6f39poLR1SD" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="navigationTargets" />
+      <property role="20lbJX" value="0..n" />
+      <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
+    </node>
     <node concept="PrWs8" id="6clvLV1rj2a" role="PrDN$">
       <ref role="PrY4T" node="6clvLV1q6UE" resolve="IInlineEditorComponentContainer" />
     </node>
