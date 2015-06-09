@@ -41,7 +41,6 @@
       <concept id="8473566765275063380" name="de.slisson.mps.reflection.structure.ReflectionFieldAccess" flags="ng" index="1PnCL0">
         <reference id="1197029500499" name="fieldDeclaration" index="2Oxat5" />
       </concept>
-      <concept id="8473566765277240526" name="de.slisson.mps.reflection.structure.ReflectionMethodCall" flags="ng" index="1PvZjq" />
     </language>
     <language id="f3061a53-9226-4cc5-a443-f952ceaf5816" name="jetbrains.mps.baseLanguage">
       <concept id="1080223426719" name="jetbrains.mps.baseLanguage.structure.OrExpression" flags="nn" index="22lmx$" />
@@ -2418,18 +2417,11 @@
             </node>
           </node>
           <node concept="2OqwBi" id="5M2_W$sbu7n" role="3clFbw">
-            <node concept="1eOMI4" id="5M2_W$sbtWL" role="2Oq$k0">
-              <node concept="10QFUN" id="5M2_W$sbtWI" role="1eOMHV">
-                <node concept="3uibUv" id="5M2_W$sbu0n" role="10QFUM">
-                  <ref role="3uigEE" to="jsgz:~EditorCell_Basic" resolve="EditorCell_Basic" />
-                </node>
-                <node concept="37vLTw" id="5M2_W$sbtWN" role="10QFUP">
-                  <ref role="3cqZAo" node="5M2_W$sb5Ap" resolve="cell" />
-                </node>
-              </node>
+            <node concept="37vLTw" id="7wXnfGE7LSN" role="2Oq$k0">
+              <ref role="3cqZAo" node="5M2_W$sb5Ap" resolve="cell" />
             </node>
-            <node concept="1PvZjq" id="5M2_W$sbvhe" role="2OqNvi">
-              <ref role="37wK5l" to="jsgz:~EditorCell_Basic.isNeedsRelayout():boolean" resolve="isNeedsRelayout" />
+            <node concept="liA8E" id="7wXnfGE7L2Y" role="2OqNvi">
+              <ref role="37wK5l" to="nu8v:~EditorCell.wasRelayoutRequested():boolean" resolve="wasRelayoutRequested" />
             </node>
           </node>
         </node>

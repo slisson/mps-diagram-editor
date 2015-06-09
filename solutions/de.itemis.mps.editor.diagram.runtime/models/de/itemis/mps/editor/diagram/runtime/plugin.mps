@@ -19,8 +19,9 @@
     <import index="k7g3" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.util(JDK/java.util@java_stub)" />
     <import index="mo84" ref="498d89d2-c2e9-11e2-ad49-6cf049e62fe5/f:java_stub#498d89d2-c2e9-11e2-ad49-6cf049e62fe5#com.intellij.openapi.extensions(MPS.IDEA/com.intellij.openapi.extensions@java_stub)" />
     <import index="y596" ref="1ed103c3-3aa6-49b7-9c21-6765ee11f224/f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.openapi.editor.selection(MPS.Editor/jetbrains.mps.openapi.editor.selection@java_stub)" />
-    <import index="1d7m" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.ide.editor(MPS.Editor/jetbrains.mps.ide.editor@java_stub)" implicit="true" />
+    <import index="pt5l" ref="742f6602-5a2f-4313-aa6e-ae1cd4ffdc61/f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.project(MPS.Platform/jetbrains.mps.ide.project@java_stub)" />
     <import index="jwd7" ref="f:java_stub#742f6602-5a2f-4313-aa6e-ae1cd4ffdc61#jetbrains.mps.ide.tools(MPS.Platform/jetbrains.mps.ide.tools@java_stub)" implicit="true" />
+    <import index="1d7m" ref="f:java_stub#1ed103c3-3aa6-49b7-9c21-6765ee11f224#jetbrains.mps.ide.editor(MPS.Editor/jetbrains.mps.ide.editor@java_stub)" implicit="true" />
     <import index="e2lb" ref="6354ebe7-c22a-4a0f-ac54-50b52ab9b065/f:java_stub#6354ebe7-c22a-4a0f-ac54-50b52ab9b065#java.lang(JDK/java.lang@java_stub)" implicit="true" />
     <import index="tprs" ref="r:00000000-0000-4000-0000-011c895904a4(jetbrains.mps.ide.actions)" implicit="true" />
   </imports>
@@ -56,12 +57,15 @@
         <reference id="1204992316090" name="point" index="2f8Tey" />
         <reference id="1203092736097" name="modifiedGroup" index="tU$_T" />
       </concept>
+      <concept id="1213888653896" name="jetbrains.mps.lang.plugin.structure.InitBlock" flags="in" index="2xpIHi" />
       <concept id="1213888677711" name="jetbrains.mps.lang.plugin.structure.DisposeBlock" flags="in" index="2xpOpl" />
+      <concept id="1213888797251" name="jetbrains.mps.lang.plugin.structure.ConceptFunctionParameter_Project" flags="nn" index="2xqhHp" />
       <concept id="1205681243813" name="jetbrains.mps.lang.plugin.structure.IsApplicableBlock" flags="in" index="2ScWuX" />
       <concept id="1214307303872" name="jetbrains.mps.lang.plugin.structure.GetComponentBlock" flags="in" index="2UmK3q" />
       <concept id="6547237850567458268" name="jetbrains.mps.lang.plugin.structure.BaseToolDeclaration" flags="ng" index="2XNcJY">
         <property id="2498620720770664572" name="position" index="2bmUCM" />
         <child id="8096638938275469615" name="toolDisposeBlock" index="uR5co" />
+        <child id="8096638938275469614" name="toolInitBlock" index="uR5cp" />
         <child id="6547237850567462848" name="methodDeclaration" index="2XNbBy" />
         <child id="6547237850567462849" name="fieldDeclaration" index="2XNbBz" />
       </concept>
@@ -329,6 +333,12 @@
                 <node concept="2ShNRf" id="4KKQOHIVM0v" role="37vLTx">
                   <node concept="1pGfFk" id="4KKQOHIXCnq" role="2ShVmc">
                     <ref role="37wK5l" to="r3rm:4KKQOHIXoNV" resolve="Palette" />
+                    <node concept="2OqwBi" id="7wXnfGE9aMw" role="37wK5m">
+                      <node concept="2WthIp" id="7wXnfGE9aMz" role="2Oq$k0" />
+                      <node concept="2BZ7hE" id="7wXnfGE9aM_" role="2OqNvi">
+                        <ref role="2WH_rO" node="7wXnfGE99fF" resolve="myProject" />
+                      </node>
+                    </node>
                   </node>
                 </node>
                 <node concept="2OqwBi" id="4KKQOHIVLf$" role="37vLTJ">
@@ -367,6 +377,13 @@
         <ref role="3uigEE" to="r3rm:4KKQOHIVBYT" resolve="Palette" />
       </node>
     </node>
+    <node concept="2BZ0e9" id="7wXnfGE99fF" role="2XNbBz">
+      <property role="TrG5h" value="myProject" />
+      <node concept="3Tm6S6" id="7wXnfGE99fG" role="1B3o_S" />
+      <node concept="3uibUv" id="7wXnfGE99SE" role="1tU5fm">
+        <ref role="3uigEE" to="vsqj:~Project" resolve="Project" />
+      </node>
+    </node>
     <node concept="2xpOpl" id="1b5aB8fbKrm" role="uR5co">
       <node concept="3clFbS" id="1b5aB8fbKrn" role="2VODD2">
         <node concept="3clFbJ" id="1b5aB8fbKPi" role="3cqZAp">
@@ -391,6 +408,25 @@
               <node concept="2WthIp" id="1b5aB8fbKPC" role="2Oq$k0" />
               <node concept="2BZ7hE" id="1b5aB8fbKPE" role="2OqNvi">
                 <ref role="2WH_rO" node="4KKQOHIVHzD" resolve="myComponent" />
+              </node>
+            </node>
+          </node>
+        </node>
+      </node>
+    </node>
+    <node concept="2xpIHi" id="7wXnfGE9945" role="uR5cp">
+      <node concept="3clFbS" id="7wXnfGE9946" role="2VODD2">
+        <node concept="3clFbF" id="7wXnfGE99$S" role="3cqZAp">
+          <node concept="37vLTI" id="7wXnfGE99Mf" role="3clFbG">
+            <node concept="2YIFZM" id="7wXnfGE9aKu" role="37vLTx">
+              <ref role="37wK5l" to="pt5l:~ProjectHelper.toMPSProject(com.intellij.openapi.project.Project):jetbrains.mps.project.Project" resolve="toMPSProject" />
+              <ref role="1Pybhc" to="pt5l:~ProjectHelper" resolve="ProjectHelper" />
+              <node concept="2xqhHp" id="7wXnfGE9aKS" role="37wK5m" />
+            </node>
+            <node concept="2OqwBi" id="7wXnfGE99$M" role="37vLTJ">
+              <node concept="2WthIp" id="7wXnfGE99$P" role="2Oq$k0" />
+              <node concept="2BZ7hE" id="7wXnfGE99$R" role="2OqNvi">
+                <ref role="2WH_rO" node="7wXnfGE99fF" resolve="myProject" />
               </node>
             </node>
           </node>
