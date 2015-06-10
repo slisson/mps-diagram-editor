@@ -2385,11 +2385,16 @@
                             <node concept="2OqwBi" id="l6SLw4jJDL" role="37vLTx">
                               <node concept="2OqwBi" id="l6SLw4jJDM" role="2Oq$k0">
                                 <node concept="2OqwBi" id="l6SLw4jJDN" role="2Oq$k0">
-                                  <node concept="37vLTw" id="l6SLw4jJDO" role="2Oq$k0">
-                                    <ref role="3cqZAo" node="l6SLw4he_v" resolve="diagramECell" />
+                                  <node concept="2OqwBi" id="4GGI4_vdA8Q" role="2Oq$k0">
+                                    <node concept="37vLTw" id="l6SLw4jJDO" role="2Oq$k0">
+                                      <ref role="3cqZAo" node="l6SLw4he_v" resolve="diagramECell" />
+                                    </node>
+                                    <node concept="liA8E" id="4GGI4_vdF8W" role="2OqNvi">
+                                      <ref role="37wK5l" to="r3rm:7vufT$lnypM" resolve="getModel" />
+                                    </node>
                                   </node>
                                   <node concept="liA8E" id="l6SLw4jJDP" role="2OqNvi">
-                                    <ref role="37wK5l" to="r3rm:4KKQOHJ4cbW" resolve="getPaletteEntryProvider" />
+                                    <ref role="37wK5l" to="nkm5:48krLOg5uVD" resolve="getPaletteEntryProvider" />
                                   </node>
                                 </node>
                                 <node concept="liA8E" id="l6SLw4jJDQ" role="2OqNvi">
