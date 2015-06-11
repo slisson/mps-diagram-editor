@@ -11,6 +11,7 @@
     <dependency reexport="false">1144260c-e9a5-49a2-9add-39a1a1a7077e(de.itemis.mps.editor.diagram.runtime)</dependency>
     <dependency reexport="false">5a82b7b8-2303-45be-b960-4e3ff16e82ce(de.itemis.mps.editor.diagram.demo.activity)</dependency>
     <dependency reexport="false">6354ebe7-c22a-4a0f-ac54-50b52ab9b065(JDK)</dependency>
+    <dependency reexport="false">aff569ad-098d-414a-aa23-96963959392c(test.de.itemis.mps.editor.diagram.lang)</dependency>
   </dependencies>
   <usedLanguages>
     <usedLanguage>f61473f9-130f-42f6-b98d-6c438812c2f6(jetbrains.mps.baseLanguage.unitTest)</usedLanguage>
@@ -28,6 +29,7 @@
     <usedLanguage>3a13115c-633c-4c5c-bbcc-75c4219e9555(jetbrains.mps.lang.quotation)</usedLanguage>
     <usedLanguage>c6cfed73-685b-4891-8bdd-b38a1dcb107a(de.slisson.mps.structurecheck)</usedLanguage>
     <usedLanguage>5dc5fc0d-37ef-4782-8192-8b5ce1f69f80(jetbrains.mps.baseLanguage.extensionMethods)</usedLanguage>
+    <usedLanguage>aff569ad-098d-414a-aa23-96963959392c(test.de.itemis.mps.editor.diagram.lang)</usedLanguage>
   </usedLanguages>
   <languageVersions>
     <language id="5a82b7b8-2303-45be-b960-4e3ff16e82ce" fqName="de.itemis.mps.editor.diagram.demo.activity" version="0" />
@@ -52,6 +54,7 @@
     <language id="c72da2b9-7cce-4447-8389-f407dc1158b7" fqName="jetbrains.mps.lang.structure" version="0" />
     <language id="8585453e-6bfb-4d80-98de-b16074f1d86c" fqName="jetbrains.mps.lang.test" version="1" />
     <language id="9ded098b-ad6a-4657-bfd9-48636cfe8bc3" fqName="jetbrains.mps.lang.traceable" version="0" />
+    <language id="aff569ad-098d-414a-aa23-96963959392c" fqName="test.de.itemis.mps.editor.diagram.lang" version="0" />
   </languageVersions>
 </solution>
 
