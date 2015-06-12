@@ -409,7 +409,7 @@
     </language>
   </registry>
   <node concept="2XOHcx" id="5kFTseQQT1w">
-    <property role="2XOHcw" value="${mbeddr.github.core.home}/code/plugins/sl-all/diagram" />
+    <property role="2XOHcw" value="${diagram.home}" />
   </node>
   <node concept="LiM7Y" id="5kFTseQQT1H">
     <property role="TrG5h" value="Activity_ReadSync" />
