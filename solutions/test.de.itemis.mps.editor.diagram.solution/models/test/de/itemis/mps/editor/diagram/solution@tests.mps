@@ -162,7 +162,7 @@
         <child id="1068580123160" name="condition" index="3clFbw" />
         <child id="1068580123161" name="ifTrue" index="3clFbx" />
       </concept>
-      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" stub="5293379017992965193" index="3clFbS">
+      <concept id="1068580123136" name="jetbrains.mps.baseLanguage.structure.StatementList" flags="sn" index="3clFbS">
         <child id="1068581517665" name="statement" index="3cqZAp" />
       </concept>
       <concept id="1068580123137" name="jetbrains.mps.baseLanguage.structure.BooleanConstant" flags="nn" index="3clFbT">
@@ -172,6 +172,7 @@
         <property id="1068580320021" name="value" index="3cmrfH" />
       </concept>
       <concept id="1068581242875" name="jetbrains.mps.baseLanguage.structure.PlusExpression" flags="nn" index="3cpWs3" />
+      <concept id="1068581242878" name="jetbrains.mps.baseLanguage.structure.ReturnStatement" flags="nn" index="3cpWs6" />
       <concept id="1068581242864" name="jetbrains.mps.baseLanguage.structure.LocalVariableDeclarationStatement" flags="nn" index="3cpWs8">
         <child id="1068581242865" name="localVariableDeclaration" index="3cpWs9" />
       </concept>
@@ -7841,6 +7842,46 @@
   <node concept="LiM7Y" id="24zrZPPzF45">
     <property role="TrG5h" value="EdgeRelayoutAfterMove" />
     <node concept="3clFbS" id="24zrZPPzF46" role="LjaKd">
+      <node concept="3clFbJ" id="5IwXnBSe6Dt" role="3cqZAp">
+        <node concept="3clFbS" id="5IwXnBSe6Dv" role="3clFbx">
+          <node concept="3clFbF" id="5IwXnBSeKtA" role="3cqZAp">
+            <node concept="2OqwBi" id="5IwXnBSeKtz" role="3clFbG">
+              <node concept="10M0yZ" id="5IwXnBSeKt$" role="2Oq$k0">
+                <ref role="1PxDUh" to="e2lb:~System" resolve="System" />
+                <ref role="3cqZAo" to="e2lb:~System.out" resolve="out" />
+              </node>
+              <node concept="liA8E" id="5IwXnBSeKt_" role="2OqNvi">
+                <ref role="37wK5l" to="fxg7:~PrintStream.println(java.lang.String):void" resolve="println" />
+                <node concept="Xl_RD" id="5IwXnBSeKut" role="37wK5m">
+                  <property role="Xl_RC" value="Test disabled on linux, because of missing libavoid binary" />
+                </node>
+              </node>
+            </node>
+          </node>
+          <node concept="3cpWs6" id="5IwXnBSec7S" role="3cqZAp" />
+        </node>
+        <node concept="2OqwBi" id="5IwXnBSe7kf" role="3clFbw">
+          <node concept="2OqwBi" id="2H_mjOXsnSw" role="2Oq$k0">
+            <node concept="2YIFZM" id="2H_mjOXsnSx" role="2Oq$k0">
+              <ref role="37wK5l" to="e2lb:~System.getProperty(java.lang.String):java.lang.String" resolve="getProperty" />
+              <ref role="1Pybhc" to="e2lb:~System" resolve="System" />
+              <node concept="Xl_RD" id="2H_mjOXsnSy" role="37wK5m">
+                <property role="Xl_RC" value="os.name" />
+              </node>
+            </node>
+            <node concept="liA8E" id="2H_mjOXsnSz" role="2OqNvi">
+              <ref role="37wK5l" to="e2lb:~String.toLowerCase():java.lang.String" resolve="toLowerCase" />
+            </node>
+          </node>
+          <node concept="liA8E" id="5IwXnBSeaHC" role="2OqNvi">
+            <ref role="37wK5l" to="e2lb:~String.contains(java.lang.CharSequence):boolean" resolve="contains" />
+            <node concept="Xl_RD" id="5IwXnBSeaJb" role="37wK5m">
+              <property role="Xl_RC" value="linux" />
+            </node>
+          </node>
+        </node>
+      </node>
+      <node concept="3clFbH" id="5IwXnBSecHA" role="3cqZAp" />
       <node concept="3cpWs8" id="24zrZPPzF47" role="3cqZAp">
         <node concept="3cpWsn" id="24zrZPPzF48" role="3cpWs9">
           <property role="TrG5h" value="component" />
