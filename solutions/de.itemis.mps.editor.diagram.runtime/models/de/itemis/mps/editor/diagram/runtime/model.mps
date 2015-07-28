@@ -16637,7 +16637,7 @@
           </node>
           <node concept="2ShNRf" id="4dus55SALxs" role="37wK5m">
             <node concept="1pGfFk" id="4dus55SALxt" role="2ShVmc">
-              <ref role="37wK5l" to="mv2y:~CellLayout_Indent.&lt;init&gt;()" resolve="CellLayout_Indent" />
+              <ref role="37wK5l" to="mv2y:~CellLayout_Horizontal.&lt;init&gt;()" resolve="CellLayout_Horizontal" />
             </node>
           </node>
           <node concept="10Nm6u" id="4dus55SALxu" role="37wK5m" />
