@@ -96,6 +96,8 @@
   </languageVersions>
   <runtime>
     <dependency reexport="false">7b45fa94-2707-4a1a-9e6a-ce40c4aaf35a(de.itemis.mps.editor.collapsible.runtime)</dependency>
+    <dependency reexport="false">5c13c612-0f7b-4f0a-ab8b-565186b418de(de.itemis.mps.mouselistener.runtime)</dependency>
+    <dependency reexport="false">0022e9df-2136-4ef8-81b2-08650aeb1dc7(de.itemis.mps.tooltips.runtime)</dependency>
   </runtime>
   <extendedLanguages>
     <extendedLanguage>18bc6592-03a6-4e29-a83a-7ff23bde13ba(jetbrains.mps.lang.editor)</extendedLanguage>
