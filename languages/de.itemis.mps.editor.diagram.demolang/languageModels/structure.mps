@@ -188,8 +188,8 @@
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30_McRj0pq3" role="lGtFl">
       <property role="Hh88m" value="componentAnnotation" />
-      <node concept="trNpa" id="30_McRj0s1q" role="EQaZv">
-        <ref role="trN6q" node="5qgNcfDjUdu" resolve="Component" />
+      <node concept="trNpa" id="5mBxd1UM4fG" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
     </node>
   </node>
