@@ -195,6 +195,11 @@
       <property role="20kJfa" value="allowScaling" />
       <ref role="20lvS9" to="tpee:fz3vP1J" resolve="Expression" />
     </node>
+    <node concept="1TJgyj" id="6OhZPz3$Bk3" role="1TKVEi">
+      <property role="20lmBu" value="aggregation" />
+      <property role="20kJfa" value="annotationExternal" />
+      <ref role="20lvS9" node="6OhZPz3zgIr" resolve="Function_AnnotationExternal" />
+    </node>
     <node concept="1TJgyj" id="4KKQOHJ7LVv" role="1TKVEi">
       <property role="20lmBu" value="aggregation" />
       <property role="20kJfa" value="getLabel" />
@@ -1694,6 +1699,15 @@
     <property role="TrG5h" value="ShadeColor" />
     <property role="34LRSv" value="shade-color" />
     <ref role="1TJDcQ" to="tpc2:hgVaVz4" resolve="ColorStyleClassItem" />
+  </node>
+  <node concept="1TIwiD" id="6OhZPz3zgIr">
+    <property role="TrG5h" value="Function_AnnotationExternal" />
+    <ref role="1TJDcQ" to="tpee:gyVMwX8" resolve="ConceptFunction" />
+  </node>
+  <node concept="1TIwiD" id="6OhZPz3zh5I">
+    <property role="TrG5h" value="Parameter_AnnotationNode" />
+    <property role="34LRSv" value="annotationNode" />
+    <ref role="1TJDcQ" to="tpee:g76ryKb" resolve="ConceptFunctionParameter" />
   </node>
 </model>
 
