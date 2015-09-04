@@ -985,28 +985,41 @@
             <node concept="3uibUv" id="42_DJ9jVTgd" role="1tU5fm">
               <ref role="3uigEE" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
             </node>
-            <node concept="3K4zz7" id="42_DJ9jWd8g" role="33vP2m">
-              <node concept="2YIFZM" id="42_DJ9jWdlC" role="3K4E3e">
-                <ref role="37wK5l" to="jsgz:~EditorCell_Collection.createVertical(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createVertical" />
-                <ref role="1Pybhc" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
-                <node concept="1rXfSq" id="42_DJ9jWdsG" role="37wK5m">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getContext" />
-                </node>
-                <node concept="1rXfSq" id="42_DJ9jWd$i" role="37wK5m">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
-                </node>
-              </node>
-              <node concept="37vLTw" id="42_DJ9jWcWk" role="3K4Cdx">
-                <ref role="3cqZAo" node="42_DJ9jWbXn" resolve="vertical" />
-              </node>
-              <node concept="2YIFZM" id="42_DJ9jWdGB" role="3K4GZi">
-                <ref role="37wK5l" to="jsgz:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createHorizontal" />
-                <ref role="1Pybhc" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
-                <node concept="1rXfSq" id="42_DJ9jWdGC" role="37wK5m">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getContext" />
-                </node>
-                <node concept="1rXfSq" id="42_DJ9jWdGD" role="37wK5m">
-                  <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
+          </node>
+        </node>
+        <node concept="1QHqEK" id="6OhZPz393eI" role="3cqZAp">
+          <node concept="1QHqEC" id="6OhZPz393eK" role="1QHqEI">
+            <node concept="3clFbS" id="6OhZPz393eM" role="1bW5cS">
+              <node concept="3clFbF" id="6OhZPz391m1" role="3cqZAp">
+                <node concept="37vLTI" id="6OhZPz391m3" role="3clFbG">
+                  <node concept="3K4zz7" id="42_DJ9jWd8g" role="37vLTx">
+                    <node concept="2YIFZM" id="42_DJ9jWdlC" role="3K4E3e">
+                      <ref role="37wK5l" to="jsgz:~EditorCell_Collection.createVertical(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createVertical" />
+                      <ref role="1Pybhc" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
+                      <node concept="1rXfSq" id="42_DJ9jWdsG" role="37wK5m">
+                        <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getContext" />
+                      </node>
+                      <node concept="1rXfSq" id="42_DJ9jWd$i" role="37wK5m">
+                        <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
+                      </node>
+                    </node>
+                    <node concept="37vLTw" id="42_DJ9jWcWk" role="3K4Cdx">
+                      <ref role="3cqZAo" node="42_DJ9jWbXn" resolve="vertical" />
+                    </node>
+                    <node concept="2YIFZM" id="42_DJ9jWdGB" role="3K4GZi">
+                      <ref role="37wK5l" to="jsgz:~EditorCell_Collection.createHorizontal(jetbrains.mps.openapi.editor.EditorContext,org.jetbrains.mps.openapi.model.SNode):jetbrains.mps.nodeEditor.cells.EditorCell_Collection" resolve="createHorizontal" />
+                      <ref role="1Pybhc" to="jsgz:~EditorCell_Collection" resolve="EditorCell_Collection" />
+                      <node concept="1rXfSq" id="42_DJ9jWdGC" role="37wK5m">
+                        <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getContext():jetbrains.mps.openapi.editor.EditorContext" resolve="getContext" />
+                      </node>
+                      <node concept="1rXfSq" id="42_DJ9jWdGD" role="37wK5m">
+                        <ref role="37wK5l" to="jsgz:~EditorCell_Basic.getSNode():org.jetbrains.mps.openapi.model.SNode" resolve="getSNode" />
+                      </node>
+                    </node>
+                  </node>
+                  <node concept="37vLTw" id="6OhZPz391m7" role="37vLTJ">
+                    <ref role="3cqZAo" node="42_DJ9jVTgc" resolve="collection" />
+                  </node>
                 </node>
               </node>
             </node>

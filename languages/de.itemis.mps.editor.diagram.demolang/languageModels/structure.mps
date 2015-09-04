@@ -188,8 +188,18 @@
     <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
     <node concept="M6xJ_" id="30_McRj0pq3" role="lGtFl">
       <property role="Hh88m" value="componentAnnotation" />
-      <node concept="trNpa" id="30_McRj0s1q" role="EQaZv">
-        <ref role="trN6q" node="5qgNcfDjUdu" resolve="Component" />
+      <node concept="trNpa" id="5mBxd1UM4fG" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
+      </node>
+    </node>
+  </node>
+  <node concept="1TIwiD" id="6OhZPz3aYYS">
+    <property role="TrG5h" value="ComponentAnnotation2" />
+    <ref role="1TJDcQ" to="tpck:2ULFgo8_XDk" resolve="NodeAttribute" />
+    <node concept="M6xJ_" id="6OhZPz3aYZT" role="lGtFl">
+      <property role="Hh88m" value="componentAnnotation2" />
+      <node concept="trNpa" id="6OhZPz3aZ5_" role="EQaZv">
+        <ref role="trN6q" to="tpck:gw2VY9q" resolve="BaseConcept" />
       </node>
     </node>
   </node>
